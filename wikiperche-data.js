@@ -1,1 +1,8605 @@
-const data = [{ "cat": "vivre", "label": "🌱 Vivre avec", "items": [{ "icon": "📖", "title": "Bibliographie très complète sur la schizophrénie", "desc": "Plus d’une vingtaine de références de livres sur la schizophrénie écrits par des personnes concernées et/ou des professionnels de santé", "tags": ["Article / Livre", "Schizophrénie"], "link": "https://promesses-sz.fr/2016-05-04-11-14-31/litterature-et-schizophrenies.html" }, { "icon": "🎬", "title": "Vivre avec … une dépression", "desc": "Courte vidéo explicative sous forme de dessins et de témoignage. Aide à déconstruire les clichés et idées reçues sur cette maladie.", "tags": ["Vidéo / Film", "Dépression"], "link": "https://www.youtube.com/watch?v=TOU0dagYveo&t=3s" }, { "icon": "📖", "title": "Accompagnement de l’handicap à Science-Po", "desc": "Ouvrage de référence pour approfondir pour le quotidien.", "tags": ["Article / Livre"], "link": "https://www.sciencespo.fr/enseignants/fr/accompagnements/handicap.html" }, { "icon": "🌐", "title": "Narcotiques Anonymes", "desc": "sur le même fonctionnement que les Alcooliques Anonymes.  Pour aider à se sortir ensemble de la dépendance aux drogues", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.narcotiquesanonymes.org/" }, { "icon": "🌐", "title": "Drogues info Services : LE site à consulter en priorité", "desc": "Site ressources très complet : comprendre les addictions, témoignages, évaluer, trouver de l’aide, ligne d’écoute 7j/7", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.drogues-info-service.fr/" }, { "icon": "🎙️", "title": "Les troubles bipolaires: 40 millions de personnes concernées dans le monde", "desc": "Comment améliorer le diagnostic ? Quelles prises en charge existent pour les patients ? par le Dr Marc Masson, psychiatre à Paris", "tags": ["Podcast", "Bipolarité"], "link": "https://www.rfi.fr/fr/podcasts/priorit%C3%A9-sant%C3%A9/20230117-les-troubles-bipolaires-40-millions-de-personnes-concern%C3%A9es-dans-le-monde" }, { "icon": "🎬", "title": "Dépression et sérotonine : on s’est trompé ? par le Dr Guillaume Fond", "desc": "Contenu vidéo informatif et pédagogique sur dépression pour le quotidien.", "tags": ["Vidéo / Film", "Dépression"], "link": "https://www.youtube.com/watch?v=Rb2IfYGVRNA" }, { "icon": "🎬", "title": "Je suis mon pire ennemi” documentaire sur les troubles psychiques dans la série “les yeux d’Olivier”", "desc": "Contenu vidéo pour découvrir et comprendre sur les troubles psychiques pour le quotidien.", "tags": ["Vidéo / Film", "Bipolarité", "Dépression"], "link": "https://www.jeremydriessen.be/je-suis-mon-pire-ennemi-documentaire-sur-les-troubles-psychiques/" }, { "icon": "🌐", "title": "Troubles psychiques : lignes d’écoute pour trouver de l’aide", "desc": "SUPER UTILE : les lignes d’écoute pour les personnes concernées et aussi leurs familles pour parler de dépression, bipolarité et de schizophrénie", "tags": ["Site internet / Blog", "Bipolarité", "Dépression"], "link": "https://loptimisme.com/troubles-psychiques-lignes-decoute/" }, { "icon": "🎬", "title": "Mental : série télé (épisode de 20 min)", "desc": "On découvre le parcours de jeunes atteints de différents troubles psychologiques lors de leur séjour en clinique. Un parler vrai et surtout une approche des troubles psys vus et vécus de l’intérieur.", "tags": ["Vidéo / Film", "Addictions", "Bipolarité"], "link": "https://www.france.tv/slash/mental/" }, { "icon": "🌐", "title": "Donner la vie et être concernée par les troubles bipolaires", "desc": "Plateforme en ligne de ressources sur bipolarité pour le quotidien.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://www.madmoizelle.com/les-forceps-pas-question-je-pousse-comme-une-dingue-elise-raconte-son-accouchement-1391469" }, { "icon": "🌐", "title": "Comme des fous", "desc": "Plateforme en ligne de ressources sur les troubles psychiques pour le quotidien.", "tags": ["Site internet / Blog", "Bipolarité", "Schizophrénie"], "link": "https://commedesfous.com/" }, { "icon": "🎬", "title": "Comment aider quelqu’un qui souffre de dépression ? par le Dr Christophe André", "desc": "Contenu vidéo informatif et pédagogique sur les troubles psychiques pour le quotidien.", "tags": ["Vidéo / Film", "Anxiété/Angoisse", "Dépression"], "link": "https://www.youtube.com/watch?v=tVrQ0t8nPx8" }, { "icon": "📖", "title": "La force des différents, Sophie Cluzel", "desc": "Ressource documentée pour approfondir pour le quotidien.", "tags": ["Article / Livre"], "link": "https://informations.handicap.fr/a-la-force-des-differents-sophie-cluzel-publie-livre-32153.php" }, { "icon": "🌐", "title": "Addictions et troubles psychiques : quels liens ?", "desc": "Article court avec les caractéristiques clés des addictions et des liens pour trouver de l’aide", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.ceapsy-idf.org/addictions-troubles-psychiques-quels-liens" }, { "icon": "🌐", "title": "Solidarités Usagers Psy", "desc": "Liste de blogs créés par des personnes concernées par la maladie psychique. Une bonne façon de trouver entraide et compréhension.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.solidarites-usagerspsy.fr/divers/t%C3%A9moignages/blogs-et-sites-d-usagers/" }, { "icon": "🌐", "title": "Addictions : Du plaisir à la dépendance", "desc": "Article très complet de l’Inserm pour comprendre les addictions", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.inserm.fr/dossier/addictions/" }, { "icon": "📲", "title": "Voyageuse au naturel", "desc": "Abigaïl, 26 ans raconte comment elle “cohabite” avec son trouble borderline. Elle raconte aussi ses voyages à travers le monde.", "tags": ["Réseaux sociaux", "Borderline / TPL"], "link": "https://www.instagram.com/voyageuse_au_naturel/" }, { "icon": "🌐", "title": "Droit Pluriel", "desc": "Association qui s’engage pour une justice accessible aux personnes en situation de handicap", "tags": ["Site internet / Blog"], "link": "https://droitpluriel.fr/" }, { "icon": "📖", "title": "Comment survivre en hôpital psychiatrique (en fumant des tonnes de cigarettes) de Laetitia Bocquet, Editions Kiwi", "desc": "une BD écrite et dessinée par une adolescente de 17 ans qui décrit son hospitalisation. Humour garanti.", "tags": ["Article / Livre"] }, { "icon": "🌐", "title": "Club House", "desc": "Un Clubhouse est un lieu d’entraide et d’activité de jour, non médicalisé.\nLa gestion de ces lieux innovants est effectuée intégralement par les \nmembres eux-mêmes (personnes vivant avec un trouble psychique), en coopération avec les équipes salariées, dans un esprit de bienveillance et sans jugement\n.", "tags": ["Site internet / Blog", "Bipolarité", "Schizophrénie"], "link": "https://www.clubhousefrance.org/" }, { "icon": "📖", "title": "Le trouble borderline expliqué aux proches\" du Dr Déborah Ducasse et Véronique Brand-Arpon", "desc": "Ce livre est une consultation entre une famille et un médecin psychiatre spécialisé dans le trouble de la personnalité borderline. Il vous enseignera l’état des connaissances actuelles et vous permettra d’acquérir les compétences psychologiques pour aider la personne de votre entourage hypersensible aux interactions relationnelles et mieux communiquer avec elle.", "tags": ["Article / Livre", "Borderline / TPL"] }, { "icon": "🌐", "title": "Etre mère et concernée par les troubles bipolaires", "desc": "Plateforme en ligne de ressources sur bipolarité pour le quotidien.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://www.madmoizelle.com/trouble-bipolaire-et-maternite-je-partais-avec-lidee-que-je-serais-une-mauvaise-mere-1115621" }, { "icon": "📖", "title": "La dépression : en savoir plus pour en sortir", "desc": "Document TRES complet sur la dépression : repérer les symptômes, connaitre les traitements, savoir a qui s’adresser, le rôle de l’entourage", "tags": ["Article / Livre", "Dépression"] }, { "icon": "🌐", "title": "Fil santé Jeunes : site d’informations sur la santé mentale, l’amour, la sexualité pour les jeunes de 12 à 25 ans et une ligne d’écoute : 0 800 235 236", "desc": "Site internet / Blog sur addictions, anxiété/angoisse, bipolarité, borderline / tpl, dépression, schizophrénie", "tags": ["Site internet / Blog", "Addictions", "Anxiété/Angoisse"], "link": "https://www.filsantejeunes.com/" }, { "icon": "🎬", "title": "Bipolaire : comprendre, apprendre et vivre avec", "desc": "Extrait de l’émission “ça commence aujourd’hui”. Témoignage et point de vue du conjoint", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=j5t1oN4EcH0" }, { "icon": "🌐", "title": "“La santé mentale : Je peux en parler”, programme pour les étudiants", "desc": "Programme de formation et d'accompagnement pour le quotidien.", "tags": ["Site internet / Blog"], "link": "https://www.jepeuxenparler.fr" }, { "icon": "📖", "title": "Goupil ou face, bande dessinée de Lou Lubie", "desc": "Après des années de questionnements, Lou découvre qu'elle est atteinte de http://www.goupil-ou-face.fr/cyclothymie.html : un trouble de l’humeur de la famille des maladies bipolaires.\nUn ouvrage de vulgarisation scientifique qui se nourrit de l’expérience personnelle de l’autrice pour dresser le portrait plein d’humour et de sensibilité d’un trouble psychiatrique encore largement méconnu.", "tags": ["Article / Livre", "Bipolarité"], "link": "http://www.goupil-ou-face.fr/bd.html" }, { "icon": "🌐", "title": "Santé psy (Suisse francophone)", "desc": "Le plein d’informations pour les personnes concernées, les proches, les jeunes. Site très bien fait avec de nombreuses ressources en ligne mais aussi localement (pour les frontaliers)", "tags": ["Site internet / Blog", "Anxiété/Angoisse", "Bipolarité"], "link": "https://www.santepsy.ch/fr/" }, { "icon": "🌐", "title": "Ceapsy : Le Centre Ressource Ile de France pour les personnes concernées \npar les troubles psychiques, pour leurs proches et pour les \nprofessionnels", "desc": "Organise des permanences d’information et d’orientation en visio et par téléphone. Que faire en situation d’urgence ? Travailler et se former ; se loger ; avoir une vie sociale ….", "tags": ["Site internet / Blog", "Anxiété/Angoisse", "Bipolarité"], "link": "https://www.ceapsy-idf.org/vous-etes-une-proche" }, { "icon": "🌐", "title": "Interview du Dr Philippe Nuss, psychiatre : la schizophrénie", "desc": "Explications claires sur la schizophrénie, la difficulté de poser un diagnostic, les similitudes avec les troubles bipolaires, et l’importance d’intégrer les Proches dans le parcours de soins", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=GO4qi36yUX0" }, { "icon": "📖", "title": "Comment mieux accompagner les troubles psychotiques", "desc": "Document très bien fait édité par Premiers Secours en Santé Mentale", "tags": ["Article / Livre", "Bipolarité", "Schizophrénie"], "link": "https://pssmfrance.fr/wp-content/uploads/2023/01/Carnet-TROUBLES-PSYCHOTIQUES.pdf" }, { "icon": "🎬", "title": "Idées suicidaires et tentatives de suicide", "desc": "Conférence du Dr Liova YON - Chef de service Psyline : Psy Ile-de-France & VigilanS Paris - GHU Paris psychiatrie neurosciences", "tags": ["Vidéo / Film", "Autres troubles", "Bipolarité"], "link": "https://www.youtube.com/watch?v=Jfv7UJCFd10" }, { "icon": "🌐", "title": "Mon parcours handicap", "desc": "Témoignage personnel et inspirant pour le quotidien.", "tags": ["Site internet / Blog"], "link": "https://www.monparcourshandicap.gouv.fr/" }, { "icon": "🌐", "title": "Mon Parcours Handicap", "desc": "Site de l’Etat très fourni : scolarité, études supérieures, emploi et vie professionnelle, formation professionnelle, la MDPH en ligne, aides et démarches", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://www.monparcourshandicap.gouv.fr/" }, { "icon": "📌", "title": "Une photographe a immortalisé sa relation complexe avec sa mère bipolaire", "desc": "Ressource utile et accessible sur bipolarité pour le quotidien.", "tags": ["Autre", "Bipolarité"], "link": "https://arts.konbini.com/photo/une-photographe-a-immortalise-sa-relation-complexe-avec-sa-mere-bipolaire/?fbclid=IwAR3gGcskI2dJXIUNPsRpeiyID3rlyCpOmwBa_LOQDEDc6kIYNleEdO1NxEg" }, { "icon": "🎬", "title": "“Qu’est-ce qu’on va faire de Jacques ?” film de Marie Garel-Weiss - 2022", "desc": "À la mort de leur père, Louise, Fabien et Estelle se retrouvent démunis face à leur frère, Jacques, atteint de troubles schizophréniques qu'ils doivent désormais prendre à leur charge. Pour Louise, l'expérience va se révéler décisive.", "tags": ["Vidéo / Film", "Schizophrénie"] }, { "icon": "🌐", "title": "TPL familles / Connexions familiales", "desc": "le plein d’infos sur les troubles borderline ou troubles de la personnalité limite TPL ; Les conseils donnés aux familles confrontées au refus de soin d’un proche", "tags": ["Site internet / Blog", "Borderline / TPL"], "link": "https://tpl-familles.org/" }, { "icon": "🎬", "title": "Le soleil de trop près (film sorti le 28/09/2022) disponible en DVD", "desc": "\"Le Soleil de trop près\" offre une immersion saisissante dans la vie de Basile, un trentenaire atteint de schizophrénie sur le chemin tortueux du rétablissement. Une relation très sensible entre un frère et une soeur.", "tags": ["Vidéo / Film", "Schizophrénie"] }, { "icon": "📖", "title": "Dans ma tête de bipolaire de François Lejeune", "desc": "Un récit haletant qui embarque le lecteur entre tempête et lumière ; un récit de vie authentique", "tags": ["Article / Livre", "Bipolarité"] }, { "icon": "📖", "title": "Bipolaire, un message d’espoir de Yann Layma, Editions Le lys Bleu", "desc": "Yann photographe de métier nous décrit son vécu intérieur : les crises maniaques, les phases de dépression mais aussi le déni, la souffrance intérieure, la générosité de l’entourage, la solidarité des pairs et la découverte de la psychoéducation.", "tags": ["Article / Livre", "Bipolarité"] }, { "icon": "🎬", "title": "Que faire quand on ne répond pas aux antidépresseurs ? par le Dr Guillaume Fond", "desc": "Contenu vidéo informatif et pédagogique sur dépression pour le quotidien.", "tags": ["Vidéo / Film", "Dépression"], "link": "https://www.youtube.com/watch?v=Kt6LE2cDCSM" }, { "icon": "🌐", "title": "Addiction : 5 lignes d’écoute pour en parler", "desc": "SUPER UTILE pour trouver du soutien pour les personnes concernées et leur entourage", "tags": ["Site internet / Blog", "Addictions"], "link": "https://loptimisme.com/addiction-5-lignes-decoute-pour-en-parler/" }, { "icon": "🌐", "title": "Fondation Santé des Etudiants", "desc": "LE site à connaître pour trouver un établissement de soins-études à partir de la 3ème-2nde jusqu’aux études supérieures", "tags": ["Site internet / Blog"], "link": "http://www.fsef.net/" }, { "icon": "🌐", "title": "Les Funambules (Paris)", "desc": "Les Funambules est un service de prévention et d’accompagnement dédié aux jeunes de 7 à 25 ans dont un proche (parent, frère ou sœur) souffre de troubles psychiatriques", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://falret.org/services-etablissements/etablissements-services-les-funambules/" }, { "icon": "🎬", "title": "Bipolarité : à quoi ressemble leur quotidien ?", "desc": "Emission TV “ça commence aujourd’hui” présentée par Faustine. Témoignages de personnes concernées par la maladie", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=l8nmYMwd4FU" }, { "icon": "🌐", "title": "Santé Psy Jeunes", "desc": "Site spécialement destiné pour les jeunes avec 4 rubriques : j’ai besoin d’aide, je m’inquiète pour quelqu’un, repérer/agir tôt, où consulter", "tags": ["Site internet / Blog", "Anxiété/Angoisse", "Bipolarité"], "link": "https://www.santepsyjeunes.fr/" }, { "icon": "🌐", "title": "Cité de la Santé (à la Villette / Paris)", "desc": "La Cité de la Santé est un lieu de ressources où il est possible de rencontrer, y compris le weekend, un professionnel de santé, un patient expert, un écoutant bénévole …", "tags": ["Site internet / Blog", "Addictions", "Anxiété/Angoisse"], "link": "https://www.cite-sciences.fr/fr/au-programme/lieux-ressources/cite-de-la-sante/" }, { "icon": "🌐", "title": "Plan de Crise Conjoint", "desc": "Le PCC est une forme récente de déclaration anticipée permettant de prévenir et de mieux gérer une éventuelle future crise en considérant les préférences des usagers en matière de soins et de traitements. Il est établi conjointement avec la personne concernée qui exprime à l’avance ses besoins en cas de crise.", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://plandecriseconjoint.ch/" }] }, { "cat": "retablissement", "label": "✨ Vers le rétablissement", "items": [{ "icon": "🎤", "title": "La dépression résistante : comment la soigner ?", "desc": "Conférence d'expert accessible sur dépression, dans une perspective de rétablissement.", "tags": ["Conférence", "Dépression"], "link": "https://www.youtube.com/watch?v=YIvTJsDzudI" }, { "icon": "📖", "title": "Les voix du rétablissement de Sabrina Palumbo", "desc": "Témoignages de 5 personnes concernées par la maladie psychique. Des parcours différents vers un même objectif : le rétablissement", "tags": ["Article / Livre", "Bipolarité", "Schizophrénie"] }, { "icon": "🌐", "title": "Blog en Bande dessinée sur la schizophrénie", "desc": "Récit illustré accessible et touchant sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "http://tagueuleboris.com/index.php/pourquoi-ce-blog/" }, { "icon": "🌐", "title": "Collectif schizophrénies : premier portail sur la schizophrénie", "desc": "Structure d'accompagnement et de soutien sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.collectif-schizophrenies.com/" }, { "icon": "🌐", "title": "Psycom : un site de ressources sur la santé mentale", "desc": "Psycom, une ressource publique nationale,pour que la santé mentale devienne l'affaire de toutes et de tous", "tags": ["Site internet / Blog"], "link": "https://www.psycom.org/" }, { "icon": "🌐", "title": "Ma boussole Aidants", "desc": "Un site de ressources très complet avec une recherche d’après votre localisation", "tags": ["Site internet / Blog"], "link": "https://www.maboussoleaidants.fr/" }, { "icon": "🌐", "title": "Le mensuel des équipes soignantes en psychiatrie", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://www.santementale.fr/" }, { "icon": "📱", "title": "e-Bref", "desc": "information claire, actualisée, compréhensible et porteuse d'espoir concernant les troubles psychiques, les traitements, l'organisation des soins, les aides disponibles… +  identification des ressources pour les aidants près de chez vous", "tags": ["Applis", "Bipolarité", "Borderline / TPL"], "link": "https://www.fondation-fondamental.org/ebref-une-application-smartphone-dediee-laccompagnement-des-familles" }, { "icon": "🎬", "title": "La dépression dans les troubles bipolaires ; conférence du Dr Vincent HENNION, Psychiatre,", "desc": "Intervention d'expert accessible et pédagogique sur bipolarité, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=kEeBs4SRBNc" }, { "icon": "🎬", "title": "Portrait de Maxime Perez Zitvogel, co-fondateur de la Maison Perchée", "desc": "Ouvrage de référence pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.lespatientssengagent.fr/maxime-perez-zitvogel-co-fondateur-de-la-maison-perchee" }, { "icon": "📖", "title": "Mieux vivre avec le trouble borderline de Catherine Musa", "desc": "Ouvrage de référence pour approfondir sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Borderline / TPL"] }, { "icon": "🌐", "title": "Les consultations Jeunes Consommateurs (12-25ans)", "desc": "Des consultations pour les jeunes mais aussi leur entourage ; trouver de l’aide près de chez soi", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.drogues-info-service.fr/Tout-savoir-sur-les-drogues/Se-faire-aider/Les-Consultations-jeunes-consommateurs-CJC-une-aide-aux-jeunes-et-a-leur-entourage" }, { "icon": "📌", "title": "Dépression et inflammation : le rôle émergent du système immunitaire en psychiatrie", "desc": "Ressource utile et accessible sur dépression, dans une perspective de rétablissement.", "tags": ["Autre", "Dépression"], "link": "https://theconversation.com/depression-et-inflammation-le-role-emergent-du-systeme-immunitaire-en-psychiatrie-171459?utm_term=Autofeed&utm_medium=Social&utm_source=Facebook&fbclid=IwAR1xUf0p5gb5wAJhZIIKtf_jSMf4WRVh3Vz-O5y4cR9vwy_RflIwjoPDEAs#Echobox=1639726025" }, { "icon": "🌐", "title": "PromesseS", "desc": "Association pour les Proches de personnes concernées par la schizophrénie. Propose régulièrement des conférences en ligne et un programme de randonnées itinérantes en petit groupe.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.promesses-sz.fr/" }, { "icon": "📖", "title": "Ils sont patients experts", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://www.femina.fr/article/ils-sont-patients-experts?fbclid=IwAR2khGPOPBSoC46ebivTwEGOLjbkrLVf64YXfsvADyya2HJmZhWLQAoh_gc" }, { "icon": "🎬", "title": "Norvège : la psychiatrie sans médicament ; Reims, centre de jour Antonin Artaud : une autre approche du soin ; Ecodair : l’expérience professionnelle adaptée", "desc": "Structure d'accompagnement et de soutien, dans une perspective de rétablissement.", "tags": ["Vidéo / Film"], "link": "https://www.francetvinfo.fr/replay-magazine/france-2/nous-les-europeens/nous-les-europeens-du-vendredi-9-septembre-2022_5333581.html" }, { "icon": "🎙️", "title": "Troubles bipolaires : le désespoir des patients, l’espoir des médecins", "desc": "UN excellent podcast qui met en lumière les dernières avancées médicales en termes de dépistage ; intervention d’ Argos 2001, association pour les personnes concernées et leurs familles", "tags": ["Podcast", "Bipolarité"], "link": "https://www.radiofrance.fr/franceinter/podcasts/interception/interception-du-dimanche-02-avril-2023-2554440?fbclid=IwAR0Z2lSCKVZNccCW0ECpv0qc5qjAcYFyoxGycyxGM2FERdWHN3oXbsH2d_0" }, { "icon": "🎬", "title": "Des voix dans ma tête. Témoignage d’Eleanor Longden", "desc": "Eleanor explique comment elle a appris à composer avec ses voix intérieures et leur sens.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.ted.com/talks/eleanor_longden_the_voices_in_my_head?language=fr&subtitle=fr" }, { "icon": "🌐", "title": "Open dialogue : formations pour le personnel médical", "desc": "Programme de formation et d'accompagnement, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://u-p-asso.fr/fr/formations" }, { "icon": "🎬", "title": "L'importance de la famille dans le chemin vers le rétablissement.", "desc": "Vidéo de Florent Babillote, concerné par la schizophrénie, père de famille, aide-soignant et coach", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=RXVA8uQGVhQ" }, { "icon": "📖", "title": "Les troubles bipolaires, complexes et diagnostiqués trop tardivement", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://www.fondation-fondamental.org/les-maladies-mentales/les-troubles-bipolaires" }, { "icon": "🎬", "title": "Vivre avec un trouble bipolaire", "desc": "Emission TV “Les questions santé” présentée par Marina Carrère d’Encausse avec un psychiatre et une personne bipolaire", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=_mo_G-J03q4" }, { "icon": "🌐", "title": "Association francophone des médiateurs de santé-pairs", "desc": "Le but de l’AFMSP est de former, informer, conseiller, communiquer et de sensibiliser tous les publics professionnels travaillant dans les secteurs publics, privés, associatifs ou autres ; ou non professionnels aux savoirs expérientiels, aux parcours de rétablissements des usagers en santé mentale, et plus particulièrement au savoir ainsi qu' à l’expérience des MSP.", "tags": ["Site internet / Blog"], "link": "https://www.afmsp.fr/" }, { "icon": "🎬", "title": "Borderline : \"j'étais dans l'autodestruction pour exister\"", "desc": "Contenu vidéo informatif et pédagogique sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=L-CHOpv_bRM" }, { "icon": "🎤", "title": "La réhabilitation psychosociale orientée rétablissement : du concept à l’appropriation par les professionnels de secteur, quels enjeux ?", "desc": "Conférence du Dr Bralet, accessible à tous, du C3RP, centre de réhabilitation psychosociale en  Ile de France. Elle aborde la place de la pair-aidance en milieu hospitalier.", "tags": ["Conférence"], "link": "https://c3rp.fr/la-rehabilitation-psychosociale-orientee-retablissement/" }, { "icon": "🌐", "title": "Profamille", "desc": "Programme très complet de psychoeducation pour les Proches qui apporte plein d’informations sur la schizophrénie et aide à communiquer avec son proche et à gérer son propre stress", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://profamille.site/34-2/" }, { "icon": "🎤", "title": "La réhabilitation en pratique par le Dr Nicolas Rainteau", "desc": "Une autre approche humaniste de la réhabilitation qui place le patient au centre. A voir absolument !", "tags": ["Conférence", "Schizophrénie"], "link": "https://schizinfo.com/eventbrite-event/rehabilitation-en-pratique/" }, { "icon": "🌐", "title": "Mieux communiquer avec son proche bipolaire", "desc": "Formation de 2 jours dispensée par l’UNAFAM. Se renseigner auprès de votre délégation régionale.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://www.unafam.org/sites/default/files/fichiers-joints/10-2019/D%C3%A9pliant%20formation%20mieux%20communiquer%20avec%20son%20proche%20bipolaire%202018.pdf" }, { "icon": "🌐", "title": "Nightline", "desc": "site très complet sur la santé mentale par et pour les étudiants. Ergonomie du site parfaitement adapté pour les étudiants. Plein de ressources.", "tags": ["Site internet / Blog"], "link": "https://www.nightline.fr/" }, { "icon": "🎤", "title": "Psychonutrition : Bien manger pour aller mieux", "desc": "Conférence donnée par le Dr Guillaume Fond, le Dr Christophe André et organisée par le magazine Cerveau & Psycho", "tags": ["Conférence", "Bipolarité", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=dsZSrrg6Rcw" }, { "icon": "🎬", "title": "La schizophrénie, les raisons de l'espoir ! Dr Guillaume Fond et Florent Babillotte", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://youtu.be/6EF41m-ao8o" }, { "icon": "🎬", "title": "Schizophrénie expliqué par Psykocouac", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=NWqhPcIpGqg" }, { "icon": "📖", "title": "Troubles bipolaires : de l'euphorie à la dépression", "desc": "Ouvrage de référence pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://www.allodocteurs.fr/maladies-psychiatrie-bipolarite-maniaco-depressif-troubles-bipolaires-de-l-euphorie-a-la-depression-151.html" }, { "icon": "🌐", "title": "Connexions familiales", "desc": "Programme de psychoéducation en ligne pour les proches aidants de personnes borderline ou TPL", "tags": ["Site internet / Blog", "Borderline / TPL"], "link": "https://tpl-familles.org/nos-actions-la-psychoeducation-tpl-borderline/" }, { "icon": "🎬", "title": "Microbiote et troubles bipolaires", "desc": "Quel lien entre microbiote et troubles bipolaires ? Présentation de Guillaume Fond", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=3jZjTlytENE" }, { "icon": "🎬", "title": "Le témoignage plein d’espoir d’Elyn Saks, schizophrène et rétablie", "desc": "Témoignage personnel et inspirant sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=f6CILJA110Y" }, { "icon": "📖", "title": "Quand la vulnérabilité devient une force", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://www.psychologie.ch/fr/quand-la-vulnerabilite-devient-une-force" }, { "icon": "📌", "title": "La Tête Haute : Baptiste et l'alcoolisme.", "desc": "Ressource utile et accessible sur addictions, dans une perspective de rétablissement.", "tags": ["Autre", "Addictions"], "link": "https://fb.watch/auNrhqQA19/" }, { "icon": "📱", "title": "Troubles bipolaires : une application pour un meilleur suivi", "desc": "Application mobile pratique et utile sur bipolarité, dans une perspective de rétablissement.", "tags": ["Applis", "Bipolarité"], "link": "https://www.allodocteurs.fr/passeport-bp-un-parcours-de-soins-adapte-aux-personnes-souffrant-de-troubles-bipolaires-32452.html" }, { "icon": "📖", "title": "Cerveau et Psycho Mars 2022", "desc": "Ressource documentée pour approfondir sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Borderline / TPL"] }, { "icon": "🌐", "title": "Open dialogue formation", "desc": "Programme de formation et d'accompagnement sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "http://www.odformation.org/" }, { "icon": "📖", "title": "Médicaments : des effets secondaires parfois trop lourds.", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://www.allodocteurs.fr/medicaments-des-effets-secondaires-parfois-trop-lourds-32226.html?fbclid=IwAR067E4gCJmmFGqbsZ3OVEe1649jTz7YvG5SU0dl3xOAhXBRWXG10lwFbq4" }, { "icon": "📖", "title": "Maman a dit “Bande de nuls !” livre co-écrit par Céline Leutellier et son fils Killian", "desc": "Ce livre, « c’est notre vie, un témoignage à deux voix et quatre mains », celles de Killian, un enfant né avec des troubles autistiques et schizophréniques, « enfermé dans une prison de peurs et d’angoisses », et celles de Céline, sa mère, qui refuse tous les traitements médicaux car elle ne croit qu’en « un seul remède : l’amour ». Les propos tenus sur les traitements médicamenteux n’engagent que leurs auteurs.", "tags": ["Article / Livre", "Autres troubles", "Schizophrénie"], "link": "https://bandedenuls.com/" }, { "icon": "🌐", "title": "Des proches, la famille et le rétablissement", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "http://blog.douglas.qc.ca/recovery/2013/03/19/les-proches-la-famille-et-le-retablissement/" }, { "icon": "📖", "title": "Déséquilibre du microbiote intestinal et pathologies psychiatriques", "desc": "Article / Livre sur bipolarité, borderline / tpl, dépression, schizophrénie", "tags": ["Article / Livre", "Bipolarité", "Borderline / TPL"], "link": "https://www.troubles-bipolaires.com/desequilibre-du-microbiote-intestinal-et-pathologies-psychiatriques/?fbclid=IwAR2IeYC6QY8CD1PM6AvZMA_HKgloiJz8gRy2cNYSHzYu701gQ1XW8HkpG64" }, { "icon": "📖", "title": "Trouble Bipolaire : 17 illustrations magnifiques sur cette maladie méconnue", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://hitek.fr/42/trouble-bipolaire-dessins-maladie-mentale-troubles-mentaix-art-sofia-roman-emotions-croquis_10158" }, { "icon": "🌐", "title": "Argos 2001", "desc": "Association d’aide aux personnes atteintes de troubles bipolaires et à leur entourage, créée en 2001. Ses activités essentielles consistent dans des groupes de paroles pour les patients et leurs proches ainsi que des conférences faites par des psychiatres spécialisés sur les troubles bipolaires.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://argos2001.net/" }, { "icon": "🎬", "title": "La schizophrénie expliquée en 4 minutes par le Pr Llorca", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=QkpUkbFlHy8" }, { "icon": "📖", "title": "La psychoéducation pour les personnes concernées et leurs familles", "desc": "Article très complet sur tous les programmes de psychoéducation : comment et où en bénéficier", "tags": ["Article / Livre", "Bipolarité", "Schizophrénie"], "link": "https://www.collectif-schizophrenies.com/les-prises-en-charges/la-psycho-education-des-proches" }, { "icon": "🎬", "title": "Elles ont dû faire interner leur enfant", "desc": "Emission TV. Témoignages de mamans qui ont dû prendre la très difficile décision d’une hospitalisation sous contrainte.", "tags": ["Vidéo / Film", "Bipolarité", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=3Z3x2AVvntA" }, { "icon": "🎬", "title": "Le rétablissement : un changement de paradigme", "desc": "Présenté par le Dr Aurélie Tinland. Un peu plus technique que les autres vidéos mais accessible et très complet", "tags": ["Vidéo / Film"], "link": "https://www.youtube.com/watch?v=lz1mhyNIIzE" }, { "icon": "🌐", "title": "Des formations pour soutenir l’entourage familial", "desc": "L’Unafam propose à l’entourage familial (mères et pères, conjoints, sœurs et frères, filles et fils), vous les aidants, une offre de formation gratuite, riche et variée, à suivre en fonction de vos attentes personnelles : \n• En présentiel, près de chez vous\n• En ligne, sur la plateforme http://www.formaidants.fr/", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://www.unafam.org/nos-actions/formations/des-formations-pour-soutenir-lentourage-familial" }, { "icon": "🎬", "title": "Après l’hiver : une histoire vécue sur le traitement de la schizophrénie", "desc": "Ouvrage de référence pour approfondir sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=vdW0Zft8Rso" }, { "icon": "🎤", "title": "Le processus de rétablissement présenté par un médecin et une médiatrice de santé pair", "desc": "Excellente vidéo dans laquelle le processus de rétablissement et ses différentes étapes sont très bien expliquées", "tags": ["Conférence"], "link": "https://www.youtube.com/watch?v=ODriOIDOEK4" }, { "icon": "🌐", "title": "Les entendeurs de voix", "desc": "Site à découvrir absolument Objectif de l’assos : promouvoir une approche des voix et des autres perceptions, expériences ou vécus inhabituels, respectueuse des personnes et de leur expertise. Un site de précieuses ressources aussi bien pour les personnes concernées que pour leurs Proches.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://revfrance.org/presentation/" }, { "icon": "🌐", "title": "Société québécoise de la schizophrénie", "desc": "Site ressources très complet : témoignages, informations sur la maladie, programme de psychoéducation en ligne, conférences", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.schizophrenie.qc.ca/fr/" }, { "icon": "🌐", "title": "Schizo Espoir dans le Haut Rhin", "desc": "Plateforme en ligne de ressources sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.schizoespoir.com/" }, { "icon": "📖", "title": "La voix intérieure : Guide pratique à l'usage (et au sujet) des personnes qui entendent des voix de Paul Baker", "desc": "Un livre fort utile aussi bien pour les personnes concernées que leurs proches", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🎬", "title": "Bien choisir son thérapeute", "desc": "Contenu vidéo informatif et pédagogique, dans une perspective de rétablissement.", "tags": ["Vidéo / Film"], "link": "https://youtu.be/fTpTK1jOf3UCoucou" }, { "icon": "🎬", "title": "Paroles de rétablissement de Patricia Deegan", "desc": "Patricia Deegan, atteinte de schizophrénie, est l’une des pionnères du rétablissement", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=LnZrybnC9JQ" }, { "icon": "📖", "title": "Des lumières sur le ciel de Bénédicte Chenu", "desc": "“Ce livre est le récit du parcours que j’ai mené avec mon fils, des rencontres qui ont été décisives, de ce que nous avons appris pour qu’il puisse enfin vivre une vie apaisée et autonome. Parce que l’on peut se rétablir de la schizophrénie, et même vivre une belle vie.”", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🎙️", "title": "La psychose dans tous ses états", "desc": "4 podcasts de nos amis québécois : - être confronté à la psychose pour la première fois - vivre la clinique PEP (premier épisode psychotique) au quotidien - se rétablir après une psychose - l’intersection entre culture et psychose", "tags": ["Podcast", "Schizophrénie"], "link": "https://www.buzzsprout.com/2085122" }, { "icon": "🌐", "title": "Programmes d’éducation thérapeutique pour les patients et leurs familles au GHU de Paris", "desc": "Autonomie, Empowerment, Rétablissement, sont les piliers de l’Education Thérapeutique.\nDans cet objectif, l’établissement propose une offre de soins \nindividualisée sous forme d’un ensemble de programmes et d’actions d’Education Thérapeutique du Patient (ETP)", "tags": ["Site internet / Blog", "Addictions", "Bipolarité"], "link": "https://www.ghu-paris.fr/fr/les-programmes-deducation-therapeutique-du-patient-2021" }, { "icon": "🌐", "title": "L’Open dialogue pour mieux répondre aux besoins liés aux troubles psychiques", "desc": "Qu’est-ce que l’Open dialogue ? définition des principes en quelques lignes", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://www.santementale.fr/2022/02/lopen-dialogue-pour-mieux-repondre-aux-besoins-lies-aux-troubles-psychiques/" }, { "icon": "🌐", "title": "Vers le rétablissement par l’UNAFAM", "desc": "Article qui résume très bien ce qu’est le rétablissement avec ses 5 clés et 5 étapes. Explique la différence avec la réhabilitation psychosociale", "tags": ["Site internet / Blog"], "link": "https://www.unafam.org/troubles-et-handicap-psy/vers-le-retablissement" }, { "icon": "🎬", "title": "Gringe et Lucille veulent briser les tabous sur la schizophrénie", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=RsESzeOG2hA&t=2s" }, { "icon": "🎬", "title": "Schizophrénie : mieux accompagner les malades ?", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=y2PNA7cb0B4" }, { "icon": "🎬", "title": "Le Trouble Borderline, c'est quoi ?", "desc": "Contenu vidéo informatif et pédagogique sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=Z4CN9-rsYyI" }, { "icon": "🌐", "title": "Les troubles bipolaires (site ressources)", "desc": "Plateforme en ligne avec ressources et informations sur bipolarité, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://www.troubles-bipolaires.com/" }, { "icon": "🎙️", "title": "7 podcasts inspirants de témoignages de personnes vivant avec un trouble psychique", "desc": "Témoignage personnel et inspirant sur les troubles psychiques, dans une perspective de rétablissement.", "tags": ["Podcast", "Bipolarité", "Dépression"], "link": "https://loptimisme.com/7-podcasts-temoignages-troubles-psychiques/" }, { "icon": "📖", "title": "L’expérience de vie fait-elle compétence? Entraide, soutien et accompagnement par les pairs.", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://expairscompeten.sciencesconf.org/" }, { "icon": "🎬", "title": "Les antispychotiques : comment ça marche ?", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=pzPyJbRCnTQ" }, { "icon": "🌐", "title": "L’îlot", "desc": "Association basée en Suisse pour les proches-aidants ; beaucoup de ressources accessibles en ligne (conférences, webinaires, replays …) et un programme de psychoéducation en ligne", "tags": ["Site internet / Blog", "Bipolarité", "Dépression"], "link": "https://www.lilot.org/" }, { "icon": "🎤", "title": "Le rétablissement en psychiatrie", "desc": "Témoignage de Vincent Demassiet, concerné par la schizophrénie. Il raconte son parcours et l’aide précieuse qu’il a reçue de RevFrance pour apprivoiser ses voix", "tags": ["Conférence", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=YDh_3UeYAb4" }, { "icon": "🎬", "title": "Le  trouble schizo-affectif raconté par une personne concernée", "desc": "Contenu vidéo informatif et pédagogique sur trouble schizo-affectif, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Trouble schizo-affectif"], "link": "https://association.graap.ch/temoignage-le-trouble-schizo-affectif/" }, { "icon": "🎬", "title": "Borderline : en phase de compréhension de sa maladie", "desc": "Ouvrage de référence pour approfondir sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=jf8kAc79SXU" }, { "icon": "📖", "title": "Faire face au trouble bipolaire du Dr Jean-Pierre Guichard et Angélique Excoffier", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"] }, { "icon": "🌐", "title": "La schizophrénie : une maladie très invalidante", "desc": "Plateforme en ligne de ressources sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://www.fondation-fondamental.org/les-maladies-mentales/schizophrenie/la-maladie" }, { "icon": "🎤", "title": "Les journées de la schizophrénie", "desc": "De nombreuses conférences à voir en replay sur le rétablissement, la schizophrénie, la place des proches, la communication ... Une mine d’informations !", "tags": ["Conférence", "Schizophrénie"], "link": "https://schizinfo.com/" }, { "icon": "🌐", "title": "Solidarités Usagers Psy", "desc": "Thématiques abordées : soins, logement, vie sociale, loisirs, insertion professionnelle…  L'objectif premier de Solidarités Usagers Psy est d'être avant tout « pratiquo-pratique », dans un objectif de partages (d’informations et d’expériences vécues), et donc de solidarités (d’où le nom du site). Vous trouverez ainsi sur de nombreuses pages des guides, formulaires, outils… téléchargeables, ainsi que des vidéos informatives. Site TRES complet", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://www.solidarites-usagerspsy.fr/" }, { "icon": "🎬", "title": "Borderline quand l'hyperémotivité est une souffrance", "desc": "Contenu vidéo informatif et pédagogique sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=zMZY6LcZLyM" }, { "icon": "📖", "title": "Accompagner le rétablissement d’une personne avec schizophrénie de Nicolas Barré", "desc": "LE livre à lire absolument : concis, facile à lire, avec plein d’exemples concrets. Toutes les étapes du rétablissement sont parfaitement décrites et expliquées.", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🌐", "title": "Ma boussole Aidants", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://www.maboussoleaidants.fr/" }, { "icon": "📖", "title": "Se rétablir de Lisa Mandel, un ouvrage original sous forme de bande dessinée", "desc": "Ce livre recueille avec humour les témoignages de personnes directement concernées. Qu’elles soient entendeuses de voix comme Romain, bipolaires comme Chloé ou atteintes de TDAH à l’instar de Jonathan, chacune nous prouve que nous ne sommes pas uniquement définis par nos neurodivergences, et qu’avec un accompagnement adapté, il est possible de s’en sortir.", "tags": ["Article / Livre", "Autres troubles", "Bipolarité"] }, { "icon": "🎬", "title": "Bipolarité : s’en sortir, le parcours de Marie Alvery", "desc": "Emission TV “Mille et une vies” présentée par Frédéric Lopez. Témoignage de Marie, avec un psychiatre", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=QJLZrZKHYi4" }, { "icon": "🎬", "title": "La schizophrénie, comment s'en sortir ? Témoignage de Florent Babillote", "desc": "Florent est aujourd’hui aide-soignant en hôpital psy. Il raconte avec humilité son parcours de rétablissement", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=bFk42dbEpDA" }, { "icon": "🎬", "title": "C’est quoi être schizophrène ? par Lucille Zolla présidente de LMP", "desc": "Témoignage sincère et authentique de Lucille qui déconstruit les clichés sur cette maladie", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=OWGhyloBBno" }, { "icon": "🎤", "title": "L'humeur en montagnes russes - Bipolaire ou borderline ?", "desc": "Conférence présentée par le Dr Suzane Renaud, psychiatre québécoise", "tags": ["Conférence", "Bipolarité", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=lnt_xt8VGEY" }, { "icon": "📖", "title": "Cap sur le rétablissement", "desc": "Témoignage de Luc, concerné par la schizophrénie, sur son rétablissement co-écrit avec des professionnels de santé qui apportent leur vision du rétablissement", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "📖", "title": "Maladies psychiques: le fardeau des proches aidants", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://revuehemispheres.ch/maladies-psychiques-le-fardeau-des-proches-aidants/?fbclid=IwAR3KsyhFpbgQ4DAPcEg6jrGZiXwgtEtf3NqLb4X2ONJw-2ThSE1nDCI3sNc" }, { "icon": "🎬", "title": "Le rétablissement en santé mentale, c’est possible! | Kharoll-Ann", "desc": "Témoignage d’une jeune québécoise sur son parcours et son rétablissement", "tags": ["Vidéo / Film"], "link": "https://www.youtube.com/watch?v=oAFMiGsRoQk" }, { "icon": "🎬", "title": "Vivre avec la schizophrénie", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=-ihHRmWJuEI" }, { "icon": "🎤", "title": "Comment et pourquoi diminuer les antipsychotiques dans le traitement de la schizophrénie ?", "desc": "Ouvrage de référence pour approfondir sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Conférence", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=S0f9MNwDyZ8" }, { "icon": "📖", "title": "Ensemble, on aboie en silence de Gringe, parrain de LMP", "desc": "Témoignage authentique de Gringe, en tant que frère d’une personne concernée par la schizophrénie.", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🎬", "title": "Vivre avec la schizophrénie. Emission Ca commence aujourd’hui", "desc": "Témoignage de Jason, jeune atteint de schizophrénie, qui explique son combat contre la maladie avec le soutien de sa maman et de Florent Babillote, aujourd’hui père de famille et aide-soignant en HP", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=OGJN-F6BZ8A" }, { "icon": "📖", "title": "Les 7 principes de l’Open dialogue", "desc": "Ouvrage de référence pour approfondir sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Schizophrénie"], "link": "https://u-p-asso.fr/fr/documents/nos-articles/les-7-principes-de-l-open-dialogue" }, { "icon": "🌐", "title": "Avant de craquer", "desc": "Excellent site québécois plein de ressources pour soutenir les Proches", "tags": ["Site internet / Blog"], "link": "https://www.avantdecraquer.com/" }, { "icon": "📱", "title": "Avec « Goliath », un poignant récit en réalité virtuelle sur la psychose", "desc": "Application mobile pratique et utile sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Applis", "Schizophrénie"], "link": "https://www.lemonde.fr/pixels/article/2021/12/19/avec-goliath-un-poignant-recit-en-realite-virtuelle-sur-la-psychose_6106690_4408996.html#xtor=AL-32280270-%5Bwhatsapp%5D-%5Bios%5D" }, { "icon": "🌐", "title": "Falret", "desc": "l’ŒUVRE FALRET accompagne des personnes souffrant de troubles psychiques ou en difficultés psycho-sociales.L’association met son expérience et son savoir-faire au service de différents types d’actions pour leur permettre de bénéficier d’une meilleure qualité de vie. Associant professionnels et bénévoles, l’association propose un accompagnement individualisé et dans la durée,respectueux de l’intégrité de la personne, afin de favoriser son bien-être et l’acquisition de la plus grande autonomie possible.", "tags": ["Site internet / Blog", "Anxiété/Angoisse", "Bipolarité"], "link": "https://falret.org/" }, { "icon": "📌", "title": "« Se rétablir, c’est s’éloigner du gouffre »", "desc": "Ressource utile et accessible, dans une perspective de rétablissement.", "tags": ["Autre"], "link": "https://www.santementale.fr/2021/12/se-retablir-cest-seloigner-du-gouffre/?fbclid=IwAR064pFEnnSejVHS49MdEmm-chUviPyvMkdNrPUFWaoMzRLYlQwtpxKINg8" }, { "icon": "📖", "title": "L’euthymie : le retour à la normale ?", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://www.passeportsante.net/fr/psychologie/Fiche.aspx?doc=euthymie-reconnaitre-retour-normale-bipolaires&fbclid=IwAR2TqxFebyjysHa4ubq0-pmx9toZFfAF5sSFaGa1493wy95pWyJcEAGMgxQ" }, { "icon": "📖", "title": "5 mots pour mieux comprendre les troubles psys", "desc": "Article / Livre sur bipolarité, borderline / tpl, dépression, schizophrénie", "tags": ["Article / Livre", "Bipolarité", "Borderline / TPL"], "link": "https://usbeketrica.com/fr/article/5-mots-pour-mieux-comprendre-les-troubles-psys" }, { "icon": "🌐", "title": "Formation en ligne pour les aidants", "desc": "Formation en ligne  a pour objectifs de se questionner et d'analyser les situations vécues dans la relation au proche malade, en situation de handicap ou de dépendance afin de trouver les réponses adéquates. L'objectif est aussi de mieux connaître et mobiliser les ressources existantes près de chez \nvous. Formation non spécifique aux handicap psychique.", "tags": ["Site internet / Blog", "Bipolarité", "Borderline / TPL"], "link": "https://formation.aidants.fr/" }, { "icon": "🎤", "title": "Trouble de la personnalité limite ou borderline", "desc": "Conférence d'expert accessible sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Conférence", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=9jjLIPo40Mk" }, { "icon": "🎙️", "title": "Je t’aime, moi non plus", "desc": "Podcast à écouter pour s'informer sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Podcast", "Borderline / TPL"], "link": "https://open.spotify.com/episode/1nzA8GzVBqrjarlV217prW?si=LAXoO3pJTBuDiEsThEL6MA&nd=1" }, { "icon": "🎬", "title": "Interview de Cecilia McGough, 3 ans après sa conférence TedEx", "desc": "Très intéressant de constater l’évolution positive de Cécilia. Uniquement sous-titrée en anglais", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=6wXCEAXfYco" }, { "icon": "🎤", "title": "Comment la formation de “Connexions familiales” vient en aide aux proches de patients atteints de TPL/ Borderline ?", "desc": "Programme de formation et d'accompagnement sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Conférence", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=s09KAyO9d44&t=1s" }, { "icon": "📖", "title": "Soyez réhab, guide pratique de réhabilitation psychosociale du Dr Nicolas Rainteau", "desc": "Guide à destination des familles, des aidants et des soignants. Ecrit avec humour et en termes clairs.", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🌐", "title": "Mon Parcours Handicap", "desc": "Témoignage personnel et inspirant, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://www.service-public.fr/particuliers/actualites/A15353" }, { "icon": "🌐", "title": "Le rétablissement - Psycom", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://www.psycom.org/comprendre/le-retablissement/" }, { "icon": "🌐", "title": "5 étapes vers le rétablissement", "desc": "Plateforme en ligne de ressources sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://schizinfo.com/se-retablir/5-etapes-vers-retablissement/" }, { "icon": "🌐", "title": "RFSM-e motion", "desc": "Programme de psychoéducation en ligne proposée par l’association suisse L’îlot", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://rfsm-e-motion.ch/e-motion/" }, { "icon": "📖", "title": "la méthode AERER pour apprendre à être attentif à la santé mentale de ses amis, collègues …", "desc": "Ouvrage de référence pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://mcusercontent.com/19c244451c6a39857cf89b45f/files/1e2dfe9c-2d8f-fa36-40c8-59724d5641ee/MarquePage.pdf" }, { "icon": "🎬", "title": "“Humeur liquide, Être(s) bipolaire” documentaire", "desc": "Contenu vidéo pour découvrir et comprendre sur bipolarité, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://youtu.be/xCb34lAKEh4" }, { "icon": "📖", "title": "Demain, j’étais folle. Un voyage en schizophrénie. de Arnhild Lauveng. Préface de Christophe André", "desc": "Dans un témoignage exceptionnel, elle raconte la perte du sentiment de soi, les hallucinations qui dévorent le quotidien, le repli et l'isolement, jusqu'à l'internement et la prise en charge médicale. Cette parole rare et sensible dit la souffrance mais aussi l'humanité qui persiste toujours, à chaque instant.", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "📖", "title": "Comment soigne-t-on les troubles bipolaires ?", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://www.fondation-fondamental.org/les-maladies-mentales/les-troubles-bipolaires/les-traitements" }, { "icon": "📖", "title": "Une photographe raconte ses troubles bipolaires dans des autoportraits oniriques", "desc": "Témoignage personnel et inspirant sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://arts.konbini.com/amp/photo/une-photographe-raconte-ses-troubles-bipolaires-dans-des-autoportraits-oniriques/" }, { "icon": "📖", "title": "Je suis une personne, pas une maladie de Luc Vigneault", "desc": "Regards croisés très instructifs sur le rétablissement entre Luc, atteint de schizophrénie, qui témoigne sur son parcours et de nombreux professionnels de santé qui expliquent leur vision du rétablissement", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🎬", "title": "Open dialogue : un moyen de sortir de la psychose", "desc": "Documentaire passionnant sur l’Open dialogue, méthode alternative pour apaiser les crises psychotiques sans recours systématique au traitement médicamenteux.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=7tb8ITIFOyY" }, { "icon": "🎬", "title": "Gringe raconte la schizophrénie de son petit frère", "desc": "Témoignage personnel et inspirant sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=6Cq3oDpd1RE" }, { "icon": "🎙️", "title": "Que se passe-t-il dans la tête d’un schizophrène ?", "desc": "Podcast à écouter pour s'informer sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Podcast", "Schizophrénie"], "link": "https://www.franceculture.fr/conferences/universite-de-nantes/cerveau-et-schizophrenie" }, { "icon": "🌐", "title": "Schizo Jeunes", "desc": "Association pour les Proches et les jeunes concernés par la schizophrénie. Utilise l’équithérapie en complément des soins classiques.", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://fr-fr.facebook.com/schizojeunes/" }, { "icon": "🎬", "title": "Borderline : trouble de la personnalité - Psykocouac", "desc": "Ouvrage de référence pour approfondir sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=ICSWs7PlN4g" }, { "icon": "🌐", "title": "Psy-Care, par le GHU de Paris", "desc": "Le projet PsyCARE vise à améliorer l’intervention précoce en cas de \npsychose en fournissant un nouvel ensemble d’outils faciles à diffuser \nafin :\n• De faciliter l’accès aux soins\n• D’améliorer la détection précoce\n• D’offrir des programmes thérapeutiques personnalisés", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://psy-care.fr/" }, { "icon": "📖", "title": "Comment des schizophrènes réussissent-ils à composer avec les voix qu'ils entendent", "desc": "Ressource documentée pour approfondir sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Schizophrénie"], "link": "http://www.psychomedia.qc.ca/sante-mentale/2014-05-09/entendre-des-voix-adaptation" }, { "icon": "📖", "title": "Comment faire accepter son traitement au malade du Dr Xavier Amador", "desc": "Un livre très utile quand on se heurte au refus d’une personne atteinte de schizophrénie de prendre un traitement. De très nombreuses pistes pour apprendre à communiquer avec son proche malade.", "tags": ["Article / Livre", "Schizophrénie"] }, { "icon": "🎬", "title": "Inflammation et troubles bipolaires, causes, conséquences et stratégies thérapeutiques", "desc": "Conférence du Pr Marion LEBOYER, psychiatre, consultation d’immuno-psychiatrie à l'hôpital Albert Chenevier Créteil,  directrice de la Fondation FondaMental.\net le Dr Ryad TAMOUZA, Immunologiste, consultation d’immuno-psychiatrie à l'hôpital Albert Chenevier Créteil,", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www.youtube.com/watch?v=lbYxTrtTjxE" }, { "icon": "🌐", "title": "Mademoiselle Laure, chansons bipolaires et alors !", "desc": "Plateforme en ligne de ressources sur bipolarité, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Bipolarité"], "link": "https://m.youtube.com/channel/UC9hCgBd6sI46ftnAV9W77UA" }, { "icon": "🎬", "title": "Microbiote et schizophrénie", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://m.youtube.com/watch?v=cAAXHuOmjDg&feature=share" }, { "icon": "🎬", "title": "Microbiote et santé mentale : tout savoir sur la psycho-nutrition", "desc": "Interview du Dr Guillaume Fond : l’impact de l’alimentation sur la santé mentale via le microbiote", "tags": ["Vidéo / Film"], "link": "https://www.moka.care/blog/microbiote-et-sante-mentale-tout-savoir-sur-la-psycho-nutrition" }, { "icon": "🎬", "title": "Peut-on guérir de la schizophrénie ? Puis-je arrêter les antipsychotiques ? par le Dr Guillaume Fond", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=O0A1ej_8RVg" }, { "icon": "🌐", "title": "“J’ai été schizophrène”", "desc": "Le témoignage de Frédéric Meuwly, “ex-schizophrène”, “guéri” grâce à une approche thérapeutique basée sur le corps. A découvrir avec curiosité", "tags": ["Site internet / Blog", "Schizophrénie"], "link": "https://blogs.letemps.ch/caroline-bernard/2021/01/25/jai-ete-schizophrene/" }, { "icon": "🎬", "title": "Maxime et sa mère parlent de la bipolarité", "desc": "Maxime, co-fondateur de La Maison Perchée témoigne sur sa bipolarité ainsi que sa mère. Regards croisés sur une même expérience de vie.", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://youtu.be/9j_i5jm_mwE" }, { "icon": "🎬", "title": "Le témoignage de Cecilia McGough, étudiante américaine schizophrène", "desc": "Elle a fait de sa maladie une force et a créé une association pour les étudiants atteints de schizophrénie. un magnifique témoignage de courage et d’espoir.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=xbagFzcyNiM" }, { "icon": "🌐", "title": "Addict’aide : pour ne plus être seul(e) face à l’addiction", "desc": "Un site excellent pour : évaluer une addiction, trouver de l’aide près de chez soi, échanger sur le forum avec des pair-aidants", "tags": ["Site internet / Blog", "Addictions"], "link": "https://www.addictaide.fr/" }, { "icon": "🎙️", "title": "Troubles bipolaires : comment les détecter ?", "desc": "par Bruno Etain\n, psychiatre à l’Hôpital Lariboisière à Paris et coordinateur des centres experts bipolaires de la Fondation FondaMental.", "tags": ["Podcast", "Bipolarité"], "link": "https://www.fondation-fondamental.org/troubles-bipolaires-comment-les-detecter" }, { "icon": "🎬", "title": "Trouble de la personnalité limite", "desc": "Présentation bien faite et complète par l’association québécoise La boussole (!)", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=tC7_kWjp964" }, { "icon": "📖", "title": "La crise maniaque : peut-on éviter les urgences et rester chez soi ?", "desc": "Ressource documentée pour approfondir sur bipolarité, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité"], "link": "https://commedesfous.com/la-crise-maniaque-peut-on-eviter-les-urgences-et-rester-chez-soi/?fbclid=IwAR2qfgd6R3OPxC7vbMsX9RJIH_Ub0hHcbLQGNwsmF5gs4wMBNXB_4mlj3cg" }, { "icon": "🎬", "title": "“Tout pour être heureux” film documentaire de Jérôme Adam : vécus des familles sur les addictions d’un proche", "desc": "Contenu vidéo pour découvrir et comprendre sur addictions, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Addictions"], "link": "https://www.toutpouretreheureux.film/origine-du-film/" }, { "icon": "🎬", "title": "3 conseils pour gérer la dépression par le Dr Christophe André", "desc": "Guide pratique avec conseils concrets sur dépression, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Dépression"], "link": "https://www.youtube.com/watch?v=R6wjZpZkNPQ" }, { "icon": "📖", "title": "Léo", "desc": "Ressource documentée pour approfondir sur les troubles psychiques, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Bipolarité", "Borderline / TPL"], "link": "https://www.collectif-schizophrenies.com/la-schizophrenie/le-programme-leo" }, { "icon": "📊", "title": "Le trouble bipolaire : infographie", "desc": "Ressource utile et accessible sur bipolarité, dans une perspective de rétablissement.", "tags": ["Infographie", "Bipolarité"] }, { "icon": "🎬", "title": "🧠 Trouble de la personnalité BORDERLINE ou LIMITE", "desc": "Contenu vidéo informatif et pédagogique sur borderline / tpl, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Borderline / TPL"], "link": "https://www.youtube.com/watch?v=TRsETS7loLc" }, { "icon": "📖", "title": "Tomber 7 fois, se relever 8 de Philippe Labro", "desc": "La dépression nerveuse: ça peut tomber sur nimporte qui, même sur un homme au sommet de la réussite.\nPhilippe Labro revient de l'enfer. Il le dit. Il dit surtout qu'on peut en sortir, que tout le monde peut remonter la pente.", "tags": ["Article / Livre", "Dépression"] }, { "icon": "🌐", "title": "Premiers Secours en Santé Mentale", "desc": "Propose des formations en PSSM aux particuliers et en entreprises. Edite des carnets très complets et bien faits sur différents sujets : comment mieux accompagner le trouble dépressif, le trouble psychotique, idées et comportements suicidaires, les attaques de panique", "tags": ["Site internet / Blog", "Autres troubles", "Dépression"], "link": "https://pssmfrance.fr/" }, { "icon": "📖", "title": "Rétablissement", "desc": "Ressource documentée pour approfondir, dans une perspective de rétablissement.", "tags": ["Article / Livre"], "link": "https://centre-ressource-rehabilitation.org/-retablissement-" }, { "icon": "🎬", "title": "Irréelle réalité, la schizophrénie, un super pouvoir ? | Nathan Hofstetter", "desc": "Témoignage de Nathan, cinéaste suisse réalisateur du film documentaire Loulou", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=Ce6ABfeVrsI" }, { "icon": "🎬", "title": "La schizophrénie : sans espoir ?", "desc": "Contenu vidéo informatif et pédagogique sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Schizophrénie"], "link": "https://www.youtube.com/watch?v=3Zjk9BLEb7o" }, { "icon": "🌐", "title": "Qu’est-ce que la réhabilitation psychosociale ?", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://centre-ressource-rehabilitation.org/qu-est-ce-que-la-rehabilitation-psychosociale" }, { "icon": "📖", "title": "Soigner la schizophrénie", "desc": "Ressource documentée pour approfondir sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Article / Livre", "Schizophrénie"], "link": "https://www.fondation-fondamental.org/les-maladies-mentales/schizophrenie/les-traitements" }, { "icon": "🌐", "title": "Ma famille de ouf", "desc": "Ouvrage de référence pour approfondir sur les troubles psychiques, dans une perspective de rétablissement.", "tags": ["Site internet / Blog", "Bipolarité", "Schizophrénie"], "link": "https://mafamilledeouf.com/a-propos/" }, { "icon": "🎬", "title": "Mon quotidien en tant que bipolaire", "desc": "Contenu vidéo informatif et pédagogique sur bipolarité, dans une perspective de rétablissement.", "tags": ["Vidéo / Film", "Bipolarité"], "link": "https://www-konbini-com.cdn.ampproject.org/c/s/www.konbini.com/fr/amp/partners/video-speech-mon-quotidien-en-tant-que-bipolaire/" }, { "icon": "🌐", "title": "Vincent Girard : une autre vision de la psychiatrie et de la prise en charge des patients", "desc": "Plateforme en ligne de ressources, dans une perspective de rétablissement.", "tags": ["Site internet / Blog"], "link": "https://blogs.letemps.ch/caroline-bernard/2022/04/26/vincent-girard-un-psychiatre-sen-va-t-en-paix/" }, { "icon": "🎙️", "title": "Schizophrénie : vivre avec", "desc": "Podcast à écouter pour s'informer sur schizophrénie, dans une perspective de rétablissement.", "tags": ["Podcast", "Schizophrénie"], "link": "https://www.franceculture.fr/emissions/le-magazine-de-la-redaction/schizophrenie-vivre-avec-0" }] }, { "cat": "societe", "label": "🤝 Maladie psy & société", "items": [{ "icon": "🌐", "title": "Handicap invisible en entreprise : en parler, c'est avancer", "desc": "Plateforme en ligne de ressources.", "tags": ["Site internet / Blog"], "link": "https://www.caf.fr/allocataires/vies-de-famille/vivre-avec-un-handicap/emploi-et-handicap/handicap-invisible-en-entreprise-en-parler-c-est-avancer" }, { "icon": "📖", "title": "Sophie Cluzel et Alexandre Jollien : \"Comment entrer dans la confiance quand on vous rappelle tous les jours votre différence ?\"", "desc": "Service d'écoute et de soutien accessible.", "tags": ["Article / Livre"], "link": "https://madame.lefigaro.fr/societe/sophie-cluzel-et-alexandre-jollien-comment-entrer-dans-la-confiance-quand-on-vous-rappelle-tous-les-jours-votre-difference-070122-210172" }, { "icon": "📌", "title": "Sur TikTok, l’auto-diagnostic des ados inquiète les psys", "desc": "Comment la déferlante d’autodiagnostic peu sérieux sur la santé mentale des jeunes complique sérieusement le travail des thérapeutes professionnels", "tags": ["Autre"], "link": "https://www.madmoizelle.com/sur-tiktok-lauto-diagnostic-des-ados-inquiete-les-psys-1226808" }, { "icon": "🌐", "title": "Avocats, droits et psychiatrie", "desc": "Association d’avocats. Soutien et informations sur les droits des patients (hospitalisation sous contrainte, isolement …)", "tags": ["Site internet / Blog"], "link": "https://www.avocatsdroitspsychiatrie.fr/" }, { "icon": "📖", "title": "Innovation en Santé mentale pour améliorer le parcours de soins", "desc": "Ouvrage de référence pour approfondir.", "tags": ["Article / Livre"], "link": "https://www.santementale.fr/2022/01/innovation-en-sante-mentale-cinq-laureats-pour-ameliorer-le-parcours-de-soins/" }, { "icon": "📖", "title": "Cap sur 2031 : consulter sans pression chez le psy du futur.", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://usbeketrica.com/fr/article/cap-sur-2031-prendre-rendez-vous-chez-le-psy-du-futur?fbclid=IwAR2NW7FROGeGGxzBBpW5MP4MHGBJ8f0dzw7KU1Wz3qziXpJFEBuRojccqjs" }, { "icon": "🎬", "title": "“La Forêt de mon père” de Vero Cratzborn / 2020", "desc": "Gina, 15 ans, grandit dans une famille aimante en lisière de forêt. Elle admire son père Jimmy, imprévisible et fantasque, dont elle est prête à pardonner tous les excès. Jusqu’au jour où la situation devient intenable : Jimmy bascule et le fragile équilibre familial est rompu. Dans l’incompréhension et la révolte, Gina s’allie avec un adolescent de son quartier pour sauver son père.", "tags": ["Vidéo / Film"], "link": "https://www.youtube.com/watch?v=MKHbcJo-7Uc&ab_channel=PrestigeTrailers" }, { "icon": "📖", "title": "Santé mentale : en parler pour mieux la soigner", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://blog.alan.com/bien-etre-au-travail/sante-mentale-en-parler-pour-mieux-la-soigner?utm_campaign=11%2F10%20%E2%80%94%20Nurturing%20Alan%20Check-Up%2721&utm_medium=email&_hsmi=183467286&_hsenc=p2ANqtz--2m_X5YFeC4iucEP9Urnqag81X1bT9Jon4AGczF_xylLCxZ597jiE9nRr49jtdr5FouLErALPcxpovV7jTsd483XikmA&utm_content=183467286&utm_source=hs_email" }, { "icon": "🌐", "title": "3114 : ligne d’écoute de prévention du suicide, destinée à la fois aux personnes concernées mais aussi aux proches", "desc": "Service d'écoute et de soutien accessible sur dépression.", "tags": ["Site internet / Blog", "Dépression"], "link": "https://3114.fr/" }, { "icon": "📖", "title": "Troubles mentaux : quand la stigmatisation d’aujourd’hui reflète les conceptions d’hier", "desc": "Article retraçant l’histoire de la psychiatrie et son impact sur les représentations dans la société", "tags": ["Article / Livre"], "link": "https://theconversation.com/troubles-mentaux-quand-la-stigmatisation-daujourdhui-reflete-les-conceptions-dhier-192540" }, { "icon": "🌐", "title": "Les troubles psychiques : des clés pour mieux comprendre", "desc": "Plateforme en ligne de ressources sur les troubles psychiques.", "tags": ["Site internet / Blog", "Bipolarité", "Schizophrénie"], "link": "https://www.unafam.org/actualites/un-nouveau-module-de-formation-en-ligne-sur-les-troubles-psychiques" }, { "icon": "📖", "title": "Pourquoi la santé mentale est-elle encore si taboue en France ?", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://usbeketrica.com/fr/article/pourquoi-la-sante-mentale-est-elle-encore-si-taboue-en-france" }, { "icon": "🎙️", "title": "La contention : une réalité dans le soin / vécus racontés par les soignés et les soignants", "desc": "Podcast à écouter pour s'informer.", "tags": ["Podcast"], "link": "https://chaire-philo.fr/la-contention-une-realite-dans-le-soin-vecus-soignes-et-soignants/" }, { "icon": "🎬", "title": "La web série qui déconstruit les idées reçues sur les troubles de la santé mentale", "desc": "Témoignages forts de jeunes adultes sur les troubles de santé mentale", "tags": ["Vidéo / Film", "Autres troubles", "Bipolarité"], "link": "https://www.rtbf.be/article/normal-la-web-serie-qui-deconstruit-les-idees-recues-sur-les-troubles-de-la-sante-mentale-marion-jaumotte-10882075?fbclid=IwAR1eT95TjZlI0zhQs8Kd_bfLDivqvFfU7usN8R3ZdBn_9kwCFUPHaLqDrLM&id=10882075" }, { "icon": "📖", "title": "Un guide de bonnes pratiques pour les premiers gestes", "desc": "Guide pratique avec conseils concrets.", "tags": ["Article / Livre"], "link": "https://www.liberation.fr/societe/sante/sante-mentale-un-guide-de-bonnes-pratiques-pour-les-premiers-gestes-20220125_O4DCB6AP7ZFXHI6UH7LNWEZGWY/?fbclid=IwAR11HfPJSeLZXhcNjjjPphDqlAtncuo7Ii5_wsv2pu4pLjIz_8QdG7Na8AE" }, { "icon": "🌐", "title": "4 idées fausses qui banalisent les troubles psychiques: que dire si vous les entendez ?", "desc": "Site internet / Blog sur anxiété/angoisse, bipolarité, dépression, schizophrénie", "tags": ["Site internet / Blog", "Anxiété/Angoisse", "Bipolarité"], "link": "https://loptimisme.com/idees-fausses-banalisation/" }, { "icon": "🎙️", "title": "Addictions et santé mentale avec le Dr Jean-Victor Blanc", "desc": "Comment agissent les addictions ? Quels sont les liens entre la pop culture et les addictions ? Un entretien pour déconstruire les mythes sur les addictions", "tags": ["Podcast", "Addictions"], "link": "https://musae-tomorrow.com/podcast/" }, { "icon": "🎙️", "title": "Franchir le pas de la honte par le Dr David Masson", "desc": "Podcast à écouter pour s'informer.", "tags": ["Podcast"], "link": "https://placedessciences.fr/nos-podcasts/les-maux-bleus/s01e17/?fbclid=IwAR29VY6ARMxlkTxTsx3DQpoAi7_DTS1SlZ_4ptvn4b7_MSK6ZgFLpBXFtk8" }, { "icon": "📖", "title": "En finir avec les idées fausses sur la psychiatrie et la santé mentale par le Dr Astrid Chevance", "desc": "Un excellent ouvrage accessible à tous pour déconstruire les clichés sur la psychiatrie, les maladies psychiatriques et les malades. A partager et à offrir sans modération", "tags": ["Article / Livre", "Anxiété/Angoisse", "Bipolarité"], "link": "https://editionsatelier.com/boutique/accueil/333-en-finir-avec-les-idees-fausses-sur-la-psychiatrie-et-la-sante-mentale--9782708245709.html" }, { "icon": "📲", "title": "Normalisons le regard sur les personnes handicapées", "desc": "Ressource utile et accessible.", "tags": ["Réseaux sociaux"], "link": "https://fb.watch/9RHTDAswHd/" }, { "icon": "📖", "title": "Famille et handicap : le vibrant plaidoyer de Clara Dupont-Monod contre la bureaucratie", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://www.franceinter.fr/culture/famille-et-handicap-le-vibrant-plaidoyer-de-clara-dupont-monod-contre-la-bureaucratie?fbclid=IwAR0dQjB-d5VYe2rgl7UdH5fPcF8Ay84TZO3X1n58nsmMmQJEOwTiNbvYQko" }, { "icon": "📖", "title": "“Folie et créativité, une histoire de famille” présentation du livre du psychiatre Raphaël Gaillard par Bénédicte Chenu", "desc": "Ouvrage de référence pour approfondir.", "tags": ["Article / Livre"], "link": "https://www.collectif-schizophrenies.com/les-temoignages/folie-et-creativite-une-histoire-de-famille-2" }, { "icon": "📖", "title": "10 artistes (Stromae, Adèle, Sia …) se sont confié sur leur santé mentale", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://www.iheartradio.ca/energie/energie-montreal/nouvelles/10-artistes-qui-se-sont-confies-sur-leur-sante-mentale-1.16985543?fbclid=IwAR010878MvXrypiRPJh77eG5FavAXutRxsjYyIlCsofijA1ikHRA7dmE_mw" }, { "icon": "🎬", "title": "10 idées reçues sur la dépression par le Pr Lejoyeux", "desc": "Contenu vidéo informatif et pédagogique sur dépression.", "tags": ["Vidéo / Film", "Dépression"], "link": "https://www.youtube.com/watch?v=c5pdfoTTF3M" }, { "icon": "📖", "title": "Les troubles psychiques sont toujours stigmatisés", "desc": "Ressource documentée pour approfondir sur les troubles psychiques.", "tags": ["Article / Livre", "Bipolarité", "Dépression"], "link": "https://www.neonmag.fr/depression-schizophrenie-bipolarite-les-troubles-psychiques-sont-toujours-stigmatises-556863.html?fbclid=IwAR1mO1GQ-c7UoTzN43YM6fgImwcgD40m9iCmVlofyJyOQhsIBWMV1ha5ZVk" }, { "icon": "📖", "title": "Santé mentale : mobiliser tous les acteurs de terrain par Le Dr Franck Bellivier", "desc": "Ressource documentée pour approfondir.", "tags": ["Article / Livre"], "link": "https://www.institutmontaigne.org/blog/sante-mentale-mobiliser-tous-les-acteurs-de-terrain?amp" }, { "icon": "🌐", "title": "Je veux en parler", "desc": "Un site spécialement dédié pour les jeunes qui ne savent pas comment mettre des mots sur leur souffrance psychique", "tags": ["Site internet / Blog"], "link": "https://www.jepeuxenparler.fr/" }, { "icon": "📌", "title": "Psychiatrie : il faut la faire changer ! par le Dr Nicolas Rainteau", "desc": "Pour une vision ambitieuse de la psychiatrie avec pour centre le patient et pas seulement sa maladie", "tags": ["Autre"], "link": "https://www.youtube.com/watch?v=4rxeK9v7vn4" }, { "icon": "🎙️", "title": "Par peur des discriminations, 60% des personnes handicapées ne le précisent pas sur leur CV", "desc": "Podcast à écouter pour s'informer.", "tags": ["Podcast"], "link": "https://www.europe1.fr/economie/par-peur-des-discriminations-60-des-personnes-handicapees-ne-le-precisent-pas-sur-leur-cv-4077042?fbclid=IwAR1i6gUuPiAVh5Q9X38Kj9sm9F2Kr-9yf-oWdk3rupZl96ax8Z_2kP6mcFQ" }, { "icon": "📊", "title": "La santé mentale en France", "desc": "Ressource utile et accessible.", "tags": ["Infographie"] }] }]
+const data = [
+  {
+    "id": "vivre",
+    "label": "🌱 Vivre avec",
+    "items": [
+      {
+        "id": "qu-est-ce-qu-on-va-faire-de-jacques-film-de-marie-",
+        "icon": "🎬",
+        "title": "“Qu’est-ce qu’on va faire de Jacques ?” film de Marie Garel-Weiss - 2022",
+        "desc": "À la mort de leur père, Louise, Fabien et Estelle se retrouvent démunis face à leur frère, Jacques, atteint de troubles schizophréniques qu'ils doivent désormais prendre à leur charge. Pour Louise, l'expérience va se révéler décisive.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "la-sante-mentale-je-peux-en-parler-programme-pour-",
+        "icon": "🌐",
+        "title": "“La santé mentale : Je peux en parler”, programme pour les étudiants",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.jepeuxenparler.fr"
+      },
+      {
+        "id": "une-photographe-a-immortalise-sa-relation-complexe",
+        "icon": "📖",
+        "title": "Une photographe a immortalisé sa relation complexe avec sa mère bipolaire",
+        "desc": "",
+        "type": "",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://arts.konbini.com/photo/une-photographe-a-immortalise-sa-relation-complexe-avec-sa-mere-bipolaire/?fbclid=IwAR3gGcskI2dJXIUNPsRpeiyID3rlyCpOmwBa_LOQDEDc6kIYNleEdO1NxEg"
+      },
+      {
+        "id": "mon-parcours-handicap-2",
+        "icon": "🌐",
+        "title": "Mon parcours handicap",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.monparcourshandicap.gouv.fr/"
+      },
+      {
+        "id": "fondation-sante-des-etudiants",
+        "icon": "🌐",
+        "title": "Fondation Santé des Etudiants",
+        "desc": "LE site à connaître pour trouver un établissement de soins-études à partir de la 3ème-2nde jusqu’aux études supérieures",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "http://www.fsef.net/"
+      },
+      {
+        "id": "comme-des-fous",
+        "icon": "🌐",
+        "title": "Comme des fous",
+        "desc": "blog d’une personne concernée par la maladie psychique.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://commedesfous.com/"
+      },
+      {
+        "id": "dans-ma-tete-de-bipolaire-de-francois-lejeune",
+        "icon": "📖",
+        "title": "Dans ma tête de bipolaire de François Lejeune",
+        "desc": "Un récit haletant qui embarque le lecteur entre tempête et lumière ; un récit de vie authentique",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ]
+      },
+      {
+        "id": "le-trouble-borderline-explique-aux-proches-du-dr-d",
+        "icon": "📖",
+        "title": "Le trouble borderline expliqué aux proches\" du Dr Déborah Ducasse et Véronique Brand-Arpon",
+        "desc": "Ce livre est une consultation entre une famille et un médecin psychiatre spécialisé dans le trouble de la personnalité borderline. Il vous enseignera l’état des connaissances actuelles et vous permettra d’acquérir les compétences psychologiques pour aider la personne de votre entourage hypersensible aux interactions relationnelles et mieux communiquer avec elle.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ]
+      },
+      {
+        "id": "plan-de-crise-conjoint",
+        "icon": "🌐",
+        "title": "Plan de Crise Conjoint",
+        "desc": "Le PCC est une forme récente de déclaration anticipée permettant de prévenir et de mieux gérer une éventuelle future crise en considérant les préférences des usagers en matière de soins et de traitements. Il est établi conjointement avec la personne concernée qui exprime à l’avance ses besoins en cas de crise.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie",
+          "Trouble schizo-affectif"
+        ],
+        "link": "https://plandecriseconjoint.ch/"
+      },
+      {
+        "id": "sante-psy-jeunes",
+        "icon": "🌐",
+        "title": "Santé Psy Jeunes",
+        "desc": "Site spécialement destiné pour les jeunes avec 4 rubriques : j’ai besoin d’aide, je m’inquiète pour quelqu’un, repérer/agir tôt, où consulter",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.santepsyjeunes.fr/"
+      },
+      {
+        "id": "club-house",
+        "icon": "🌐",
+        "title": "Club House",
+        "desc": "Un Clubhouse est un lieu d’entraide et d’activité de jour, non médicalisé. La gestion de ces lieux innovants est effectuée intégralement par les membres eux-mêmes (personnes vivant avec un trouble psychique), en coopération avec les équipes salariées, dans un esprit de bienveillance et sans jugement .",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://www.clubhousefrance.org/"
+      },
+      {
+        "id": "drogues-info-services-le-site-a-consulter-en-prior",
+        "icon": "🌐",
+        "title": "Drogues info Services : LE site à consulter en priorité",
+        "desc": "Site ressources très complet : comprendre les addictions, témoignages, évaluer, trouver de l’aide, ligne d’écoute 7j/7",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.drogues-info-service.fr/"
+      },
+      {
+        "id": "addictions-et-troubles-psychiques-quels-liens",
+        "icon": "🌐",
+        "title": "Addictions et troubles psychiques : quels liens ?",
+        "desc": "Article court avec les caractéristiques clés des addictions et des liens pour trouver de l’aide",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.ceapsy-idf.org/addictions-troubles-psychiques-quels-liens"
+      },
+      {
+        "id": "addictions-du-plaisir-a-la-dependance",
+        "icon": "🌐",
+        "title": "Addictions : Du plaisir à la dépendance",
+        "desc": "Article très complet de l’Inserm pour comprendre les addictions",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.inserm.fr/dossier/addictions/"
+      },
+      {
+        "id": "que-faire-quand-on-ne-repond-pas-aux-antidepresseu",
+        "icon": "🎬",
+        "title": "Que faire quand on ne répond pas aux antidépresseurs ? par le Dr Guillaume Fond",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=Kt6LE2cDCSM"
+      },
+      {
+        "id": "comment-aider-quelqu-un-qui-souffre-de-depression-",
+        "icon": "🎬",
+        "title": "Comment aider quelqu’un qui souffre de dépression ? par le Dr Christophe André",
+        "desc": "Une excellente vidéo pour les proches aidants",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=tVrQ0t8nPx8"
+      },
+      {
+        "id": "depression-et-serotonine-on-s-est-trompe-par-le-dr",
+        "icon": "🎬",
+        "title": "Dépression et sérotonine : on s’est trompé ? par le Dr Guillaume Fond",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=Rb2IfYGVRNA"
+      },
+      {
+        "id": "solidarites-usagers-psy",
+        "icon": "🌐",
+        "title": "Solidarités Usagers Psy",
+        "desc": "Liste de blogs créés par des personnes concernées par la maladie psychique. Une bonne façon de trouver entraide et compréhension.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.solidarites-usagerspsy.fr/divers/t%C3%A9moignages/blogs-et-sites-d-usagers/"
+      },
+      {
+        "id": "vivre-avec-une-depression",
+        "icon": "🎬",
+        "title": "Vivre avec … une dépression",
+        "desc": "Courte vidéo explicative sous forme de dessins et de témoignage. Aide à déconstruire les clichés et idées reçues sur cette maladie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=TOU0dagYveo&t=3s"
+      },
+      {
+        "id": "la-depression-en-savoir-plus-pour-en-sortir",
+        "icon": "📖",
+        "title": "La dépression : en savoir plus pour en sortir",
+        "desc": "Document TRES complet sur la dépression : repérer les symptômes, connaitre les traitements, savoir a qui s’adresser, le rôle de l’entourage",
+        "type": "Article / Livre",
+        "troubles": [
+          "Dépression"
+        ]
+      },
+      {
+        "id": "ceapsy-le-centre-ressource-ile-de-france-pour-les-",
+        "icon": "🌐",
+        "title": "Ceapsy : Le Centre Ressource Ile de France pour les personnes concernées \npar les troubles psychiques, pour leurs proches et pour les \nprofessionnels",
+        "desc": "Organise des permanences d’information et d’orientation en visio et par téléphone. Que faire en situation d’urgence ? Travailler et se former ; se loger ; avoir une vie sociale ….",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.ceapsy-idf.org/vous-etes-une-proche"
+      },
+      {
+        "id": "cite-de-la-sante-a-la-villette-paris",
+        "icon": "🌐",
+        "title": "Cité de la Santé (à la Villette / Paris)",
+        "desc": "La Cité de la Santé est un lieu de ressources où il est possible de rencontrer, y compris le weekend, un professionnel de santé, un patient expert, un écoutant bénévole …",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions",
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.cite-sciences.fr/fr/au-programme/lieux-ressources/cite-de-la-sante/"
+      },
+      {
+        "id": "mon-parcours-handicap-3",
+        "icon": "🌐",
+        "title": "Mon Parcours Handicap",
+        "desc": "Site de l’Etat très fourni : scolarité, études supérieures, emploi et vie professionnelle, formation professionnelle, la MDPH en ligne, aides et démarches",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.monparcourshandicap.gouv.fr/"
+      },
+      {
+        "id": "fil-sante-jeunes-site-d-informations-sur-la-sante-",
+        "icon": "🌐",
+        "title": "Fil santé Jeunes : site d’informations sur la santé mentale, l’amour, la sexualité pour les jeunes de 12 à 25 ans et une ligne d’écoute : 0 800 235 236",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions",
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.filsantejeunes.com/"
+      },
+      {
+        "id": "narcotiques-anonymes",
+        "icon": "🌐",
+        "title": "Narcotiques Anonymes",
+        "desc": "sur le même fonctionnement que les Alcooliques Anonymes. Pour aider à se sortir ensemble de la dépendance aux drogues",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.narcotiquesanonymes.org/"
+      },
+      {
+        "id": "droit-pluriel",
+        "icon": "🌐",
+        "title": "Droit Pluriel",
+        "desc": "Association qui s’engage pour une justice accessible aux personnes en situation de handicap",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://droitpluriel.fr/"
+      },
+      {
+        "id": "addiction-5-lignes-d-ecoute-pour-en-parler",
+        "icon": "🌐",
+        "title": "Addiction : 5 lignes d’écoute pour en parler",
+        "desc": "SUPER UTILE pour trouver du soutien pour les personnes concernées et leur entourage",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://loptimisme.com/addiction-5-lignes-decoute-pour-en-parler/"
+      },
+      {
+        "id": "troubles-psychiques-lignes-d-ecoute-pour-trouver-d",
+        "icon": "🌐",
+        "title": "Troubles psychiques : lignes d’écoute pour trouver de l’aide",
+        "desc": "SUPER UTILE : les lignes d’écoute pour les personnes concernées et aussi leurs familles pour parler de dépression, bipolarité et de schizophrénie",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://loptimisme.com/troubles-psychiques-lignes-decoute/"
+      },
+      {
+        "id": "idees-suicidaires-et-tentatives-de-suicide",
+        "icon": "🎬",
+        "title": "Idées suicidaires et tentatives de suicide",
+        "desc": "Conférence du Dr Liova YON - Chef de service Psyline : Psy Ile-de-France & VigilanS Paris - GHU Paris psychiatrie neurosciences",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles",
+          "Bipolarité",
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=Jfv7UJCFd10"
+      },
+      {
+        "id": "les-troubles-bipolaires-40-millions-de-personnes-c",
+        "icon": "🎙️",
+        "title": "Les troubles bipolaires: 40 millions de personnes concernées dans le monde",
+        "desc": "Comment améliorer le diagnostic ? Quelles prises en charge existent pour les patients ? par le Dr Marc Masson, psychiatre à Paris",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.rfi.fr/fr/podcasts/priorit%C3%A9-sant%C3%A9/20230117-les-troubles-bipolaires-40-millions-de-personnes-concern%C3%A9es-dans-le-monde"
+      },
+      {
+        "id": "je-suis-mon-pire-ennemi-documentaire-sur-les-troub",
+        "icon": "🎬",
+        "title": "Je suis mon pire ennemi” documentaire sur les troubles psychiques dans la série “les yeux d’Olivier”",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.jeremydriessen.be/je-suis-mon-pire-ennemi-documentaire-sur-les-troubles-psychiques/"
+      },
+      {
+        "id": "voyageuse-au-naturel",
+        "icon": "📲",
+        "title": "Voyageuse au naturel",
+        "desc": "Abigaïl, 26 ans raconte comment elle “cohabite” avec son trouble borderline. Elle raconte aussi ses voyages à travers le monde.",
+        "type": "Réseaux sociaux",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.instagram.com/voyageuse_au_naturel/"
+      },
+      {
+        "id": "interview-du-dr-philippe-nuss-psychiatre-la-schizo",
+        "icon": "🌐",
+        "title": "Interview du Dr Philippe Nuss, psychiatre : la schizophrénie",
+        "desc": "Explications claires sur la schizophrénie, la difficulté de poser un diagnostic, les similitudes avec les troubles bipolaires, et l’importance d’intégrer les Proches dans le parcours de soins",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=GO4qi36yUX0"
+      },
+      {
+        "id": "donner-la-vie-et-etre-concernee-par-les-troubles-b",
+        "icon": "🌐",
+        "title": "Donner la vie et être concernée par les troubles bipolaires",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.madmoizelle.com/les-forceps-pas-question-je-pousse-comme-une-dingue-elise-raconte-son-accouchement-1391469"
+      },
+      {
+        "id": "etre-mere-et-concernee-par-les-troubles-bipolaires",
+        "icon": "🌐",
+        "title": "Etre mère et concernée par les troubles bipolaires",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.madmoizelle.com/trouble-bipolaire-et-maternite-je-partais-avec-lidee-que-je-serais-une-mauvaise-mere-1115621"
+      },
+      {
+        "id": "goupil-ou-face-bande-dessinee-de-lou-lubie",
+        "icon": "📖",
+        "title": "Goupil ou face, bande dessinée de Lou Lubie",
+        "desc": "Après des années de questionnements, Lou découvre qu'elle est atteinte de http://www.goupil-ou-face.fr/cyclothymie.html : un trouble de l’humeur de la famille des maladies bipolaires. Un ouvrage de vulgarisation scientifique qui se nourrit de l’expérience personnelle de l’autrice pour dresser le portrait plein d’humour et de sensibilité d’un trouble psychiatrique encore largement méconnu.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "http://www.goupil-ou-face.fr/bd.html"
+      },
+      {
+        "id": "comment-mieux-accompagner-les-troubles-psychotique",
+        "icon": "📖",
+        "title": "Comment mieux accompagner les troubles psychotiques",
+        "desc": "Document très bien fait édité par Premiers Secours en Santé Mentale",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://pssmfrance.fr/carnets-du-secouriste/"
+      },
+      {
+        "id": "tpl-familles-connexions-familiales",
+        "icon": "🌐",
+        "title": "TPL familles / Connexions familiales",
+        "desc": "le plein d’infos sur les troubles borderline ou troubles de la personnalité limite TPL ; Les conseils donnés aux familles confrontées au refus de soin d’un proche",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://tpl-familles.org/"
+      },
+      {
+        "id": "bipolaire-comprendre-apprendre-et-vivre-avec",
+        "icon": "🎬",
+        "title": "Bipolaire : comprendre, apprendre et vivre avec",
+        "desc": "Extrait de l’émission “ça commence aujourd’hui”. Témoignage et point de vue du conjoint",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=j5t1oN4EcH0"
+      },
+      {
+        "id": "le-soleil-de-trop-pres-film-sorti-le-28-09-2022-di",
+        "icon": "🎬",
+        "title": "Le soleil de trop près (film sorti le 28/09/2022) disponible en DVD",
+        "desc": "\"Le Soleil de trop près\" offre une immersion saisissante dans la vie de Basile, un trentenaire atteint de schizophrénie sur le chemin tortueux du rétablissement. Une relation très sensible entre un frère et une soeur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "les-funambules-paris",
+        "icon": "🌐",
+        "title": "Les Funambules (Paris)",
+        "desc": "Les Funambules est un service de prévention et d’accompagnement dédié aux jeunes de 7 à 25 ans dont un proche (parent, frère ou sœur) souffre de troubles psychiatriques",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Schizophrénie"
+        ],
+        "link": "https://falret.org/services-etablissements/etablissements-services-les-funambules/"
+      },
+      {
+        "id": "bipolarite-a-quoi-ressemble-leur-quotidien",
+        "icon": "🎬",
+        "title": "Bipolarité : à quoi ressemble leur quotidien ?",
+        "desc": "Emission TV “ça commence aujourd’hui” présentée par Faustine. Témoignages de personnes concernées par la maladie",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=l8nmYMwd4FU"
+      },
+      {
+        "id": "bipolaire-un-message-d-espoir-de-yann-layma-editio",
+        "icon": "📖",
+        "title": "Bipolaire, un message d’espoir de Yann Layma, Editions Le lys Bleu",
+        "desc": "Yann photographe de métier nous décrit son vécu intérieur : les crises maniaques, les phases de dépression mais aussi le déni, la souffrance intérieure, la générosité de l’entourage, la solidarité des pairs et la découverte de la psychoéducation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ]
+      },
+      {
+        "id": "comment-survivre-en-hopital-psychiatrique-en-fuman",
+        "icon": "📖",
+        "title": "Comment survivre en hôpital psychiatrique (en fumant des tonnes de cigarettes) de Laetitia Bocquet, Editions Kiwi",
+        "desc": "une BD écrite et dessinée par une adolescente de 17 ans qui décrit son hospitalisation. Humour garanti.",
+        "type": "Article / Livre",
+        "troubles": []
+      },
+      {
+        "id": "bibliographie-tres-complete-sur-la-schizophrenie",
+        "icon": "📖",
+        "title": "Bibliographie très complète sur la schizophrénie",
+        "desc": "Plus d’une vingtaine de références de livres sur la schizophrénie écrits par des personnes concernées et/ou des professionnels de santé",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://promesses-sz.fr/2016-05-04-11-14-31/litterature-et-schizophrenies.html"
+      },
+      {
+        "id": "mental-serie-tele-episode-de-20-min",
+        "icon": "🎬",
+        "title": "Mental : série télé (épisode de 20 min)",
+        "desc": "On découvre le parcours de jeunes atteints de différents troubles psychologiques lors de leur séjour en clinique. Un parler vrai et surtout une approche des troubles psys vus et vécus de l’intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.france.tv/slash/mental/"
+      },
+      {
+        "id": "sante-psy-suisse-francophone",
+        "icon": "🌐",
+        "title": "Santé psy (Suisse francophone)",
+        "desc": "Le plein d’informations pour les personnes concernées, les proches, les jeunes. Site très bien fait avec de nombreuses ressources en ligne mais aussi localement (pour les frontaliers)",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.santepsy.ch/fr/"
+      },
+      {
+        "id": "ffab-federation-francaise-anorexie-boulimie",
+        "icon": "🌐",
+        "title": "Fédération Française Anorexie Boulimie (FFAB)",
+        "desc": "La FFAB regroupe des professionnels et des associations autour des troubles alimentaires (anorexie, boulimie, hyperphagie). Le site propose un annuaire de soins, des infos fiables et une ligne d'écoute dédiée.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://www.ffab.fr"
+      },
+      {
+        "id": "autrement-pour-un-autre-regard-sur-son-poids",
+        "icon": "🌐",
+        "title": "Autrement — Pour un autre regard sur son poids",
+        "desc": "Association fondée par d'anciennes personnes concernées par les TCA. Propose des groupes de parole, un forum d'entraide et des témoignages de rétablissement. Une approche chaleureuse, loin du jargon médical.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://www.anorexie-et-boulimie.fr"
+      },
+      {
+        "id": "hypersupers-tdah-france",
+        "icon": "🌐",
+        "title": "HyperSupers TDAH France",
+        "desc": "Association reconnue d'utilité publique qui accompagne les personnes TDAH et leurs proches. Ressources sur le diagnostic adulte, les droits, et un réseau de groupes de parole partout en France.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://www.tdah-france.fr"
+      },
+      {
+        "id": "tdah-adulte-org",
+        "icon": "🌐",
+        "title": "TDAH-adulte.org",
+        "desc": "Site francophone complet dédié au TDAH de l'adulte : symptômes, diagnostic, traitements, stratégies d'auto-coaching. Très utile pour comprendre son fonctionnement et trouver des pistes concrètes.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://www.tdah-adulte.org"
+      },
+      {
+        "id": "mon-cerveau-a-encore-besoin-de-lunettes",
+        "icon": "📖",
+        "title": "\"Mon cerveau a encore besoin de lunettes\" de Annick Vincent",
+        "desc": "LE livre de référence sur le TDAH adulte, écrit par une psychiatre spécialisée. Accessible, illustré, avec des outils pratiques. Un incontournable pour mieux se comprendre.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ]
+      },
+      {
+        "id": "cn2r-centre-national-ressources-resilience",
+        "icon": "🌐",
+        "title": "Centre National de Ressources et de Résilience (Cn2r)",
+        "desc": "Organisme public qui rassemble et diffuse les connaissances sur le psychotraumatisme et la résilience. Propose des fiches pratiques, des formations et un annuaire de structures spécialisées.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://www.cn2r.fr"
+      },
+      {
+        "id": "memoire-traumatique-et-victimologie",
+        "icon": "🌐",
+        "title": "Mémoire Traumatique et Victimologie",
+        "desc": "Association de la Dre Muriel Salmona qui propose des ressources accessibles sur le trauma, la dissociation et la mémoire traumatique. Des brochures téléchargeables très bien faites pour comprendre ce qui se passe dans son corps et son cerveau.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://www.memoiretraumatique.org"
+      },
+      {
+        "id": "le-corps-n-oublie-rien-bessel-van-der-kolk",
+        "icon": "📖",
+        "title": "\"Le corps n'oublie rien\" de Bessel van der Kolk",
+        "desc": "Ouvrage de référence traduit en français sur le trauma et ses effets sur le corps. Écrit par un psychiatre pionnier, il explique comment le trauma s'inscrit physiquement et quelles approches thérapeutiques aident vraiment.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://www.albin-michel.fr/le-corps-noublie-rien-9782226393869"
+      },
+      {
+        "id": "autisme-france",
+        "icon": "🌐",
+        "title": "Autisme France",
+        "desc": "Association nationale de défense des droits des personnes autistes. Permanence téléphonique, documentation sur le diagnostic adulte, et ressources sur les droits et l'accompagnement.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://www.autisme-france.fr"
+      },
+      {
+        "id": "cle-autistes-collectif",
+        "icon": "🌐",
+        "title": "CLE Autistes — Collectif pour la Liberté d'Expression des Autistes",
+        "desc": "Collectif autogéré de personnes autistes qui milite pour l'auto-représentation. Articles, prises de position et ressources créées par et pour les personnes autistes. Une voix essentielle de la communauté.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://cleautistes.fr"
+      },
+      {
+        "id": "aspergirl-rudy-simone",
+        "icon": "📖",
+        "title": "\"Aspergirl\" de Rudy Simone",
+        "desc": "Guide traduit en français sur le vécu des femmes autistes. Aborde le diagnostic tardif, les stratégies d'adaptation et l'identité. Un livre qui a aidé beaucoup de femmes à se reconnaître.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://www.deboecksuperieur.com/ouvrage/9782807302747-aspergirl"
+      },
+      {
+        "id": "empreintes-accompagner-le-deuil",
+        "icon": "🌐",
+        "title": "Empreintes — Accompagner le deuil",
+        "desc": "Association qui accompagne les adultes, adolescents et enfants en deuil. Propose des groupes de parole, des consultations individuelles et une ligne d'écoute. Approche humaine et bienveillante.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://www.empreintes-asso.com"
+      },
+      {
+        "id": "le-deuil-michel-hanus",
+        "icon": "📖",
+        "title": "\"Le deuil\" de Michel Hanus (Que sais-je ?)",
+        "desc": "Ouvrage de référence de la collection Que sais-je ? qui explique les étapes du deuil avec clarté et douceur. Court, accessible, sans jargon.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ]
+      },
+      {
+        "id": "reseau-morphee-troubles-du-sommeil",
+        "icon": "🌐",
+        "title": "Réseau Morphée",
+        "desc": "Réseau de santé spécialisé dans les troubles du sommeil. Questionnaires en ligne, ateliers, et orientation vers des centres du sommeil. Une référence pour comprendre et améliorer son sommeil.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://www.reseau-morphee.fr"
+      },
+      {
+        "id": "psycom-quand-le-sommeil-s-en-mele",
+        "icon": "🌐",
+        "title": "Psycom — \"Quand le sommeil s'en mêle\"",
+        "desc": "Fiche pratique du Psycom qui explique les liens entre sommeil et santé mentale. Claire, illustrée et téléchargeable. Parfaite pour comprendre pourquoi le sommeil est si important quand on vit avec un trouble psy.",
+        "type": "Infographie",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://www.psycom.org/sinformer/la-sante-mentale/quand-le-sommeil-sen-mele/"
+      },
+      {
+        "id": "bien-dormir-sans-medicaments-patrick-lemoine",
+        "icon": "📖",
+        "title": "\"Bien dormir sans médicaments\" du Dr Patrick Lemoine",
+        "desc": "Guide pratique d'un psychiatre spécialiste du sommeil. Donne des clés pour retrouver un sommeil de qualité sans passer par les somnifères, avec des méthodes douces et validées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ]
+      },
+      {
+        "id": "le-diplome-d-universite-pair-aidance-en-sante-mentale",
+        "icon": "🎬",
+        "title": "Le Diplôme d’Université \"Pair-aidance en santé mentale\"",
+        "desc": "Une vidéo qui présente le Diplôme d'Université en pair-aidance, avec le témoignage d'un pair-aidant et d'une psychiatre. Utile pour comprendre ce métier émergent et les formations possibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Nate5awur_4"
+      },
+      {
+        "id": "angoisses-troubles-anxieux-depression-comment-aider-nos-ados",
+        "icon": "🎬",
+        "title": "Angoisses, troubles anxieux, dépression : comment aider nos ados ? - Ça commence aujourd'hui",
+        "desc": "Émission télé de France 2 qui aborde les troubles anxieux et la dépression chez les adolescents, avec des témoignages et conseils pour les parents. Format accessible grand public avec expertise médicale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=AX-puzsVzx8"
+      },
+      {
+        "id": "adieu-feroce-vivre-dans-l-ombre-du-suicide-2010-film-complet",
+        "icon": "🎬",
+        "title": "Adieu féroce : Vivre dans l'ombre du suicide (2010) | Film complet | Dr Kay Redfield Jamison",
+        "desc": "Un documentaire poignant où des familles endeuillées par suicide témoignent de leur vécu pour briser le silence et accompagner d'autres personnes dans cette épreuve. Leurs récits intimes offrent compréhension et espoir à ceux qui traversent un deuil similaire.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte",
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=2kTJ4wMm_vs"
+      },
+      {
+        "id": "la-realite-des-proches-aidants-en-sante-mentale",
+        "icon": "🎬",
+        "title": "La réalité des proches aidants en santé mentale",
+        "desc": "Une vidéo qui explore le vécu des proches aidants en santé mentale, leurs défis quotidiens et l'impact sur leur propre bien-être. Basée sur des données de l'organisme Oasis santé mentale, elle offre un éclairage concret sur cette réalité souvent invisible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=E2Y1N14Yjw8"
+      },
+      {
+        "id": "proches-aidants-un-parcours-du-combattant",
+        "icon": "🎬",
+        "title": "\"Proches Aidants: un parcours du combattant\"",
+        "desc": "Documentaire sur le quotidien des proches aidants face à la maladie d'un être cher. Témoignages de familles qui partagent leur réalité, leurs défis et leur parcours d'accompagnement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=uIqAcSYkluA"
+      },
+      {
+        "id": "heros-du-quotidien-les-proches-aidants",
+        "icon": "🎬",
+        "title": "Héros du quotidien : les proches aidants",
+        "desc": "Documentaire de la RTS qui donne la parole aux proches aidants et explore leur quotidien. Une approche humaine et bienveillante pour comprendre ce rôle essentiel mais souvent invisible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=_K_O9n-aCPQ"
+      },
+      {
+        "id": "enfants-places-retires-a-leurs-parents-immersion-dans-une-po",
+        "icon": "🎬",
+        "title": "Enfants placés, retirés à leurs parents : immersion dans une pouponnière - reportage intégral",
+        "desc": "Reportage d'Envoyé Spécial qui suit le quotidien d'une pouponnière accueillant des nourrissons retirés à leurs familles. Une immersion délicate qui éclaire sur les enjeux du placement précoce et l'accompagnement des tout-petits en situation de vulnérabilité.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Omght8WDG5U"
+      },
+      {
+        "id": "comment-ne-pas-se-faire-avaler-par-son-role-de-proche-aidant",
+        "icon": "🎬",
+        "title": "Comment ne pas se faire avaler par son rôle de proche aidant?  - Sans Filtre",
+        "desc": "Une vidéo qui aborde la détresse psychologique vécue par les proches aidants et donne des pistes pour préserver son bien-être. Particulièrement utile pour comprendre les enjeux spécifiques à ce rôle et éviter l'épuisement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=v007WsfLU1I"
+      },
+      {
+        "id": "role-du-pair-aidant-en-sante-mentale",
+        "icon": "🎬",
+        "title": "Rôle du Pair-Aidant en santé mentale",
+        "desc": "Vidéo explicative sur le rôle des pairs-aidants en santé mentale, présentée par un professionnel du secteur. Permet de mieux comprendre ce métier d'accompagnement par l'expérience vécue.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Gxggd0WjShQ"
+      },
+      {
+        "id": "l-aide-aux-aidants-le-programme-profamille-schizophrenie",
+        "icon": "🎬",
+        "title": "L'AIDE AUX AIDANTS : le programme PROFAMILLE (schizophrénie)",
+        "desc": "Présentation du programme PROFAMILLE, un accompagnement spécialisé pour les proches de personnes vivant avec une schizophrénie. Explique concrètement comment ce soutien peut améliorer le quotidien de toute la famille et favoriser le rétablissement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=fRSezVlpdvQ"
+      },
+      {
+        "id": "le-counseling-aupres-des-proches-aidants",
+        "icon": "📖",
+        "title": "Le counseling auprès des proches aidants",
+        "desc": "Un guide pratique qui accompagne les proches aidants dans leur rôle d'accompagnement. Propose des outils concrets et des stratégies pour mieux vivre cette situation souvent épuisante.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://openlibrary.org/works/OL27734254W"
+      },
+      {
+        "id": "alzheimer-et-troubles-cognitifs-le-balado-des-proches-aidant",
+        "icon": "🎙️",
+        "title": "Alzheimer et troubles cognitifs | Le balado des proches aidants | S3E3",
+        "desc": "Un épisode de podcast qui explore l'accompagnement des personnes atteintes d'Alzheimer et de troubles cognitifs. Une ressource spécialement conçue pour les proches aidants, avec des conseils pratiques et du soutien pour mieux comprendre et vivre ces situations.",
+        "type": "Podcast",
+        "troubles": [
+          "Proches aidants",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=DnkEyge7o0c"
+      },
+      {
+        "id": "proches-aidants-la-face-cachee-de-la-sante-36-9",
+        "icon": "🎬",
+        "title": "Proches aidants - La face cachée de la santé | 36.9°",
+        "desc": "Documentaire de la RTS qui explore le quotidien des proches aidants qui accompagnent des personnes âgées, malades ou en situation de handicap. Une approche sensible qui met en lumière cette réalité souvent invisible et les défis rencontrés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=95skiRepSVE"
+      },
+      {
+        "id": "temoignage-d-aidant-les-dispositifs-d-aide-aux-aidants",
+        "icon": "🎬",
+        "title": "Témoignage d'aidant - les dispositifs d'aide aux aidants",
+        "desc": "Témoignage authentique d'une aidante qui partage son parcours et les ressources qui l'ont soutenue. Un éclairage précieux sur les dispositifs d'aide existants, à travers le regard de quelqu'un qui les a vécus de l'intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=rl2f_SzI10c"
+      },
+      {
+        "id": "du-fou-au-collegue-de-travail-l-embauche-de-pairs-aidants-da",
+        "icon": "🎬",
+        "title": "Du fou au collègue de travail : l'embauche de pairs-aidants dans les services de santé mentale.",
+        "desc": "Documentaire québécois qui explore l'embauche de pairs-aidants dans les services de santé mentale. Une approche inspirante qui montre comment l'expérience vécue peut devenir un atout professionnel et contribuer à déstigmatiser les troubles psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=pU8v34qasO8"
+      },
+      {
+        "id": "le-chemin-des-aidants-sante-mentale",
+        "icon": "🎬",
+        "title": "Le chemin des aidants - Santé mentale",
+        "desc": "Podcast vidéo qui donne la parole aux proches aidants, produit par l'IUCT Oncopole. Une approche centrée sur le témoignage et l'expérience vécue des aidants confrontés aux défis de l'accompagnement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=COLqxU83JLI"
+      },
+      {
+        "id": "sante-mentale-des-aidants-un-combat-invisible-synapsetv",
+        "icon": "🎬",
+        "title": "Santé mentale des aidants : un combat invisible - SynapseTV",
+        "desc": "Un documentaire qui met en lumière le vécu des proches aidants et l'impact sur leur propre santé mentale. Aborde le défi de prendre soin d'un proche tout en préservant son équilibre personnel.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=ZENliaj5obA"
+      },
+      {
+        "id": "vivre-avec-un-trouble-bipolaire-le-temoignage-de-anne-saint-",
+        "icon": "🎬",
+        "title": "Vivre avec un trouble bipolaire - Le témoignage de Anne Saint-Cast",
+        "desc": "Le témoignage authentique d'Anne Saint-Cast, présidente de l'association Bipol'Air 22, qui partage son vécu du trouble bipolaire. Une approche par les pairs qui aide à mieux comprendre ce que vivent les personnes concernées au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=PaTfx0ahwZo"
+      },
+      {
+        "id": "des-histoires-qui-resonnent-le-balado-des-proches-aidants-an",
+        "icon": "🎙️",
+        "title": "Des histoires qui résonnent : le Balado des proches aidants - animé par Marina Orsini",
+        "desc": "Un podcast québécois animé par Marina Orsini qui donne la parole aux proches aidants. Chaque épisode raconte des histoires vraies, des témoignages touchants qui permettent de se sentir moins seul·e et de puiser dans l'expérience d'autres aidant·e·s.",
+        "type": "Podcast",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/des-histoires-qui-r%C3%A9sonnent-le-balado-des-proches-aidants/id1564893544?l=fr&uo=4"
+      },
+      {
+        "id": "aidants-naturels-aupres-de-l-enfant-a-l-hopital",
+        "icon": "📖",
+        "title": "Aidants Naturels Auprès de l'enfant à L'hôpital",
+        "desc": "Un livre qui explore le rôle des proches accompagnant un enfant hospitalisé. Aborde les défis émotionnels et pratiques que vivent les familles face à la maladie et l'hospitalisation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL25384622W"
+      },
+      {
+        "id": "aidants-naturels-aupres-de-l-adulte-a-l-hopital",
+        "icon": "📖",
+        "title": "Aidants Naturels Auprès de l'adulte à L'hôpital",
+        "desc": "Un ouvrage qui explore le rôle des proches accompagnant une personne hospitalisée. Aborde les défis émotionnels et pratiques auxquels font face les aidants dans le contexte hospitalier.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://openlibrary.org/works/OL25379674W"
+      },
+      {
+        "id": "evaluation-d-un-programme-de-groupe-de-soutien-aux-aidants-n",
+        "icon": "📖",
+        "title": "Évaluation d'un programme de groupe de soutien aux aidants naturels de personnes âgées démentes vivant à domicile",
+        "desc": "Recherche académique de 1993 sur un programme de soutien pour les aidants de personnes âgées avec démence. Contenu très technique et daté, plutôt destiné aux professionnels qu'aux proches en recherche d'aide pratique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL18845721W"
+      },
+      {
+        "id": "aidants-comment-aider-un-proche-qui-souffre-sans-y-laisser-s",
+        "icon": "🎬",
+        "title": "Aidants : comment aider un proche qui souffre sans y laisser sa peau - Dialogue avec Hélène Rossinot",
+        "desc": "Une vidéo qui aborde les défis des proches aidants avec bienveillance. Hélène Rossinot partage des conseils pour accompagner un proche en souffrance tout en préservant sa propre santé mentale et physique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=rQmV9Lv1snA"
+      },
+      {
+        "id": "epuisement-chez-le-proche-aidant",
+        "icon": "🎬",
+        "title": "Epuisement chez le proche aidant",
+        "desc": "Une vidéo qui aborde l'épuisement des proches aidants, un sujet crucial mais souvent tabou. Aide à reconnaître les signes et comprendre que c'est normal de se sentir dépassé·e quand on accompagne un proche.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=vxEWQ8lbihg"
+      },
+      {
+        "id": "temoignage-proche-aidant-4-4-alzheimer-je-voulais-sauver-jea",
+        "icon": "🎬",
+        "title": "Témoignage \"Proche aidant\" (4/4) : Alzheimer : \"Je voulais sauver Jean-Guy\"",
+        "desc": "Témoignage poignant de Lise, proche aidante de Jean-Guy atteint d'Alzheimer. Elle partage son parcours d'acceptation face à une maladie où 'il n'y a pas de baguette magique', offrant un regard authentique sur l'accompagnement et le lâcher-prise nécessaire.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=7Cx5IUz9JPc"
+      },
+      {
+        "id": "12-la-culpabilite-du-proche-aidant-ghislaine-bourque",
+        "icon": "🎬",
+        "title": "12 - La culpabilité du proche aidant - Ghislaine Bourque",
+        "desc": "Une psychologue aborde la culpabilité ressentie par les proches aidants et propose des pistes concrètes pour l'apaiser. Un regard bienveillant sur cette émotion difficile mais normale dans l'accompagnement d'un proche.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=Z4KNXcF5G2U"
+      },
+      {
+        "id": "8-aidants-et-confinement-la-psycho-education-face-a-l-advers",
+        "icon": "🎬",
+        "title": "8- Aidants et confinement, la psycho-éducation face à l’adversité... Dr Romain Rey",
+        "desc": "Résultats d'une enquête menée avec l'Unafam sur l'impact du confinement sur les aidants et l'apport de la psycho-éducation. Une approche concrète pour comprendre les défis spécifiques vécus par les proches pendant cette période difficile.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=8iA-viDXrNM"
+      },
+      {
+        "id": "podcast-graine-de-rehab-episode-3-l-aidance-en-sante-mentale",
+        "icon": "🎙️",
+        "title": "[Podcast Graine de réhab] Episode 3 - L’aidance en santé mentale du côté des femmes",
+        "desc": "Un podcast qui explore le vécu des femmes aidantes en santé mentale, avec le témoignage de professionnelles qui partagent leurs expériences et réflexions. Une approche bienveillante pour comprendre les défis spécifiques rencontrés par les femmes dans l'accompagnement de leurs proches.",
+        "type": "Podcast",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=aOnHsGa0leA"
+      },
+      {
+        "id": "sa-fille-avait-18-ans-du-mal-d-adolescent-au-suicide",
+        "icon": "🎬",
+        "title": "Sa fille avait 18 ans, du mal d'adolescent au suicide",
+        "desc": "Témoignage d'une mère qui a perdu sa fille de 18 ans par suicide. Elle partage son vécu pour sensibiliser aux signaux d'alarme chez les adolescents et accompagner d'autres familles endeuillées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=KOYNPu-Kp_4"
+      },
+      {
+        "id": "aider-un-proche-qui-souffre-psychologiquement",
+        "icon": "🎬",
+        "title": "Aider un proche qui souffre psychologiquement",
+        "desc": "Conseils pratiques d'une psychologue pour accompagner un proche en souffrance psychologique, même quand il refuse l'aide. Aborde les limites à poser et comment prendre soin de soi en tant qu'aidant.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://youtube.com/watch?v=ZFmKbydbRvI"
+      },
+      {
+        "id": "information-capsule-borderline-personality-disorder",
+        "icon": "🎬",
+        "title": "Information Capsule - Borderline Personality Disorder",
+        "desc": "Capsule d'information destinée aux proches pour comprendre les manifestations et l'évolution du trouble de la personnalité borderline. Une ressource pour mieux accompagner un proche concerné.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=tC7_kWjp964"
+      }
+    ]
+  },
+  {
+    "id": "retablissement",
+    "label": "🌿 Vers le rétablissement",
+    "items": [
+      {
+        "id": "la-tete-haute-baptiste-et-l-alcoolisme",
+        "icon": "📖",
+        "title": "La Tête Haute : Baptiste et l'alcoolisme.",
+        "desc": "",
+        "type": "",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://fb.watch/auNrhqQA19/"
+      },
+      {
+        "id": "microbiote-et-schizophrenie",
+        "icon": "🎬",
+        "title": "Microbiote et schizophrénie",
+        "desc": "Présentation du Dr Guillaume Fond",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://m.youtube.com/watch?v=cAAXHuOmjDg&feature=share"
+      },
+      {
+        "id": "portrait-de-maxime-perez-zitvogel-co-fondateur-de-",
+        "icon": "🎬",
+        "title": "Portrait de Maxime Perez Zitvogel, co-fondateur de la Maison Perchée",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.lespatientssengagent.fr/maxime-perez-zitvogel-co-fondateur-de-la-maison-perchee"
+      },
+      {
+        "id": "blog-en-bande-dessinee-sur-la-schizophrenie",
+        "icon": "🌐",
+        "title": "Blog en Bande dessinée sur la schizophrénie",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "http://tagueuleboris.com/index.php/pourquoi-ce-blog/"
+      },
+      {
+        "id": "se-retablir-c-est-s-eloigner-du-gouffre",
+        "icon": "📖",
+        "title": "« Se rétablir, c’est s’éloigner du gouffre »",
+        "desc": "",
+        "type": "",
+        "troubles": [],
+        "link": "https://www.santementale.fr/2021/12/se-retablir-cest-seloigner-du-gouffre/?fbclid=IwAR064pFEnnSejVHS49MdEmm-chUviPyvMkdNrPUFWaoMzRLYlQwtpxKINg8"
+      },
+      {
+        "id": "schizophrenie-vivre-avec",
+        "icon": "🎙️",
+        "title": "Schizophrénie : vivre avec",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.franceculture.fr/emissions/le-magazine-de-la-redaction/schizophrenie-vivre-avec-0"
+      },
+      {
+        "id": "depression-et-inflammation-le-role-emergent-du-sys",
+        "icon": "📖",
+        "title": "Dépression et inflammation : le rôle émergent du système immunitaire en psychiatrie",
+        "desc": "",
+        "type": "",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://theconversation.com/depression-et-inflammation-le-role-emergent-du-systeme-immunitaire-en-psychiatrie-171459?utm_term=Autofeed&utm_medium=Social&utm_source=Facebook&fbclid=IwAR1xUf0p5gb5wAJhZIIKtf_jSMf4WRVh3Vz-O5y4cR9vwy_RflIwjoPDEAs#Echobox=1639726025"
+      },
+      {
+        "id": "les-journees-de-la-schizophrenie",
+        "icon": "🎤",
+        "title": "Les journées de la schizophrénie",
+        "desc": "De nombreuses conférences à voir en replay sur le rétablissement, la schizophrénie, la place des proches, la communication ... Une mine d’informations !",
+        "type": "Conférence",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://schizinfo.com/"
+      },
+      {
+        "id": "que-se-passe-t-il-dans-la-tete-d-un-schizophrene",
+        "icon": "🎙️",
+        "title": "Que se passe-t-il dans la tête d’un schizophrène ?",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.franceculture.fr/conferences/universite-de-nantes/cerveau-et-schizophrenie"
+      },
+      {
+        "id": "collectif-schizophrenies-premier-portail-sur-la-sc",
+        "icon": "🌐",
+        "title": "Collectif schizophrénies : premier portail sur la schizophrénie",
+        "desc": "Site de ressources à découvrir absolument",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.collectif-schizophrenies.com/"
+      },
+      {
+        "id": "schizo-espoir-dans-le-haut-rhin",
+        "icon": "🌐",
+        "title": "Schizo Espoir dans le Haut Rhin",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.schizoespoir.com/"
+      },
+      {
+        "id": "promesses",
+        "icon": "🌐",
+        "title": "PromesseS",
+        "desc": "Association pour les Proches de personnes concernées par la schizophrénie. Propose régulièrement des conférences en ligne et un programme de randonnées itinérantes en petit groupe.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.promesses-sz.fr/"
+      },
+      {
+        "id": "schizo-jeunes",
+        "icon": "🌐",
+        "title": "Schizo Jeunes",
+        "desc": "Association pour les Proches et les jeunes concernés par la schizophrénie. Utilise l’équithérapie en complément des soins classiques.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://fr-fr.facebook.com/schizojeunes/"
+      },
+      {
+        "id": "la-schizophrenie-une-maladie-tres-invalidante",
+        "icon": "🌐",
+        "title": "La schizophrénie : une maladie très invalidante",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.fondation-fondamental.org/les-maladies-mentales/schizophrenie"
+      },
+      {
+        "id": "ensemble-on-aboie-en-silence-de-gringe-parrain-de-",
+        "icon": "📖",
+        "title": "Ensemble, on aboie en silence de Gringe, parrain de LMP",
+        "desc": "Témoignage authentique de Gringe, en tant que frère d’une personne concernée par la schizophrénie.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "cap-sur-le-retablissement",
+        "icon": "📖",
+        "title": "Cap sur le rétablissement",
+        "desc": "Témoignage de Luc, concerné par la schizophrénie, sur son rétablissement co-écrit avec des professionnels de santé qui apportent leur vision du rétablissement",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "comment-faire-accepter-son-traitement-au-malade-du",
+        "icon": "📖",
+        "title": "Comment faire accepter son traitement au malade du Dr Xavier Amador",
+        "desc": "Un livre très utile quand on se heurte au refus d’une personne atteinte de schizophrénie de prendre un traitement. De très nombreuses pistes pour apprendre à communiquer avec son proche malade.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "mademoiselle-laure-chansons-bipolaires-et-alors",
+        "icon": "🌐",
+        "title": "Mademoiselle Laure, chansons bipolaires et alors !",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://m.youtube.com/channel/UC9hCgBd6sI46ftnAV9W77UA"
+      },
+      {
+        "id": "schizophrenie-explique-par-psykocouac",
+        "icon": "🎬",
+        "title": "Schizophrénie expliqué par Psykocouac",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=NWqhPcIpGqg"
+      },
+      {
+        "id": "c-est-quoi-etre-schizophrene-par-lucille-zolla-pre",
+        "icon": "🎬",
+        "title": "C’est quoi être schizophrène ? par Lucille Zolla présidente de LMP",
+        "desc": "Témoignage sincère et authentique de Lucille qui déconstruit les clichés sur cette maladie",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=OWGhyloBBno"
+      },
+      {
+        "id": "vivre-avec-la-schizophrenie-emission-ca-commence-a",
+        "icon": "🎬",
+        "title": "Vivre avec la schizophrénie. Emission Ca commence aujourd’hui",
+        "desc": "Témoignage de Jason, jeune atteint de schizophrénie, qui explique son combat contre la maladie avec le soutien de sa maman et de Florent Babillote, aujourd’hui père de famille et aide-soignant en HP",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=OGJN-F6BZ8A"
+      },
+      {
+        "id": "gringe-et-lucille-veulent-briser-les-tabous-sur-la",
+        "icon": "🎬",
+        "title": "Gringe et Lucille veulent briser les tabous sur la schizophrénie",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=RsESzeOG2hA&t=2s"
+      },
+      {
+        "id": "la-schizophrenie-les-raisons-de-l-espoir-dr-guilla",
+        "icon": "🎬",
+        "title": "La schizophrénie, les raisons de l'espoir ! Dr Guillaume Fond et Florent Babillotte",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtu.be/6EF41m-ao8o"
+      },
+      {
+        "id": "schizophrenie-mieux-accompagner-les-malades",
+        "icon": "🎬",
+        "title": "Schizophrénie : mieux accompagner les malades ?",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=y2PNA7cb0B4"
+      },
+      {
+        "id": "humeur-liquide-etre-s-bipolaire-documentaire",
+        "icon": "🎬",
+        "title": "“Humeur liquide, Être(s) bipolaire” documentaire",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtu.be/xCb34lAKEh4"
+      },
+      {
+        "id": "la-schizophrenie-comment-s-en-sortir-temoignage-de",
+        "icon": "🎬",
+        "title": "La schizophrénie, comment s'en sortir ? Témoignage de Florent Babillote",
+        "desc": "Florent est aujourd’hui aide-soignant en hôpital psy. Il raconte avec humilité son parcours de rétablissement",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=bFk42dbEpDA"
+      },
+      {
+        "id": "ma-boussole-aidants",
+        "icon": "🌐",
+        "title": "Ma boussole Aidants",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.maboussoleaidants.fr/"
+      },
+      {
+        "id": "l-importance-de-la-famille-dans-le-chemin-vers-le-",
+        "icon": "🎬",
+        "title": "L'importance de la famille dans le chemin vers le rétablissement.",
+        "desc": "Vidéo de Florent Babillote, concerné par la schizophrénie, père de famille, aide-soignant et coach",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=RXVA8uQGVhQ"
+      },
+      {
+        "id": "open-dialogue-un-moyen-de-sortir-de-la-psychose",
+        "icon": "🎬",
+        "title": "Open dialogue : un moyen de sortir de la psychose",
+        "desc": "Documentaire passionnant sur l’Open dialogue, méthode alternative pour apaiser les crises psychotiques sans recours systématique au traitement médicamenteux.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=7tb8ITIFOyY"
+      },
+      {
+        "id": "avec-goliath-un-poignant-recit-en-realite-virtuell",
+        "icon": "📱",
+        "title": "Avec « Goliath », un poignant récit en réalité virtuelle sur la psychose",
+        "desc": "",
+        "type": "Applis",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.lemonde.fr/pixels/article/2021/12/19/avec-goliath-un-poignant-recit-en-realite-virtuelle-sur-la-psychose_6106690_4408996.html#xtor=AL-32280270-%5Bwhatsapp%5D-%5Bios%5D"
+      },
+      {
+        "id": "gringe-raconte-la-schizophrenie-de-son-petit-frere",
+        "icon": "🎬",
+        "title": "Gringe raconte la schizophrénie de son petit frère",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=6Cq3oDpd1RE"
+      },
+      {
+        "id": "bien-choisir-son-therapeute",
+        "icon": "🎬",
+        "title": "Bien choisir son thérapeute",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [],
+        "link": "https://youtu.be/fTpTK1jOf3UCoucou"
+      },
+      {
+        "id": "les-entendeurs-de-voix",
+        "icon": "🌐",
+        "title": "Les entendeurs de voix",
+        "desc": "Site à découvrir absolument Objectif de l’assos : promouvoir une approche des voix et des autres perceptions, expériences ou vécus inhabituels, respectueuse des personnes et de leur expertise. Un site de précieuses ressources aussi bien pour les personnes concernées que pour leurs Proches.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://revfrance.org/presentation/"
+      },
+      {
+        "id": "tout-pour-etre-heureux-film-documentaire-de-jerome",
+        "icon": "🎬",
+        "title": "“Tout pour être heureux” film documentaire de Jérôme Adam : vécus des familles sur les addictions d’un proche",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.toutpouretreheureux.film/origine-du-film/"
+      },
+      {
+        "id": "la-schizophrenie-sans-espoir",
+        "icon": "🎬",
+        "title": "La schizophrénie : sans espoir ?",
+        "desc": "Une réponse pleine d’espoir du Dr Guillaume Fond",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=3Zjk9BLEb7o"
+      },
+      {
+        "id": "je-suis-une-personne-pas-une-maladie-de-luc-vignea",
+        "icon": "📖",
+        "title": "Je suis une personne, pas une maladie de Luc Vigneault",
+        "desc": "Regards croisés très instructifs sur le rétablissement entre Luc, atteint de schizophrénie, qui témoigne sur son parcours et de nombreux professionnels de santé qui expliquent leur vision du rétablissement",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "peut-on-guerir-de-la-schizophrenie-puis-je-arreter",
+        "icon": "🎬",
+        "title": "Peut-on guérir de la schizophrénie ? Puis-je arrêter les antipsychotiques ? par le Dr Guillaume Fond",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=O0A1ej_8RVg"
+      },
+      {
+        "id": "des-lumieres-sur-le-ciel-de-benedicte-chenu",
+        "icon": "📖",
+        "title": "Des lumières sur le ciel de Bénédicte Chenu",
+        "desc": "“Ce livre est le récit du parcours que j’ai mené avec mon fils, des rencontres qui ont été décisives, de ce que nous avons appris pour qu’il puisse enfin vivre une vie apaisée et autonome. Parce que l’on peut se rétablir de la schizophrénie, et même vivre une belle vie.”",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "la-voix-interieure-guide-pratique-a-l-usage-et-au-",
+        "icon": "📖",
+        "title": "La voix intérieure : Guide pratique à l'usage (et au sujet) des personnes qui entendent des voix de Paul Baker",
+        "desc": "Un livre fort utile aussi bien pour les personnes concernées que leurs proches",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "des-voix-dans-ma-tete-temoignage-d-eleanor-longden",
+        "icon": "🎬",
+        "title": "Des voix dans ma tête. Témoignage d’Eleanor Longden",
+        "desc": "Eleanor explique comment elle a appris à composer avec ses voix intérieures et leur sens.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.ted.com/talks/eleanor_longden_the_voices_in_my_head?language=fr&subtitle=fr"
+      },
+      {
+        "id": "la-schizophrenie-expliquee-en-4-minutes-par-le-pr-",
+        "icon": "🎬",
+        "title": "La schizophrénie expliquée en 4 minutes par le Pr Llorca",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=QkpUkbFlHy8"
+      },
+      {
+        "id": "societe-quebecoise-de-la-schizophrenie",
+        "icon": "🌐",
+        "title": "Société québécoise de la schizophrénie",
+        "desc": "Site ressources très complet : témoignages, informations sur la maladie, programme de psychoéducation en ligne, conférences",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.schizophrenie.qc.ca/fr/"
+      },
+      {
+        "id": "psy-care-par-le-ghu-de-paris",
+        "icon": "🌐",
+        "title": "Psy-Care, par le GHU de Paris",
+        "desc": "Le projet PsyCARE vise à améliorer l’intervention précoce en cas de psychose en fournissant un nouvel ensemble d’outils faciles à diffuser afin : • De faciliter l’accès aux soins • D’améliorer la détection précoce • D’offrir des programmes thérapeutiques personnalisés",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://psy-care.fr/"
+      },
+      {
+        "id": "apres-l-hiver-une-histoire-vecue-sur-le-traitement",
+        "icon": "🎬",
+        "title": "Après l’hiver : une histoire vécue sur le traitement de la schizophrénie",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=vdW0Zft8Rso"
+      },
+      {
+        "id": "ma-famille-de-ouf",
+        "icon": "🌐",
+        "title": "Ma famille de ouf",
+        "desc": "Un site spécialement dédié pour les proches",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://mafamilledeouf.com/a-propos/"
+      },
+      {
+        "id": "mon-quotidien-en-tant-que-bipolaire",
+        "icon": "🎬",
+        "title": "Mon quotidien en tant que bipolaire",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www-konbini-com.cdn.ampproject.org/c/s/www.konbini.com/fr/amp/partners/video-speech-mon-quotidien-en-tant-que-bipolaire/"
+      },
+      {
+        "id": "trouble-de-la-personnalite-limite",
+        "icon": "🎬",
+        "title": "Trouble de la personnalité limite",
+        "desc": "Présentation bien faite et complète par l’association québécoise La boussole (!)",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=tC7_kWjp964"
+      },
+      {
+        "id": "les-troubles-bipolaires-site-ressources",
+        "icon": "🌐",
+        "title": "Les troubles bipolaires (site ressources)",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.troubles-bipolaires.com/"
+      },
+      {
+        "id": "le-trouble-bipolaire-infographie",
+        "icon": "📊",
+        "title": "Le trouble bipolaire : infographie",
+        "desc": "Le%20WikiPerch%C3%A9%20de%20La%20Maison%20Perch%C3%A9e/IMG-20220116-WA0000%201.jpg",
+        "type": "Infographie",
+        "troubles": [
+          "Bipolarité"
+        ]
+      },
+      {
+        "id": "formation-en-ligne-pour-les-aidants",
+        "icon": "🌐",
+        "title": "Formation en ligne pour les aidants",
+        "desc": "Formation en ligne a pour objectifs de se questionner et d'analyser les situations vécues dans la relation au proche malade, en situation de handicap ou de dépendance afin de trouver les réponses adéquates. L'objectif est aussi de mieux connaître et mobiliser les ressources existantes près de chez vous. Formation non spécifique aux handicap psychique.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://formation.aidants.fr/"
+      },
+      {
+        "id": "avant-de-craquer",
+        "icon": "🌐",
+        "title": "Avant de craquer",
+        "desc": "Excellent site québécois plein de ressources pour soutenir les Proches",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.avantdecraquer.com/"
+      },
+      {
+        "id": "troubles-bipolaires-une-application-pour-un-meille",
+        "icon": "📱",
+        "title": "Troubles bipolaires : une application pour un meilleur suivi",
+        "desc": "",
+        "type": "Applis",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.allodocteurs.fr/passeport-bp-un-parcours-de-soins-adapte-aux-personnes-souffrant-de-troubles-bipolaires-32452.html"
+      },
+      {
+        "id": "profamille",
+        "icon": "🌐",
+        "title": "Profamille",
+        "desc": "Programme très complet de psychoeducation pour les Proches qui apporte plein d’informations sur la schizophrénie et aide à communiquer avec son proche et à gérer son propre stress",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://profamille.site"
+      },
+      {
+        "id": "e-bref",
+        "icon": "📱",
+        "title": "e-Bref",
+        "desc": "information claire, actualisée, compréhensible et porteuse d'espoir concernant les troubles psychiques, les traitements, l'organisation des soins, les aides disponibles… + identification des ressources pour les aidants près de chez vous",
+        "type": "Applis",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Schizophrénie"
+        ],
+        "link": "https://www.fondation-fondamental.org/ebref-une-application-smartphone-dediee-laccompagnement-des-familles"
+      },
+      {
+        "id": "leo",
+        "icon": "📖",
+        "title": "Léo",
+        "desc": "Programme de psychoéducation pour les familles",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Schizophrénie"
+        ],
+        "link": "https://www.collectif-schizophrenies.com/la-schizophrenie/le-programme-leo"
+      },
+      {
+        "id": "la-psychoeducation-pour-les-personnes-concernees-e",
+        "icon": "📖",
+        "title": "La psychoéducation pour les personnes concernées et leurs familles",
+        "desc": "Article très complet sur tous les programmes de psychoéducation : comment et où en bénéficier",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://www.collectif-schizophrenies.com/les-prises-en-charges/la-psycho-education-des-proches"
+      },
+      {
+        "id": "des-formations-pour-soutenir-l-entourage-familial",
+        "icon": "🌐",
+        "title": "Des formations pour soutenir l’entourage familial",
+        "desc": "L’Unafam propose à l’entourage familial (mères et pères, conjoints, sœurs et frères, filles et fils), vous les aidants, une offre de formation gratuite, riche et variée, à suivre en fonction de vos attentes personnelles : • En présentiel, près de chez vous • En ligne, sur la plateforme http://www.formaidants.fr/",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.unafam.org/nos-actions/formations/des-formations-pour-soutenir-lentourage-familial"
+      },
+      {
+        "id": "maxime-et-sa-mere-parlent-de-la-bipolarite",
+        "icon": "🎬",
+        "title": "Maxime et sa mère parlent de la bipolarité",
+        "desc": "Maxime, co-fondateur de La Maison Perchée témoigne sur sa bipolarité ainsi que sa mère. Regards croisés sur une même expérience de vie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtu.be/9j_i5jm_mwE"
+      },
+      {
+        "id": "l-open-dialogue-pour-mieux-repondre-aux-besoins-li",
+        "icon": "🌐",
+        "title": "L’Open dialogue pour mieux répondre aux besoins liés aux troubles psychiques",
+        "desc": "Qu’est-ce que l’Open dialogue ? définition des principes en quelques lignes",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.santementale.fr/2022/02/lopen-dialogue-pour-mieux-repondre-aux-besoins-lies-aux-troubles-psychiques/"
+      },
+      {
+        "id": "microbiote-et-troubles-bipolaires",
+        "icon": "🎬",
+        "title": "Microbiote et troubles bipolaires",
+        "desc": "Quel lien entre microbiote et troubles bipolaires ? Présentation de Guillaume Fond",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=3jZjTlytENE"
+      },
+      {
+        "id": "les-voix-du-retablissement-de-sabrina-palumbo",
+        "icon": "📖",
+        "title": "Les voix du rétablissement de Sabrina Palumbo",
+        "desc": "Témoignages de 5 personnes concernées par la maladie psychique. Des parcours différents vers un même objectif : le rétablissement",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "argos-2001",
+        "icon": "🌐",
+        "title": "Argos 2001",
+        "desc": "Association d’aide aux personnes atteintes de troubles bipolaires et à leur entourage, créée en 2001. Ses activités essentielles consistent dans des groupes de paroles pour les patients et leurs proches ainsi que des conférences faites par des psychiatres spécialisés sur les troubles bipolaires.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://argos2001.net/"
+      },
+      {
+        "id": "accompagner-le-retablissement-d-une-personne-avec-",
+        "icon": "📖",
+        "title": "Accompagner le rétablissement d’une personne avec schizophrénie de Nicolas Barré",
+        "desc": "LE livre à lire absolument : concis, facile à lire, avec plein d’exemples concrets. Toutes les étapes du rétablissement sont parfaitement décrites et expliquées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "je-t-aime-moi-non-plus",
+        "icon": "🎙️",
+        "title": "Je t’aime, moi non plus",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://open.spotify.com/episode/1nzA8GzVBqrjarlV217prW?si=LAXoO3pJTBuDiEsThEL6MA&nd=1"
+      },
+      {
+        "id": "5-etapes-vers-le-retablissement",
+        "icon": "🌐",
+        "title": "5 étapes vers le rétablissement",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://schizinfo.com/se-retablir/5-etapes-vers-retablissement/"
+      },
+      {
+        "id": "open-dialogue-formation",
+        "icon": "🌐",
+        "title": "Open dialogue formation",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "http://www.odformation.org/"
+      },
+      {
+        "id": "la-rehabilitation-en-pratique-par-le-dr-nicolas-ra",
+        "icon": "🎤",
+        "title": "La réhabilitation en pratique par le Dr Nicolas Rainteau",
+        "desc": "Une autre approche humaniste de la réhabilitation qui place le patient au centre. A voir absolument !",
+        "type": "Conférence",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://schizinfo.com/eventbrite-event/rehabilitation-en-pratique/"
+      },
+      {
+        "id": "borderline-trouble-de-la-personnalite-psykocouac",
+        "icon": "🎬",
+        "title": "Borderline : trouble de la personnalité - Psykocouac",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=ICSWs7PlN4g"
+      },
+      {
+        "id": "open-dialogue-formations-pour-le-personnel-medical",
+        "icon": "🌐",
+        "title": "Open dialogue : formations pour le personnel médical",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://u-p-asso.fr/fr/formations"
+      },
+      {
+        "id": "cerveau-et-psycho-mars-2022",
+        "icon": "📖",
+        "title": "Cerveau et Psycho Mars 2022",
+        "desc": "Dossier assez complet sur les troubles borderline",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ]
+      },
+      {
+        "id": "le-trouble-borderline-c-est-quoi",
+        "icon": "🎬",
+        "title": "Le Trouble Borderline, c'est quoi ?",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=Z4CN9-rsYyI"
+      },
+      {
+        "id": "vincent-girard-une-autre-vision-de-la-psychiatrie-",
+        "icon": "🌐",
+        "title": "Vincent Girard : une autre vision de la psychiatrie et de la prise en charge des patients",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://blogs.letemps.ch/caroline-bernard/2022/04/26/vincent-girard-un-psychiatre-sen-va-t-en-paix/"
+      },
+      {
+        "id": "borderline-en-phase-de-comprehension-de-sa-maladie",
+        "icon": "🎬",
+        "title": "Borderline : en phase de compréhension de sa maladie",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=jf8kAc79SXU"
+      },
+      {
+        "id": "j-ai-ete-schizophrene",
+        "icon": "🌐",
+        "title": "“J’ai été schizophrène”",
+        "desc": "Le témoignage de Frédéric Meuwly, “ex-schizophrène”, “guéri” grâce à une approche thérapeutique basée sur le corps. A découvrir avec curiosité",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://blogs.letemps.ch/caroline-bernard/2021/01/25/jai-ete-schizophrene/"
+      },
+      {
+        "id": "borderline-quand-l-hyperemotivite-est-une-souffran",
+        "icon": "🎬",
+        "title": "Borderline quand l'hyperémotivité est une souffrance",
+        "desc": "Extrait de l’émission Allo Docteurs",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=zMZY6LcZLyM"
+      },
+      {
+        "id": "l-humeur-en-montagnes-russes-bipolaire-ou-borderli",
+        "icon": "🎤",
+        "title": "L'humeur en montagnes russes - Bipolaire ou borderline ?",
+        "desc": "Conférence présentée par le Dr Suzane Renaud, psychiatre québécoise",
+        "type": "Conférence",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=lnt_xt8VGEY"
+      },
+      {
+        "id": "borderline-j-etais-dans-l-autodestruction-pour-exi",
+        "icon": "🎬",
+        "title": "Borderline : \"j'étais dans l'autodestruction pour exister",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=L-CHOpv_bRM"
+      },
+      {
+        "id": "le-retablissement-psycom",
+        "icon": "🌐",
+        "title": "Le rétablissement - Psycom",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.psycom.org/comprendre/le-retablissement/"
+      },
+      {
+        "id": "trouble-de-la-personnalite-borderline-ou-limite",
+        "icon": "🎬",
+        "title": "🧠 Trouble de la personnalité BORDERLINE ou LIMITE",
+        "desc": "Vidéo explicative très claire",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=TRsETS7loLc"
+      },
+      {
+        "id": "le-temoignage-plein-d-espoir-d-elyn-saks-schizophr",
+        "icon": "🎬",
+        "title": "Le témoignage plein d’espoir d’Elyn Saks, schizophrène et rétablie",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=f6CILJA110Y"
+      },
+      {
+        "id": "trouble-de-la-personnalite-limite-ou-borderline",
+        "icon": "🎤",
+        "title": "Trouble de la personnalité limite ou borderline",
+        "desc": "Présentation très complète par le Dr Nadège Bourvis",
+        "type": "Conférence",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=9jjLIPo40Mk"
+      },
+      {
+        "id": "le-temoignage-de-cecilia-mcgough-etudiante-america",
+        "icon": "🎬",
+        "title": "Le témoignage de Cecilia McGough, étudiante américaine schizophrène",
+        "desc": "Elle a fait de sa maladie une force et a créé une association pour les étudiants atteints de schizophrénie. un magnifique témoignage de courage et d’espoir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=xbagFzcyNiM"
+      },
+      {
+        "id": "le-retablissement-en-psychiatrie",
+        "icon": "🎤",
+        "title": "Le rétablissement en psychiatrie",
+        "desc": "Témoignage de Vincent Demassiet, concerné par la schizophrénie. Il raconte son parcours et l’aide précieuse qu’il a reçue de RevFrance pour apprivoiser ses voix",
+        "type": "Conférence",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=YDh_3UeYAb4"
+      },
+      {
+        "id": "le-processus-de-retablissement-presente-par-un-med",
+        "icon": "🎤",
+        "title": "Le processus de rétablissement présenté par un médecin et une médiatrice de santé pair",
+        "desc": "Excellente vidéo dans laquelle le processus de rétablissement et ses différentes étapes sont très bien expliquées",
+        "type": "Conférence",
+        "troubles": [],
+        "link": "https://www.youtube.com/watch?v=ODriOIDOEK4"
+      },
+      {
+        "id": "le-retablissement-un-changement-de-paradigme",
+        "icon": "🎬",
+        "title": "Le rétablissement : un changement de paradigme",
+        "desc": "Présenté par le Dr Aurélie Tinland. Un peu plus technique que les autres vidéos mais accessible et très complet",
+        "type": "Vidéo / Film",
+        "troubles": [],
+        "link": "https://www.youtube.com/watch?v=lz1mhyNIIzE"
+      },
+      {
+        "id": "le-retablissement-en-sante-mentale-c-est-possible-",
+        "icon": "🎬",
+        "title": "Le rétablissement en santé mentale, c’est possible! | Kharoll-Ann",
+        "desc": "Témoignage d’une jeune québécoise sur son parcours et son rétablissement",
+        "type": "Vidéo / Film",
+        "troubles": [],
+        "link": "https://www.youtube.com/watch?v=oAFMiGsRoQk"
+      },
+      {
+        "id": "irreelle-realite-la-schizophrenie-un-super-pouvoir",
+        "icon": "🎬",
+        "title": "Irréelle réalité, la schizophrénie, un super pouvoir ? | Nathan Hofstetter",
+        "desc": "Témoignage de Nathan, cinéaste suisse réalisateur du film documentaire Loulou",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=Ce6ABfeVrsI"
+      },
+      {
+        "id": "interview-de-cecilia-mcgough-3-ans-apres-sa-confer",
+        "icon": "🎬",
+        "title": "Interview de Cecilia McGough, 3 ans après sa conférence TedEx",
+        "desc": "Très intéressant de constater l’évolution positive de Cécilia. Uniquement sous-titrée en anglais",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=6wXCEAXfYco"
+      },
+      {
+        "id": "paroles-de-retablissement-de-patricia-deegan",
+        "icon": "🎬",
+        "title": "Paroles de rétablissement de Patricia Deegan",
+        "desc": "Patricia Deegan, atteinte de schizophrénie, est l’une des pionnères du rétablissement",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=LnZrybnC9JQ"
+      },
+      {
+        "id": "se-retablir-de-lisa-mandel-un-ouvrage-original-sou",
+        "icon": "📖",
+        "title": "Se rétablir de Lisa Mandel, un ouvrage original sous forme de bande dessinée",
+        "desc": "Ce livre recueille avec humour les témoignages de personnes directement concernées. Qu’elles soient entendeuses de voix comme Romain, bipolaires comme Chloé ou atteintes de TDAH à l’instar de Jonathan, chacune nous prouve que nous ne sommes pas uniquement définis par nos neurodivergences, et qu’avec un accompagnement adapté, il est possible de s’en sortir.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles",
+          "Bipolarité",
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "psycom-un-site-de-ressources-sur-la-sante-mentale",
+        "icon": "🌐",
+        "title": "Psycom : un site de ressources sur la santé mentale",
+        "desc": "Psycom, une ressource publique nationale,pour que la santé mentale devienne l'affaire de toutes et de tous",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.psycom.org/"
+      },
+      {
+        "id": "nouveau-souffle",
+        "icon": "🌐",
+        "title": "Nouveau Souffle",
+        "desc": "Association qui soutient les proches aidants",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://nouveausouffle-asso.com/"
+      },
+      {
+        "id": "le-mensuel-des-equipes-soignantes-en-psychiatrie",
+        "icon": "🌐",
+        "title": "Le mensuel des équipes soignantes en psychiatrie",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.santementale.fr/"
+      },
+      {
+        "id": "les-consultations-jeunes-consommateurs-12-25ans",
+        "icon": "🌐",
+        "title": "Les consultations Jeunes Consommateurs (12-25ans)",
+        "desc": "Des consultations pour les jeunes mais aussi leur entourage ; trouver de l’aide près de chez soi",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.drogues-info-service.fr/Tout-savoir-sur-les-drogues/Se-faire-aider/Les-Consultations-jeunes-consommateurs-CJC-une-aide-aux-jeunes-et-a-leur-entourage"
+      },
+      {
+        "id": "addict-aide-pour-ne-plus-etre-seul-e-face-a-l-addi",
+        "icon": "🌐",
+        "title": "Addict’aide : pour ne plus être seul(e) face à l’addiction",
+        "desc": "Un site excellent pour : évaluer une addiction, trouver de l’aide près de chez soi, échanger sur le forum avec des pair-aidants",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://www.addictaide.fr/"
+      },
+      {
+        "id": "tomber-7-fois-se-relever-8-de-philippe-labro",
+        "icon": "📖",
+        "title": "Tomber 7 fois, se relever 8 de Philippe Labro",
+        "desc": "La dépression nerveuse: ça peut tomber sur nimporte qui, même sur un homme au sommet de la réussite. Philippe Labro revient de l'enfer. Il le dit. Il dit surtout qu'on peut en sortir, que tout le monde peut remonter la pente.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Dépression"
+        ]
+      },
+      {
+        "id": "psychonutrition-bien-manger-pour-aller-mieux",
+        "icon": "🎤",
+        "title": "Psychonutrition : Bien manger pour aller mieux",
+        "desc": "Conférence donnée par le Dr Guillaume Fond, le Dr Christophe André et organisée par le magazine Cerveau & Psycho",
+        "type": "Conférence",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=dsZSrrg6Rcw"
+      },
+      {
+        "id": "la-depression-resistante-comment-la-soigner",
+        "icon": "🎤",
+        "title": "La dépression résistante : comment la soigner ?",
+        "desc": "Conférence-webinaire du Dr Raphaelle Richieri",
+        "type": "Conférence",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=YIvTJsDzudI"
+      },
+      {
+        "id": "vivre-avec-la-schizophrenie",
+        "icon": "🎬",
+        "title": "Vivre avec la schizophrénie",
+        "desc": "Témoignage d’Aminata",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=-ihHRmWJuEI"
+      },
+      {
+        "id": "les-antispychotiques-comment-ca-marche",
+        "icon": "🎬",
+        "title": "Les antispychotiques : comment ça marche ?",
+        "desc": "Présentation par le Dr Guillaume Fond",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=pzPyJbRCnTQ"
+      },
+      {
+        "id": "ma-boussole-aidants-2",
+        "icon": "🌐",
+        "title": "Ma boussole Aidants",
+        "desc": "Un site de ressources très complet avec une recherche d’après votre localisation",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.maboussoleaidants.fr/"
+      },
+      {
+        "id": "premiers-secours-en-sante-mentale",
+        "icon": "🌐",
+        "title": "Premiers Secours en Santé Mentale",
+        "desc": "Propose des formations en PSSM aux particuliers et en entreprises. Edite des carnets très complets et bien faits sur différents sujets : comment mieux accompagner le trouble dépressif, le trouble psychotique, idées et comportements suicidaires, les attaques de panique",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Autres troubles",
+          "Dépression"
+        ],
+        "link": "https://pssmfrance.fr/"
+      },
+      {
+        "id": "3-conseils-pour-gerer-la-depression-par-le-dr-chri",
+        "icon": "🎬",
+        "title": "3 conseils pour gérer la dépression par le Dr Christophe André",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=R6wjZpZkNPQ"
+      },
+      {
+        "id": "solidarites-usagers-psy-2",
+        "icon": "🌐",
+        "title": "Solidarités Usagers Psy",
+        "desc": "Thématiques abordées : soins, logement, vie sociale, loisirs, insertion professionnelle… L'objectif premier de Solidarités Usagers Psy est d'être avant tout « pratiquo-pratique », dans un objectif de partages (d’informations et d’expériences vécues), et donc de solidarités (d’où le nom du site). Vous trouverez ainsi sur de nombreuses pages des guides, formulaires, outils… téléchargeables, ainsi que des vidéos informatives. Site TRES complet",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.solidarites-usagerspsy.fr/"
+      },
+      {
+        "id": "nightline",
+        "icon": "🌐",
+        "title": "Nightline",
+        "desc": "site très complet sur la santé mentale par et pour les étudiants. Ergonomie du site parfaitement adapté pour les étudiants. Plein de ressources.",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.nightline.fr/"
+      },
+      {
+        "id": "le-trouble-schizo-affectif-raconte-par-une-personn",
+        "icon": "🎬",
+        "title": "Le  trouble schizo-affectif raconté par une personne concernée",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Trouble schizo-affectif"
+        ],
+        "link": "https://association.graap.ch/temoignage-le-trouble-schizo-affectif/"
+      },
+      {
+        "id": "comment-et-pourquoi-diminuer-les-antipsychotiques-",
+        "icon": "🎤",
+        "title": "Comment et pourquoi diminuer les antipsychotiques dans le traitement de la schizophrénie ?",
+        "desc": "Conférence du Pr Fabrice Berna",
+        "type": "Conférence",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=S0f9MNwDyZ8"
+      },
+      {
+        "id": "comment-la-formation-de-connexions-familiales-vien",
+        "icon": "🎤",
+        "title": "Comment la formation de “Connexions familiales” vient en aide aux proches de patients atteints de TPL/ Borderline ?",
+        "desc": "Conférence animée par Bernard Le Mercier",
+        "type": "Conférence",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://www.youtube.com/watch?v=s09KAyO9d44&t=1s"
+      },
+      {
+        "id": "troubles-bipolaires-le-desespoir-des-patients-l-es",
+        "icon": "🎙️",
+        "title": "Troubles bipolaires : le désespoir des patients, l’espoir des médecins",
+        "desc": "UN excellent podcast qui met en lumière les dernières avancées médicales en termes de dépistage ; intervention d’ Argos 2001, association pour les personnes concernées et leurs familles",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.radiofrance.fr/franceinter/podcasts/interception/interception-du-dimanche-02-avril-2023-2554440?fbclid=IwAR0Z2lSCKVZNccCW0ECpv0qc5qjAcYFyoxGycyxGM2FERdWHN3oXbsH2d_0"
+      },
+      {
+        "id": "troubles-bipolaires-comment-les-detecter",
+        "icon": "🎙️",
+        "title": "Troubles bipolaires : comment les détecter ?",
+        "desc": "par Bruno Etain , psychiatre à l’Hôpital Lariboisière à Paris et coordinateur des centres experts bipolaires de la Fondation FondaMental.",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.fondation-fondamental.org/troubles-bipolaires-comment-les-detecter"
+      },
+      {
+        "id": "programmes-d-education-therapeutique-pour-les-pati",
+        "icon": "🌐",
+        "title": "Programmes d’éducation thérapeutique pour les patients et leurs familles au GHU de Paris",
+        "desc": "Autonomie, Empowerment, Rétablissement, sont les piliers de l’Education Thérapeutique. Dans cet objectif, l’établissement propose une offre de soins individualisée sous forme d’un ensemble de programmes et d’actions d’Education Thérapeutique du Patient (ETP)",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Addictions",
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://www.ghu-paris.fr/fr/les-programmes-deducation-therapeutique-du-patient-2021"
+      },
+      {
+        "id": "7-podcasts-inspirants-de-temoignages-de-personnes-",
+        "icon": "🎙️",
+        "title": "7 podcasts inspirants de témoignages de personnes vivant avec un trouble psychique",
+        "desc": "De quoi donner de l’espoir",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://loptimisme.com/7-podcasts-temoignages-troubles-psychiques/"
+      },
+      {
+        "id": "la-depression-dans-les-troubles-bipolaires-confere",
+        "icon": "🎬",
+        "title": "La dépression dans les troubles bipolaires ; conférence du Dr Vincent HENNION, Psychiatre,",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=kEeBs4SRBNc"
+      },
+      {
+        "id": "inflammation-et-troubles-bipolaires-causes-consequ",
+        "icon": "🎬",
+        "title": "Inflammation et troubles bipolaires, causes, conséquences et stratégies thérapeutiques",
+        "desc": "Conférence du Pr Marion LEBOYER, psychiatre, consultation d’immuno-psychiatrie à l'hôpital Albert Chenevier Créteil, directrice de la Fondation FondaMental. et le Dr Ryad TAMOUZA, Immunologiste, consultation d’immuno-psychiatrie à l'hôpital Albert Chenevier Créteil,",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=lbYxTrtTjxE"
+      },
+      {
+        "id": "la-psychose-dans-tous-ses-etats",
+        "icon": "🎙️",
+        "title": "La psychose dans tous ses états",
+        "desc": "4 podcasts de nos amis québécois : - être confronté à la psychose pour la première fois - vivre la clinique PEP (premier épisode psychotique) au quotidien - se rétablir après une psychose - l’intersection entre culture et psychose",
+        "type": "Podcast",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://www.buzzsprout.com/2085122"
+      },
+      {
+        "id": "maman-a-dit-bande-de-nuls-livre-co-ecrit-par-celin",
+        "icon": "📖",
+        "title": "Maman a dit “Bande de nuls !” livre co-écrit par Céline Leutellier et son fils Killian",
+        "desc": "Ce livre, « c’est notre vie, un témoignage à deux voix et quatre mains », celles de Killian, un enfant né avec des troubles autistiques et schizophréniques, « enfermé dans une prison de peurs et d’angoisses », et celles de Céline, sa mère, qui refuse tous les traitements médicaux car elle ne croit qu’en « un seul remède : l’amour ». Les propos tenus sur les traitements médicamenteux n’engagent que leurs auteurs.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles",
+          "Schizophrénie"
+        ],
+        "link": "https://bandedenuls.com/"
+      },
+      {
+        "id": "soyez-rehab-guide-pratique-de-rehabilitation-psych",
+        "icon": "📖",
+        "title": "Soyez réhab, guide pratique de réhabilitation psychosociale du Dr Nicolas Rainteau",
+        "desc": "Guide à destination des familles, des aidants et des soignants. Ecrit avec humour et en termes clairs.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "association-francophone-des-mediateurs-de-sante-pa",
+        "icon": "🌐",
+        "title": "Association francophone des médiateurs de santé-pairs",
+        "desc": "Le but de l’AFMSP est de former, informer, conseiller, communiquer et de sensibiliser tous les publics professionnels travaillant dans les secteurs publics, privés, associatifs ou autres ; ou non professionnels aux savoirs expérientiels, aux parcours de rétablissements des usagers en santé mentale, et plus particulièrement au savoir ainsi qu' à l’expérience des MSP.",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.afmsp.fr/"
+      },
+      {
+        "id": "connexions-familiales",
+        "icon": "🌐",
+        "title": "Connexions familiales",
+        "desc": "Programme de psychoéducation en ligne pour les proches aidants de personnes borderline ou TPL",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://tpl-familles.org/nos-actions-la-psychoeducation-tpl-borderline/"
+      },
+      {
+        "id": "rfsm-e-motion",
+        "icon": "🌐",
+        "title": "RFSM-e motion",
+        "desc": "Programme de psychoéducation en ligne proposée par l’association suisse L’îlot",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://rfsm-e-motion.ch/e-motion/"
+      },
+      {
+        "id": "l-ilot",
+        "icon": "🌐",
+        "title": "L’îlot",
+        "desc": "Association basée en Suisse pour les proches-aidants ; beaucoup de ressources accessibles en ligne (conférences, webinaires, replays …) et un programme de psychoéducation en ligne",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.lilot.org/"
+      },
+      {
+        "id": "norvege-la-psychiatrie-sans-medicament-reims-centr",
+        "icon": "🎬",
+        "title": "Norvège : la psychiatrie sans médicament ; Reims, centre de jour Antonin Artaud : une autre approche du soin ; Ecodair : l’expérience professionnelle adaptée",
+        "desc": "Emission : Nous les Européens",
+        "type": "Vidéo / Film",
+        "troubles": [],
+        "link": "https://www.francetvinfo.fr/replay-magazine/france-2/nous-les-europeens/nous-les-europeens-du-vendredi-9-septembre-2022_5333581.html"
+      },
+      {
+        "id": "elles-ont-du-faire-interner-leur-enfant",
+        "icon": "🎬",
+        "title": "Elles ont dû faire interner leur enfant",
+        "desc": "Emission TV. Témoignages de mamans qui ont dû prendre la très difficile décision d’une hospitalisation sous contrainte.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.youtube.com/watch?v=3Z3x2AVvntA"
+      },
+      {
+        "id": "bipolarite-s-en-sortir-le-parcours-de-marie-alvery",
+        "icon": "🎬",
+        "title": "Bipolarité : s’en sortir, le parcours de Marie Alvery",
+        "desc": "Emission TV “Mille et une vies” présentée par Frédéric Lopez. Témoignage de Marie, avec un psychiatre",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=QJLZrZKHYi4"
+      },
+      {
+        "id": "falret",
+        "icon": "🌐",
+        "title": "Falret",
+        "desc": "l’ŒUVRE FALRET accompagne des personnes souffrant de troubles psychiques ou en difficultés psycho-sociales.L’association met son expérience et son savoir-faire au service de différents types d’actions pour leur permettre de bénéficier d’une meilleure qualité de vie. Associant professionnels et bénévoles, l’association propose un accompagnement individualisé et dans la durée,respectueux de l’intégrité de la personne, afin de favoriser son bien-être et l’acquisition de la plus grande autonomie possible.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Schizophrénie"
+        ],
+        "link": "https://falret.org/"
+      },
+      {
+        "id": "vivre-avec-un-trouble-bipolaire",
+        "icon": "🎬",
+        "title": "Vivre avec un trouble bipolaire",
+        "desc": "Emission TV “Les questions santé” présentée par Marina Carrère d’Encausse avec un psychiatre et une personne bipolaire",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.youtube.com/watch?v=_mo_G-J03q4"
+      },
+      {
+        "id": "vers-le-retablissement-par-l-unafam",
+        "icon": "🌐",
+        "title": "Vers le rétablissement par l’UNAFAM",
+        "desc": "Article qui résume très bien ce qu’est le rétablissement avec ses 5 clés et 5 étapes. Explique la différence avec la réhabilitation psychosociale",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.unafam.org/troubles-et-handicap-psy/vers-le-retablissement"
+      },
+      {
+        "id": "qu-est-ce-que-la-rehabilitation-psychosociale",
+        "icon": "🌐",
+        "title": "Qu’est-ce que la réhabilitation psychosociale ?",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://centre-ressource-rehabilitation.org/qu-est-ce-que-la-rehabilitation-psychosociale"
+      },
+      {
+        "id": "la-rehabilitation-psychosociale-orientee-retabliss",
+        "icon": "🎤",
+        "title": "La réhabilitation psychosociale orientée rétablissement : du concept à l’appropriation par les professionnels de secteur, quels enjeux ?",
+        "desc": "Conférence du Dr Bralet, accessible à tous, du C3RP, centre de réhabilitation psychosociale en Ile de France. Elle aborde la place de la pair-aidance en milieu hospitalier.",
+        "type": "Conférence",
+        "troubles": [],
+        "link": "https://c3rp.fr/la-rehabilitation-psychosociale-orientee-retablissement/"
+      },
+      {
+        "id": "demain-j-etais-folle-un-voyage-en-schizophrenie-de",
+        "icon": "📖",
+        "title": "Demain, j’étais folle. Un voyage en schizophrénie. de Arnhild Lauveng. Préface de Christophe André",
+        "desc": "Dans un témoignage exceptionnel, elle raconte la perte du sentiment de soi, les hallucinations qui dévorent le quotidien, le repli et l'isolement, jusqu'à l'internement et la prise en charge médicale. Cette parole rare et sensible dit la souffrance mais aussi l'humanité qui persiste toujours, à chaque instant.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ]
+      },
+      {
+        "id": "mieux-communiquer-avec-son-proche-bipolaire",
+        "icon": "🌐",
+        "title": "Mieux communiquer avec son proche bipolaire",
+        "desc": "Formation de 2 jours dispensée par l’UNAFAM. Se renseigner auprès de votre délégation régionale.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://www.unafam.org/sites/default/files/fichiers-joints/10-2019/D%C3%A9pliant%20formation%20mieux%20communiquer%20avec%20son%20proche%20bipolaire%202018.pdf"
+      },
+      {
+        "id": "podcast-derriere-nos-sourires-tca",
+        "icon": "🎙️",
+        "title": "Podcast \"Derrière nos sourires\"",
+        "desc": "Des témoignages de personnes qui traversent ou ont traversé un TCA. Un format intime et bienveillant qui aide à se sentir moins seul(e) et à comprendre le parcours de rétablissement.",
+        "type": "Podcast",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://podcast.ausha.co/derrierenosSourires"
+      },
+      {
+        "id": "podcast-tdah-au-quotidien",
+        "icon": "🎙️",
+        "title": "Podcast \"TDAH au quotidien\"",
+        "desc": "Un podcast francophone par et pour les personnes TDAH. Des épisodes courts et pratiques avec des astuces d'organisation, de gestion des émotions et des témoignages de parcours.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://podcast.ausha.co/tdah-au-quotidien"
+      },
+      {
+        "id": "podcast-les-mots-du-trauma",
+        "icon": "🎙️",
+        "title": "Podcast \"Les mots du trauma\"",
+        "desc": "Témoignages de personnes ayant vécu un trauma et engagées dans un processus de rétablissement. Un espace de parole où l'on se sent compris(e) et moins isolé(e).",
+        "type": "Podcast",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://podcast.ausha.co/les-mots-du-trauma"
+      },
+      {
+        "id": "podcast-dans-le-spectre-autisme",
+        "icon": "🎙️",
+        "title": "Podcast \"Dans le spectre\"",
+        "desc": "Podcast francophone animé par des personnes autistes qui partagent leur vécu, leurs galères et leurs stratégies. Idéal pour se reconnaître et découvrir la neurodiversité au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://podcast.ausha.co/dans-le-spectre"
+      },
+      {
+        "id": "petit-bambou-programme-sommeil",
+        "icon": "📱",
+        "title": "Petit BamBou — Programme Sommeil",
+        "desc": "Application de méditation en français qui propose un programme dédié au sommeil. Séances de relaxation guidée, histoires pour s'endormir et exercices de respiration. Version de base gratuite.",
+        "type": "Applis",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://www.petitbambou.com"
+      },
+      {
+        "id": "la-maison-perchee-temoignages",
+        "icon": "🌐",
+        "title": "La Maison Perchée — Témoignages",
+        "desc": "Les témoignages des membres de La Maison Perchée, personnes concernées par un trouble psychique. Des récits de rétablissement authentiques, porteurs d'espoir et ancrés dans le vécu.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie",
+          "Borderline / TPL",
+          "Dépression"
+        ],
+        "link": "https://lamaisonperchee.org/temoignages/"
+      },
+      {
+        "id": "podcast-un-ete-particulier-clubhouse",
+        "icon": "🎙️",
+        "title": "Podcast \"Un Été Particulier\" — Clubhouse France",
+        "desc": "Récits de personnes qui fréquentent les Clubhouses (lieux d'entraide en santé mentale). Des parcours de vie, des moments de bascule et des chemins de rétablissement racontés à la première personne.",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie",
+          "Dépression"
+        ],
+        "link": "https://podcast.ausha.co/un-ete-particulier"
+      },
+      {
+        "id": "mes-etoiles-noires-videos-retablissement",
+        "icon": "🎬",
+        "title": "\"Mes étoiles noires\" — Récits de rétablissement en vidéo",
+        "desc": "Série de vidéos-témoignages de personnes en rétablissement. Des récits filmés avec soin qui montrent que le rétablissement est possible et qu'il prend mille formes différentes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie",
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/playlist?list=PLtJXMhzyG2lEfLdGe-BWWYX4I3bHlqJWI"
+      },
+      {
+        "id": "therapie-cognitivo-comportementale-du-trouble-de-stress-post",
+        "icon": "🎬",
+        "title": "Thérapie cognitivo-comportementale du trouble de stress post-traumatique",
+        "desc": "Une capsule vidéo courte qui explique la thérapie cognitivo-comportementale spécialement adaptée au TSPT. Utile pour comprendre cette approche thérapeutique avant de commencer un suivi ou pour mieux saisir ce qui se passe en séance.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=nLHBeDQD7xM"
+      },
+      {
+        "id": "chaque-trouble-mental-explique-en-18-minutes",
+        "icon": "🎬",
+        "title": "Chaque Trouble Mental Expliqué en 18 Minutes",
+        "desc": "Vidéo récente qui présente un panorama des troubles mentaux en format accessible. Utile pour avoir une vue d'ensemble, mais à compléter avec des ressources plus spécialisées selon ses besoins.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Inhm3hUJ2u4"
+      },
+      {
+        "id": "crise-d-angoisse-attaque-de-panique-vtfs-26-psychologie",
+        "icon": "🎬",
+        "title": "Crise d'angoisse / Attaque de panique - VTFS#26 - Psychologie",
+        "desc": "Vidéo explicative sur les crises d'angoisse et attaques de panique par un psychologue. Aborde les mécanismes, symptômes et conseils pratiques pour mieux comprendre et gérer ces épisodes intenses d'anxiété.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=peYyDxqNYHM"
+      },
+      {
+        "id": "anxiete-crises-de-panique-agoraphobie-mon-temoignage-partie-",
+        "icon": "🎬",
+        "title": "Anxiété, crises de panique, agoraphobie: Mon témoignage partie 1/2",
+        "desc": "Témoignage personnel d'une personne qui a vécu un trouble anxieux avec crises de panique et agoraphobie pendant ses études. Partage authentique d'un parcours de 4 ans, utile pour se sentir moins seul·e et comprendre ces vécus.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=PK0Tod624gE"
+      },
+      {
+        "id": "les-troubles-alimentaires-quand-on-a-vecu-un-traumatisme-psy",
+        "icon": "🎬",
+        "title": "Les troubles alimentaires | Quand on a vécu un traumatisme | Psychologue et chercheuse sur les TCA",
+        "desc": "Live YouTube avec une psychologue spécialisée qui déconstruit les préjugés sur les TCA et explore les liens avec les traumatismes. Un échange accessible qui aide à mieux comprendre ces troubles complexes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA",
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=IBrFkipASUI"
+      },
+      {
+        "id": "faq-tca-une-psychiatre-repond-a-toutes-vos-questions",
+        "icon": "🎬",
+        "title": "FAQ TCA : une psychiatre répond à toutes vos questions",
+        "desc": "Une psychiatre répond aux questions fréquentes sur les troubles du comportement alimentaire dans un format vidéo accessible. Utile pour comprendre les bases et démystifier certains aspects des TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=0YkM32SFxjU"
+      },
+      {
+        "id": "urgences-psy-voyage-au-c-ur-de-la-folie",
+        "icon": "🎬",
+        "title": "Urgences psy : voyage au cœur de la folie",
+        "desc": "Documentaire sur le service d'urgences psychiatriques de l'hôpital Édouard Herriot à Lyon, montrant la réalité des crises de santé mentale. Peut aider à comprendre le parcours de soins en urgence, mais attention au terme 'folie' dans le titre qui peut être stigmatisant.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Addictions",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=D4IlraRGv6Q"
+      },
+      {
+        "id": "psychotherapie-de-la-dissociation-et-du-trauma-joanna-smith",
+        "icon": "🎬",
+        "title": "Psychothérapie de la dissociation et du trauma - Joanna SMITH",
+        "desc": "Conférence de Joanna Smith, psychologue clinicienne, qui explique la dissociation structurelle et traumatique. Une approche accessible pour comprendre ces mécanismes de protection du psychisme face aux traumatismes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=9So-EHPFxlE"
+      },
+      {
+        "id": "conference-christophe-faure-vivre-le-deuil-au-jour-le-jour",
+        "icon": "🎬",
+        "title": "Conférence Christophe Fauré - VIVRE LE DEUIL AU JOUR LE JOUR",
+        "desc": "Conférence du psychiatre Christophe Fauré sur le processus de deuil et ses répercussions. Un accompagnement bienveillant pour comprendre les étapes du deuil et apprendre à vivre avec la perte d'un proche.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=C9V7ESltxEs"
+      },
+      {
+        "id": "autiste-ou-bipolaire",
+        "icon": "🎬",
+        "title": "Autiste ou bipolaire ?",
+        "desc": "Vidéo du Dr Sikorav, psychiatre qui partage son propre vécu de bipolarité, explorant les liens et différences entre autisme et trouble bipolaire. Approche personnelle et professionnelle pour démêler ces diagnostics souvent confondus.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité",
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=4YydVZjdN4w"
+      },
+      {
+        "id": "l-alcoolisme-les-addictions-psychanalyse-pour-tous-17-mai-20",
+        "icon": "🎬",
+        "title": "L'ALCOOLISME - LES ADDICTIONS - PSYCHANALYSE POUR TOUS 17 mai 2022",
+        "desc": "Vidéo psychanalytique sur l'alcoolisme et les addictions. Approche théorique centrée sur la psychanalyse, peut offrir un éclairage différent mais reste dans un cadre interprétatif spécifique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=Xtt-WNgoRWY"
+      },
+      {
+        "id": "l-angoisse-du-point-de-vue-de-la-psychanalyse",
+        "icon": "🎬",
+        "title": "L’angoisse du point de vue de la psychanalyse",
+        "desc": "Une psychanalyste explique l'angoisse : comment la reconnaître et la comprendre d'un point de vue psychanalytique. Approche théorique qui peut aider à mettre des mots sur ce qu'on vit.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=nHCA55mxPTA"
+      },
+      {
+        "id": "phobie-d-impulsion-10-conseils-pour-en-guerir",
+        "icon": "🎬",
+        "title": "Phobie d'impulsion : 10 conseils pour en guérir",
+        "desc": "Vidéo proposant 10 conseils pratiques pour surmonter les phobies d'impulsion. Aborde ces pensées intrusives angoissantes avec un angle thérapeutique accessible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=OKc5g6n8z20"
+      },
+      {
+        "id": "burn-out-et-stress-post-traumatique",
+        "icon": "📖",
+        "title": "Burn-out et stress post-traumatique",
+        "desc": "Un ouvrage qui explore les liens entre épuisement professionnel et trauma. Peut aider à comprendre comment certaines expériences de travail peuvent créer des blessures psychiques durables.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL19832629W"
+      },
+      {
+        "id": "psychotherapie-des-phobies",
+        "icon": "📖",
+        "title": "Psychothérapie des phobies",
+        "desc": "Un livre sur les approches thérapeutiques des phobies. Étant donné la date de publication (2000), les méthodes présentées peuvent être moins actualisées que les pratiques thérapeutiques contemporaines.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL9923083W"
+      },
+      {
+        "id": "anorexie-boulimie-le-grand-desarroi-des-malades-rts",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie, le grand désarroi des malades | RTS",
+        "desc": "Documentaire de la RTS qui donne la parole à des personnes vivant avec des troubles du comportement alimentaire. Témoignages authentiques sur le vécu de l'anorexie et de la boulimie, leurs impacts au quotidien et les défis du rétablissement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=jFwBSlxiZZU"
+      },
+      {
+        "id": "tca-anorexie-boulimie-hyperphagie-3-choses-qu-on-vous-cache",
+        "icon": "🎬",
+        "title": "TCA (ANOREXIE, BOULIMIE, HYPERPHAGIE ...) : 3 CHOSES QU'ON VOUS CACHE 😤",
+        "desc": "Une vidéo qui dévoile 3 aspects méconnus des TCA par Christèle Albaret, thérapeute spécialisée. Approche accessible pour mieux comprendre ces troubles au-delà des idées reçues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=0Y6p7SoI_SM"
+      },
+      {
+        "id": "tdah-mode-d-emploi-femmes-couples-famille-avec-le-pr-nader-p",
+        "icon": "🎬",
+        "title": "TDAH, mode d’emploi ! (femmes, couples, famille) avec le Pr Nader Perroud #625",
+        "desc": "Conférence du Pr Nader Perroud sur le TDAH, avec un focus particulier sur les femmes et l'impact sur les relations de couple et familiales. Une approche bienveillante qui aborde la neurodiversité, la créativité et les défis émotionnels liés au TDAH.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=W2wsqNY6aoU"
+      },
+      {
+        "id": "397-pr-nader-perroud-comprendre-le-tdah-chez-l-adulte",
+        "icon": "🎬",
+        "title": "#397 Pr Nader Perroud : Comprendre le TDAH chez l'adulte",
+        "desc": "Une discussion claire entre Anne Ghesquière et le Pr Nader Perroud sur le TDAH chez l'adulte. Aborde les difficultés de concentration et d'organisation avec un regard bienveillant et des explications accessibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=HRAHMwFGf9Q"
+      },
+      {
+        "id": "psychobook-3-le-tdah-adulte-trouble-de-l-attention",
+        "icon": "🎬",
+        "title": "Psychobook 3 : le TDAH adulte (TROUBLE DE L'ATTENTION)",
+        "desc": "Une psychologue explique le TDAH chez l'adulte de manière pédagogique. Utile pour mieux comprendre ce trouble souvent méconnu à l'âge adulte et ses impacts au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=oE5_UeM9mjA"
+      },
+      {
+        "id": "regard-sur-un-trouble-meconnu-qui-derange-trouble-de-l-atten",
+        "icon": "🎬",
+        "title": "Regard sur un trouble méconnu, qui dérange :  Trouble de l'Attention avec ou sans Hyperactivité TDAH",
+        "desc": "Une psychologue explique les défis du diagnostic TDAH et démystifie ce trouble souvent mal compris. Accessible pour mieux comprendre les enjeux du diagnostic.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=i_YuLAKlR_0"
+      },
+      {
+        "id": "stress-post-traumatique-tspt-que-se-passe-t-il-apres-un-choc",
+        "icon": "🎬",
+        "title": "Stress post-traumatique (TSPT) : que se passe-t-il après un choc ? 30 minutes santé",
+        "desc": "Épisode de 30 minutes qui explique le fonctionnement du stress post-traumatique et son impact sur la mémoire. Aborde les différentes approches de prise en charge dans un format accessible et scientifiquement rigoureux.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=vpVSzfhKW4Y"
+      },
+      {
+        "id": "comment-guerir-d-un-traumatisme-avec-la-docteure-en-psycholo",
+        "icon": "🎬",
+        "title": "Comment guérir d’un traumatisme ? avec la docteure en psychologie Nayla Chidiac",
+        "desc": "Interview avec une psychologue spécialiste des traumas qui explique les mécanismes du traumatisme et les approches thérapeutiques. Accessible pour comprendre le processus de guérison et découvrir des pistes concrètes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=ADzzJsrK_go"
+      },
+      {
+        "id": "post-traumatic-stress-disorder-anne-cecile-petit-sainte-anne",
+        "icon": "🎬",
+        "title": "Post-traumatic stress disorder – Anne-Cécile Petit (Sainte-Anne Hospital)",
+        "desc": "Présentation médicale sur le diagnostic du trouble de stress post-traumatique par une psychiatre de Sainte-Anne. Approche clinique centrée sur les outils diagnostiques en psychiatrie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=2JLKdrgf3ic"
+      },
+      {
+        "id": "la-psychanalyse-face-au-syndrome-de-stress-post-traumatique",
+        "icon": "🎬",
+        "title": "La psychanalyse face au syndrome de stress post-traumatique",
+        "desc": "Conférence de la BPI explorant l'approche psychanalytique du stress post-traumatique. Peut intéresser ceux qui s'interrogent sur les différentes approches thérapeutiques, mais reste dans un cadre académique et théorique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=udAm2EdmZBI"
+      },
+      {
+        "id": "pr-guido-bondolfi-les-troubles-anxieux",
+        "icon": "🎬",
+        "title": "Pr Guido Bondolfi. Les troubles anxieux",
+        "desc": "Le Pr Bondolfi, psychiatre spécialisé dans les troubles anxieux aux HUG, explique ces troubles de manière claire. Une approche médicale accessible pour mieux comprendre l'anxiété et ses différentes manifestations.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=cBRDwbcTbH4"
+      },
+      {
+        "id": "5-symptomes-classiques-du-stress-post-traumatique-complexe",
+        "icon": "🎬",
+        "title": "5 SYMPTÔMES classiques du STRESS POST-TRAUMATIQUE COMPLEXE",
+        "desc": "Vidéo éducative sur le stress post-traumatique complexe expliquant 5 symptômes caractéristiques. Peut aider à mieux comprendre ce trouble souvent méconnu et à identifier des vécus personnels.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=1DxhsyKdu1c"
+      },
+      {
+        "id": "christophe-faure-accompagner-au-mieux-le-processus-de-deuil",
+        "icon": "🎬",
+        "title": "Christophe Fauré, Accompagner au mieux le processus de deuil",
+        "desc": "Christophe Fauré, psychiatre spécialisé dans le deuil, partage son expertise sur l'accompagnement du processus de deuil. Une approche professionnelle bienveillante pour comprendre les étapes du deuil et mieux accompagner les personnes endeuillées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=0oZRQzIaDVY"
+      },
+      {
+        "id": "sante-mentale-ce-que-tout-le-monde-devrait-entendre-et-qu-on",
+        "icon": "🎬",
+        "title": "Santé mentale : Ce Que Tout le Monde Devrait Entendre (Et Qu’on NE Vous Dit Jamais). Pr P. L. Faye",
+        "desc": "Conférence d'un psychiatre sénégalais qui aborde la santé mentale avec une approche culturelle africaine. Peut apporter un regard différent sur les questions de santé mentale, notamment pour les personnes d'origine africaine.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=o7vlSWf00M8"
+      },
+      {
+        "id": "comment-prendre-en-main-sa-sante-mentale-ou-celle-des-autres",
+        "icon": "🎬",
+        "title": "Comment prendre en main sa santé mentale (ou celle des autres) avec le psychiatre Hugo Baup #591",
+        "desc": "Le psychiatre Hugo Baup explique comment reconnaître les signaux d'alarme en santé mentale et distinguer un mal-être passager d'une détresse plus profonde. Une approche pédagogique pour mieux comprendre quand chercher de l'aide.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=GV_N5atDWTM"
+      },
+      {
+        "id": "addictions-depression-troubles-bipolaires-ces-celebrites-qui",
+        "icon": "🎬",
+        "title": "Addictions, dépression, troubles bipolaires : ces célébrités qui osent en parler… - CCA",
+        "desc": "Témoignages de célébrités partageant leur vécu avec les addictions, la dépression et les troubles bipolaires dans l'émission 'Ça commence aujourd'hui'. Peut aider à réduire la stigmatisation en montrant que ces difficultés touchent tout le monde.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "Dépression",
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=i5019PXR2aI"
+      },
+      {
+        "id": "depressifs-bipolaires-schizophrenes-la-vie-des-jeunes-en-psy",
+        "icon": "🎬",
+        "title": "Dépressifs, bipolaires, schizophrènes: la vie des jeunes en psychiatrie (diffusion 18.02.2018) | RTS",
+        "desc": "Documentaire RTS qui suit le quotidien de jeunes adultes hospitalisés en psychiatrie. Une plongée dans leur vécu, leurs défis et leur parcours de soin, loin des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=EeTaT76fdFU"
+      },
+      {
+        "id": "psychiatre-et-bipolaire-mon-temoignage",
+        "icon": "🎬",
+        "title": "Psychiatre et bipolaire, mon témoignage",
+        "desc": "Le témoignage personnel d'un psychiatre vivant avec un trouble bipolaire, qui partage son expérience des deux côtés : en tant que patient puis professionnel. Un regard unique qui peut aider à comprendre la bipolarité de l'intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=UE0eCxaJ8CA"
+      },
+      {
+        "id": "depression-severe-5-signes-que-votre-etat-s-aggrave-dangereu",
+        "icon": "🎬",
+        "title": "DÉPRESSION SÉVÈRE :  5 SIGNES QUE VOTRE ÉTAT S'AGGRAVE DANGEREUSEMENT",
+        "desc": "Vidéo d'information sur les signes d'aggravation d'une dépression sévère. Peut aider à identifier quand chercher de l'aide, mais attention au ton potentiellement anxiogène du titre.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=6NmksQaxVPE"
+      },
+      {
+        "id": "tout-savoir-sur-les-addictions-introduction-aux-fondamentaux",
+        "icon": "🎬",
+        "title": "TOUT SAVOIR sur les ADDICTIONS ! Introduction aux fondamentaux de l'ADDICTOLOGIE Dépendance& Sevrage",
+        "desc": "Une introduction accessible aux bases de l'addictologie, expliquant les mécanismes de dépendance et sevrage de manière ludique. Utile pour comprendre les fondamentaux sans jargon complexe.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=C2xmvtsCCEk"
+      },
+      {
+        "id": "depression-alcool-phobies-les-degats-invisibles-de-la-crise-",
+        "icon": "🎬",
+        "title": "Dépression, alcool, phobies : les dégâts invisibles de la crise sanitaire",
+        "desc": "Un reportage qui explore l'impact psychologique de la crise sanitaire sur la population française. Témoignages et données chiffrées sur l'augmentation des troubles mentaux suite aux confinements.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Addictions",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=fv9kOarkp70"
+      },
+      {
+        "id": "401-dr-frederic-fanget-comment-combattre-l-anxiete",
+        "icon": "🎬",
+        "title": "#401 Dr Frédéric Fanget : Comment combattre l'anxiété ?",
+        "desc": "Le Dr Frédéric Fanget, psychiatre spécialisé dans l'anxiété, explique concrètement comment comprendre et gérer les manifestations anxieuses du quotidien : angoisses, insomnies, palpitations. Une approche claire pour démystifier l'anxiété et reprendre du pouvoir sur ses symptômes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=eO8-FoHdVSo"
+      },
+      {
+        "id": "la-psy-c-est-pour-les-fous-sante-mentale-psychologie-psychot",
+        "icon": "🎙️",
+        "title": "La psy, c'est pour les fous! | sante mentale | psychologie | psychotherapie |  prendre soin de soi  | cle de comprehension |",
+        "desc": "Podcast qui démystifie la psychologie et la psychothérapie en cassant les préjugés. Aborde différents aspects de la santé mentale avec un angle accessible pour encourager le soin de soi.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/la-psy-cest-pour-les-fous-sante-mentale-psychologie/id1804259685?l=fr&uo=4"
+      },
+      {
+        "id": "stress-post-traumatique",
+        "icon": "📖",
+        "title": "Stress Post-Traumatique",
+        "desc": "Un livre sur le stress post-traumatique par Vona Martin. Les informations disponibles sont limitées, il serait utile de vérifier le contenu et l'approche de l'auteur pour s'assurer qu'elle correspond aux valeurs de WikiPerché.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL41154618W"
+      },
+      {
+        "id": "stress-post-traumatique-humains-equins",
+        "icon": "📖",
+        "title": "Stress Post Traumatique, Humains & Equins",
+        "desc": "Un livre qui explore les liens entre humains et chevaux dans le contexte du stress post-traumatique. Peut offrir une perspective intéressante sur la thérapie assistée par l'animal pour les personnes ayant vécu des traumatismes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL36689884W"
+      },
+      {
+        "id": "trouble-de-stress-post-traumatique",
+        "icon": "📖",
+        "title": "Trouble de Stress Post-Traumatique",
+        "desc": "Un ouvrage sur le TSPT qui explore les mécanismes du trauma et propose des pistes pour mieux comprendre ce trouble. Peut apporter un éclairage utile pour les personnes concernées et leurs proches.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL28053985W"
+      },
+      {
+        "id": "l-etat-de-stress-post-traumatique-chez-l-enfant",
+        "icon": "📖",
+        "title": "L' état de stress post-traumatique chez l'enfant",
+        "desc": "Un livre spécialisé sur le TSPT chez l'enfant par Karen Sadlier. Peut offrir des éclairages utiles aux parents et professionnels, même si la perspective reste académique et les approches peuvent avoir évolué depuis.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL9940279W"
+      },
+      {
+        "id": "comment-aider-les-victimes-souffrant-de-stress-post-traumati",
+        "icon": "📖",
+        "title": "Comment aider les victimes souffrant de stress post-traumatique",
+        "desc": "Un guide pratique de 2004 pour comprendre et accompagner les personnes vivant avec un stress post-traumatique. Écrit par une professionnelle, il offre des clés concrètes pour les proches qui souhaitent soutenir sans se sentir démunis.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL13541688W"
+      },
+      {
+        "id": "le-syndrome-de-stress-post-traumatique-sspt-et-le-stress-lie",
+        "icon": "📖",
+        "title": "Le syndrome de stress post-traumatique (SSPT) et le stress lié à la guerre",
+        "desc": "Guide officiel canadien sur le stress post-traumatique lié aux contextes de guerre. Ressource institutionnelle datée mais qui peut apporter un éclairage sur les spécificités du TSPT chez les anciens combattants.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL13214954W"
+      },
+      {
+        "id": "vieillissement-trouble-bipolaire-et-schizophrenie",
+        "icon": "📖",
+        "title": "Vieillissement, trouble bipolaire et schizophrénie",
+        "desc": "Ouvrage médical sur le vieillissement dans le contexte des troubles bipolaires et de la schizophrénie. Aborde les spécificités du suivi et de l'accompagnement des personnes vieillissantes avec ces troubles.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://openlibrary.org/works/OL13558001W"
+      },
+      {
+        "id": "therapie-de-groupe-pour-le-trouble-bipolaire",
+        "icon": "📖",
+        "title": "Thérapie de groupe pour le trouble bipolaire",
+        "desc": "Un guide sur les thérapies de groupe spécialement conçues pour les personnes vivant avec un trouble bipolaire. Explore les bénéfices du partage d'expériences et du soutien mutuel dans un cadre thérapeutique structuré.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL3236459W"
+      },
+      {
+        "id": "de-l-ombre-a-la-lumiere-sortir-de-la-depression-et-du-troubl",
+        "icon": "📖",
+        "title": "De l'ombre à la Lumière : Sortir de la dépression et du Trouble Bipolaire",
+        "desc": "Témoignage personnel d'un parcours de sortie de la dépression et du trouble bipolaire. L'auteur partage son expérience vécue pour offrir espoir et pistes concrètes à celles et ceux qui traversent des épisodes similaires.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Dépression"
+        ],
+        "link": "https://openlibrary.org/works/OL30166839W"
+      },
+      {
+        "id": "angoisse-et-psychotherapie",
+        "icon": "📖",
+        "title": "Angoisse et psychothérapie",
+        "desc": "Un livre théorique qui explore les liens entre angoisse et approches psychothérapeutiques. Le contenu semble plutôt orienté vers une perspective professionnelle ou académique sur la compréhension de l'angoisse.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL32191279W"
+      },
+      {
+        "id": "qu-est-ce-qui-nous-rend-depressifs-42-la-reponse-a-presque-t",
+        "icon": "🎬",
+        "title": "Qu’est-ce qui nous rend dépressifs ? | 42 - La réponse à presque tout | ARTE",
+        "desc": "Un épisode d'ARTE qui explore les mécanismes de la dépression de manière accessible et scientifique. Parfait pour mieux comprendre ce qui se passe quand on traverse une phase difficile, sans jargon médical compliqué.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=v5YcH5X5Xgo"
+      },
+      {
+        "id": "comprendre-les-troubles-alimentaires-chez-les-hommes-l-histo",
+        "icon": "🎬",
+        "title": "Comprendre les troubles alimentaires chez les hommes : l’histoire d’Adam",
+        "desc": "Témoignage vidéo d'Adam Bryce sur son vécu de l'anorexie masculine et de la dépression qui a suivi. Un récit personnel qui peut aider à comprendre que les troubles alimentaires touchent aussi les hommes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=MHltfMfBy7U"
+      },
+      {
+        "id": "le-tca-le-plus-frequent-l-hyperphagie-boulimique",
+        "icon": "🎬",
+        "title": "Le TCA le plus fréquent : L’hyperphagie boulimique",
+        "desc": "Vidéo éducative sur l'hyperphagie boulimique par Marine Lorphelin, qui explique ce trouble souvent méconnu de manière accessible. Utile pour comprendre les mécanismes des crises alimentaires et se sentir moins seul·e face à ce TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=dPDDLTrOyzk"
+      },
+      {
+        "id": "anorexie-boulimie-nomoretca-temoignage-sur-les-tca-chez-les-",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie : #NoMoreTCA (témoignage sur les TCA chez les hommes)",
+        "desc": "Témoignage vidéo qui brise les tabous autour des TCA chez les hommes. Une voix masculine rare et précieuse pour comprendre que l'anorexie et la boulimie touchent aussi les garçons, avec authenticité et sans détour.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=LpYG0pQeEWE"
+      },
+      {
+        "id": "anorexie-boulimie-prise-en-charge-des-troubles-du-comporteme",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie : Prise en charge des troubles du comportement alimentaire (TCA) au CHU de Nantes",
+        "desc": "Reportage du CHU de Nantes qui donne un aperçu concret de la prise en charge hospitalière des TCA. Permet de découvrir les différents services impliqués et de démystifier le parcours de soins en milieu hospitalier.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=OKi9ldBCkEI"
+      },
+      {
+        "id": "insatisfaction-corporelle-troubles-alimentaires-je-papote-av",
+        "icon": "🎬",
+        "title": "Insatisfaction corporelle, troubles alimentaires : je papote avec une psychologue spécialisée TCA",
+        "desc": "Une conversation bienveillante avec une psychologue spécialisée TCA qui aborde l'insatisfaction corporelle et les troubles alimentaires de manière accessible. Un échange qui peut aider à mieux comprendre ces difficultés sans jugement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=R2tMH8fhBIw"
+      },
+      {
+        "id": "therapie-cognitivo-comportementale-des-troubles-alimentaires",
+        "icon": "🎬",
+        "title": "Thérapie cognitivo-comportementale des troubles alimentaires",
+        "desc": "Vidéo éducative qui explique les troubles alimentaires et leurs traitements selon l'approche cognitivo-comportementale. Accessible pour comprendre les mécanismes des TCA et les pistes thérapeutiques disponibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=gRn2bExtwAA"
+      },
+      {
+        "id": "8-solutions-pour-vaincre-les-troubles-du-comportement-alimen",
+        "icon": "🎬",
+        "title": "8 Solutions pour vaincre les troubles du comportement alimentaire (TCA : Anorexie et Boulimie)",
+        "desc": "Vidéo proposant 8 solutions pour accompagner l'anorexie et la boulimie. Approche holistique qui peut compléter un suivi médical, même si le titre 'vaincre' peut paraître simpliste face à la complexité des TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=imNcqXMD380"
+      },
+      {
+        "id": "troubles-du-comportement-alimentaire-boulimie-anorexie-ortho",
+        "icon": "🎬",
+        "title": "Troubles du comportement alimentaire : boulimie, anorexie, orthorexie et manger ses émotions",
+        "desc": "Une approche bienveillante des troubles alimentaires qui va au-delà des chiffres pour explorer les liens entre alimentation, contrôle et estime de soi. Utile pour mieux comprendre la complexité de ces troubles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=chUmQ6icif0"
+      },
+      {
+        "id": "mon-corps-balance-trois-adolescents-racontent-leur-combat-co",
+        "icon": "🎬",
+        "title": "\"Mon corps balance\", trois adolescents racontent leur combat contre leur obésité | Documentaire",
+        "desc": "Documentaire qui suit le quotidien de trois adolescents dans leur parcours de soins contre l'obésité. Un regard humain sur leurs défis personnels, loin des clichés, montrant la réalité du combat au jour le jour.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=4YKRO4ayv_Q"
+      },
+      {
+        "id": "anorexie-boulimie-et-rapport-au-sport-comment-vivre-avec-ses",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie et rapport au sport : comment vivre avec ses TCA ?",
+        "desc": "Justine Jandot partage son parcours personnel avec les TCA et sa relation complexe au sport. Un témoignage authentique qui explore la reconstruction et l'apprentissage du vivre-avec, particulièrement utile pour comprendre les liens entre activité physique et troubles alimentaires.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=8XH5s9EY2fs"
+      },
+      {
+        "id": "anorexie-boulimie-et-compulsions-alimentaires-les-tca",
+        "icon": "🎬",
+        "title": "ANOREXIE, BOULIMIE ET COMPULSIONS ALIMENTAIRES : LES TCA",
+        "desc": "Vidéo éducative du Dr Jean-Michel Cohen sur les troubles du comportement alimentaire (anorexie, boulimie, compulsions). Approche médicale accessible pour comprendre les mécanismes et caractéristiques de ces troubles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=OFQYgN_BmsU"
+      },
+      {
+        "id": "anorexie-boulimie-hyperphagie-comment-en-sortir-malnutrition",
+        "icon": "🎬",
+        "title": "Anorexie, Boulimie, Hyperphagie : comment en sortir ? Malnutrition 2024",
+        "desc": "Vidéo vulgarisée qui explique les mécanismes cérébraux et corporels des troubles du comportement alimentaire. Approche scientifique accessible pour mieux comprendre ce qui se passe dans son corps et sa tête.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=Ib7FPU6YAZk"
+      },
+      {
+        "id": "faire-face-ensemble-documentaire-sur-les-tca-association-bou",
+        "icon": "🎬",
+        "title": "\"Faire Face ensemble\" - documentaire sur les TCA - Association Boulimie Anorexie, Lausanne",
+        "desc": "Documentaire de l'Association Boulimie Anorexie de Lausanne qui donne la parole aux personnes concernées par les TCA et à leurs proches. Témoignages authentiques sur le parcours de rétablissement et l'importance du soutien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=_WDD7pKF3dY"
+      },
+      {
+        "id": "anorexie-boulimie-lili-rose-et-natacha-se-confient",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie.. Lili-Rose et Natacha se confient",
+        "desc": "Témoignage vidéo de Lili-Rose, jeune influenceuse en rétablissement de TCA, qui partage son parcours aux côtés de Natacha. Un échange authentique entre pairs pour briser les tabous autour de l'anorexie et de la boulimie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=HnRIds9Aljw"
+      },
+      {
+        "id": "replay-tdah-de-l-adulte-psycho-techniques-et-ou-techno-psych",
+        "icon": "🎬",
+        "title": "REPLAY - TDAH de l'adulte : \"psycho-techniques\" et/ou \"techno-psychothérapies\" ?",
+        "desc": "Replay d'une conférence sur les approches thérapeutiques pour le TDAH adulte, explorant les techniques psychologiques et les nouvelles technologies en psychothérapie. Contenu spécialisé destiné aux professionnels de santé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=0oQjcZMG8gs"
+      },
+      {
+        "id": "pr-nader-perroud-tdah-et-trouble-de-la-personnalite-borderli",
+        "icon": "🎬",
+        "title": "Pr. Nader PERROUD: TDAH et Trouble de la personnalité borderline",
+        "desc": "Conférence du Pr. Perroud explorant les liens entre TDAH et trouble borderline, notamment l'impulsivité et la dérégulation émotionnelle communes. Éclairant pour comprendre ces comorbidités fréquentes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte",
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=GKX0EpuKDZY"
+      },
+      {
+        "id": "militaires-se-relever-des-blessures-psychiques-reportage-san",
+        "icon": "🎬",
+        "title": "Militaires, se relever des blessures psychiques - Reportage Santé",
+        "desc": "Reportage qui donne la parole à des militaires français touchés par le stress post-traumatique après leurs missions. Un éclairage respectueux sur ces blessures invisibles et les parcours de reconstruction.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=4cIG24P14MI"
+      },
+      {
+        "id": "les-troubles-du-stress-post-traumatique",
+        "icon": "🎬",
+        "title": "Les Troubles du Stress Post Traumatique",
+        "desc": "Une vidéo explicative sur les symptômes et mécanismes du TSPT. Contenu informatif qui aide à mieux comprendre ce trouble et ses manifestations dans le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=DVaKiHjxHos"
+      },
+      {
+        "id": "syndrome-de-stress-post-traumatique-symptomes-et-causes",
+        "icon": "🎬",
+        "title": "Syndrome de stress post traumatique - Symptômes et Causes",
+        "desc": "Silvio de Mindconsult explique le syndrome de stress post-traumatique de manière accessible : symptômes, causes et mécanismes. Une approche pédagogique pour mieux comprendre ce trouble souvent méconnu.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=6vmLf0hl7t8"
+      },
+      {
+        "id": "parlons-sante-mentale-les-traumatismes",
+        "icon": "🎬",
+        "title": "Parlons santé mentale : Les traumatismes",
+        "desc": "Une vidéo éducative de l'Université Paris Cité qui explore comment les événements traumatiques affectent notre psychisme. Aborde les mécanismes du trauma 10 ans après les attentats du Bataclan, avec des explications d'experts pour mieux comprendre les impacts psychologiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=jjPBNshYTx8"
+      },
+      {
+        "id": "folie-isolement-et-traitements-le-quotidien-des-patients-psy",
+        "icon": "🎬",
+        "title": "Folie, isolement et traitements : le quotidien des patients psychiatriques",
+        "desc": "Documentaire qui nous emmène dans les services de psychiatrie français pour découvrir le quotidien des personnes hospitalisées. Une immersion qui permet de mieux comprendre la réalité des soins en psychiatrie, au-delà des préjugés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Bipolarité",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=hM5CdrBiVNg"
+      },
+      {
+        "id": "urgences-psy-le-quotidien-eprouvant-des-soignants",
+        "icon": "🎬",
+        "title": "Urgences psy : le quotidien éprouvant des soignants",
+        "desc": "Documentaire immersif dans les urgences psychiatriques de l'hôpital Henri Mondor. Donne un aperçu du quotidien des soignants et de la réalité des soins en urgence psy, utile pour comprendre le fonctionnement de ces services.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=S5ek_8I9VUM"
+      },
+      {
+        "id": "le-trouble-dissociatif-le-cameleon-de-la-psychiatrie-par-pr-",
+        "icon": "🎬",
+        "title": "Le trouble dissociatif : le caméléon de la psychiatrie, par Pr Coraline Hingray, CPN Laxou, Nancy",
+        "desc": "Conférence du Pr Coraline Hingray sur les troubles dissociatifs, souvent méconnus et mal diagnostiqués. Explique les liens avec les traumatismes complexes et aide à mieux comprendre ces troubles qui se cachent derrière d'autres symptômes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=LaUlEJcI8d4"
+      },
+      {
+        "id": "psycho-trauma-tous-concernes",
+        "icon": "🎬",
+        "title": "PSYCHO-TRAUMA : tous concernés !",
+        "desc": "Une vidéo pédagogique qui explore le psychotraumatisme avec une psychologue : ses origines, ses manifestations et ses impacts. Accessible pour comprendre ce que vivent les personnes concernées et leur entourage.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=wZH-NoWPj2A"
+      },
+      {
+        "id": "la-psychologie-du-traumatisme-infantile",
+        "icon": "🎬",
+        "title": "La psychologie du traumatisme infantile",
+        "desc": "Une vidéo qui explore les mécanismes du traumatisme infantile et ses répercussions à l'âge adulte. Peut aider à mieux comprendre comment les blessures d'enfance influencent notre vie quotidienne et nos relations.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Anxiété/Angoisse",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=k98gXKhjd_0"
+      },
+      {
+        "id": "l-autisme-au-feminin-avec-adeline-lacroix",
+        "icon": "🎬",
+        "title": "L' autisme au féminin avec Adeline Lacroix",
+        "desc": "Témoignage d'Adeline Lacroix, chercheuse diagnostiquée autiste à l'âge adulte, qui partage son expérience du diagnostic tardif et des spécificités de l'autisme chez les femmes. Un regard éclairant qui aide à mieux comprendre les parcours diagnostiques complexes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=tlUy9i3E7ok"
+      },
+      {
+        "id": "autisme-comment-faire-le-diagnostic-tsa-trouble-du-spectre-a",
+        "icon": "🎬",
+        "title": "#Autisme : comment faire le diagnostic #TSA Trouble du Spectre Autistique #ASPERGER #TND",
+        "desc": "Vidéo explicative sur le processus de diagnostic de l'autisme et du trouble du spectre autistique. Aborde les démarches et critères diagnostiques de manière pédagogique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=t0Kav4Y2NZQ"
+      },
+      {
+        "id": "8-autisme-asperger-les-signes-qui-peuvent-passer-inapercus-c",
+        "icon": "🎬",
+        "title": "#8 - Autisme / Asperger : les signes qui peuvent passer inaperçus chez les adultes",
+        "desc": "Une vidéo de la chaîne Bande d'Autistes qui explore les signes d'autisme pouvant passer inaperçus à l'âge adulte. Particulièrement utile pour les personnes qui s'interrogent sur un possible diagnostic tardif et leurs proches.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=wunyIiyrveI"
+      },
+      {
+        "id": "trouble-du-spectre-autistique-et-hpi-avec-la-psychologue-mae",
+        "icon": "🎬",
+        "title": "Trouble du Spectre Autistique et HPI . Avec la psychologue Maëva Roulin",
+        "desc": "Épisode de podcast avec une psychologue spécialisée explorant les liens entre autisme et haut potentiel intellectuel. Apporte un éclairage professionnel sur cette double spécificité souvent questionnée.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=jkD3jc0MIic"
+      },
+      {
+        "id": "s-o-s-depression-quand-la-solitude-oppresse",
+        "icon": "🎬",
+        "title": "S.O.S Dépression : Quand la solitude oppresse",
+        "desc": "Documentaire sur S.O.S Dépression, ligne d'écoute qui reçoit 20 à 50 appels par soir. Montre le travail des bénévoles (étudiants en psycho, psychiatres) qui accompagnent les personnes en détresse. Témoigne de l'importance du lien humain face à l'isolement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=MiFfmAZK-a8"
+      },
+      {
+        "id": "webinaire-deuil-complexe-persistant-traumatique-complique-ou",
+        "icon": "🎬",
+        "title": "Webinaire: Deuil complexe, persistant, traumatique, compliqué ou prolongé ?",
+        "desc": "Webinaire professionnel qui décortique les différents types de deuil compliqué. Utile pour comprendre quand un deuil devient particulièrement difficile et nécessite un accompagnement spécialisé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte",
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=XYNPFjHuXCE"
+      },
+      {
+        "id": "bipolaire-et-psychiatre-le-temoignage-du-dr-sikorav",
+        "icon": "🎬",
+        "title": "Bipolaire et psychiatre : le témoignage du Dr Sikorav",
+        "desc": "Témoignage inspirant du Dr Sikorav, psychiatre qui vit avec un trouble bipolaire. Il partage son parcours professionnel et personnel, montrant qu'il est possible de concilier trouble bipolaire et carrière médicale. Un exemple concret de rétablissement qui peut donner espoir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=eSWmg-sjH8M"
+      },
+      {
+        "id": "troubles-du-sommeil-en-psychiatrie-dr-j-a-micoulaud-franchi",
+        "icon": "🎬",
+        "title": "Troubles du sommeil en psychiatrie - Dr J-A. Micoulaud-Franchi",
+        "desc": "Conférence du Dr Micoulaud-Franchi sur les liens entre sommeil et santé mentale. Accessible aux non-professionnels, elle explique comment les troubles du sommeil interagissent avec les troubles psychiques et donne des pistes concrètes pour mieux comprendre ces mécanismes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=2ogXeoeOc08"
+      },
+      {
+        "id": "acceptance-therapy-a-dialogue-with-francois-bourgognon",
+        "icon": "🎬",
+        "title": "Acceptance Therapy - A Dialogue with François Bourgognon",
+        "desc": "Entretien avec François Bourgognon, psychiatre spécialiste de la thérapie ACT (Acceptation et Engagement), qui présente cette approche thérapeutique axée sur l'acceptation plutôt que la lutte contre les symptômes. Une perspective différente pour comprendre comment composer avec ses difficultés psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=0naw0cXRaoc"
+      },
+      {
+        "id": "grace-a-eux-oubliez-vos-crises-d-angoisse",
+        "icon": "🎬",
+        "title": "Grâce à eux, oubliez vos crises d'angoisse",
+        "desc": "Documentaire sur l'aide d'urgence en santé mentale, notamment les lignes téléphoniques d'écoute. Peut donner des pistes concrètes pour gérer les crises d'angoisse et savoir vers qui se tourner.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=SOJfXBfDaKw"
+      },
+      {
+        "id": "anxiete-depression-causes-profondes-mecanismes-solutions-gwe",
+        "icon": "🎬",
+        "title": "Anxiété & dépression : causes profondes, mécanismes & solutions : Gwenaëlle Persiaux & Yoanna Micoud",
+        "desc": "Masterclass vidéo sur les mécanismes de l'anxiété et de la dépression par deux psychologues. Format accessible pour comprendre les causes et découvrir des pistes d'aide concrètes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=lmBAtg6Gz-0"
+      },
+      {
+        "id": "maltraitances-du-trouble-borderline-en-psychiatrie-mon-temoi",
+        "icon": "🎬",
+        "title": "Maltraitances du trouble borderline en psychiatrie : mon témoignage",
+        "desc": "Un témoignage personnel sur les maltraitances vécues en psychiatrie en tant que personne avec un trouble borderline. Une parole authentique qui peut aider à se sentir moins seul·e et à mieux comprendre ces expériences difficiles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=_OmzxKtBzPU"
+      },
+      {
+        "id": "la-psychotherapie-comportementale-dialectique-tcd-avec-flore",
+        "icon": "🎬",
+        "title": "La Psychothérapie Comportementale Dialectique (TCD) avec Florence GUENOT",
+        "desc": "Une présentation de la thérapie comportementale dialectique (TCD) par Florence Guenot, directrice de département de psychologie. Explique cette approche thérapeutique particulièrement utilisée pour le trouble borderline, avec un focus sur la régulation émotionnelle et les compétences pratiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=i_WfRgPo9hk"
+      },
+      {
+        "id": "trouble-de-la-personnalite-limite-dr-nadege-bourvis",
+        "icon": "🎬",
+        "title": "Trouble de la personnalité limite - Dr Nadège BOURVIS",
+        "desc": "Une psychiatre explique le trouble de la personnalité limite de manière accessible. Utile pour comprendre les mécanismes et les approches thérapeutiques, même si le format reste assez médical.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=9jjLIPo40Mk"
+      },
+      {
+        "id": "le-trouble-de-la-personnalite-limite-tpl",
+        "icon": "🎬",
+        "title": "Le trouble de la personnalité limite | TPL",
+        "desc": "Vidéo éducative sur le trouble de la personnalité limite développée dans un contexte universitaire. Peut offrir une approche pédagogique structurée pour comprendre le TPL, bien que l'angle académique puisse être moins centré sur le vécu.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=7Cna-khp7EA"
+      },
+      {
+        "id": "le-trouble-bipolaire-vtfs-98-psychologie",
+        "icon": "🎬",
+        "title": "Le Trouble BIPOLAIRE VTFS#98 - Psychologie",
+        "desc": "Vidéo explicative sur le trouble bipolaire par la chaîne YouTube Va Te Faire Suivre, qui vulgarise la psychologie. Permet de mieux comprendre les mécanismes et manifestations de ce trouble de l'humeur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=jzwhROX5IUs"
+      },
+      {
+        "id": "tout-comprendre-sur-le-tdah-et-la-bipolarite-avec-un-psychia",
+        "icon": "🎬",
+        "title": "Tout comprendre sur le TDAH et la bipolarité (avec un psychiatre)",
+        "desc": "Interview d'un psychiatre qui démêle les idées reçues sur le TDAH et la bipolarité. Une approche accessible pour mieux comprendre ces troubles et leurs spécificités.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte",
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=vCf7ySiv3Do"
+      },
+      {
+        "id": "trouble-bipolaire-l-essentiel-a-savoir",
+        "icon": "🎬",
+        "title": "TROUBLE BIPOLAIRE : l'essentiel à savoir !",
+        "desc": "Une vidéo explicative sur les troubles bipolaires réalisée avec un psychiatre. Présente les bases médicales du trouble de manière pédagogique pour mieux comprendre les mécanismes et accompagner les personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=RWHep-jI6aA"
+      },
+      {
+        "id": "a-lille-ces-patients-psychiatriques-vivent-hors-de-l-hopital",
+        "icon": "🎬",
+        "title": "À Lille, ces patients psychiatriques vivent hors de l’hôpital",
+        "desc": "Reportage documentaire qui suit le quotidien de Bernard, Axel, Son et Rachid, quatre personnes vivant avec des troubles psychiques qui ont quitté l'hôpital psychiatrique pour une vie plus autonome. Un témoignage humain sur les alternatives à l'hospitalisation et la réinsertion sociale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=Vv-VR7AScJg"
+      },
+      {
+        "id": "une-vie-de-jeune-en-psychiatrie-le-dur-quotidien-des-patient",
+        "icon": "🎬",
+        "title": "Une vie de jeune en psychiatrie : le dur quotidien des patients - Documentaire société - RTS",
+        "desc": "Documentaire RTS qui suit le quotidien de jeunes adultes hospitalisés en psychiatrie. Témoignages directs sur la réalité de vivre avec des troubles psychiques entre 18 et 30 ans, sans filtre ni jugement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Bipolarité",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=lwyMJmcT5aw"
+      },
+      {
+        "id": "temoignages-vivre-avec-une-maladie-psychique-en-normandie",
+        "icon": "🎬",
+        "title": "TEMOIGNAGES : vivre avec une maladie psychique en Normandie",
+        "desc": "Des témoignages authentiques de personnes vivant avec des troubles psychiques en Normandie. Un reportage de France 3 qui donne la parole aux personnes concernées, permettant de mieux comprendre leur quotidien et de réduire les préjugés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Bipolarité",
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=ZqPKbNP-IhQ"
+      },
+      {
+        "id": "neuroleptiques-antipsychotiques-pharmacologie-action-effets-",
+        "icon": "🎬",
+        "title": "Neuroleptiques - Antipsychotiques : Pharmacologie, action, effets indésirables, clozapine",
+        "desc": "Vidéo explicative sur les antipsychotiques : leur fonctionnement, leurs effets thérapeutiques et leurs effets indésirables. Approche pédagogique pour mieux comprendre ces traitements souvent prescrits dans les troubles psychotiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Bipolarité",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=c_K97_3AxXg"
+      },
+      {
+        "id": "3-facons-d-etre-fou-vtfs-11-psychologie",
+        "icon": "🎬",
+        "title": "3 Façons d'être fou! 😜  VTFS#11 - Psychologie",
+        "desc": "Une vidéo de vulgarisation psychologique qui explore différentes façons d'appréhender la \"folie\" avec un ton décontracté. Peut offrir une perspective alternative sur les troubles mentaux, bien que le titre puisse paraître provocateur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=BKUP_v3iGb0"
+      },
+      {
+        "id": "replay-du-webinaire-l-episode-depressif-chez-l-enfant-et-l-a",
+        "icon": "🎬",
+        "title": "Replay du webinaire L’épisode dépressif chez l’enfant et l’adolescent : signes et enjeux cliniques",
+        "desc": "Webinaire professionnel sur la dépression chez les jeunes par une psychologue hospitalière. Approche clinique centrée sur la détection des signes et les enjeux thérapeutiques, utile pour mieux comprendre cette période particulière.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=URQhV1Lyx2U"
+      },
+      {
+        "id": "l-addiction-psycho-arte",
+        "icon": "🎬",
+        "title": "L'addiction | Psycho | ARTE",
+        "desc": "Un documentaire ARTE accessible qui explore les multiples facettes de l'addiction : les causes profondes (trauma, solitude, recherche de sensations), les mécanismes psychologiques et les chemins de sortie possibles. Une approche nuancée qui aide à mieux comprendre sans juger.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=iFC040tJslE"
+      },
+      {
+        "id": "conference-de-laurent-karila-sur-les-addictions-jeudi-20-jan",
+        "icon": "🎬",
+        "title": "Conférence de Laurent Karila sur les addictions / jeudi 20 janvier 2022",
+        "desc": "Conférence du psychiatre Laurent Karila sur les addictions, organisée par la ville de Corbeil-Essonnes. Une approche professionnelle accessible pour comprendre les mécanismes des addictions et les pistes d'accompagnement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=WIj0F7Zfn8I"
+      },
+      {
+        "id": "troubles-de-la-personnalite-et-addictions",
+        "icon": "🎬",
+        "title": "Troubles de la personnalité et addictions",
+        "desc": "Conférence du Pr Alain Dervaux sur les liens entre troubles de la personnalité et addictions. Approche universitaire qui peut éclairer sur les interactions complexes entre ces difficultés, utile pour mieux comprendre certains parcours de soin.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "Borderline / TPL",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=yDOuKXJlHx8"
+      },
+      {
+        "id": "sexe-drogue-ses-addictions-etaient-la-reponse-a-son-trouble-",
+        "icon": "🎬",
+        "title": "Sexe, drogue : ses addictions étaient la réponse à son trouble borderline - Ça commence aujourd'hui",
+        "desc": "Témoignage personnel sur l'utilisation d'addictions comme mécanisme d'adaptation au trouble borderline. Une approche humaine qui peut aider à comprendre les liens entre troubles et comportements addictifs.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL",
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=IR_2vwVJ2a8"
+      },
+      {
+        "id": "addiction-a-l-alcool-comprendre-agir-et-s-en-sortir-avec-une",
+        "icon": "🎬",
+        "title": "ADDICTION À L’ALCOOL : COMPRENDRE, AGIR ET S’EN SORTIR (avec une psychologue) | Sans Filtre par Kwit",
+        "desc": "Épisode de l'émission Sans Filtre qui démystifie l'addiction à l'alcool avec la psychologue Delphine Py. Une discussion accessible pour mieux comprendre les mécanismes de l'addiction et les pistes pour s'en sortir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=zKW6Q5VHMrM"
+      },
+      {
+        "id": "comment-vaincre-l-anxiete-trouble-anxieux-generalise",
+        "icon": "🎬",
+        "title": "Comment vaincre l'anxiété ? (Trouble Anxieux Généralisé)",
+        "desc": "Vidéo proposant des outils et réflexions pour comprendre et gérer l'anxiété généralisée. Approche accessible avec partage d'expériences authentiques pour mieux vivre au quotidien avec ce trouble.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=v1C2QClLBkE"
+      },
+      {
+        "id": "une-vie-sans-anxiete-est-possible-stopper-ruminations-angois",
+        "icon": "🎬",
+        "title": "Une vie sans anxiété est possible ! Stopper ruminations, angoisse et problèmes de santé chroniques",
+        "desc": "Vidéo qui promet d'aider à gérer l'anxiété, les ruminations et l'angoisse. Le titre très affirmatif ('Une vie sans anxiété est possible !') peut créer des attentes irréalistes sur la guérison complète de l'anxiété.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=z0BNpgtjcaM"
+      },
+      {
+        "id": "35-crises-d-angoisse-et-anxiete-a-l-adolescence-explications",
+        "icon": "🎬",
+        "title": "35. Crises d'angoisse et anxiété à l'adolescence, explications par une psychologue",
+        "desc": "Une psychologue explique les différences entre stress, anxiété et crises d'angoisse chez les adolescents. Aide à comprendre ces manifestations et leurs spécificités à cet âge charnière.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=otmqrE3_mZ8"
+      },
+      {
+        "id": "a-quoi-servent-les-phobies-pourries-vtfs65-psychologie",
+        "icon": "🎬",
+        "title": "À quoi servent les PHOBIES POURRIES ?!?! - VTFS65 - Psychologie",
+        "desc": "Une vidéo de vulgarisation psychologique qui explore le rôle et l'utilité des phobies dans notre fonctionnement mental. Approche accessible pour comprendre ces peurs intenses qui peuvent parfois nous protéger.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=1XKXF71Y61o"
+      },
+      {
+        "id": "en-fait-tu-as-peur-de-rien-vtfslight-psychologie",
+        "icon": "🎬",
+        "title": "En fait, tu as peur de RIEN... VTFSLight# - Psychologie",
+        "desc": "Vidéo de vulgarisation psychologique qui explore les mécanismes de la peur et propose des clés de compréhension. Format accessible pour démystifier ce qui se cache derrière nos peurs du quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=TMLGWVuBXUA"
+      },
+      {
+        "id": "tdah-family",
+        "icon": "🎙️",
+        "title": "TDAH Family",
+        "desc": "Podcast francophone dédié aux familles touchées par le TDAH. Aborde les défis du quotidien et partage des témoignages pour mieux comprendre et accompagner les personnes TDAH.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/tdah-family/id1724580305?l=fr&uo=4"
+      },
+      {
+        "id": "micro-et-dopamine-le-tdah-de-l-adulte-au-travail-et-dans-la-",
+        "icon": "🎙️",
+        "title": "MICRO ET DOPAMINE, le TDAH de l'adulte au travail et dans la vie !",
+        "desc": "Un podcast dédié au TDAH chez l'adulte, avec un focus sur les défis du quotidien professionnel et personnel. Aborde les enjeux concrets de la vie avec un TDAH à l'âge adulte.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/micro-et-dopamine-le-tdah-de-ladulte-au-travail-et-dans-la-vie/id1820098242?l=fr&uo=4"
+      },
+      {
+        "id": "tdah-en-adultos",
+        "icon": "🎙️",
+        "title": "TDAH en ADULTOS.",
+        "desc": "Un podcast dédié au TDAH chez les adultes, qui semble aborder les défis spécifiques de ce trouble à l'âge adulte. Une ressource potentiellement utile pour mieux comprendre et gérer le TDAH au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/tdah-en-adultos/id1586390216?l=fr&uo=4"
+      },
+      {
+        "id": "fiere-tdah",
+        "icon": "🎙️",
+        "title": "Fière TDAH",
+        "desc": "Un podcast qui aborde le TDAH avec fierté et positivité, proposant des témoignages et des perspectives encourageantes pour mieux vivre avec ce trouble. Une approche bienveillante qui aide à déconstruire la honte souvent associée au TDAH.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/fi%C3%A8re-tdah/id1621097940?l=fr&uo=4"
+      },
+      {
+        "id": "parole-de-bipolaire",
+        "icon": "🎙️",
+        "title": "Parole de bipolaire",
+        "desc": "Un podcast qui donne la parole à des personnes bipolaires pour partager leur vécu authentique et briser les tabous. Des témoignages directs qui permettent de mieux comprendre le trouble bipolaire au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/parole-de-bipolaire/id1610111824?l=fr&uo=4"
+      },
+      {
+        "id": "vaincre-l-anorexie-et-d-autres-troubles-alimentaires",
+        "icon": "📖",
+        "title": "Vaincre l'Anorexie et d'autres Troubles Alimentaires",
+        "desc": "Un livre qui aborde les troubles alimentaires avec un angle pratique pour s'en sortir. Écrit par une auteure qui semble s'appuyer sur une approche concrète pour accompagner la guérison.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL40407072W"
+      },
+      {
+        "id": "addiction-et-microbiote-maladies-de-civilisation-troubles-al",
+        "icon": "📖",
+        "title": "Addiction et Microbiote, Maladies de Civilisation, Troubles Alimentaires",
+        "desc": "Un livre qui explore les liens entre microbiote intestinal et différents troubles comme les addictions et TCA. Approche récente (2022) qui peut apporter un éclairage complémentaire sur ces problématiques de santé mentale.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Addictions",
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL31086789W"
+      },
+      {
+        "id": "anorexie-et-boulimie",
+        "icon": "📖",
+        "title": "Anorexie et Boulimie",
+        "desc": "Un livre qui aborde l'anorexie et la boulimie du point de vue psychologique. Bien que datant de 2000, il peut offrir des pistes de compréhension sur ces troubles alimentaires.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL2977863W"
+      },
+      {
+        "id": "anorexie-boulimie",
+        "icon": "📖",
+        "title": "Anorexie, boulimie",
+        "desc": "Un ouvrage sur les troubles du comportement alimentaire qui explore l'anorexie et la boulimie. Attention, livre de 2011 qui peut contenir des approches désormais questionnées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL24248420W"
+      },
+      {
+        "id": "elle-mange-rien-psychanalyse-et-anorexie",
+        "icon": "📖",
+        "title": "Elle mange rien - Psychanalyse et Anorexie",
+        "desc": "Un livre qui explore l'anorexie sous l'angle psychanalytique. Peut offrir une perspective théorique sur les mécanismes psychiques en jeu, mais l'approche psychanalytique peut être dense et pas forcément accessible à tous.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL31769110W"
+      },
+      {
+        "id": "prise-en-charge-du-tda-h-par-les-tcce",
+        "icon": "📖",
+        "title": "Prise en Charge du TDA/H Par les TCCE",
+        "desc": "Un livre récent sur la prise en charge du TDAH par les thérapies cognitivo-comportementales et émotionnelles. Peut offrir des approches concrètes pour mieux gérer les symptômes au quotidien.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL38620461W"
+      },
+      {
+        "id": "trouble-deficit-de-l-attention-avec-ou-sans-hyperactivite",
+        "icon": "📖",
+        "title": "Trouble déficit de l'attention Avec Ou Sans Hyperactivité",
+        "desc": "Livre du Dr Olivier Revol sur le TDAH, expliquant les mécanismes du trouble et proposant des stratégies pratiques. Une référence accessible pour mieux comprendre le fonctionnement attentionnel différent.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL35735794W"
+      },
+      {
+        "id": "apprivoiser-l-hyperactivite-et-le-deficit-de-l-attention",
+        "icon": "📖",
+        "title": "Apprivoiser l'hyperactivité et le déficit de l'attention",
+        "desc": "Un guide pratique pour comprendre et gérer le TDAH au quotidien. Écrit par Colette Sauvé, ce livre offre des stratégies concrètes pour apprivoiser l'hyperactivité et les difficultés d'attention, avec une approche bienveillante centrée sur l'acceptation et l'adaptation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL13539650W"
+      },
+      {
+        "id": "se-relever-d-un-traumatisme",
+        "icon": "📖",
+        "title": "Se relever d'un traumatisme",
+        "desc": "Un ouvrage de référence qui propose des outils concrets pour comprendre et surmonter les traumatismes. Écrit par une psychologue spécialisée, il offre des pistes pratiques pour retrouver confiance et sérénité après un événement difficile.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL22125935W"
+      },
+      {
+        "id": "le-traumatisme-dans-tous-ses-eclats",
+        "icon": "📖",
+        "title": "Le traumatisme dans tous ses éclats",
+        "desc": "Un livre qui explore les différentes facettes du traumatisme psychologique. Peut offrir des éclairages sur les mécanismes et manifestations du trauma, bien que l'approche spécifique ne soit pas détaillée dans les informations disponibles.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL28958245W"
+      },
+      {
+        "id": "autisme-et-tsa",
+        "icon": "📖",
+        "title": "Autisme et TSA",
+        "desc": "Un livre de Catherine Des Rivières-Pigeon sur l'autisme et les TSA, publié en 2014. Sans plus de détails sur le contenu spécifique, difficile d'évaluer l'approche et la pertinence actuelle.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://openlibrary.org/works/OL23329288W"
+      },
+      {
+        "id": "comment-en-finir-avec-les-insomnies-et-les-troubles-du-somme",
+        "icon": "📖",
+        "title": "Comment en Finir Avec les Insomnies et les Troubles du Sommeil Naturellement, dès Ce Soir et à Vie ! (livre Sommeil)",
+        "desc": "Guide pratique proposant des méthodes naturelles pour améliorer le sommeil. Attention au titre un peu sensationnaliste qui promet des résultats immédiats - l'amélioration du sommeil demande souvent du temps et de la patience.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL41672950W"
+      },
+      {
+        "id": "trouble-bipolaire-apprendre-a-vivre-avec-un-trouble-bipolair",
+        "icon": "📖",
+        "title": "Trouble Bipolaire Apprendre à Vivre Avec un Trouble Bipolaire",
+        "desc": "Un guide pratique pour apprendre à naviguer au quotidien avec un trouble bipolaire. L'auteur propose des stratégies concrètes pour mieux comprendre et gérer les fluctuations d'humeur, utile pour les personnes concernées et leurs proches.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL41875482W"
+      },
+      {
+        "id": "traitements-psychologiques-des-troubles-bipolaires",
+        "icon": "📖",
+        "title": "Traitements Psychologiques des Troubles Bipolaires",
+        "desc": "Un ouvrage spécialisé sur les approches psychologiques pour accompagner la bipolarité. Peut être utile pour comprendre les différentes thérapies disponibles au-delà des traitements médicamenteux.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL26557290W"
+      },
+      {
+        "id": "le-trouble-bipolaire",
+        "icon": "📖",
+        "title": "Le trouble bipolaire",
+        "desc": "Guide sur le trouble bipolaire par Dr Marie-Josée Filteau, psychiatre spécialisée. Aborde les aspects médicaux du trouble avec une approche professionnelle pour comprendre les symptômes et traitements.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL26437113W"
+      },
+      {
+        "id": "manie-et-depression",
+        "icon": "📖",
+        "title": "Manie et dépression",
+        "desc": "Un livre de 2007 qui aborde les troubles bipolaires sous l'angle médical. Attention, les approches et terminologies ont évolué depuis cette publication.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité",
+          "Dépression"
+        ],
+        "link": "https://openlibrary.org/works/OL19426023W"
+      },
+      {
+        "id": "feuilles-de-travail-pour-la-th-65533-rapie-cognitivo-comport",
+        "icon": "📖",
+        "title": "Feuilles de Travail Pour la Th&#65533;rapie Cognitivo-Comportementale Pour le Trouble Bipolaire",
+        "desc": "Cahier d'exercices pratiques basé sur la thérapie cognitivo-comportementale, spécialement conçu pour les personnes vivant avec un trouble bipolaire. Propose des outils concrets pour mieux gérer les phases et développer des stratégies d'adaptation au quotidien.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL30382083W"
+      },
+      {
+        "id": "la-schizophrenie",
+        "icon": "🎬",
+        "title": "🧠 La schizophrénie",
+        "desc": "Une vidéo qui présente la schizophrénie en expliquant comment elle affecte la pensée et le comportement au quotidien. Peut aider à mieux comprendre ce trouble et ses impacts dans la vie réelle.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=rJsLmbvUqDc"
+      },
+      {
+        "id": "alcoolisme-et-psychiatrie",
+        "icon": "📖",
+        "title": "Alcoolisme et psychiatrie",
+        "desc": "Un ouvrage médical sur les liens entre consommation d'alcool et troubles psychiatriques. Attention : livre académique de 1997, approche probablement très clinique et potentiellement datée dans sa vision des addictions.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://openlibrary.org/works/OL20671066M"
+      },
+      {
+        "id": "anxiete-et-troubles-anxieux",
+        "icon": "📖",
+        "title": "Anxiété et troubles anxieux",
+        "desc": "Un livre qui explore les mécanismes de l'anxiété et des troubles anxieux. Peut offrir des clés de compréhension sur ce que vivent les personnes concernées, bien que l'approche soit probablement académique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL8983338W"
+      },
+      {
+        "id": "crises-de-panique-et-autres-troubles-anxieux-stop-a-cela",
+        "icon": "📖",
+        "title": "Crises de Panique et Autres Troubles Anxieux? - Stop à Cela!",
+        "desc": "Un guide pratique pour comprendre et gérer les crises de panique et troubles anxieux. Propose des stratégies concrètes pour reprendre le contrôle face à l'anxiété au quotidien.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL28710189W"
+      },
+      {
+        "id": "vivre-sans-troubles-anxieux-et-crises-de-panique",
+        "icon": "📖",
+        "title": "Vivre Sans Troubles Anxieux et Crises de Panique",
+        "desc": "Un guide pratique pour comprendre et gérer l'anxiété et les crises de panique au quotidien. Propose des outils concrets pour retrouver une vie plus sereine, sans jargon médical complexe.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL34413694W"
+      },
+      {
+        "id": "vaincre-la-panique-et-l-anxiete",
+        "icon": "📖",
+        "title": "Vaincre la panique et l'anxiété",
+        "desc": "Un guide pratique pour comprendre et gérer les crises de panique et l'anxiété au quotidien. Propose des stratégies concrètes pour reprendre le contrôle face à ces difficultés.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL9028252W"
+      },
+      {
+        "id": "phobies-sociales",
+        "icon": "📖",
+        "title": "Phobies sociales",
+        "desc": "Un livre sur les phobies sociales publié en 2002. Les informations limitées disponibles ne permettent pas d'évaluer précisément le contenu et l'approche adoptée par l'auteur.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL9965029W"
+      },
+      {
+        "id": "vaincre-ses-phobies",
+        "icon": "📖",
+        "title": "Vaincre Ses Phobies",
+        "desc": "Un livre pratique pour comprendre et surmonter ses phobies au quotidien. L'auteur propose des stratégies concrètes pour apprivoiser ses peurs et retrouver plus de liberté dans sa vie.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL29662803W"
+      },
+      {
+        "id": "maitriser-ses-phobies",
+        "icon": "📖",
+        "title": "Maîtriser ses phobies",
+        "desc": "Guide pratique pour comprendre et surmonter ses phobies, écrit par un professionnel mais dans un langage accessible. Propose des stratégies concrètes pour apprivoiser ses peurs et reprendre confiance.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL9965250W"
+      },
+      {
+        "id": "peurs-et-phobies",
+        "icon": "📖",
+        "title": "Peurs et phobies",
+        "desc": "Un livre qui explore les mécanismes des peurs et phobies. Attention, publié en 1997, les approches thérapeutiques ont beaucoup évolué depuis.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL19231579W"
+      },
+      {
+        "id": "bipolarite-paranoia-ces-malades-qui-veulent-s-en-sortir",
+        "icon": "🎬",
+        "title": "Bipolarité, paranoïa : ces malades qui veulent s'en sortir",
+        "desc": "Documentaire sur une maison thérapeutique où soignants et patients vivent ensemble, montrant une approche alternative de soin en santé mentale. Offre un regard sur le quotidien et la réalité de personnes concernées par différents troubles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=IHjUXSsEuG0"
+      },
+      {
+        "id": "ces-jeunes-filles-font-tout-pour-sortir-de-l-anorexie",
+        "icon": "🎬",
+        "title": "Ces jeunes filles font TOUT pour sortir de l'ANOREXIE",
+        "desc": "Documentaire qui suit le quotidien d'un service hospitalier spécialisé dans l'accompagnement de jeunes femmes en sortie d'anorexie. Permet de mieux comprendre les étapes du rétablissement et les défis rencontrés au jour le jour.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=ZCie9sqfiDk"
+      },
+      {
+        "id": "mes-troubles-alimentaires-me-bouffent-la-vie-ca-commence-auj",
+        "icon": "🎬",
+        "title": "Mes troubles alimentaires me bouffent la vie - Ça commence aujourd'hui",
+        "desc": "Témoignages de personnes vivant avec des troubles alimentaires dans l'émission de Faustine Bollaert. Des récits authentiques qui brisent les tabous et montrent la réalité du quotidien avec un TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=KPtvVZmK81U"
+      },
+      {
+        "id": "anorexie-boulimie-l-obsession-du-controle-temoignage",
+        "icon": "🎬",
+        "title": "Anorexie, boulimie : L'obsession du contrôle (témoignage)",
+        "desc": "Témoignage personnel sur l'anorexie et la boulimie qui explore la dimension de contrôle dans les TCA. Une approche humaine qui peut aider à mieux comprendre ces troubles depuis l'intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=8ILz0ETtjQk"
+      },
+      {
+        "id": "webinaire-imind-3-troubles-du-comportement-alimentaire-tca-e",
+        "icon": "🎬",
+        "title": "Webinaire iMIND #3: Troubles du comportement alimentaire (TCA) et TSA: vers une vision intégrative ?",
+        "desc": "Webinaire explorant les liens entre troubles alimentaires et autisme, proposant une approche intégrative. Une perspective professionnelle qui peut éclairer les personnes concernées et leurs proches sur ces comorbidités fréquentes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA",
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=uNavMOec14Q"
+      },
+      {
+        "id": "troubles-du-comportement-alimentaire-therapie-et-restructura",
+        "icon": "🎬",
+        "title": "Troubles du Comportement Alimentaire : Thérapie et Restructuration Cognitive - Dr Nathalie PAROLA",
+        "desc": "Vidéo du Dr Nathalie Parola sur les troubles du comportement alimentaire, abordant l'anorexie et les approches thérapeutiques de restructuration cognitive. Une perspective professionnelle sur les mécanismes et traitements des TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=Dr5_pObMaiY"
+      },
+      {
+        "id": "ma-semaine-de-boulimique-anorexique-profils-des-recits-uniqu",
+        "icon": "🎙️",
+        "title": "Ma semaine de boulimique-anorexique | Profils, des récits uniques | ARTE Radio Podcasts",
+        "desc": "Un témoignage audio intime qui suit le quotidien d'une personne vivant avec des troubles alimentaires. Une plongée authentique dans le vécu des TCA, loin des clichés, qui permet de mieux comprendre la réalité de ces troubles au jour le jour.",
+        "type": "Podcast",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=zYuvDmHEGwo"
+      },
+      {
+        "id": "anorexie-temoignage-patient-l-anorexie-mentale-et-la-depress",
+        "icon": "🎬",
+        "title": "Anorexie • Témoignage patient : l'anorexie mentale et la dépression majeure avec Inès | Doctoome",
+        "desc": "Témoignage authentique d'Inès sur son parcours de guérison d'une anorexie mentale et d'une dépression. Un récit personnel qui peut aider à comprendre ces troubles de l'intérieur et donner de l'espoir aux personnes qui traversent des difficultés similaires.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=pWMUCR-yAj0"
+      },
+      {
+        "id": "qu-est-ce-que-l-anorexie-mentale",
+        "icon": "🎬",
+        "title": "Qu'est ce que l'anorexie mentale ?",
+        "desc": "Entretien avec un médecin sur l'anorexie mentale, abordant les aspects médicaux et psychologiques du trouble. Peut apporter des éclairages sur la compréhension de ce TCA, même si l'approche semble principalement médicale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=9nUqFvW4psQ"
+      },
+      {
+        "id": "sois-belle-et-tais-toi-temoignage-anorexie-boulimie",
+        "icon": "🎬",
+        "title": "Sois belle et tais toi — Témoignage, anorexie, boulimie",
+        "desc": "Témoignage personnel sur l'anorexie et la boulimie qui met des mots sur les maux vécus. Un partage authentique qui peut aider à se sentir moins seul·e dans ces troubles alimentaires.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=mh5C-VizAgA"
+      },
+      {
+        "id": "cause-de-la-boulimie-d-un-point-de-vue-psychologique",
+        "icon": "🎬",
+        "title": "Cause de la boulimie d'un point de vue  psychologique",
+        "desc": "Catherine Hervais explore les causes psychologiques de la boulimie au-delà des explications simplistes. Une approche qui aide à comprendre les mécanismes profonds sans culpabiliser.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=DaB67F6fKaY"
+      },
+      {
+        "id": "peut-on-desactiver-les-addictions-42-la-reponse-a-presque-to",
+        "icon": "🎬",
+        "title": "Peut-on désactiver les addictions ? | 42 - La réponse à presque tout | ARTE",
+        "desc": "Documentaire ARTE qui explore les mécanismes des addictions et questionne la possibilité de 'guérison'. Une approche scientifique accessible qui aide à mieux comprendre les enjeux du rétablissement et de l'abstinence.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=Sexea1QaTXo"
+      },
+      {
+        "id": "tdah-chez-l-adulte-le-cerveau-en-ebullition-arte-regards",
+        "icon": "🎬",
+        "title": "TDAH chez l’adulte, le cerveau en ébullition | ARTE Regards",
+        "desc": "Documentaire d'ARTE qui explore le TDAH chez l'adulte avec un regard scientifique et humain. Témoignages de personnes concernées et éclairages d'experts pour mieux comprendre ce trouble souvent méconnu à l'âge adulte.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=_KuV2hp47tA"
+      },
+      {
+        "id": "tdah-quand-le-diagnostic-tombe-a-l-age-adulte-rts",
+        "icon": "🎬",
+        "title": "TDAH : quand le diagnostic tombe à l'âge adulte | RTS",
+        "desc": "Reportage de la RTS qui explore le vécu des adultes diagnostiqués TDAH tardivement. Témoignages authentiques sur la découverte du diagnostic et son impact sur la compréhension de soi.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=oKzPXAyGktk"
+      },
+      {
+        "id": "comment-savoir-si-j-ai-un-tdah-un-psychiatre-repond-a-nos-qu",
+        "icon": "🎬",
+        "title": "Comment savoir si j'ai un TDAH ? Un psychiatre répond à nos questions - T'as Capté",
+        "desc": "Une vidéo éducative qui démystifie le TDAH avec l'expertise d'un psychiatre. Répond aux questions essentielles : qu'est-ce que c'est vraiment, comment le reconnaître, et déconstruit les idées reçues sur ce trouble souvent mal compris.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=4kLKL2o4AHU"
+      },
+      {
+        "id": "les-troubles-du-spectre-autistique-psycho-arte",
+        "icon": "🎬",
+        "title": "Les troubles du spectre autistique | Psycho | ARTE",
+        "desc": "Documentaire ARTE où des personnes autistes s'expriment directement sur leur vécu. Une approche respectueuse qui donne la parole aux premières concernées, loin des clichés habituels sur l'autisme.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=OEXedoyp0_k"
+      },
+      {
+        "id": "sans-tabou-on-parle-tdah-sommeil-travail-depression",
+        "icon": "🎬",
+        "title": "Sans tabou, on parle TDAH, sommeil, travail, dépression…",
+        "desc": "Quatre jeunes adultes avec un TDAH échangent librement sur leurs défis quotidiens : sommeil difficile, dépression, monde du travail. Un témoignage authentique et déculpabilisant qui montre la diversité des vécus TDAH.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte",
+          "Dépression",
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=z05yXOpU5S4"
+      },
+      {
+        "id": "hyperactivite-trouble-de-l-attention-comment-en-faire-un-ato",
+        "icon": "🎬",
+        "title": "Hyperactivité, trouble de l'attention : comment en faire un atout ? - Ça commence aujourd'hui",
+        "desc": "Émission de France 2 qui explore comment transformer le TDAH en atout plutôt qu'en obstacle. Témoignages de personnes concernées et conseils pratiques pour mieux vivre avec l'hyperactivité et les troubles de l'attention au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=JUy_nKRm0Ic"
+      },
+      {
+        "id": "temoignage-albane-nous-parle-du-tdah-et-des-troubles-anxieux",
+        "icon": "🎬",
+        "title": "Témoignage ! Albane nous parle du TDAH et des troubles Anxieux",
+        "desc": "Témoignage authentique d'Albane sur son vécu avec le TDAH et l'anxiété. Une approche personnelle qui permet de mieux comprendre ces troubles au quotidien et de se sentir moins seul·e.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=ujC22oXxxv0"
+      },
+      {
+        "id": "pr-anne-sauvaget-tdah-de-la-suspicion-au-diagnostic-1ere-jou",
+        "icon": "🎬",
+        "title": "Pr Anne Sauvaget \"TDAH : de la suspicion au diagnostic\" - 1ère Journée Vendéenne TDAH Adulte",
+        "desc": "Conférence du Pr Anne Sauvaget sur le parcours diagnostique du TDAH adulte, de la suspicion initiale aux étapes concrètes du diagnostic. Explique les pièges à éviter et donne des repères pratiques pour comprendre ce processus souvent long et complexe.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=kCF4p1LPe0M"
+      },
+      {
+        "id": "comment-le-psychologue-peut-il-reperer-efficacement-le-tdah-",
+        "icon": "🎬",
+        "title": "Comment le psychologue peut-il repérer efficacement le TDAH chez l'enfant et l'adulte",
+        "desc": "Formation vidéo destinée aux psychologues sur le repérage du TDAH. Contenu technique et clinique, plus adapté aux professionnels qu'aux personnes concernées ou leurs proches.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=8ihp2VpdsXk"
+      },
+      {
+        "id": "tdah-adulte-burnout-pourquoi-ca-explose-les-vraies-raisons-e",
+        "icon": "🎬",
+        "title": "TDAH Adulte & Burnout : Pourquoi ça explose ? | Les vraies raisons et comment s’en sortir",
+        "desc": "Conférence qui explore les liens entre TDAH et burnout, expliquant pourquoi les personnes TDAH sont plus vulnérables au surmenage et proposant des pistes pour s'en sortir. Une approche éclairante pour comprendre cette double problématique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=-rM5B8ehQI8"
+      },
+      {
+        "id": "tda-h-un-trouble-en-mal-d-attention-investigation",
+        "icon": "🎬",
+        "title": "TDA/H : un trouble en mal d'attention | #Investigation",
+        "desc": "Documentaire de la RTBF qui explore le TDAH chez les enfants et les enjeux autour de ce trouble. Une investigation journalistique qui peut aider à mieux comprendre les réalités du diagnostic et de la prise en charge.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=E8jbEV5RFKM"
+      },
+      {
+        "id": "microbiote-et-cerveau-la-sante-mentale-reside-t-elle-dans-l-",
+        "icon": "🎬",
+        "title": "Microbiote et cerveau: la santé mentale réside-t-elle dans l’intestin ? Diffusion 01.03.2023 | RTS",
+        "desc": "Documentaire de la RTS explorant les liens entre microbiote intestinal et santé mentale. Une approche scientifique accessible pour comprendre comment notre ventre influence notre cerveau et nos émotions.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=hYIYQnUdSSc"
+      },
+      {
+        "id": "trouble-de-l-attention-et-hyperactivite-au-dela-des-idees-re",
+        "icon": "🎬",
+        "title": "Trouble de l'attention et hyperactivité : au-delà des idées reçues - État de santé -",
+        "desc": "Documentaire qui déconstruit les préjugés sur le TDAH et apporte un éclairage nuancé sur ce trouble. Aborde les réalités vécues au-delà des clichés sur l'éducation ou la médication.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=IhEynlFGxmk"
+      },
+      {
+        "id": "les-vrais-signes-d-un-trouble-de-l-attention-tdah-avec-notre",
+        "icon": "🎬",
+        "title": "Les VRAIS SIGNES d’un TROUBLE DE L’ATTENTION (TDAH) avec notre psychologue. (+ solutions efficaces)",
+        "desc": "Une vidéo YouTube qui explore les signes du TDAH avec un psychologue, proposant des solutions concrètes. Peut aider à mieux comprendre les difficultés de concentration et d'organisation au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=HfFs65f9IbI"
+      },
+      {
+        "id": "moi-et-le-traumatisme-psycho-arte",
+        "icon": "🎬",
+        "title": "Moi et le traumatisme | Psycho | ARTE",
+        "desc": "Un documentaire ARTE qui explore comment les traumatismes marquent la vie des enfants et adultes. Une approche accessible et bienveillante pour comprendre les mécanismes du trauma et ses répercussions sur le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=aJROT75hniw"
+      },
+      {
+        "id": "violences-sexuelles-dans-l-enfance-et-consequences-a-l-age-a",
+        "icon": "🎬",
+        "title": "Violences sexuelles dans l'enfance et conséquences à l'âge adulte",
+        "desc": "Vidéo informative sur le psychotraumatisme lié aux violences sexuelles subies dans l'enfance et leurs répercussions à l'âge adulte. Une ressource pour mieux comprendre les mécanismes du trauma et ses conséquences sur la vie quotidienne.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=ZMAn4F-udNM"
+      },
+      {
+        "id": "les-consequences-psycho-traumatiques-des-violences-sideratio",
+        "icon": "🎬",
+        "title": "Les conséquences psycho-traumatiques des violences : sidération, dissociation, mémoire traumatique",
+        "desc": "Vidéo pédagogique officielle qui explique clairement les mécanismes du trauma (sidération, dissociation, mémoire traumatique). Utile pour comprendre ses réactions après un événement traumatisant ou accompagner un proche.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=v-sdhm_dM7Q"
+      },
+      {
+        "id": "sante-mentale-une-realite-dramatique-derriere-la-grande-caus",
+        "icon": "🎬",
+        "title": "SANTÉ MENTALE : UNE RÉALITÉ DRAMATIQUE DERRIÈRE LA \"GRANDE CAUSE NATIONALE\"",
+        "desc": "Documentaire récent de BLAST sur la réalité du système de soins en santé mentale en France. Suit le quotidien d'un psychiatre mobile et témoigne des difficultés concrètes rencontrées par les 3 millions de personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=eG111d8-TG0"
+      },
+      {
+        "id": "briser-le-silence-documentaire-sur-la-sante-mentale-film-com",
+        "icon": "🎬",
+        "title": "Briser le silence | Documentaire sur la santé mentale | Film complet | Psychotique",
+        "desc": "Documentaire qui explore le parcours de rétablissement en santé mentale, montrant comment l'esprit peut se reconstruire après des difficultés. Une approche centrée sur l'espoir et la guérison plutôt que sur les symptômes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=v0pVLEme9fs"
+      },
+      {
+        "id": "asperger-trouble-autistique-comment-relever-les-defis-du-han",
+        "icon": "🎬",
+        "title": "Asperger, trouble autistique : Comment relever les défis du handicap",
+        "desc": "Témoignages de jeunes adultes avec un diagnostic d'autisme qui partagent leur expérience et leurs stratégies pour naviguer les défis du quotidien. Une approche humaine qui donne la parole aux personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=Ev3dpC85dsw"
+      },
+      {
+        "id": "origine-diagnostic-prises-en-charge-le-point-sur-les-trouble",
+        "icon": "🎬",
+        "title": "Origine, diagnostic, prises en charge : le point sur les troubles du spectre autistique",
+        "desc": "Une émission France Culture qui fait le point sur les troubles du spectre autistique : origines, diagnostic et accompagnements. Approche informative grand public qui peut aider à mieux comprendre les TSA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=f15aRSnnY3s"
+      },
+      {
+        "id": "aux-frontieres-de-la-sante-mentale-le-cas-de-l-autisme-semai",
+        "icon": "🎬",
+        "title": "Aux frontières de la santé mentale: le cas de l’autisme (Semaine du cerveau )",
+        "desc": "Conférence universitaire sur les avancées scientifiques dans la compréhension de l'autisme. Approche académique qui peut éclairer sur les mécanismes biologiques, mais reste dans un registre médical et de recherche.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=TCMQinJlclI"
+      },
+      {
+        "id": "ils-etaient-autistes-asperger-sans-le-savoir-ca-commence-auj",
+        "icon": "🎬",
+        "title": "Ils étaient autistes Asperger sans le savoir… - Ça commence aujourd'hui",
+        "desc": "Émission télévisée qui donne la parole à des personnes ayant reçu un diagnostic d'autisme Asperger à l'âge adulte. Permet de mieux comprendre les parcours de vie et les défis rencontrés avant le diagnostic.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=Gnn6pHjt4lQ"
+      },
+      {
+        "id": "6-most-common-addictions-in-adult-autistic-people-taboo-subj",
+        "icon": "🎬",
+        "title": "6 most common addictions 🚫 in adult autistic people (taboo subject?) [autism - ASD SDI]",
+        "desc": "Vidéo qui aborde les addictions fréquentes chez les adultes autistes, un sujet peu discuté. Créée par une chaîne spécialisée dans le diagnostic tardif d'autisme, elle explore les liens entre autisme et comportements addictifs avec un regard de personne concernée.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme",
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=TPTiSTp12Eo"
+      },
+      {
+        "id": "autisme-11-comorbidites-associees-au-trouble-du-spectre-auti",
+        "icon": "🎬",
+        "title": "AUTISME : 11 comorbidités ASSOCIÉES au Trouble du Spectre Autistique et que les AUTISTES ont SOUVENT",
+        "desc": "Vidéo qui présente 11 conditions souvent associées à l'autisme, créée par une chaîne dédiée aux adultes avec diagnostic tardif. Utile pour mieux comprendre les difficultés qui peuvent accompagner le TSA au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=4c2PR3VR7UY"
+      },
+      {
+        "id": "prototype-et-variation-de-l-autisme-adulte-le-role-de-la-cer",
+        "icon": "🎬",
+        "title": "Prototype et variation de l'autisme adulte : le rôle de la certitude clinique – L. Mottron",
+        "desc": "Conférence scientifique du Pr Laurent Mottron, psychiatre-chercheur reconnu, sur les variations de l'autisme à l'âge adulte et l'importance de la certitude diagnostique. Approche nuancée qui questionne les classifications traditionnelles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=0euZtPwRgk0"
+      },
+      {
+        "id": "syndrome-d-asperger-comment-les-autistes-savants-defient-les",
+        "icon": "🎬",
+        "title": "Syndrome d'Asperger : Comment les autistes savants défient les attentes",
+        "desc": "Documentaire sur trois personnes autistes aux talents particuliers. Peut offrir des témoignages inspirants, mais attention au terme 'autiste savant' qui peut véhiculer des stéréotypes sur l'autisme.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=r6yLxPv8BjI"
+      },
+      {
+        "id": "dans-la-tete-d-une-personne-bipolaire-ouvre-l-il",
+        "icon": "🎬",
+        "title": "Dans la tête d'une personne bipolaire | Ouvre l'œil",
+        "desc": "Témoignage vidéo qui explore le vécu quotidien avec la bipolarité, aidant à mieux comprendre cette condition de l'intérieur. Permet de déconstruire les idées reçues et d'offrir des clés de compréhension aux proches.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=NpV957mlNs4"
+      },
+      {
+        "id": "christophe-faure-psychiatre-et-specialiste-du-deuil-ce-que-p",
+        "icon": "🎬",
+        "title": "CHRISTOPHE FAURÉ - PSYCHIATRE  ET SPECIALISTE DU DEUIL : CE QUE PERSONNE N’OSE DIRE SUR LA MORT",
+        "desc": "Interview du psychiatre Christophe Fauré par Audrey Dana sur les aspects méconnus du deuil et de la mort. Un échange accessible qui aborde ce que l'on n'ose pas toujours dire sur ces sujets tabous, avec l'expertise d'un spécialiste reconnu du deuil.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=kFdRVIa6poM"
+      },
+      {
+        "id": "5-les-assises-du-deuil-qu-est-ce-que-le-deuil-et-l-impact-du",
+        "icon": "🎬",
+        "title": "5 - Les Assises du Deuil - Qu'est ce que le deuil ? et l'impact du deuil conjugal sur la santé",
+        "desc": "Une vidéo de 6 ans du psychiatre Dr. Christophe Fauré qui explique les mécanismes du deuil et son impact sur la santé, notamment après la perte d'un conjoint. Approche professionnelle mais accessible pour comprendre les étapes et réactions normales du deuil.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=NNiaseUr5ZE"
+      },
+      {
+        "id": "les-chaines-de-la-maladie-mentale-en-afrique-de-l-ouest-une-",
+        "icon": "🎬",
+        "title": "Les chaînes de la maladie mentale en Afrique de l'Ouest : Une stigmatisation qui perdure",
+        "desc": "Un témoignage sur le vécu des troubles psychiatriques en Afrique de l'Ouest et la lutte contre la stigmatisation. Aborde les défis spécifiques liés aux représentations culturelles de la santé mentale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=ufNblwyF0EU"
+      },
+      {
+        "id": "troubles-bipolaires-tout-ce-qu-il-faut-savoir-30-sante-9-dep",
+        "icon": "🎬",
+        "title": "Troubles bipolaires, tout ce qu'il faut savoir  -  30' Santé #9 #depression #cerveau #santémentale",
+        "desc": "Une vidéo explicative de l'Inserm sur les troubles bipolaires qui présente les bases médicales et scientifiques. Utile pour comprendre les mécanismes, même si l'approche reste clinique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=wPbIirycSs4"
+      },
+      {
+        "id": "le-trouble-de-la-personnalite-borderline-explique-simplement",
+        "icon": "🎬",
+        "title": "Le Trouble de la Personnalité Borderline expliqué SIMPLEMENT",
+        "desc": "Une vidéo qui démystifie le trouble de la personnalité borderline en expliquant ses caractéristiques de manière accessible. Aide à mieux comprendre l'instabilité émotionnelle et relationnelle pour les personnes concernées et leur entourage.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=YSszC0HXEFY"
+      },
+      {
+        "id": "faire-le-deuil-de-son-mari-a-34-ans-et-se-reconstruire",
+        "icon": "🎬",
+        "title": "FAIRE LE DEUIL DE SON MARI À 34 ANS ET SE RECONSTRUIRE",
+        "desc": "Témoignage de Pauline qui raconte sa reconstruction après le décès de son mari à 34 ans, alors qu'elle venait d'avoir leur fille. Un partage authentique sur le processus de deuil et la résilience face à une perte soudaine.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=7fJ5NaSSYCs"
+      },
+      {
+        "id": "les-troubles-du-sommeil-en-avez-vous-assez-des-nuits-blanche",
+        "icon": "🎬",
+        "title": "Les Troubles du sommeil: En avez-vous assez des nuits blanches? - Conférence Tête-à-tête",
+        "desc": "Conférence accessible avec le Dr Charles Morin, expert reconnu du sommeil, qui explique les troubles du sommeil de manière claire. Donne des pistes concrètes pour améliorer ses nuits et comprendre ce qui peut perturber le sommeil.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=GfPv22cODrA"
+      },
+      {
+        "id": "comment-retrouver-le-sommeil-dialogue-avec-philippe-aim-hypn",
+        "icon": "🎬",
+        "title": "Comment retrouver le sommeil ? — Dialogue avec Philippe Aïm, hypnothérapeute et psychiatre",
+        "desc": "Dialogue entre Fabrice Midal et Philippe Aïm, psychiatre et hypnothérapeute, sur les troubles du sommeil. Une approche bienveillante qui combine expertise médicale et techniques d'hypnose pour retrouver un sommeil réparateur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=BcHGUoLG2Qw"
+      },
+      {
+        "id": "vivre-avec-des-troubles-psy-et-des-troubles-du-sommeil",
+        "icon": "🎬",
+        "title": "Vivre avec... des troubles psy et des troubles du sommeil",
+        "desc": "Live YouTube de l'association PositiveMinders sur les liens entre troubles psychiques et sommeil. Aborde l'impact concret des troubles du sommeil sur le quotidien et partage des pistes pour mieux vivre avec.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=A5gVZe-yfBw"
+      },
+      {
+        "id": "musique-de-sommeil-profond-endormez-vous-rapidement-soulagem",
+        "icon": "🎬",
+        "title": "Musique de sommeil profond ★︎︎ Endormez-vous rapidement ★︎ Soulagement de l'INSOMNIE",
+        "desc": "Musique relaxante pour faciliter l'endormissement et améliorer la qualité du sommeil. Une approche douce et naturelle pour celles et ceux qui cherchent des alternatives aux médicaments pour mieux dormir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=A6d8NmX5VdI"
+      },
+      {
+        "id": "patrick-est-schizophrene-et-vient-d-arriver-a-l-hopital",
+        "icon": "🎬",
+        "title": "Patrick est schizophrène et vient d'arriver à l'hôpital",
+        "desc": "Documentaire qui suit le parcours de Patrick lors de son hospitalisation psychiatrique. Permet de mieux comprendre le vécu d'une personne en crise psychotique et les réalités du système de soins.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=ia9mp2le1Cw"
+      },
+      {
+        "id": "le-sommeil-anxiete-et-insomnie",
+        "icon": "🎬",
+        "title": "Le sommeil: anxiété et insomnie",
+        "desc": "Une vidéo qui explore les liens entre anxiété et troubles du sommeil, proposant des éclairages sur ces phénomènes complexes qui s'influencent mutuellement. Peut aider à mieux comprendre pourquoi l'anxiété perturbe le sommeil et vice versa.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=NVmrtn2RJfM"
+      },
+      {
+        "id": "l-insomnie-fardeau-et-approches-therapeutiques-psychologique",
+        "icon": "🎬",
+        "title": "L'insomnie : fardeau et approches thérapeutiques psychologiques. Par Charles Morin",
+        "desc": "Conférence accessible d'un expert québécois sur l'insomnie, expliquant les mécanismes du sommeil et les approches psychologiques pour retrouver un sommeil réparateur. Contenu scientifique vulgarisé, utile pour comprendre les enjeux et solutions.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=34AlDRECFss"
+      },
+      {
+        "id": "carl-jung-en-francais-le-secret-de-la-guerison-emotionnelle-",
+        "icon": "🎬",
+        "title": "Carl Jung en français  - Le SECRET de la guérison émotionnelle un guide psychologique",
+        "desc": "Vidéo de vulgarisation sur les concepts jungiens appliqués à la guérison émotionnelle. Accessible aux personnes cherchant à comprendre les mécanismes psychiques selon l'approche analytique de Carl Jung.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=W-yXLgk4aAo"
+      },
+      {
+        "id": "ces-schizophrenes-font-revivre-la-vie-du-village",
+        "icon": "🎬",
+        "title": "Ces schizophrènes font revivre la vie du village",
+        "desc": "Un reportage qui montre comment des personnes vivant avec une schizophrénie ou une dépression sévère participent à la revitalisation d'un village rural. Une approche positive qui met l'accent sur les capacités et l'inclusion sociale plutôt que sur les difficultés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=dFUlWh1T7R0"
+      },
+      {
+        "id": "prendre-soin-de-sa-sante-mentale-au-quotidien-psychologie-mi",
+        "icon": "🎬",
+        "title": "Prendre soin de sa santé mentale au quotidien | Psychologie | MINDOLOGY",
+        "desc": "Une vidéo qui explore les gestes du quotidien pour prendre soin de sa santé mentale, au même titre que pour le corps. Approche préventive et bienveillante pour mieux vivre au jour le jour.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=qH17KEhRwgE"
+      },
+      {
+        "id": "pair-aidance-professionnelle-en-sante-mentale",
+        "icon": "🎬",
+        "title": "Pair aidance professionnelle en santé mentale",
+        "desc": "Vidéo explicative sur l'intégration des travailleurs pairs dans les équipes de santé mentale, présentée par un centre de ressources spécialisé. Utile pour comprendre ce nouveau métier et son apport dans l'accompagnement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=4wdoD7pvo7k"
+      },
+      {
+        "id": "trouble-de-la-personnalite-borderline-la-vie-en-montagnes-ru",
+        "icon": "🎬",
+        "title": "Trouble de la personnalité borderline : la vie en montagnes russes - Ça commence aujourd'hui",
+        "desc": "Émission télé française qui explore le vécu du trouble borderline à travers des témoignages personnels. Une approche grand public accessible qui aide à mieux comprendre cette réalité souvent méconnue.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=Jcs1bO2MVTk"
+      },
+      {
+        "id": "sante-mentale-michele-bernier-se-confie-sur-sa-depression",
+        "icon": "🎬",
+        "title": "Santé mentale : Michèle Bernier se confie sur sa dépression",
+        "desc": "Michèle Bernier partage son témoignage personnel sur la dépression dans cette émission télé. Un témoignage touchant qui aide à briser les tabous autour de la santé mentale, montrant qu'on peut s'en sortir même quand on est une personnalité publique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=DSFa3Bu0ESo"
+      },
+      {
+        "id": "conference-abigail-barrand-vivre-avec-le-trouble-de-la-perso",
+        "icon": "🎬",
+        "title": "CONFÉRENCE : Abigaïl Barrand - Vivre avec le trouble de la personnalité borderline",
+        "desc": "Conférence d'Abigaïl Barrand, activiste et personne concernée, qui partage son expérience du trouble borderline dans un cadre universitaire. Une approche authentique qui combine témoignage personnel et sensibilisation, pour mieux comprendre ce trouble au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=32OOR6Ng-XY"
+      },
+      {
+        "id": "episode-55-mieux-comprendre-ce-qu-est-le-tpl-ou-le-trouble-d",
+        "icon": "🎬",
+        "title": "Épisode 55- Mieux comprendre ce qu'est le TPL ou le trouble de personnalité limite/borederline",
+        "desc": "Un épisode vidéo qui explique le trouble de personnalité limite (borderline/TPL) de manière accessible. La psychologue Christine Pagé démystifie ce trouble souvent mal compris en explorant ses caractéristiques principales et en donnant des clés de compréhension pratiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=p-kJQG3pwZY"
+      },
+      {
+        "id": "bipolaire-vivre-avec-la-maladie-et-reprendre-le-controle-de-",
+        "icon": "🎬",
+        "title": "Bipolaire : vivre avec la maladie et reprendre le contrôle de sa vie | Toute une histoire",
+        "desc": "Témoignages de personnes bipolaires qui partagent leur parcours et leurs stratégies pour retrouver un équilibre. Une émission qui donne la parole aux personnes concernées sur leur vécu quotidien avec la bipolarité.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=bLbrG_F2Xx4"
+      },
+      {
+        "id": "les-troubles-bipolaire-psychologie",
+        "icon": "🎬",
+        "title": "😃 Les Troubles Bipolaire 😡... (PSYCHOLOGIE)",
+        "desc": "Vidéo explicative sur les troubles bipolaires dans le cadre d'une série sur la psychopathologie. Format éducatif qui présente les bases du trouble de manière accessible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=erIJQET2DDs"
+      },
+      {
+        "id": "etre-schizophrene-ca-fait-quoi",
+        "icon": "🎬",
+        "title": "Être Schizophrène : ÇA FAIT QUOI ?!",
+        "desc": "Une vidéo qui démystifie la schizophrénie en déconstruisant les idées reçues. Permet de mieux comprendre cette condition au-delà des clichés véhiculés dans la société.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=oxRblYEmOrk"
+      },
+      {
+        "id": "quelle-difference-entre-nevrose-psychose",
+        "icon": "🎬",
+        "title": "Quelle différence entre NÉVROSE & PSYCHOSE ?",
+        "desc": "Vidéo explicative sur la différence entre névrose et psychose en psychologie. Marion Thélisson décortique ces concepts souvent mal compris dans un format accessible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Gx-_ktw6iQ4"
+      },
+      {
+        "id": "la-psychose-documentaire-sante-mentale",
+        "icon": "🎬",
+        "title": "LA PSYCHOSE - Documentaire ( SANTÉ MENTALE )",
+        "desc": "Un documentaire YouTube rassemblant plusieurs témoignages de personnes ayant vécu des épisodes psychotiques. Une approche humaine pour mieux comprendre cette expérience souvent mal comprise, à travers des récits personnels authentiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=WML7i5-d8c4"
+      },
+      {
+        "id": "psychose-la-lignee-structurelle-psychotique-freud-bergeret",
+        "icon": "🎬",
+        "title": "PSYCHOSE   -   LA LIGNÉE STRUCTURELLE PSYCHOTIQUE  ( Freud, Bergeret, ... )",
+        "desc": "Vidéo théorique sur la distinction psychose/névrose selon les approches psychanalytiques classiques. Contenu technique destiné aux professionnels ou étudiants en psychologie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=WWiK86ECn6c"
+      },
+      {
+        "id": "addictions-ils-plongent-dans-la-spirale-infernale",
+        "icon": "🎬",
+        "title": "Addictions : ils plongent dans la spirale infernale !!",
+        "desc": "Documentaire avec témoignages de personnes concernées par les addictions, explorant les mécanismes et le vécu des dépendances. Approche testimoniale permettant de mieux comprendre la réalité des addictions au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=wbxNsxdthIA"
+      },
+      {
+        "id": "histoires-vraies-de-dependance-et-d-espoir-i-film-documentai",
+        "icon": "🎬",
+        "title": "Histoires vraies de dépendance et d'espoir I Film documentaire complet",
+        "desc": "Un documentaire qui donne la parole aux personnes concernées par l'addiction, avec leurs témoignages authentiques sur leur parcours et leur rétablissement. Une approche humaine qui aide à mieux comprendre cette réalité souvent stigmatisée.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=hcUf9jrgjek"
+      },
+      {
+        "id": "addictions-derives-et-pratiques-illegales-les-dangers-de-la-",
+        "icon": "🎬",
+        "title": "Addictions, dérives et pratiques illégales : les dangers de la chirurgie esthétique",
+        "desc": "Un documentaire qui explore les dérives de la chirurgie esthétique et son impact sur la santé mentale. Analyse les pressions sociales des réseaux sociaux et les risques d'addiction aux interventions esthétiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=7PFP2h2tslc"
+      },
+      {
+        "id": "xanax-stilnoct-zolpidem-somniferes-et-anxiolytiques-le-piege",
+        "icon": "🎬",
+        "title": "Xanax, Stilnoct, Zolpidem... somnifères et anxiolytiques, le piège de la dépendance | #Investigation",
+        "desc": "Investigation RTBF sur la dépendance aux anxiolytiques et somnifères. Témoignages et éclairages sur les risques de ces médicaments largement prescrits.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Troubles du sommeil",
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=II0JSqqxlfk"
+      },
+      {
+        "id": "l-addiction-chez-les-jeunes-un-sevrage-possible",
+        "icon": "🎬",
+        "title": "L'addiction chez les jeunes : un sevrage possible ?",
+        "desc": "Documentaire qui suit de jeunes adultes dans leur parcours de sevrage et de rétablissement. Témoignages authentiques sur les défis de l'addiction précoce et les possibilités de s'en sortir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=0ZFqCuakO0I"
+      },
+      {
+        "id": "comment-se-liberer-de-nos-addictions-dialogue-avec-le-dr-din",
+        "icon": "🎬",
+        "title": "Comment se libérer de nos addictions - Dialogue avec le Dr Dina Roberts",
+        "desc": "Un dialogue avec le Dr Dina Roberts sur les mécanismes des addictions et les pistes pour s'en libérer. Une approche bienveillante qui explore ce qui se joue quand on perd le contrôle face aux substances ou comportements addictifs.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=N48XENqUgBI"
+      },
+      {
+        "id": "sexualite-ecran-trauma-et-addiction-1-3-dr-laurent-karila",
+        "icon": "🎬",
+        "title": "Sexualité, écran, trauma et addiction (1/3) - Dr Laurent Karila",
+        "desc": "Conférence du Dr Laurent Karila explorant les liens entre sexualité, écrans, traumatismes et addictions. Une approche clinique accessible pour comprendre ces interconnexions complexes et leurs impacts sur la vie quotidienne.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=Owkm19DPPlU"
+      },
+      {
+        "id": "la-bataille-silencieuse-documentaire-sur-la-sante-mentale-et",
+        "icon": "🎬",
+        "title": "La bataille silencieuse. « Documentaire » sur la santé mentale et la dépendance dans le sport pro...",
+        "desc": "Témoignage personnel d'un athlète professionnel sur sa bataille avec la santé mentale et les dépendances. Un partage authentique qui brise le tabou du sport de haut niveau, montrant que la performance n'immunise pas contre les difficultés psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Addictions",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=UT-DTIzQ588"
+      },
+      {
+        "id": "jeremy-ferrari-depression-et-dependance",
+        "icon": "🎬",
+        "title": "Jérémy Ferrari : dépression et dépendance",
+        "desc": "L'humoriste Jérémy Ferrari partage avec sincérité son parcours avec la dépression et les addictions dans ce témoignage touchant. Un regard authentique qui peut résonner chez beaucoup de personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=L1dvqTE_Mzo"
+      },
+      {
+        "id": "dans-l-esprit-du-dependant-la-psychologie-de-l-addiction-sel",
+        "icon": "🎬",
+        "title": "Dans l'Esprit du Dépendant : La Psychologie de l'Addiction Selon Carl Jung",
+        "desc": "Une exploration des mécanismes psychologiques de l'addiction selon l'approche jungienne. Offre une perspective psychanalytique sur les racines profondes des dépendances, au-delà des aspects purement comportementaux.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=gq304bpqvco"
+      },
+      {
+        "id": "alcoolisme-chronique-boire-pour-oublier-a-quel-prix",
+        "icon": "🎬",
+        "title": "Alcoolisme chronique : boire pour oublier, à quel prix ?",
+        "desc": "Vidéo d'information sur l'addiction à l'alcool par Marine Lorphelin, ancienne Miss France devenue médecin. Aborde les mécanismes de la dépendance et les possibilités de sortie d'addiction avec un message d'espoir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=We5PS-WJol0"
+      },
+      {
+        "id": "et-si-on-etait-sobre-le-pouvoir-de-l-alcool-twist-arte",
+        "icon": "🎬",
+        "title": "Et si on était sobre ? Le pouvoir de l’alcool | Twist | ARTE",
+        "desc": "Documentaire ARTE qui explore notre rapport à l'alcool et les addictions, avec un focus sur l'expérience des femmes souvent invisibilisée. Une approche journalistique équilibrée qui questionne les normes sociales autour de l'alcool.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=vrTYmtZoSDg"
+      },
+      {
+        "id": "berner-le-cerveau-pour-traiter-les-troubles-d-anxiete-stepha",
+        "icon": "🎬",
+        "title": "Berner le cerveau pour traiter les troubles d'anxiété: Stephane Bouchard at TEDxGatineau",
+        "desc": "Une conférence TEDx qui explique comment la réalité virtuelle peut aider à traiter l'anxiété en 'bernant' notre cerveau. Approche innovante présentée par un chercheur spécialisé en cyberpsychologie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=ClvuG5kbt2I"
+      },
+      {
+        "id": "l-angoisse-et-l-anxiete-peut-on-bien-vivre-avec",
+        "icon": "🎬",
+        "title": "L’angoisse et l’anxiété : peut-on bien vivre avec ?",
+        "desc": "Une exploration bienveillante de l'anxiété au quotidien par Louie Media. Aborde les pensées qui tournent en boucle, les troubles du sommeil et propose des pistes pour mieux vivre avec ses angoisses.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=vBgIHrTamC4"
+      },
+      {
+        "id": "moi-et-le-burn-out-psycho-arte",
+        "icon": "🎬",
+        "title": "Moi et le burn-out | Psycho | ARTE",
+        "desc": "Documentaire ARTE qui explore le burn-out à travers des témoignages personnels. Une approche nuancée qui montre que l'épuisement professionnel peut toucher tous les secteurs d'activité, aidant à mieux comprendre ce syndrome sans jugement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=YnhwHtgaxKc"
+      },
+      {
+        "id": "healing-anxiety-dialogue-with-dr-philippe-presles",
+        "icon": "🎬",
+        "title": "Healing Anxiety - Dialogue with Dr. Philippe Presles",
+        "desc": "Dialogue avec le Dr Philippe Presles sur les méthodes pour apaiser l'anxiété. Une approche accessible qui combine expertise médicale et perspectives alternatives, avec des pistes concrètes pour mieux comprendre et gérer ses angoisses au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=fLbzFwIwOn0"
+      },
+      {
+        "id": "comprendre-le-stress-grace-a-la-psychologie",
+        "icon": "🎬",
+        "title": "Comprendre le STRESS grâce à la psychologie",
+        "desc": "Une psychologue explique les mécanismes du stress et ses différents types dans une approche pédagogique accessible. Utile pour mieux comprendre ses réactions face au stress et identifier les signaux d'alarme.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=v_WJB97jdCA"
+      },
+      {
+        "id": "phobies-d-impulsion-ces-terribles-visions-qui-les-envahissen",
+        "icon": "🎬",
+        "title": "Phobies d'impulsion : ces terribles visions qui les envahissent - Ça commence aujourd'hui",
+        "desc": "Émission télévisée qui explore les phobies d'impulsion avec des témoignages de personnes concernées. Permet de mieux comprendre ces pensées intrusives angoissantes et de se sentir moins seul·e face à ces vécus difficiles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=ViX4ayDvEWI"
+      },
+      {
+        "id": "agoraphobie-phobies",
+        "icon": "🎬",
+        "title": "😱 AGORAPHOBIE #phobies",
+        "desc": "Une vidéo explicative sur l'agoraphobie qui explore cette peur des situations où l'aide pourrait ne pas être disponible. Utile pour comprendre ce trouble anxieux et ses manifestations concrètes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=az0ua_nW9f0"
+      },
+      {
+        "id": "les-phobies-1",
+        "icon": "🎬",
+        "title": "Les phobies (1)",
+        "desc": "Vidéo explicative sur la phobie sociale par un professionnel de santé. Aborde les mécanismes et l'impact sur le quotidien, mais attention au format potentiellement médical.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=iUYASZZLJRc"
+      },
+      {
+        "id": "d-ou-viennent-les-phobies",
+        "icon": "🎬",
+        "title": "D'où viennent les phobies ?",
+        "desc": "Une vidéo éducative qui explore les mécanismes à l'origine des phobies, un trouble qui touche 1 personne sur 10 en France. Aide à mieux comprendre ces peurs intenses et souvent inexpliquées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=jVMuClfBc70"
+      },
+      {
+        "id": "chaque-phobie-expliquee-en-21-minutes",
+        "icon": "🎬",
+        "title": "Chaque Phobie Expliquée en 21 Minutes",
+        "desc": "Vidéo YouTube récente qui explique les différents types de phobies de manière accessible. Utile pour mieux comprendre ces troubles anxieux et leurs manifestations concrètes dans le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=UiPm9nUqSps"
+      },
+      {
+        "id": "comment-surmonter-la-peur-des-autres-phobie-sociale",
+        "icon": "🎬",
+        "title": "COMMENT SURMONTER LA PEUR DES AUTRES ? (PHOBIE SOCIALE)",
+        "desc": "Vidéo qui explore la phobie sociale avec des conseils pratiques pour mieux comprendre et gérer la peur des autres. Propose également un test d'auto-évaluation pour identifier ses propres difficultés sociales.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=GsQOkVq7C7E"
+      },
+      {
+        "id": "prism-ep-1-vivre-avec-la-schizophrenie-temoignage",
+        "icon": "🎬",
+        "title": "PRISM Ep.1 :// Vivre avec la schizophrénie (témoignage)",
+        "desc": "Témoignage authentique d'Emeline qui partage son vécu avec la schizophrénie dans un format accessible et bienveillant. Une approche centrée sur l'expérience personnelle qui permet de mieux comprendre le quotidien avec ce trouble.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=1Ea1NsfbG60"
+      },
+      {
+        "id": "tca-etc-comprendre-et-lutter-contre-les-troubles-alimentaire",
+        "icon": "🎙️",
+        "title": "TCA etc - Comprendre et lutter contre les troubles alimentaires",
+        "desc": "Un podcast dédié aux troubles du comportement alimentaire qui propose une approche compréhensive et bienveillante. Combine témoignages de personnes concernées et éclairages professionnels pour mieux comprendre les TCA et accompagner le rétablissement.",
+        "type": "Podcast",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/tca-etc-comprendre-et-lutter-contre-les-troubles-alimentaires/id1681252344?l=fr&uo=4"
+      },
+      {
+        "id": "tca-les-coulisses-des-troubles-alimentaires",
+        "icon": "🎙️",
+        "title": "TCA - Les coulisses des troubles alimentaires",
+        "desc": "Un podcast dédié aux troubles du comportement alimentaire qui explore les aspects méconnus de ces troubles. Offre des témoignages et des éclairages pour mieux comprendre le vécu des personnes concernées et de leur entourage.",
+        "type": "Podcast",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/tca-les-coulisses-des-troubles-alimentaires/id1756544783?l=fr&uo=4"
+      },
+      {
+        "id": "amapola-les-vrais-temoignages-sur-la-sante-mentale-et-les-tc",
+        "icon": "🎙️",
+        "title": "Amapola, les vrais témoignages sur la santé mentale et les TCA.",
+        "desc": "Un podcast qui donne la parole aux personnes concernées par les troubles du comportement alimentaire et autres difficultés de santé mentale. Des témoignages authentiques qui permettent de se sentir moins seul·e et de mieux comprendre ces vécus.",
+        "type": "Podcast",
+        "troubles": [
+          "TCA",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/amapola-les-vrais-t%C3%A9moignages-sur-la-sant%C3%A9-mentale/id1586829255?l=fr&uo=4"
+      },
+      {
+        "id": "contre-addictions-par-rose",
+        "icon": "🎙️",
+        "title": "Contre-addictions par Rose",
+        "desc": "Podcast animé par Rose qui partage son vécu et ses réflexions sur les addictions. Un espace d'expression authentique pour comprendre les mécanismes des dépendances et explorer des pistes de sortie, avec le regard de quelqu'un qui connaît de l'intérieur.",
+        "type": "Podcast",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/contre-addictions-par-rose/id1642778077?l=fr&uo=4"
+      },
+      {
+        "id": "borderline-tpl-tu-es-t-ellement-p-lus-que-l-imite-e-s",
+        "icon": "🎙️",
+        "title": "Borderline/ TPL Tu es T.ellement P.lus que L.imité(e)s",
+        "desc": "Un podcast dédié au trouble de la personnalité borderline, créé pour dépasser les étiquettes limitantes. Le titre joue sur les mots pour transformer 'Tu es Plus que Limité(e)' en message d'espoir et de dépassement des difficultés liées au TPL.",
+        "type": "Podcast",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/borderline-tpl-tu-es-t-ellement-p-lus-que-l-imit%C3%A9-e-s/id1836023734?l=fr&uo=4"
+      },
+      {
+        "id": "anxiocast-anxiete-angoisse-stress",
+        "icon": "🎙️",
+        "title": "AnxioCast : Anxiété, Angoisse, Stress",
+        "desc": "Podcast spécialisé sur l'anxiété, l'angoisse et le stress. Format audio accessible pour comprendre ces troubles et découvrir des stratégies d'accompagnement au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/anxiocast-anxi%C3%A9t%C3%A9-angoisse-stress/id1792241391?l=fr&uo=4"
+      },
+      {
+        "id": "10-etapes-pour-surmonter-les-troubles-alimentaires",
+        "icon": "📖",
+        "title": "10 étapes pour surmonter les troubles alimentaires",
+        "desc": "Un guide pratique qui propose une approche structurée en 10 étapes pour accompagner le rétablissement des troubles du comportement alimentaire. Écrit par une psychologue, il offre des outils concrets pour progresser pas à pas.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL24428675W"
+      },
+      {
+        "id": "se-raconter-pour-sortir-de-l-impasse-des-troubles-alimentair",
+        "icon": "📖",
+        "title": "Se Raconter Pour Sortir de l'Impasse des Troubles Alimentaires",
+        "desc": "Un livre qui explore comment le récit de soi peut aider à sortir des troubles alimentaires. Écrit par Antonella Cavaleri Pendino, il propose une approche par la narration personnelle pour comprendre et dépasser ces difficultés.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL25066648W"
+      },
+      {
+        "id": "l-anorexie-mentale",
+        "icon": "📖",
+        "title": "L' anorexie mentale",
+        "desc": "Livre médical datant de 1983 sur l'anorexie mentale par Jean-Luc Vénisse, psychiatre spécialisé dans les addictions. Approche clinique traditionnelle qui peut manquer de perspectives actuelles sur les TCA.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL12515233W"
+      },
+      {
+        "id": "l-anorexie",
+        "icon": "📖",
+        "title": "L’anorexie",
+        "desc": "Un livre récent sur l'anorexie par Martine Fortier. Sans plus d'informations sur le contenu et l'approche de l'auteure, il est difficile d'évaluer la pertinence et l'accessibilité de cet ouvrage pour les personnes concernées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL43916803W"
+      },
+      {
+        "id": "l-anorexie-livre-l-",
+        "icon": "📖",
+        "title": "L' Anorexie",
+        "desc": "Un livre sur l'anorexie de 2003. Sans plus d'informations sur le contenu et l'approche de l'auteure, il est difficile d'évaluer la pertinence et la qualité de cette ressource pour les personnes concernées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL13542420W"
+      },
+      {
+        "id": "comprendre-l-anorexie",
+        "icon": "📖",
+        "title": "Comprendre l'anorexie",
+        "desc": "Un livre qui explore l'anorexie sous différents angles pour mieux comprendre ce trouble alimentaire complexe. Peut offrir des clés de compréhension aux personnes concernées et à leurs proches.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL13541878W"
+      },
+      {
+        "id": "l-anorexie-creatrice",
+        "icon": "📖",
+        "title": "L' anorexie créatrice",
+        "desc": "Un livre qui explore le lien entre créativité et anorexie, proposant une approche différente de ce trouble du comportement alimentaire. Peut offrir une perspective nouvelle aux personnes concernées et à leurs proches.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL11713441W"
+      },
+      {
+        "id": "au-c-ur-de-l-anorexie",
+        "icon": "📖",
+        "title": "Au cœur de l'anorexie",
+        "desc": "Un témoignage sur l'expérience de l'anorexie qui explore les mécanismes internes de ce trouble. Peut offrir un éclairage personnel sur ce que vivent les personnes concernées par les TCA.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL23820401W"
+      },
+      {
+        "id": "vaincre-la-boulimie",
+        "icon": "📖",
+        "title": "Vaincre la boulimie",
+        "desc": "Guide pratique pour comprendre et surmonter la boulimie, écrit par un spécialiste. Propose des stratégies concrètes et des exercices pour retrouver une relation apaisée avec l'alimentation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL32702383W"
+      },
+      {
+        "id": "boulimie-d-existence",
+        "icon": "📖",
+        "title": "Boulimie D'existence",
+        "desc": "Témoignage personnel d'une personne ayant vécu la boulimie, offrant un regard intime sur les troubles alimentaires au-delà des aspects purement médicaux. Peut résonner avec d'autres personnes concernées par les TCA.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL26836488W"
+      },
+      {
+        "id": "les-grandes-boulimies",
+        "icon": "📖",
+        "title": "Les grandes boulimies",
+        "desc": "Un livre qui explore le vécu des troubles du comportement alimentaire, particulièrement la boulimie, à travers une approche centrée sur l'expérience humaine plutôt que sur l'aspect purement médical.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL13728749W"
+      },
+      {
+        "id": "ma-vie-ma-boulimie",
+        "icon": "📖",
+        "title": "Ma Vie... Ma Boulimie",
+        "desc": "Témoignage personnel d'Audrey Bohan sur son parcours avec la boulimie. Un récit authentique qui peut aider à mieux comprendre ce trouble du comportement alimentaire du point de vue de quelqu'un qui l'a vécu.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL36833664W"
+      },
+      {
+        "id": "la-boulimie-et-son-infortune",
+        "icon": "📖",
+        "title": "La boulimie et son infortune",
+        "desc": "Un livre historique sur la boulimie datant de 1979. Attention, les approches et le vocabulaire de cette époque peuvent être dépassés par rapport aux connaissances actuelles sur les TCA.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL6349376W"
+      },
+      {
+        "id": "histoire-des-tca-au-quebec",
+        "icon": "📖",
+        "title": "Histoire des TCA au Québec",
+        "desc": "Ouvrage historique sur l'évolution des troubles du comportement alimentaire au Québec. Peut offrir une perspective intéressante sur le développement de la compréhension et de la prise en charge des TCA dans ce contexte culturel spécifique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://openlibrary.org/works/OL13851144W"
+      },
+      {
+        "id": "tdah-chez-l-adulte",
+        "icon": "📖",
+        "title": "TDAH chez l'adulte",
+        "desc": "Un livre récent sur le TDAH chez l'adulte par Amanda Allan, publié en 2025. Pourrait offrir des perspectives actualisées sur le vécu du TDAH à l'âge adulte, mais nécessite une vérification pour s'assurer de la qualité et de l'approche adoptée.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL42397694W"
+      },
+      {
+        "id": "tdah-chez-les-adultes-les-femmes-et-les-enfants",
+        "icon": "📖",
+        "title": "TDAH Chez les Adultes, les Femmes et les Enfants",
+        "desc": "Un ouvrage récent qui aborde le TDAH sous différents angles : adultes, femmes et enfants. Peut offrir une vision globale des spécificités du TDAH selon l'âge et le genre, particulièrement utile pour comprendre les manifestations souvent sous-diagnostiquées chez les femmes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL34145379W"
+      },
+      {
+        "id": "trouble-du-deficit-de-l-attention-chez-les-adultes",
+        "icon": "📖",
+        "title": "Trouble du déficit de l'attention Chez les Adultes",
+        "desc": "Guide pratique sur le TDAH chez l'adulte qui explore les défis quotidiens et propose des stratégies concrètes. Utile pour mieux comprendre ce trouble souvent diagnostiqué tardivement et ses impacts sur la vie professionnelle et personnelle.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL41402572W"
+      },
+      {
+        "id": "deficit-d-attention-et-hyperactivite",
+        "icon": "📖",
+        "title": "Déficit d'attention et hyperactivité",
+        "desc": "Un livre qui propose une approche alternative du TDAH, questionnant le modèle médical dominant et explorant d'autres façons de comprendre ces différences de fonctionnement.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL1883192W"
+      },
+      {
+        "id": "trouble-deficitaire-de-l-attention-avec-hyperactivite",
+        "icon": "📖",
+        "title": "Trouble déficitaire de l'attention avec hyperactivité",
+        "desc": "Un livre qui aborde le TDAH, mais publié en 2006, les informations peuvent être datées par rapport aux connaissances actuelles sur ce trouble.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL18837336W"
+      },
+      {
+        "id": "enseigner-aux-eleves-presentant-des-troubles-de-l-attention-",
+        "icon": "📖",
+        "title": "Enseigner aux élèves présentant des troubles de l'attention accompagnés d'hyperactivité",
+        "desc": "Guide pédagogique de 1995 sur l'accompagnement scolaire des élèves avec TDAH. Peut contenir des approches dépassées mais reste une référence historique pour comprendre l'évolution de la prise en compte du TDAH à l'école.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL21513000M"
+      },
+      {
+        "id": "le-tda-h-raconte-aux-enfants",
+        "icon": "📖",
+        "title": "Le TDA/H raconté aux enfants",
+        "desc": "Un livre accessible qui explique le TDAH aux enfants avec des mots simples et bienveillants. Aide les jeunes à mieux comprendre leur fonctionnement et peut servir de support aux parents pour aborder le sujet.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://openlibrary.org/works/OL29231905W"
+      },
+      {
+        "id": "trauma",
+        "icon": "📖",
+        "title": "Trauma",
+        "desc": "Roman thriller psychologique explorant les mécanismes du trauma à travers une intrigue policière. Une approche fictionnelle qui peut résonner avec le vécu des personnes concernées par les traumatismes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL17119382W"
+      },
+      {
+        "id": "intentionnalite-et-trauma",
+        "icon": "📖",
+        "title": "Intentionnalité et trauma",
+        "desc": "Un ouvrage philosophique qui explore les liens entre intentionnalité et trauma. Approche théorique dense qui peut intéresser les personnes cherchant à comprendre les mécanismes psychologiques du trauma d'un point de vue conceptuel.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL12034763W"
+      },
+      {
+        "id": "trauma-et-texte",
+        "icon": "📖",
+        "title": "Trauma et texte",
+        "desc": "Un livre académique qui explore les liens entre traumatisme et écriture littéraire. Peut offrir des perspectives intéressantes sur l'expression du trauma à travers les mots, mais l'approche universitaire le rend moins accessible au grand public.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL18637906W"
+      },
+      {
+        "id": "violence-trauma-et-memoire",
+        "icon": "📖",
+        "title": "Violence, trauma et mémoire",
+        "desc": "Un livre de Janine Altounian qui explore les liens entre violence, traumatisme et processus de mémoire. Peut aider à comprendre comment les traumas s'inscrivent dans notre mémoire et se transmettent.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL18893360W"
+      },
+      {
+        "id": "actualite-du-trauma",
+        "icon": "📖",
+        "title": "Actualité du trauma",
+        "desc": "Un ouvrage académique explorant les approches contemporaines du trauma psychique. Aborde les mécanismes traumatiques et leurs répercussions, mais dans un langage plutôt technique destiné aux professionnels.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://openlibrary.org/works/OL23838389W"
+      },
+      {
+        "id": "guerres-et-traumas",
+        "icon": "📖",
+        "title": "Guerres et traumas",
+        "desc": "Un livre d'Olivier Douville qui explore les liens entre les conflits armés et leurs impacts psychiques. Aborde les mécanismes du trauma de guerre et les processus de reconstruction psychologique chez les victimes et témoins de violences collectives.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL44294001W"
+      },
+      {
+        "id": "comment-se-transmettent-les-traumas",
+        "icon": "📖",
+        "title": "Comment se transmettent les traumas",
+        "desc": "Ce livre explore les mécanismes de transmission des traumatismes, notamment intergénérationnels. Utile pour comprendre comment les traumas peuvent se répercuter dans les familles et les communautés, avec une approche accessible sur un sujet complexe.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL44316910W"
+      },
+      {
+        "id": "traumas-et-narcissisme",
+        "icon": "📖",
+        "title": "Traumas et narcissisme",
+        "desc": "Un livre qui explore les liens entre traumatismes et narcissisme, écrit par une professionnelle. Peut aider à comprendre comment les blessures du passé influencent nos relations et notre rapport à nous-mêmes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL15620949W"
+      },
+      {
+        "id": "ecriture-de-soi-et-trauma",
+        "icon": "📖",
+        "title": "Ecriture de soi et trauma",
+        "desc": "Un ouvrage académique explorant les liens entre l'écriture personnelle et le trauma. Propose une réflexion théorique sur la façon dont l'écriture peut servir d'outil de reconstruction après un traumatisme.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL9970836W"
+      },
+      {
+        "id": "approches-cliniques-et-pedagogiques-des-troubles-du-spectre-",
+        "icon": "📖",
+        "title": "APPROCHES CLINIQUES ET PÉDAGOGIQUES DES TROUBLES DU SPECTRE AUTISTIQUE (TSA) - Cahiers de Préaut",
+        "desc": "Guide spécialisé sur les approches cliniques et pédagogiques des troubles du spectre autistique. Attention : publié en 2011, certaines approches peuvent être datées par rapport aux connaissances actuelles sur l'autisme.",
+        "type": "Article / Livre",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://openlibrary.org/works/OL31746653W"
+      },
+      {
+        "id": "la-neige-en-deuil",
+        "icon": "📖",
+        "title": "La neige en deuil",
+        "desc": "Roman d'Henri Troyat publié en 1952 explorant les thèmes du deuil à travers la fiction littéraire. Une approche narrative du processus de deuil qui peut résonner avec l'expérience personnelle.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL15214514W"
+      },
+      {
+        "id": "le-deuil",
+        "icon": "📖",
+        "title": "Le deuil",
+        "desc": "Un ouvrage de référence sur le processus de deuil qui explore les différentes étapes et émotions vécues lors de la perte d'un proche. Écrit par une spécialiste reconnue, il offre des repères pour comprendre et traverser cette épreuve difficile.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL9964573W"
+      },
+      {
+        "id": "deuils",
+        "icon": "📖",
+        "title": "Deuils",
+        "desc": "Un livre sur l'accompagnement dans les processus de deuil, proposant des réflexions et outils pour traverser cette épreuve. Peut aider à comprendre les étapes du deuil et à trouver des ressources pour avancer.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL23823246W"
+      },
+      {
+        "id": "deuil-apres-deuil",
+        "icon": "📖",
+        "title": "Deuil après deuil",
+        "desc": "Un livre de fiction qui explore le processus de deuil à travers une histoire personnelle. Peut offrir une perspective narrative sur la façon dont on traverse les étapes du deuil.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL12637734M"
+      },
+      {
+        "id": "jolis-deuils",
+        "icon": "📖",
+        "title": "Jolis deuils",
+        "desc": "Un recueil de nouvelles de Roch Carrier qui explore avec sensibilité les différentes formes de deuil et de perte. Écrit dans un style accessible, il offre une perspective littéraire sur les processus de séparation et d'acceptation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL2180859W"
+      },
+      {
+        "id": "rituels-de-deuil-travail-du-deuil",
+        "icon": "📖",
+        "title": "Rituels de deuil, travail du deuil",
+        "desc": "Un ouvrage de l'ethnopsychiatre Tobie Nathan qui explore les rituels de deuil dans différentes cultures et leur rôle dans l'accompagnement de la perte. Une approche anthropologique du processus de deuil qui peut offrir des perspectives enrichissantes sur les façons de vivre et traverser cette épreuve.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL23586238W"
+      },
+      {
+        "id": "deuil-de-veuf",
+        "icon": "📖",
+        "title": "Deuil de veuf",
+        "desc": "Un livre qui aborde spécifiquement le vécu du deuil après la perte de son conjoint. Peut aider à comprendre les étapes et émotions particulières à cette situation de veuvage.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL4040317W"
+      },
+      {
+        "id": "deuils-et-heritages",
+        "icon": "📖",
+        "title": "Deuils et héritages",
+        "desc": "Un livre qui explore les différentes facettes du deuil et ce qui nous reste après la perte d'un proche. Peut aider à comprendre comment traverser cette épreuve et ce qu'elle transforme en nous.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL23244570W"
+      },
+      {
+        "id": "vivre-le-deuil-au-jour-le-jour",
+        "icon": "📖",
+        "title": "Vivre le deuil au jour le jour",
+        "desc": "Un guide pratique pour traverser les étapes du deuil au quotidien. L'auteur, psychiatre spécialisé, propose des outils concrets et des témoignages pour accompagner cette épreuve difficile.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL17745258W"
+      },
+      {
+        "id": "mon-carnet-de-deuil-mon-journal-de-deuil-le-deuil-de-la-soeu",
+        "icon": "📖",
+        "title": "Mon Carnet de Deuil : Mon Journal de Deuil, le Deuil de la Soeur, Carnet de Deuil de la Perte d'un être Cher",
+        "desc": "Un carnet personnel pour accompagner le processus de deuil après la perte d'un proche, particulièrement adapté au deuil d'une sœur. Propose un espace d'écriture structuré pour exprimer ses émotions et cheminer à son rythme.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://openlibrary.org/works/OL25547842W"
+      },
+      {
+        "id": "les-troubles-du-sommeil",
+        "icon": "📖",
+        "title": "Les troubles du sommeil",
+        "desc": "Un ouvrage de référence sur les troubles du sommeil qui explore les différents dysfonctionnements et leurs impacts sur le quotidien. Peut aider à mieux comprendre les mécanismes du sommeil et identifier des pistes d'amélioration.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL13558062W"
+      },
+      {
+        "id": "troubles-du-sommeil",
+        "icon": "📖",
+        "title": "Troubles du Sommeil",
+        "desc": "Un ouvrage de référence sur les troubles du sommeil par un spécialiste reconnu. Peut être utile pour comprendre les mécanismes du sommeil et ses dysfonctionnements, même si l'approche reste technique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL25379695W"
+      },
+      {
+        "id": "abord-clinique-des-troubles-du-sommeil",
+        "icon": "📖",
+        "title": "Abord Clinique des Troubles du Sommeil",
+        "desc": "Guide médical spécialisé sur les troubles du sommeil. Attention : approche très clinique qui peut être dense pour les personnes non professionnelles de santé.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL25371154W"
+      },
+      {
+        "id": "comment-battre-le-trouble-du-sommeil",
+        "icon": "📖",
+        "title": "Comment Battre le Trouble du Sommeil",
+        "desc": "Un guide pratique pour comprendre et améliorer ses troubles du sommeil. Propose des stratégies concrètes pour retrouver un sommeil réparateur et mieux gérer l'insomnie au quotidien.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL28881618W"
+      },
+      {
+        "id": "psychoth-rapies-des-troubles-du-sommeil-de-l-adulte",
+        "icon": "📖",
+        "title": "Psychoth_rapies des Troubles du Sommeil de L'adulte",
+        "desc": "Un guide professionnel sur les approches thérapeutiques des troubles du sommeil chez l'adulte. Peut être utile pour comprendre les différentes méthodes de prise en charge, mais s'adresse plutôt aux professionnels de santé.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL38624530W"
+      },
+      {
+        "id": "les-troubles-du-sommeil-et-les-coleres-chez-l-enfant",
+        "icon": "📖",
+        "title": "Les troubles du sommeil et les colères chez l'enfant",
+        "desc": "Un livre de Charlotte Mareau qui explore les liens entre troubles du sommeil et manifestations de colère chez l'enfant. Peut offrir des pistes pour comprendre ces connexions et accompagner les familles concernées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL13558278W"
+      },
+      {
+        "id": "l-insomnie",
+        "icon": "📖",
+        "title": "L' insomnie",
+        "desc": "Un livre sur l'insomnie publié en 2006 par Zara de Saint-Hilaire. Attention : les approches et recommandations peuvent être datées, les connaissances sur le sommeil ayant beaucoup évolué ces dernières années.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL13560504W"
+      },
+      {
+        "id": "insomnie",
+        "icon": "📖",
+        "title": "Insomnie",
+        "desc": "Un livre écrit par un psychiatre spécialisé sur l'insomnie. Peut apporter des éclairages sur les mécanismes du sommeil et les approches thérapeutiques, bien que l'approche soit probablement médicale.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://openlibrary.org/works/OL24162426W"
+      },
+      {
+        "id": "enquete-sur-la-sante-mentale-des-montrealais",
+        "icon": "📖",
+        "title": "Enquête sur la santé mentale des Montréalais.",
+        "desc": "Une enquête datant de 2002 sur la santé mentale spécifique à Montréal. Les données et approches ayant beaucoup évolué en 20 ans, cette ressource présente un intérêt principalement historique ou académique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL22158607M"
+      },
+      {
+        "id": "l-intersection-de-la-sante-mentale-et-des-maladies-chronique",
+        "icon": "📖",
+        "title": "L’intersection de la santé mentale et des maladies chroniques (French Edition)",
+        "desc": "Un livre récent qui explore les liens entre santé mentale et maladies chroniques, abordant probablement l'impact psychologique de vivre avec une maladie de longue durée et les stratégies d'adaptation.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL36723349W"
+      },
+      {
+        "id": "borderline",
+        "icon": "📖",
+        "title": "Borderline",
+        "desc": "Roman autobiographique de Marie-Sissi Labrèche qui raconte avec une écriture crue et poétique son expérience du trouble de la personnalité limite. Un témoignage littéraire puissant sur la vie avec un TPL, les relations tumultueuses et la quête d'identité.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL6236963W"
+      },
+      {
+        "id": "borderline-niveau-1",
+        "icon": "📖",
+        "title": "Borderline : Niveau 1",
+        "desc": "Témoignage personnel sur la vie avec un trouble borderline, écrit par quelqu'un qui le vit au quotidien. Offre un regard authentique et sans filtre sur cette réalité souvent mal comprise.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL27002487W"
+      },
+      {
+        "id": "les-borderlines",
+        "icon": "📖",
+        "title": "Les borderlines",
+        "desc": "Livre sur le trouble de la personnalité borderline écrit par un psychiatre. Peut offrir un éclairage clinique sur ce trouble complexe, même si l'approche risque d'être plutôt médicale.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL24435246W"
+      },
+      {
+        "id": "borderline-niveau-2",
+        "icon": "📖",
+        "title": "Borderline : Niveau -2",
+        "desc": "Un témoignage personnel qui explore le vécu du trouble borderline avec un titre évocateur du sentiment de « descendre » dans la maladie. Peut offrir un regard authentique sur cette condition souvent mal comprise.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL30213004W"
+      },
+      {
+        "id": "borderline-niveau-0",
+        "icon": "📖",
+        "title": "Borderline : Niveau 0",
+        "desc": "Un livre qui aborde le trouble de la personnalité borderline avec un titre évocateur suggérant un point de départ ou une approche accessible. Écrit par Zoë Hababou en 2020, il pourrait offrir des clés de compréhension pour mieux vivre avec ce trouble.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL26986343W"
+      },
+      {
+        "id": "ma-vie-de-borderline",
+        "icon": "📖",
+        "title": "Ma Vie de Borderline",
+        "desc": "Témoignage personnel de Barbara Juvé sur son vécu avec un trouble borderline. Un récit à la première personne qui peut aider à mieux comprendre cette condition de l'intérieur et se sentir moins seul·e.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL30357903W"
+      },
+      {
+        "id": "mais-qui-sont-reellement-ces-borderlines",
+        "icon": "📖",
+        "title": "Mais Qui Sont Réellement Ces Borderlines?",
+        "desc": "Un livre qui explore le trouble de la personnalité borderline de manière accessible, écrit par une autrice qui semble partager son expérience personnelle. Peut aider à mieux comprendre ce trouble souvent mal compris et stigmatisé.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL29937150W"
+      },
+      {
+        "id": "experience-borderline",
+        "icon": "📖",
+        "title": "Expérience Borderline",
+        "desc": "Témoignage personnel de Lauren Bindschedler sur son vécu avec un trouble de la personnalité limite. Un récit authentique qui peut aider à mieux comprendre cette condition de l'intérieur et à se sentir moins seul·e.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://openlibrary.org/works/OL29510349W"
+      },
+      {
+        "id": "autre-regard-sur-la-bipolarite",
+        "icon": "📖",
+        "title": "Autre Regard Sur la Bipolarité",
+        "desc": "Un livre qui propose une perspective différente sur l'expérience de la bipolarité, écrit par Benjamin Nemopode en 2020. Peut offrir un regard personnel et alternatif sur ce trouble de l'humeur.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL30660558W"
+      },
+      {
+        "id": "manuel-des-troubles-bipolaires",
+        "icon": "📖",
+        "title": "Manuel des Troubles Bipolaires",
+        "desc": "Un manuel récent qui explore les troubles bipolaires de manière détaillée. Peut offrir des clés de compréhension utiles, mais le titre 'manuel' suggère une approche plutôt technique qui pourrait nécessiter un accompagnement pour être pleinement accessible.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL38620704W"
+      },
+      {
+        "id": "les-hauts-et-les-bas-de-la-maniaco-depression",
+        "icon": "📖",
+        "title": "Les hauts et les bas de la maniaco-depression",
+        "desc": "Un témoignage personnel sur le vécu du trouble bipolaire (anciennement appelé maniaco-dépression). L'auteur partage son expérience des épisodes maniaques et dépressifs, offrant un regard authentique sur cette condition.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://openlibrary.org/works/OL24280812W"
+      },
+      {
+        "id": "schizophrenies-dialogues",
+        "icon": "📖",
+        "title": "Schizophrénies, dialogues",
+        "desc": "Un livre qui propose des dialogues autour de la schizophrénie, offrant différentes perspectives sur ce trouble. L'approche par le dialogue peut permettre de mieux comprendre les enjeux et vécus liés à la schizophrénie.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://openlibrary.org/works/OL9940162W"
+      },
+      {
+        "id": "les-schizophrenies",
+        "icon": "📖",
+        "title": "Les Schizophrénies",
+        "desc": "Un ouvrage sur la schizophrénie datant de 2002. Attention : les connaissances et approches en santé mentale ont beaucoup évolué depuis 20 ans, notamment sur la déstigmatisation et les approches de rétablissement.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://openlibrary.org/works/OL12446946M"
+      },
+      {
+        "id": "la-psychose-freudienne",
+        "icon": "📖",
+        "title": "La psychose freudienne",
+        "desc": "Un ouvrage qui questionne l'approche freudienne des troubles psychotiques. Perspective critique qui peut intéresser celles et ceux qui cherchent à comprendre les différentes grilles de lecture de la psychose.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL18615150W"
+      },
+      {
+        "id": "psychose-infantile",
+        "icon": "📖",
+        "title": "Psychose infantile",
+        "desc": "Ouvrage de référence de Margaret S. Mahler sur les psychoses infantiles. Approche psychanalytique classique qui peut intéresser les professionnels et étudiants, mais le langage technique et l'ancienneté de certains concepts nécessitent une lecture critique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL3035378W"
+      },
+      {
+        "id": "les-psychoses",
+        "icon": "📖",
+        "title": "Les psychoses",
+        "desc": "Livre sur les psychoses publié en 2002. Attention : ressource ancienne (plus de 20 ans) qui risque de contenir des approches dépassées sur la santé mentale.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://openlibrary.org/works/OL9988963W"
+      },
+      {
+        "id": "l-anxiete",
+        "icon": "📖",
+        "title": "L'anxiéte",
+        "desc": "Un ouvrage de 1987 sur l'anxiété par P. Pichot. Attention : ce livre date de plus de 35 ans et peut contenir des approches aujourd'hui dépassées ou stigmatisantes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL19316628W"
+      },
+      {
+        "id": "anxiete-de-performance",
+        "icon": "📖",
+        "title": "AnxiÉtÉ de Performance",
+        "desc": "Un livre récent qui explore l'anxiété de performance, ces moments où le stress nous paralyse avant un examen, une présentation ou toute situation d'évaluation. Peut offrir des clés pour mieux comprendre et gérer ces angoisses.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL31087044W"
+      },
+      {
+        "id": "anxiete-la-boite-a-outils",
+        "icon": "📖",
+        "title": "Anxiété, la boîte à outils",
+        "desc": "Un guide pratique d'Ariane Hébert, psychologue, qui propose des outils concrets pour comprendre et gérer l'anxiété au quotidien. Accessible et orienté solutions, il offre des stratégies variées pour apprivoiser ses angoisses.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL27692209W"
+      },
+      {
+        "id": "l-anxiete-generalisee",
+        "icon": "📖",
+        "title": "L'anxiété généralisée",
+        "desc": "Ouvrage médical de 2003 sur l'anxiété généralisée par un psychiatre. Approche clinique qui peut apporter des connaissances techniques mais risque d'être dense et peu accessible pour une première approche du trouble.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL24277300W"
+      },
+      {
+        "id": "l-anxiete-sociale",
+        "icon": "📖",
+        "title": "L' anxiété sociale",
+        "desc": "Un ouvrage sur l'anxiété sociale qui explore les mécanismes et manifestations de cette difficulté relationnelle. Peut apporter des clés de compréhension, bien que datant de 2003.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL13542373W"
+      },
+      {
+        "id": "stress-and-anxiete",
+        "icon": "📖",
+        "title": "Stress and Anxiété",
+        "desc": "Un livre qui aborde le stress et l'anxiété, écrit par Laurent Poret en 2019. Les informations disponibles sont limitées, ce qui rend difficile l'évaluation de l'approche et du contenu spécifique.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL30690806W"
+      },
+      {
+        "id": "vaincre-l-anxiete",
+        "icon": "📖",
+        "title": "Vaincre L'anxiÉtÉ",
+        "desc": "Un livre récent qui propose des approches pour gérer l'anxiété. Cependant, le titre 'Vaincre l'anxiété' peut suggérer une vision de combat contre les troubles mentaux, ce qui ne correspond pas toujours à l'approche bienveillante privilégiée.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL30630865W"
+      },
+      {
+        "id": "anxiete-et-le-jardin-en-moi",
+        "icon": "📖",
+        "title": "anxiété et le Jardin en Moi",
+        "desc": "Un livre récent qui semble aborder l'anxiété à travers une métaphore du jardin intérieur. L'approche pourrait offrir une perspective différente sur la gestion de l'anxiété, mais les informations disponibles restent limitées pour évaluer le contenu et l'approche de l'auteur.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL36493616W"
+      },
+      {
+        "id": "anxiete-je-te-laisse-partir",
+        "icon": "📖",
+        "title": "Anxiété, Je Te Laisse Partir",
+        "desc": "Un livre récent qui aborde l'anxiété avec une approche de lâcher-prise. Le titre suggère une méthode pour apprendre à se détacher de l'anxiété plutôt que de lutter contre elle.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL34070943W"
+      },
+      {
+        "id": "hypnose-et-troubles-anxieux",
+        "icon": "📖",
+        "title": "HYPNOSE ET TROUBLES ANXIEUX",
+        "desc": "Un ouvrage explorant l'usage de l'hypnose comme approche thérapeutique pour les troubles anxieux. Propose une perspective sur cette technique complémentaire qui peut intéresser les personnes cherchant des alternatives aux approches classiques.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL31746871W"
+      },
+      {
+        "id": "troubles-anxieux-de-l-enfant-et-de-l-adolescent",
+        "icon": "📖",
+        "title": "Troubles anxieux de l'enfant et de l'adolescent",
+        "desc": "Un ouvrage de référence sur l'anxiété chez les jeunes, écrit par une spécialiste reconnue. Peut aider les parents et proches à mieux comprendre les manifestations anxieuses spécifiques à l'enfance et l'adolescence.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL13549837W"
+      },
+      {
+        "id": "guide-des-anxieux",
+        "icon": "📖",
+        "title": "Guide des anxieux",
+        "desc": "Un guide pratique pour mieux comprendre et gérer son anxiété au quotidien. L'auteure, psychiatre, propose des outils concrets et des stratégies pour apprivoiser ses angoisses et retrouver un équilibre.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL39158835W"
+      },
+      {
+        "id": "prevalence-des-troubles-affectifs-et-anxieux-chez-les-person",
+        "icon": "📖",
+        "title": "Prévalence des troubles affectifs et anxieux chez les personnes âgées en perte d'autonomie",
+        "desc": "Étude académique de 2002 sur les troubles dépressifs et anxieux chez les seniors en perte d'autonomie. Contenu probablement technique et daté, plus adapté aux professionnels qu'aux personnes concernées.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL13539600W"
+      },
+      {
+        "id": "l-angoisse",
+        "icon": "📖",
+        "title": "L' Angoisse",
+        "desc": "Ouvrage classique sur l'angoisse par une psychanalyste française. Approche théorique des années 1960 qui peut apporter un éclairage historique sur la compréhension de l'anxiété, mais avec une perspective très académique et datée.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL12596435W"
+      },
+      {
+        "id": "angoisse-play",
+        "icon": "📖",
+        "title": "Angoisse play",
+        "desc": "Roman québécois de 1968 explorant les mécanismes de l'angoisse à travers une intrigue psychologique. Une œuvre littéraire qui peut offrir un éclairage artistique sur l'expérience de l'anxiété, bien que datée dans son approche.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL38632295W"
+      },
+      {
+        "id": "vous-ne-pouvez-plus-ignorer-la-phobie-des-maladies-et-la-pho",
+        "icon": "📖",
+        "title": "Vous ne pouvez plus ignorer la phobie des maladies et la phobie du malaise",
+        "desc": "Un livre ancien qui aborde les phobies liées à la maladie et au malaise. Attention : publié en 1977, les approches et le vocabulaire peuvent être datés par rapport aux connaissances actuelles sur l'anxiété et les phobies.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL5024542W"
+      },
+      {
+        "id": "une-phobie-francaise",
+        "icon": "📖",
+        "title": "Une phobie française",
+        "desc": "Un témoignage personnel sur les phobies et l'anxiété par un homme politique français. Partage son vécu avec la phobie administrative et sociale, offrant un regard authentique sur ces troubles souvent incompris.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://openlibrary.org/works/OL35348076W"
+      },
+      {
+        "id": "moi-et-les-troubles-alimentaires-psycho-arte",
+        "icon": "🎬",
+        "title": "Moi et les troubles alimentaires | Psycho | ARTE",
+        "desc": "Documentaire d'ARTE explorant les troubles alimentaires avec des témoignages authentiques et une approche bienveillante. Une ressource éducative de qualité pour comprendre ces troubles au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=9xIcORpwNdo"
+      },
+      {
+        "id": "juju-fitcats-son-combat-contre-les-tca-troubles-du-comportem",
+        "icon": "🎬",
+        "title": "Juju Fitcats, son combat contre les TCA (troubles du comportement alimentaire)",
+        "desc": "Juju Fitcats, influenceuse fitness, partage son vécu des troubles du comportement alimentaire. Un témoignage authentique qui peut aider à briser les tabous et à comprendre les TCA au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=pxlHsaHHpqQ"
+      },
+      {
+        "id": "notre-alimentation-influence-notre-sante-mentale",
+        "icon": "🎬",
+        "title": "Notre alimentation influence notre santé mentale",
+        "desc": "Une vidéo franceinfo qui explore les liens scientifiques entre alimentation et santé mentale. Accessible pour comprendre comment nos choix alimentaires peuvent influencer notre bien-être psychologique au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=NY_egkXbg3g"
+      },
+      {
+        "id": "anorexie-tsr-36-9-flv",
+        "icon": "🎬",
+        "title": "Anorexie-TSR-36.9°.flv",
+        "desc": "Reportage du magazine santé 36.9° sur l'anorexie et ses prises en charge à la clinique Belmont. Témoignages et approches thérapeutiques présentés dans un cadre médical suisse.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=CFtP89wr5-A"
+      },
+      {
+        "id": "celine-atteinte-de-tca-guerir-puis-aider",
+        "icon": "🎬",
+        "title": "Céline, atteinte de TCA : Guérir puis aider",
+        "desc": "Témoignage de Céline Casse sur son parcours de guérison des TCA et son engagement pour aider d'autres personnes. Une histoire inspirante qui montre qu'il est possible de s'en sortir et de transformer son expérience en force pour accompagner les autres.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=gphKGfPmZYc"
+      },
+      {
+        "id": "anorexie-a-8-ans-je-me-trouvais-toujours-trop-grosse",
+        "icon": "🎬",
+        "title": "Anorexie à 8 ans : \"Je me trouvais toujours trop grosse\"",
+        "desc": "Témoignage poignant d'Inès qui raconte son parcours avec l'anorexie dès l'âge de 8 ans. Elle évoque avec sincérité ses années d'hospitalisation et l'impact sur sa famille, offrant une perspective authentique sur les TCA précoces.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=JP_KZtpRtMk"
+      },
+      {
+        "id": "lugdivine-a-ete-boulimique-pendant-20-ans-ca-commence-aujour",
+        "icon": "🎬",
+        "title": "Lugdivine a été boulimique pendant 20 ans - Ça commence aujourd'hui",
+        "desc": "Témoignage de Lugdivine sur son parcours avec la boulimie pendant 20 ans, dans l'émission de Faustine Bollaert. Un récit authentique qui peut aider à comprendre le vécu des TCA et briser l'isolement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=g6viXmsADok"
+      },
+      {
+        "id": "hyperphagie-manger-a-s-en-rendre-malade-diffusion-le-22-01-2",
+        "icon": "🎬",
+        "title": "Hyperphagie : manger à s’en rendre malade - diffusion le 22.01.2020 | RTS",
+        "desc": "Documentaire de l'émission 36.9° de la RTS qui explore l'hyperphagie boulimique, un trouble alimentaire méconnu où l'on mange de grandes quantités sans pouvoir s'arrêter. Donne la parole aux personnes concernées et aux professionnels pour mieux comprendre ce trouble au-delà des clichés sur l'obésité.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=5xqnTf0W5rQ"
+      },
+      {
+        "id": "manon-est-victime-de-crises-de-boulimie-vomitive-ca-commence",
+        "icon": "🎬",
+        "title": "Manon est victime de crises de boulimie vomitive - Ça commence aujourd'hui",
+        "desc": "Témoignage de Manon sur son vécu de la boulimie vomitive dans l'émission de Faustine Bollaert. Un partage authentique qui peut aider à comprendre les mécanismes des TCA et à se sentir moins seul·e.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=YySmniLLk-g"
+      },
+      {
+        "id": "boulimie-explication-et-temoignages",
+        "icon": "🎬",
+        "title": "Boulimie : explication et témoignages",
+        "desc": "Une vidéo courte qui combine explications accessibles et témoignages authentiques sur la boulimie. Utile pour mieux comprendre ce trouble alimentaire à travers des expériences vécues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=kQHLq1yXzio"
+      },
+      {
+        "id": "binge-eating-disorder-food-addiction",
+        "icon": "🎬",
+        "title": "Binge Eating Disorder/Food Addiction",
+        "desc": "Vidéo de la chaîne PsykoCouac sur les troubles alimentaires compulsifs et l'addiction alimentaire. Aborde les mécanismes et expériences liés aux compulsions alimentaires de manière accessible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=IyhaioMkfMY"
+      },
+      {
+        "id": "guerir-des-tca",
+        "icon": "🎬",
+        "title": "GUÉRIR DES TCA",
+        "desc": "Vidéo d'information sur les troubles du comportement alimentaire par Doctissimo. Aborde les aspects généraux des TCA et les pistes de guérison, dans un format accessible grand public.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=XxlRG3IIoiI"
+      },
+      {
+        "id": "psychology-eating-disorders-an-addiction",
+        "icon": "🎬",
+        "title": "[🛋️ Psychology] Eating disorders: an addiction?",
+        "desc": "Une psychologue française explore les liens entre troubles du comportement alimentaire et addiction. Approche accessible pour mieux comprendre les mécanismes derrière les TCA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=GWrjvxaTsL0"
+      },
+      {
+        "id": "des-solutions-pour-sortir-des-troubles-du-comportement-alime",
+        "icon": "🎬",
+        "title": "Des solutions pour sortir des troubles du comportement alimentaire (TCA)",
+        "desc": "Témoignage de Sybille, coach sportive qui a vécu des TCA pendant 5 ans. Elle partage son parcours de guérison et des pistes concrètes pour s'en sortir, dans un reportage bienveillant de France 3.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=TPmm11qlpGg"
+      },
+      {
+        "id": "sommes-nous-tous-devenus-tdah-non",
+        "icon": "🎬",
+        "title": "Sommes-nous TOUS devenus TDAH ? (Non)",
+        "desc": "Vidéo de Fabien Olicard qui démystifie les idées reçues sur le TDAH avec l'aide d'un professionnel. Aborde la question de la surdiagnostic supposé et explique la réalité du trouble de manière accessible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=FW25Vmgf8CE"
+      },
+      {
+        "id": "tdah-dysfonctionnement-cerebral-ou-social-les-questions-qui-",
+        "icon": "🎬",
+        "title": "TDAH : dysfonctionnement cérébral ou social ? | Les questions qui fâchent | ARTE",
+        "desc": "Documentaire ARTE qui explore le TDAH sous différents angles, interrogeant la frontière entre handicap et différence neurologique. Présente des témoignages variés pour questionner notre vision du TDAH.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte"
+        ],
+        "link": "https://youtube.com/watch?v=StYBza8N_es"
+      },
+      {
+        "id": "la-realite-du-systeme-de-la-sante-mentale-documentaire-compl",
+        "icon": "🎬",
+        "title": "La réalité du système de la santé mentale - Documentaire complet - MG",
+        "desc": "Documentaire qui expose les failles du système de soins en santé mentale et la réalité vécue par les personnes qui en sont exclues. Témoignages directs sur les parcours de soins difficiles et l'errance médicale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=283tWApKXRU"
+      },
+      {
+        "id": "le-fonctionnement-de-votre-attention-explique-simplement-psy",
+        "icon": "🎬",
+        "title": "Le fonctionnement de votre attention expliqué simplement - Psychobook",
+        "desc": "Une psychologue explique simplement le fonctionnement de l'attention et ses différents troubles, au-delà du seul TDAH. Vidéo accessible qui aide à mieux comprendre les mécanismes attentionnels et leurs variations.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TDAH adulte",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=GMso8vxZ3s0"
+      },
+      {
+        "id": "tetes-plongeantes-la-verite-sur-la-sante-mentale-documentair",
+        "icon": "🎬",
+        "title": "Têtes Plongeantes: la vérité sur la santé mentale (Documentaire)",
+        "desc": "Un documentaire où les Champions du monde de foot 2018 se confient sur leurs troubles de santé mentale. Une approche originale qui brise les tabous en montrant que même les sportifs de haut niveau peuvent être concernés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=RzTWbHXHJmA"
+      },
+      {
+        "id": "the-hidden-signs-of-post-traumatic-stress",
+        "icon": "🎬",
+        "title": "THE HIDDEN SIGNS OF POST-TRAUMATIC STRESS.",
+        "desc": "Vidéo qui explore les signes moins évidents du TSPT, au-delà des symptômes classiques souvent médiatisés. Peut aider à identifier des manifestations subtiles du trauma.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=JCFM8QUWbeQ"
+      },
+      {
+        "id": "trauma-guerir-nos-ames-blessees-dialogue-avec-michel-schitte",
+        "icon": "🎬",
+        "title": "Trauma : guérir nos âmes blessées - Dialogue avec Michel Schittecatte",
+        "desc": "Une discussion approfondie sur le trauma avec le Dr Michel Schittecatte, qui aide à mieux comprendre ce que vivent les personnes traumatisées. Apporte des éclairages concrets sur la guérison et démystifie cette expérience souvent mal comprise.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=0zQjLy-f_Dg"
+      },
+      {
+        "id": "post-traumatic-stress",
+        "icon": "🎬",
+        "title": "Post-traumatic stress",
+        "desc": "Vidéo explicative sur le stress post-traumatique par PsykoCouac. Contenu potentiellement daté (7 ans) nécessitant une vérification de la pertinence des informations partagées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=RAaUlcKWJec"
+      },
+      {
+        "id": "making-mike-mental-health-documentary-full-movie-trauma-heal",
+        "icon": "🎬",
+        "title": "Making Mike | Mental Health Documentary | Full Movie | Trauma Healing",
+        "desc": "Documentaire touchant qui suit le parcours de Mike, survivant d'un traumatisme majeur après avoir été témoin du meurtre de son oncle. Un témoignage authentique sur la guérison possible après un trauma violent.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=jCvl3Vr4dF4"
+      },
+      {
+        "id": "la-depression-psycho-arte",
+        "icon": "🎬",
+        "title": "La dépression | Psycho | ARTE",
+        "desc": "Documentaire ARTE qui explore la dépression de manière approfondie, abordant les aspects sociaux et individuels de cette condition. Une approche éducative et nuancée pour mieux comprendre les réalités de la dépression.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=BajgFuaHNFE"
+      },
+      {
+        "id": "boris-cyrulnik-la-memoire-traumatique",
+        "icon": "🎬",
+        "title": "Boris Cyrulnik - La mémoire traumatique",
+        "desc": "Boris Cyrulnik explore avec finesse le concept de mémoire traumatique, expliquant comment les souvenirs douloureux s'inscrivent différemment dans notre psychisme. Une approche humaine et accessible du trauma par l'un des pionniers français de la résilience.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=rd13inJYbQk"
+      },
+      {
+        "id": "2-les-traumas-et-leurs-consequences-sur-le-cerveau",
+        "icon": "🎬",
+        "title": "2- Les traumas et leurs conséquences sur le cerveau",
+        "desc": "Vidéo explicative sur les mécanismes neurobiologiques du trauma et leurs impacts physiologiques sur le cerveau. Permet de mieux comprendre pourquoi le trauma affecte autant le fonctionnement quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://youtube.com/watch?v=f52LsfG6dp8"
+      },
+      {
+        "id": "understanding-dissociation-in-psychology",
+        "icon": "🎬",
+        "title": "Understanding Dissociation in Psychology",
+        "desc": "Une vidéo qui démystifie la dissociation, ce mécanisme psychologique souvent mal compris. Accessible pour comprendre ce que c'est vraiment et comment ça se manifeste dans le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=lvdoyLyeG2M"
+      },
+      {
+        "id": "etat-limite-arte",
+        "icon": "🎬",
+        "title": "État limite | ARTE",
+        "desc": "Documentaire ARTE qui suit un psychiatre mobile et explore le quotidien des personnes vivant avec un trouble de la personnalité limite. Une approche humaine et respectueuse qui donne la parole aux personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=nsAKoxuLsMA"
+      },
+      {
+        "id": "immersion-dans-le-monde-de-l-autisme-reel-le-s",
+        "icon": "🎬",
+        "title": "Immersion dans le monde de l'autisme ! | Réel·le·s",
+        "desc": "Documentaire qui explore le quotidien et les défis des personnes autistes. Une approche immersive pour mieux comprendre ce trouble neurodéveloppemental et déconstruire les idées reçues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=ESBcH7Y5OK8"
+      },
+      {
+        "id": "diagnostic-tardif-vecus-et-consequences-raven-bureau-marie-s",
+        "icon": "🎬",
+        "title": "Diagnostic tardif : vécus et conséquences - Raven Bureau, Marie Sauner et Stéphanie",
+        "desc": "Témoignages de personnes autistes diagnostiquées tardivement, explorant les impacts sur leur parcours de vie. Une approche centrée sur le vécu plutôt que sur le médical, particulièrement éclairante pour comprendre les enjeux du diagnostic à l'âge adulte.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=ZcJsdz2akE4"
+      },
+      {
+        "id": "ces-autistes-se-battent-chaque-jour-pour-mieux-s-integrer",
+        "icon": "🎬",
+        "title": "Ces autistes se battent chaque jour pour mieux s'intégrer",
+        "desc": "Reportage sur une entreprise qui emploie des personnes autistes, montrant leur quotidien professionnel et leurs défis d'intégration. Peut offrir un regard concret sur l'insertion professionnelle des personnes TSA.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=BSoAZ5uM9KM"
+      },
+      {
+        "id": "syndrome-d-asperger-ils-ont-une-obsession-du-detail",
+        "icon": "🎬",
+        "title": "Syndrome d'Asperger : ils ont une obsession du détail",
+        "desc": "Reportage sur une start-up employant des personnes autistes, montrant leurs compétences en développement d'applications. Permet de découvrir des parcours professionnels et de déconstruire les préjugés sur l'autisme au travail.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=5SstvwPXvpU"
+      },
+      {
+        "id": "peut-on-s-ignorer-autiste-neuroatypique",
+        "icon": "🎬",
+        "title": "PEUT-ON S'IGNORER AUTISTE/NEUROATYPIQUE ?",
+        "desc": "Une vidéo qui explore pourquoi certaines personnes découvrent leur autisme à l'âge adulte. Aborde les mécanismes qui peuvent masquer les signes pendant des années et aide à comprendre les parcours de diagnostic tardif.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=jsNdCbqyE6Q"
+      },
+      {
+        "id": "the-20-symptoms-of-asperger-s-syndrome-adult",
+        "icon": "🎬",
+        "title": "The 20 symptoms of Asperger's syndrome (adult)",
+        "desc": "Vidéo présentant 20 caractéristiques diagnostiques du syndrome d'Asperger par un psychologue clinique. Approche centrée sur les critères médicaux plutôt que sur le vécu des personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=FxjD0Y6Bs8I"
+      },
+      {
+        "id": "mieux-comprendre-l-autisme-formes-et-niveaux",
+        "icon": "🎬",
+        "title": "Mieux comprendre l'autisme : Formes et niveaux",
+        "desc": "Vidéo éducative d'Alistair Houdayer qui explore les différentes formes et niveaux d'autisme. Contenu accessible qui aide à mieux comprendre la diversité du spectre autistique au-delà des idées reçues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=fQeRhdH_8Ok"
+      },
+      {
+        "id": "10-ans-de-la-vie-d-un-enfant-atteint-d-autisme-reel-le-s-doc",
+        "icon": "🎬",
+        "title": "10 ans de la Vie d'un Enfant Atteint d'Autisme | Réel·le·s | DOC COMPLET",
+        "desc": "Documentaire qui suit pendant 10 ans le parcours d'Aymeric, enfant autiste, et de sa famille. Une immersion authentique dans le quotidien et l'évolution d'un enfant TSA, montrant les défis mais aussi les progrès au fil des années.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=sY0DCLSB2vY"
+      },
+      {
+        "id": "autisme-l-espoir",
+        "icon": "🎬",
+        "title": "Autisme, l'espoir",
+        "desc": "Documentaire explorant les nouvelles approches scientifiques et thérapeutiques autour de l'autisme. Peut offrir des perspectives d'espoir sur les avancées récentes, même si le titre suggère une vision potentiellement capacitiste.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=9LmbVjrRLMM"
+      },
+      {
+        "id": "i-have-asperger-s-sometimes-it-s-great-sometimes-it-s-awful",
+        "icon": "🎬",
+        "title": "I have Asperger's. Sometimes it's great. Sometimes it's awful.",
+        "desc": "Témoignage personnel sur le vécu du syndrome d'Asperger, abordant à la fois les aspects positifs et les difficultés du quotidien. Une perspective authentique qui aide à mieux comprendre l'expérience autiste de l'intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://youtube.com/watch?v=7wSvOyjiX_0"
+      },
+      {
+        "id": "moi-en-deuil-psycho-arte",
+        "icon": "🎬",
+        "title": "Moi, en deuil | Psycho | ARTE",
+        "desc": "Documentaire ARTE qui explore le processus de deuil de manière sensible et humaine. Offre des témoignages authentiques et des perspectives diverses pour comprendre et traverser cette épreuve universelle.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=qnYQJjZIf6E"
+      },
+      {
+        "id": "en-finir-avec-la-depression-twist-arte",
+        "icon": "🎬",
+        "title": "En finir avec la dépression ! | Twist | ARTE",
+        "desc": "Documentaire ARTE qui explore les causes de la dépression et les moyens d'en sortir. Une approche journalistique accessible qui démystifie ce trouble et offre des pistes concrètes pour comprendre et agir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=m1rHpkhYkiU"
+      },
+      {
+        "id": "psychologue-en-soins-palliatifs-fin-de-vie-il-aide-les-gens-",
+        "icon": "🎬",
+        "title": "PSYCHOLOGUE EN SOINS PALLIATIFS (FIN DE VIE) : IL AIDE LES GENS FACE À LA MORT ( ANGE, PARANORMALE…)",
+        "desc": "Témoignage d'un psychologue spécialisé en soins palliatifs qui partage son expérience d'accompagnement des personnes en fin de vie et de leurs proches. Aborde les aspects psychologiques du deuil anticipé et du processus de mort.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=zcUQC5OP6HA"
+      },
+      {
+        "id": "alain-deneux-de-la-souffrance-de-la-perte-a-la-construction-",
+        "icon": "🎬",
+        "title": "Alain Deneux - De la souffrance de la perte à la construction de soi",
+        "desc": "Une conférence universitaire qui explore le deuil comme étape naturelle de l'existence et processus de reconstruction personnelle. Approche psychologique accessible pour comprendre comment traverser la perte et en faire une opportunité de croissance.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=TP-_8spx0bU"
+      },
+      {
+        "id": "la-depression-ils-vivent-un-enfer",
+        "icon": "🎬",
+        "title": "La dépression, ils vivent un enfer",
+        "desc": "Documentaire qui explore le vécu quotidien des personnes en dépression, donnant la parole aux concerné·es pour mieux comprendre cette réalité souvent invisible.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=zbFOSAj_n7U"
+      },
+      {
+        "id": "vscd-emi-le-psychiatre-christophe-faure-nous-parle-des-signe",
+        "icon": "🎬",
+        "title": "VSCD, EMI, le psychiatre Christophe Fauré nous parle des signes des défunts",
+        "desc": "Vidéo avec le psychiatre Christophe Fauré sur les expériences extraordinaires liées au deuil (visions, signes des défunts). Peut apporter du réconfort à certaines personnes endeuillées en normalisant ces vécus.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=qq6DPZ-m_Tk"
+      },
+      {
+        "id": "accompagner-le-deuil-de-l-enfant-a-l-adulte",
+        "icon": "🎬",
+        "title": "Accompagner le deuil : de l’enfant à l’adulte",
+        "desc": "Conférence récente du Dr Christophe Fauré, référence francophone sur le deuil, qui explore l'accompagnement du processus de deuil selon les âges de la vie. Apporte des clés de compréhension pratiques pour traverser cette épreuve ou accompagner quelqu'un qui la vit.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=G0LSmo6EKN8"
+      },
+      {
+        "id": "troubles-du-sommeil-leur-combat-pour-mener-une-vie-normale",
+        "icon": "🎬",
+        "title": "Troubles du sommeil : leur combat pour mener une vie normale",
+        "desc": "Documentaire qui suit le quotidien de Marie, maman insomniaque depuis un an, et d'autres personnes vivant avec des troubles du sommeil. Une immersion dans leur réalité pour mieux comprendre l'impact sur la vie quotidienne et familiale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=OmtgzxIOfY8"
+      },
+      {
+        "id": "vivre-avec-des-troubles-du-sommeil",
+        "icon": "🎬",
+        "title": "Vivre avec des troubles du sommeil",
+        "desc": "Documentaire explorant les troubles du sommeil qui touchent plus des deux tiers des Français. Une approche accessible pour comprendre les enjeux du manque de sommeil et ses impacts sur le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=b5kf1WaBrXY"
+      },
+      {
+        "id": "l-insomnie-psycho-arte",
+        "icon": "🎬",
+        "title": "L'insomnie | Psycho | ARTE",
+        "desc": "Documentaire ARTE qui explore l'insomnie sous différents angles : causes, mécanismes et solutions. Une approche pédagogique et bienveillante d'un trouble qui touche une personne sur deux, avec des témoignages et des explications accessibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=RiSpmFlX5XU"
+      },
+      {
+        "id": "conference-en-ligne-tout-sur-les-troubles-du-sommeil-mieux-d",
+        "icon": "🎬",
+        "title": "Conférence en ligne - Tout sur les troubles du sommeil : Mieux dormir avec la maladie de Parkinson",
+        "desc": "Conférence d'un médecin spécialisé sur les troubles du sommeil liés à Parkinson. Aborde un aspect souvent négligé de cette maladie neurologique, avec des conseils pratiques pour mieux dormir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=BCqynUt9KDM"
+      },
+      {
+        "id": "troubles-du-sommeil-pourquoi-dormons-nous-mal",
+        "icon": "🎬",
+        "title": "Troubles du SOMMEIL : pourquoi dormons-nous mal ? 😴",
+        "desc": "Une vidéo France Culture qui explore les causes des troubles du sommeil touchant 1 personne sur 3 en France. Éclairages accessibles sur un problème de santé mentale souvent sous-estimé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=NJGBFSQemhI"
+      },
+      {
+        "id": "insomnie-quand-les-nuits-deviennent-un-enfer",
+        "icon": "🎬",
+        "title": "Insomnie : quand les nuits deviennent un ENFER",
+        "desc": "Documentaire qui explore le vécu de l'insomnie chronique à travers des témoignages personnels. Montre l'impact concret sur le quotidien et les défis rencontrés avec le système de santé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://youtube.com/watch?v=zje_SWhIoDI"
+      },
+      {
+        "id": "trois-jours-avec-l-equipe-d-urgence-en-sante-mentale-de-mont",
+        "icon": "🎬",
+        "title": "Trois jours avec l'équipe d'urgence en santé mentale de Montréal | Terrain | Rad",
+        "desc": "Documentaire qui suit l'équipe d'urgence en santé mentale de Montréal dans leur travail quotidien auprès de personnes en crise. Offre un regard concret sur la prise en charge des situations d'urgence psychiatrique et le travail de terrain des équipes spécialisées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=xbiFABWWNZA"
+      },
+      {
+        "id": "la-grande-maladie-du-xxieme-siecle-reel-le-s-doc-complet",
+        "icon": "🎬",
+        "title": "La grande maladie du XXIème siècle | Réel·le·s | Doc complet",
+        "desc": "Documentaire qui explore la dépression à l'échelle mondiale, questionnant l'ampleur du phénomène et ses enjeux sociétaux. Une approche documentaire pour mieux comprendre cette réalité qui touche des millions de personnes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=Abb8YB81NG8"
+      },
+      {
+        "id": "l-intervention-par-les-pairs-en-sante-mentale",
+        "icon": "🎬",
+        "title": "L'intervention par les pairs en santé mentale",
+        "desc": "Vidéo du CREMIS qui explore l'intervention par les pairs en santé mentale, une approche où des personnes ayant vécu des difficultés psychiques accompagnent d'autres personnes dans des situations similaires. Un éclairage intéressant sur cette forme d'entraide basée sur l'expérience vécue.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=v4PDOzlAsrE"
+      },
+      {
+        "id": "dans-les-yeux-d-olivier-maladie-mentale-je-suis-mon-pire-enn",
+        "icon": "🎬",
+        "title": "Dans les yeux d'Olivier - Maladie mentale : je suis mon pire ennemi Saison 5",
+        "desc": "Émission de France 2 qui donne la parole à des personnes vivant avec des troubles psychiques, sans filtre ni jugement. Un regard authentique sur la réalité de la maladie mentale, loin des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Yepfg4DkLp4"
+      },
+      {
+        "id": "tendances-sociopathes-comment-vivent-ils-avec-ce-diagnostic-",
+        "icon": "🎬",
+        "title": "Tendances sociopathes : comment vivent-ils avec ce diagnostic ? - Ça commence aujourd'hui",
+        "desc": "Émission télé qui donne la parole à des personnes vivant avec un diagnostic de trouble de la personnalité antisociale. Permet de découvrir leur quotidien et leurs ressentis, au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=VoPtE5V_Mbw"
+      },
+      {
+        "id": "the-challenges-of-diagnosing-borderline-personality-disorder",
+        "icon": "🎬",
+        "title": "The challenges of diagnosing borderline personality disorder",
+        "desc": "Vidéo qui explore les défis du diagnostic du trouble de la personnalité borderline par une psychologue. Aborde les enjeux complexes autour du diagnostic et ses conséquences pour les personnes concernées.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=kn-1J7MkCF4"
+      },
+      {
+        "id": "borderline-personality-disorder",
+        "icon": "🎬",
+        "title": "Borderline personality disorder",
+        "desc": "Vidéo explicative sur le trouble de la personnalité borderline par la chaîne PsykoCouac. Attention : contenu datant de 8 ans, à vérifier pour s'assurer qu'il reste pertinent et non stigmatisant selon les approches actuelles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=ICSWs7PlN4g"
+      },
+      {
+        "id": "les-4-types-de-borderlines",
+        "icon": "🎬",
+        "title": "Les 4 types de borderlines",
+        "desc": "Une psychologue explique les 4 sous-types du trouble de la personnalité limite selon la classification américaine. Approche éducative qui peut aider à mieux comprendre la diversité des vécus borderline.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=cO4l5I4Nlvw"
+      },
+      {
+        "id": "pourquoi-les-borderlines-vivent-beaucoup-de-rejets-et-de-rup",
+        "icon": "🎬",
+        "title": "Pourquoi les borderlines vivent beaucoup de rejets et de ruptures de liens",
+        "desc": "Une psychologue explique les mécanismes derrière les difficultés relationnelles fréquentes chez les personnes avec un trouble borderline. Aide à mieux comprendre ces patterns pour les personnes concernées et leurs proches.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=5qaF8ahFdYY"
+      },
+      {
+        "id": "borderline-enquete-sur-un-trouble-psychique-meconnu",
+        "icon": "🎬",
+        "title": "BORDERLINE - Enquête sur un trouble psychique méconnu",
+        "desc": "Documentaire YouTube qui explore le trouble de la personnalité limite en donnant la parole aux personnes concernées. Déconstruit les préjugés et offre une approche nuancée de ce trouble souvent mal compris.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=BHbWxrIJ4-M"
+      },
+      {
+        "id": "personnalite-borderline-les-cles-indispensables-pour-compren",
+        "icon": "🎬",
+        "title": "PERSONNALITÉ BORDERLINE : LES CLÉS INDISPENSABLES POUR COMPRENDRE ET GÉRER",
+        "desc": "Une vidéo explicative sur le trouble de la personnalité borderline qui propose des clés de compréhension et de gestion. Peut aider les personnes concernées et leurs proches à mieux appréhender ce trouble complexe.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=DGGyNMDLXQY"
+      },
+      {
+        "id": "le-trouble-borderline",
+        "icon": "🎬",
+        "title": "Le trouble borderline",
+        "desc": "Vidéo éducative sur le trouble borderline par un psychiatre qui partage aussi son vécu de bipolarité. Approche à la fois professionnelle et personnelle pour mieux comprendre ce trouble.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=kadxyZfSJXU"
+      },
+      {
+        "id": "borderline-personality-disorder-vtfs-32-psychology",
+        "icon": "🎬",
+        "title": "Borderline Personality Disorder - VTFS#32 - Psychology",
+        "desc": "Vidéo explicative sur le trouble de la personnalité borderline par un psychologue. Approche professionnelle qui peut aider à mieux comprendre ce trouble complexe, tant pour les personnes concernées que leurs proches.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL"
+        ],
+        "link": "https://youtube.com/watch?v=bB8QF_Nbi0g"
+      },
+      {
+        "id": "les-courants-de-la-psychologie-expliques-simplement",
+        "icon": "🎬",
+        "title": "Les courants de la PSYCHOLOGIE expliqués SIMPLEMENT",
+        "desc": "Une vidéo qui présente les différents courants psychologiques de manière accessible. Peut aider à mieux comprendre les approches thérapeutiques et à s'orienter dans le paysage de la santé mentale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=35ciWAvzx_o"
+      },
+      {
+        "id": "troubles-bipolaires-apprendre-a-vivre-avec-ca-commence-aujou",
+        "icon": "🎬",
+        "title": "Troubles bipolaires : apprendre à vivre avec - Ça commence aujourd'hui",
+        "desc": "Émission de télé française qui donne la parole à des personnes vivant avec des troubles bipolaires pour partager leurs expériences du quotidien. Un format accessible qui démystifie la bipolarité à travers des témoignages authentiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=ffaLhvIqAWE"
+      },
+      {
+        "id": "enquete-de-sante-troubles-bipolaires-d-un-extreme-a-l-autre-",
+        "icon": "🎬",
+        "title": "Enquête de santé troubles bipolaires d'un extrême à l'autre, sommes nous tous bipolaires",
+        "desc": "Documentaire explorant les troubles bipolaires et questionnant les frontières entre normalité et pathologie. Utile pour comprendre les nuances du spectre bipolaire et déconstruire certains préjugés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=SlvU3t-iNvs"
+      },
+      {
+        "id": "de-la-survie-a-la-vie-l-incroyable-parcours-de-jeunes-face-a",
+        "icon": "🎬",
+        "title": "De la survie à la vie : L’incroyable parcours de jeunes face aux troubles de santé mentale",
+        "desc": "Documentaire qui suit le parcours de jeunes vivant avec des troubles psychiques, de la crise à la reconstruction. Témoignages authentiques qui montrent qu'il est possible de s'en sortir et de retrouver goût à la vie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Vfj0LSFBoWc"
+      },
+      {
+        "id": "nicolas-demorand-brise-les-tabous-sur-les-maladies-mentales",
+        "icon": "🎬",
+        "title": "Nicolas Demorand brise les tabous sur les maladies mentales",
+        "desc": "Nicolas Demorand, journaliste et animateur radio, partage son témoignage personnel sur sa maladie mentale dans cette interview. Un regard authentique qui contribue à briser les tabous autour de ces sujets encore difficiles à aborder.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=pmcnKYmxtlE"
+      },
+      {
+        "id": "mes-troubles-bipolaires-mon-conjoint-et-moi-ca-commence-aujo",
+        "icon": "🎬",
+        "title": "Mes troubles bipolaires, mon conjoint et moi - Ça commence aujourd'hui",
+        "desc": "Témoignages de personnes bipolaires et de leurs conjoints dans l'émission \"Ça commence aujourd'hui\". Une approche humaine qui montre l'impact des troubles bipolaires sur la vie de couple et les stratégies pour maintenir la relation.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=BK4cZU9YlEw"
+      },
+      {
+        "id": "vivre-avec-les-600-000-bipolaires-en-france",
+        "icon": "🎬",
+        "title": "Vivre avec les 600 000 Bipolaires en France.",
+        "desc": "Documentaire qui explore le vécu quotidien des personnes bipolaires à travers des témoignages personnels. Permet de mieux comprendre les hauts et bas de ce trouble depuis l'intérieur.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=3SN-viRw7sM"
+      },
+      {
+        "id": "prevenir-les-rechutes-dans-les-troubles-bipolaires",
+        "icon": "🎬",
+        "title": "Prévenir les rechutes dans les troubles bipolaires",
+        "desc": "Conférence d'experts sur la prévention des rechutes bipolaires, abordant les symptômes résiduels et les stratégies de régulation émotionnelle. Peut être utile pour comprendre les mécanismes de rechute, même si l'approche reste médicale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=ACvpaRsSpwQ"
+      },
+      {
+        "id": "manuel-de-psychoeducation-troubles-bipolaires",
+        "icon": "🎬",
+        "title": "Manuel de psychoéducation - Troubles bipolaires",
+        "desc": "Manuel de psychoéducation proposant 15 séances pour mieux comprendre les troubles bipolaires. Un contenu structuré qui peut aider les personnes concernées et leurs proches à développer des stratégies d'adaptation au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=-Sh9Z1OHNTE"
+      },
+      {
+        "id": "lou-lubie-sur-les-troubles-bipolaires",
+        "icon": "🎬",
+        "title": "Lou Lubie sur les troubles bipolaires",
+        "desc": "Lou Lubie, autrice de BD cyclothymique, témoigne avec humour et justesse de son vécu des troubles bipolaires. Un regard authentique et déstigmatisant qui aide à mieux comprendre ces troubles du quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=9hWWeMQDQb4"
+      },
+      {
+        "id": "moi-et-la-schizophrenie-psycho-arte",
+        "icon": "🎬",
+        "title": "Moi et la schizophrénie | Psycho | ARTE",
+        "desc": "Un documentaire ARTE qui donne la parole aux personnes vivant avec une schizophrénie pour briser les préjugés. Une approche humaine et respectueuse qui aide à mieux comprendre cette condition au-delà des clichés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=BAd2ZWER9tA"
+      },
+      {
+        "id": "je-est-un-autre-vivre-avec-la-schizophrenie",
+        "icon": "🎬",
+        "title": "Je est un autre - Vivre avec la schizophrénie",
+        "desc": "Témoignages de Bruno et Hélène qui partagent leur quotidien avec la schizophrénie. Une approche humaine pour comprendre comment on peut vivre avec ce trouble au jour le jour.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=MBp1pOdazPo"
+      },
+      {
+        "id": "leur-vie-avec-la-schizophrenie-ca-commence-aujourd-hui",
+        "icon": "🎬",
+        "title": "Leur vie avec la schizophrénie - Ça commence aujourd'hui",
+        "desc": "Témoignages de personnes vivant avec une schizophrénie dans l'émission de Faustine Bollaert. Des récits authentiques qui montrent la réalité du quotidien au-delà des clichés, avec un regard respectueux sur les parcours de vie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=69IV2PLi2zM"
+      },
+      {
+        "id": "psychose-le-temoignage-d-un-patient",
+        "icon": "🎬",
+        "title": "Psychose: le témoignage d'un patient",
+        "desc": "Témoignage authentique d'une personne ayant vécu une psychose, qui partage son expérience personnelle et l'impact sur son quotidien. Une approche humaine qui permet de mieux comprendre ce trouble au-delà des idées reçues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=UIOgzgRlL_8"
+      },
+      {
+        "id": "schizophrenie-une-vie-a-part-ca-commence-aujourd-hui",
+        "icon": "🎬",
+        "title": "Schizophrénie : une vie à part - Ça commence aujourd'hui",
+        "desc": "Émission de télévision française abordant le vécu quotidien des personnes concernées par la schizophrénie et de leurs proches. Témoignages authentiques qui permettent de mieux comprendre cette réalité souvent méconnue.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=7lL67ndsflY"
+      },
+      {
+        "id": "a-35-ans-dominique-a-ete-diagnostiquee-schizophrene-ca-comme",
+        "icon": "🎬",
+        "title": "À 35 ans, Dominique a été diagnostiquée schizophrène - Ça commence aujourd'hui",
+        "desc": "Témoignage de Dominique qui partage son expérience du diagnostic de schizophrénie à 35 ans dans l'émission 'Ça commence aujourd'hui'. Un récit authentique qui peut aider à mieux comprendre le vécu d'une personne concernée et briser les préjugés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=MeCIJnwJwpI"
+      },
+      {
+        "id": "symptomes-psychotiques-la-desorganisation-du-discours-pr-hel",
+        "icon": "🎬",
+        "title": "Symptômes psychotiques : la désorganisation du discours - Pr Hélène VERDOUX",
+        "desc": "Vidéo éducative du Pr Hélène Verdoux qui explique la désorganisation du discours dans les symptômes psychotiques. Permet de mieux comprendre ce phénomène qui peut toucher chacun·e à des degrés divers.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=5Ao9g0LQZ3U"
+      },
+      {
+        "id": "la-schizophrenie-simplement",
+        "icon": "🎬",
+        "title": "La SCHIZOPHRENIE, Simplement",
+        "desc": "Vidéo explicative sur la schizophrénie par une chaîne de vulgarisation psy. Approche accessible pour comprendre ce trouble souvent mal connu et stigmatisé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=yLwroI2hHEE"
+      },
+      {
+        "id": "la-depression-predisposition-ou-influence-de-l-environnement",
+        "icon": "🎬",
+        "title": "La dépression : prédisposition ou influence de l’environnement ? | Les questions qui fâchent | ARTE",
+        "desc": "Documentaire ARTE qui explore les facteurs de la dépression entre prédisposition génétique et influence environnementale. Format accessible qui démystifie les mécanismes de cette condition fréquente.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=sJXwy2-8nLc"
+      },
+      {
+        "id": "la-ketamine-au-secours-de-la-depression-rts",
+        "icon": "🎬",
+        "title": "La kétamine au secours de la dépression | RTS",
+        "desc": "Reportage de RTS sur l'utilisation thérapeutique de la kétamine dans le traitement de la dépression résistante. Présente cette nouvelle approche médicale avec des témoignages et explications accessibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=SLA3xpZBuDw"
+      },
+      {
+        "id": "etre-en-depression-ca-fait-quoi",
+        "icon": "🎬",
+        "title": "Être en Dépression : ÇA FAIT QUOI ?!",
+        "desc": "Une vidéo YouTube de vulgarisation sur la dépression qui explique ce que ça fait de vivre avec cette maladie. Approche accessible pour mieux comprendre les symptômes et l'expérience de la dépression.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=6LGMbsE9rFs"
+      },
+      {
+        "id": "overcoming-depression-allo-docteurs",
+        "icon": "🎬",
+        "title": "Overcoming Depression - Allo Docteurs",
+        "desc": "Vidéo éducative sur la dépression qui explique les symptômes principaux comme les pensées sombres, la tristesse et la fatigue extrême. Accessible pour comprendre ce trouble et ses manifestations.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=gKyN4nRRxoo"
+      },
+      {
+        "id": "guerir-d-une-depression-la-renaissance-apres-la-tempete-diff",
+        "icon": "🎬",
+        "title": "Guérir d'une dépression: la renaissance après la tempête (diffusion 06.12.2018) | RTS",
+        "desc": "Documentaire RTS explorant les chemins du rétablissement après une dépression. Témoignages authentiques sur la reconstruction et l'espoir de renaissance après avoir traversé cette épreuve.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=gCJY-6v-SQQ"
+      },
+      {
+        "id": "depression",
+        "icon": "🎬",
+        "title": "Depression",
+        "desc": "Vidéo éducative sur la dépression qui semble aborder le sujet de manière accessible. Attention : contenu datant de 9 ans, les approches et informations peuvent avoir évolué depuis.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=fbbM33WvcXs"
+      },
+      {
+        "id": "ce-que-m-a-pris-et-m-a-appris-la-depression-celine-curiol-te",
+        "icon": "🎬",
+        "title": "Ce que m'a pris et m'a appris la dépression | Céline Curiol | TEDxMinesNancy",
+        "desc": "Témoignage personnel d'une écrivaine sur son parcours avec la dépression, partagé dans un format TEDx accessible. Elle explore ce que cette expérience lui a retiré mais aussi les apprentissages qu'elle en a tirés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=APTrNh4MZ7E"
+      },
+      {
+        "id": "ce-monde-qui-cree-la-depression-slice-docus-documentaire-com",
+        "icon": "🎬",
+        "title": "Ce monde qui crée la dépression | SLICE Docus | Documentaire complet",
+        "desc": "Documentaire qui explore les causes sociétales de la dépression au-delà de l'approche purement médicale. Interroge les facteurs environnementaux et sociaux qui peuvent contribuer à la souffrance psychique, offrant une perspective plus large sur ce trouble.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=8o06W4ro0RY"
+      },
+      {
+        "id": "alexandra-souffre-de-toc-graves-et-d-un-trouble-depressif-pe",
+        "icon": "🎬",
+        "title": "Alexandra souffre de TOC graves et d'un trouble dépressif persistant - Ça commence aujourd'hui",
+        "desc": "Témoignage d'Alexandra qui partage son vécu avec les TOC et la dépression dans l'émission de Faustine Bollaert. Un portrait humain qui aide à mieux comprendre ces troubles au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=kO0p3SYe1_A"
+      },
+      {
+        "id": "depressive-disorders-part-1-raphaelle-richieri",
+        "icon": "🎬",
+        "title": "Depressive Disorders (Part 1) - Raphaelle Richieri",
+        "desc": "Cours universitaire en psychiatrie destiné aux résidents, produit par des enseignants du Sud de la France. Contenu très technique et médical, peu adapté au grand public.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=GRxALSnbiz4"
+      },
+      {
+        "id": "quoi-faire-avec-la-depression-05",
+        "icon": "🎬",
+        "title": "QUOI FAIRE avec la DÉPRESSION ? #05",
+        "desc": "Trio Psycho explore la dépression sous différents angles dans cette vidéo accessible. Une approche collaborative qui démystifie ce trouble et propose des pistes concrètes pour mieux vivre avec.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=_DE-9Ko-LcU"
+      },
+      {
+        "id": "addiction-a-l-alcool-ce-que-l-alcool-fait-vraiment-a-ton-cer",
+        "icon": "🎬",
+        "title": "Addiction À l’Alcool : Ce Que l'Alcool Fait Vraiment À Ton Cerveau - Mickael Naassila",
+        "desc": "Une vidéo qui explore les mécanismes neurologiques de l'addiction à l'alcool avec Mickaël Naassila, chercheur spécialisé. Permet de mieux comprendre ce qui se passe dans le cerveau lors d'une dépendance alcoolique, au-delà des idées reçues.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=1FJKxp8w1Rc"
+      },
+      {
+        "id": "elle-a-ete-addict-a-la-ketamine",
+        "icon": "🎬",
+        "title": "ELLE A ÉTÉ ADDICT À LA KÉTAMINE",
+        "desc": "Témoignage vidéo de Laura qui raconte son parcours d'addiction à la kétamine, commencé pendant son hospitalisation psychiatrique. Un récit personnel qui permet de comprendre les mécanismes de l'addiction et les liens avec les troubles psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions",
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=YH3lkL4YoEU"
+      },
+      {
+        "id": "addiction-rechute-resilience-sortir-de-l-enfer-de-l-alcool-r",
+        "icon": "🎬",
+        "title": "Addiction, rechute, résilience : sortir de l’enfer de l’alcool | RTS",
+        "desc": "Documentaire RTS qui suit le parcours de personnes en cure pour addiction à l'alcool, montrant les défis de la rechute et les chemins vers la résilience. Témoignages authentiques sur la réalité du sevrage et de la reconstruction.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=PBvV4GAQIQs"
+      },
+      {
+        "id": "expert-n-1-de-l-addiction-ce-poison-invisible-detruit-votre-",
+        "icon": "🎬",
+        "title": "Expert N°1 de l’Addiction : Ce poison invisible détruit votre cerveau ! Maîtrisez votre dopamine !",
+        "desc": "Vidéo qui explore les mécanismes de l'addiction à travers le rôle de la dopamine. Aborde différents types d'addictions (tabac, alcool, jeux) avec un angle scientifique vulgarisé.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=BmsCG6n_Dp0"
+      },
+      {
+        "id": "opioides-du-medicament-antidouleur-a-l-enfer-de-la-dependanc",
+        "icon": "🎬",
+        "title": "Opioïdes : du médicament antidouleur à l'enfer de la dépendance - Ça commence aujourd'hui",
+        "desc": "Témoignages poignants sur la dépendance aux opioïdes dans l'émission de Faustine Bollaert. Des personnes racontent leur parcours, de la prescription médicale à la dépendance, offrant un éclairage humain sur cette problématique encore taboue en France.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=DLWMG1NqK_o"
+      },
+      {
+        "id": "ptlf-addiction",
+        "icon": "🎬",
+        "title": "[PTLF] ADDICTION",
+        "desc": "Vidéo courte qui aborde l'addiction sous un angle psychanalytique. Le format accessible permet une première approche du sujet, complétée par des références pour approfondir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=wO7_Vp9fY_c"
+      },
+      {
+        "id": "alcoholism-immersion-in-an-all-female-addiction-center-in-vi",
+        "icon": "🎬",
+        "title": "Alcoholism: Immersion in an all-female addiction center - In Vivo",
+        "desc": "Reportage immersif dans un centre de désintoxication féminin qui montre le quotidien et les témoignages de femmes en sevrage alcoolique. Permet de mieux comprendre les spécificités de l'addiction chez les femmes et le processus de guérison.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=JHDfAj4CKgs"
+      },
+      {
+        "id": "alcohol-addiction-manon-s-heartwarming-testimony",
+        "icon": "🎬",
+        "title": "Alcohol addiction: Manon's HEARTWARMING testimony.",
+        "desc": "Témoignage touchant de Manon Beaudoin, psychologue qui partage son vécu avec l'alcoolisme. Une perspective précieuse qui montre qu'on peut être professionnel de santé ET vivre avec une addiction.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=nBlBPsBB1Lk"
+      },
+      {
+        "id": "les-troubles-lies-a-la-consommation-d-alcool",
+        "icon": "🎬",
+        "title": "Les troubles liés à la consommation d'alcool",
+        "desc": "Vidéo pratique sur l'accompagnement des personnes avec des troubles liés à l'alcool. Donne des conseils concrets sur quoi dire ou éviter, et comment repérer les signes de souffrance.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=eKaX5j_XuEc"
+      },
+      {
+        "id": "addiction-a-l-alcool-les-6-etapes-pour-en-sortir",
+        "icon": "🎬",
+        "title": "Addiction à l'alcool : les 6 ÉTAPES pour en sortir",
+        "desc": "Une approche structurée pour comprendre les étapes du sevrage alcoolique selon le modèle de Prochaska et DiClemente. Propose un cadre théorique pour mieux appréhender son parcours de sortie d'addiction, avec des outils concrets pour chaque phase.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=nC0QhuU0Eis"
+      },
+      {
+        "id": "the-psychology-of-addiction-carl-jung",
+        "icon": "🎬",
+        "title": "The Psychology of Addiction - Carl Jung",
+        "desc": "Une exploration des théories de Carl Jung sur l'addiction, abordant les dimensions psychologiques profondes de la dépendance. Peut offrir une perspective analytique intéressante sur les mécanismes inconscients à l'œuvre dans les addictions.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=tO4rtwy2Rtc"
+      },
+      {
+        "id": "depression-et-alcool-les-conseils-pour-agir-efficacement",
+        "icon": "🎬",
+        "title": "Dépression et alcool : les conseils pour agir efficacement.",
+        "desc": "Une vidéo qui explore les liens entre dépression et consommation d'alcool, proposant des conseils pratiques pour comprendre et agir sur cette double problématique souvent interconnectée.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Addictions"
+        ],
+        "link": "https://youtube.com/watch?v=cZ1sZAwWZ7Q"
+      },
+      {
+        "id": "voyage-au-centre-du-cerveau-dejouer-l-anxiete-anne-helene-cl",
+        "icon": "🎬",
+        "title": "Voyage au centre du cerveau : déjouer l'anxiété | Anne-Hélène Clair | TEDxESSECBusinessSchool",
+        "desc": "Une conférence TEDx qui explore de manière accessible les mécanismes cérébraux de l'anxiété. Anne-Hélène Clair partage des stratégies concrètes pour comprendre et mieux gérer son anxiété au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=yYFpBSs3nY4"
+      },
+      {
+        "id": "les-troubles-anxieux-generalites",
+        "icon": "🎬",
+        "title": "Les Troubles Anxieux, Généralités.",
+        "desc": "Une vidéo d'information générale sur les troubles anxieux par la chaîne Psy. Peut être utile pour une première approche du sujet, bien que le contenu date de 7 ans.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=JYyYY-Y9yTE"
+      },
+      {
+        "id": "crises-d-angoisse-que-faire-quand-le-cerveau-a-peur",
+        "icon": "🎬",
+        "title": "Crises d'angoisse : que faire quand le cerveau a peur ?",
+        "desc": "Marine Lorphelin partage son expérience personnelle des crises d'angoisse et donne des conseils pratiques pour les gérer. Une approche bienveillante qui dédramatise et outille concrètement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=Nids5dypcUw"
+      },
+      {
+        "id": "le-trouble-d-anxiete-generalisee-tag",
+        "icon": "🎬",
+        "title": "LE TROUBLE D’ANXIÉTÉ GÉNÉRALISÉE (TAG)",
+        "desc": "Vidéo explicative sur le trouble d'anxiété généralisée par un psychologue. Permet de mieux comprendre les signes et manifestations du TAG, trouble souvent mal compris malgré sa fréquence.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=Y6fw3ogtd-A"
+      },
+      {
+        "id": "troubles-anxieux-que-signifie-vraiment-guerir-3-3",
+        "icon": "🎬",
+        "title": "Troubles anxieux: que signifie vraiment guérir? #3/3",
+        "desc": "Troisième volet d'une série sur les troubles anxieux par un psychologue, explorant la question complexe de la guérison. Une approche professionnelle pour mieux comprendre le processus de rétablissement et redéfinir ses attentes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=vQUL3dpZrbA"
+      },
+      {
+        "id": "apprendre-la-peur-et-vivre-avec-elle-twist-arte",
+        "icon": "🎬",
+        "title": "Apprendre la peur et vivre avec elle | Twist | ARTE",
+        "desc": "Documentaire ARTE explorant les mécanismes de la peur et ses manifestations physiques (vertiges, sueurs, crises de panique). Une approche pédagogique et bienveillante pour mieux comprendre ce trouble et apprendre à vivre avec.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=uU91VlNTiS0"
+      },
+      {
+        "id": "faire-une-crise-d-angoisse-ca-fait-quoi",
+        "icon": "🎬",
+        "title": "Faire Une Crise d'Angoisse : ÇA FAIT QUOI ?!",
+        "desc": "Vidéo explicative qui décrit concrètement les sensations physiques d'une crise d'angoisse. Permet de mieux comprendre ce qui se passe dans le corps et de se sentir moins seul·e face à ces symptômes déroutants.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=LY2u9_XPqR8"
+      },
+      {
+        "id": "ils-vivent-un-calvaire-a-cause-de-leur-phobie",
+        "icon": "🎬",
+        "title": "Ils vivent un calvaire à cause de leur phobie",
+        "desc": "Reportage qui explore le quotidien de personnes vivant avec différentes phobies spécifiques (conduite, tunnels, araignées, vide, sang...). Donne la parole aux concerné·es pour témoigner de leur réalité et des impacts sur leur vie quotidienne.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=X6lWXndNijE"
+      },
+      {
+        "id": "adolescents-en-detresse-leur-quotidien-difficile",
+        "icon": "🎬",
+        "title": "Adolescents en détresse : leur quotidien difficile",
+        "desc": "Reportage immersif dans une unité psychiatrique pour adolescents qui montre leur quotidien et leurs difficultés. Permet de mieux comprendre la réalité de l'hospitalisation en psychiatrie chez les jeunes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=BG-Nc5Lhq2s"
+      },
+      {
+        "id": "experte-en-psychologie-la-science-derriere-la-peur-de-l-aban",
+        "icon": "🎬",
+        "title": "Experte en psychologie :  La science derrière la peur de l’abandon",
+        "desc": "Un épisode qui explore les mécanismes de la peur de l'abandon avec une experte en psychologie. Peut aider à comprendre comment cette peur influence nos relations et notre quotidien, avec des explications accessibles sur les aspects psychologiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=lLWQ49hO014"
+      },
+      {
+        "id": "nietzsche-se-liberer-de-la-peur",
+        "icon": "🎬",
+        "title": "NIETZSCHE - SE LIBÉRER DE LA PEUR",
+        "desc": "Une exploration philosophique des idées de Nietzsche sur la peur et le dépassement de soi. Peut offrir des perspectives intéressantes sur la confiance en soi et l'acceptation de l'incertitude, bien que l'approche reste très théorique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=ptrAQ2g-Epc"
+      },
+      {
+        "id": "phobie-d-impulsion-et-toc-les-sensations-physiques-qui-vous-",
+        "icon": "🎬",
+        "title": "Phobie d’impulsion et TOC: les sensations physiques qui vous inquiètent",
+        "desc": "Une vidéo explicative sur les sensations physiques liées aux phobies d'impulsion dans le contexte des TOC. Aide à mieux comprendre ces manifestations corporelles souvent sources d'inquiétude et à les démystifier.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=lDvkaw3Avus"
+      },
+      {
+        "id": "kaavan-le-podcast-sante-mentale",
+        "icon": "🎙️",
+        "title": "Kaavan - Le podcast Santé Mentale",
+        "desc": "Un podcast dédié à la santé mentale qui aborde différents sujets liés au bien-être psychologique. Le format audio permet d'explorer ces thématiques de manière accessible et bienveillante.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/kaavan-le-podcast-sant%C3%A9-mentale/id1734297354?l=fr&uo=4"
+      },
+      {
+        "id": "les-maux-bleus-dire-les-troubles-de-sante-mentale",
+        "icon": "🎙️",
+        "title": "Les Maux Bleus, dire les troubles de santé mentale",
+        "desc": "Podcast qui donne la parole aux personnes concernées pour raconter leur vécu des troubles de santé mentale, sans filtre ni jugement. Chaque épisode explore un parcours singulier pour briser les tabous et montrer la diversité des expériences.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "TDAH adulte",
+          "TCA",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/les-maux-bleus-dire-les-troubles-de-sant%C3%A9-mentale/id1561477249?l=fr&uo=4"
+      },
+      {
+        "id": "ouvrir-la-boite-parlons-sante-mentale",
+        "icon": "🎙️",
+        "title": "Ouvrir la boite, parlons santé mentale",
+        "desc": "Un podcast qui brise les tabous autour de la santé mentale en donnant la parole à des personnes qui partagent leurs expériences personnelles. Chaque épisode explore différents troubles et situations avec authenticité, offrant du réconfort et des perspectives utiles à celles et ceux qui vivent des difficultés similaires.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/ouvrir-la-boite-parlons-sant%C3%A9-mentale/id1707441308?l=fr&uo=4"
+      },
+      {
+        "id": "la-psychologie-pour-tous",
+        "icon": "🎙️",
+        "title": "La psychologie pour tous",
+        "desc": "Un podcast qui démocratise les concepts psychologiques en les rendant accessibles au grand public. Peut offrir des clés de compréhension utiles sur le fonctionnement mental et émotionnel.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/la-psychologie-pour-tous/id1630092622?l=fr&uo=4"
+      },
+      {
+        "id": "entre-les-deux-oreilles-le-balado-en-sante-mentale",
+        "icon": "🎙️",
+        "title": "Entre Les Deux Oreilles - Le balado en santé mentale",
+        "desc": "Podcast québécois qui démystifie la santé mentale avec des témoignages authentiques et des discussions accessibles. Aborde divers troubles et situations avec bienveillance, parfait pour mieux comprendre les enjeux de santé mentale au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/entre-les-deux-oreilles-le-balado-en-sant%C3%A9-mentale/id1565583036?l=fr&uo=4"
+      },
+      {
+        "id": "bande-d-autistes",
+        "icon": "🎙️",
+        "title": "Bande d'Autistes !",
+        "desc": "Un podcast créé par et pour la communauté autiste, qui donne la parole aux personnes concernées pour partager leurs expériences authentiques. Une ressource précieuse pour mieux comprendre l'autisme de l'intérieur et déconstruire les idées reçues.",
+        "type": "Podcast",
+        "troubles": [
+          "TSA / autisme"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/bande-dautistes/id1539575182?l=fr&uo=4"
+      },
+      {
+        "id": "folie-douce-parlons-sante-mentale",
+        "icon": "🎙️",
+        "title": "Folie Douce - parlons santé mentale",
+        "desc": "Un podcast qui aborde la santé mentale avec bienveillance et authenticité. Créé pour briser les tabous et offrir des témoignages sincères sur les troubles psychiques.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/folie-douce-parlons-sant%C3%A9-mentale/id1726024334?l=fr&uo=4"
+      },
+      {
+        "id": "jasons-sante-mentale",
+        "icon": "🎙️",
+        "title": "Jasons santé mentale",
+        "desc": "Podcast qui aborde la santé mentale de manière accessible et décomplexée. Un espace de discussion ouvert pour briser les tabous et partager des expériences autour du bien-être psychologique.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/jasons-sant%C3%A9-mentale/id1705927406?l=fr&uo=4"
+      },
+      {
+        "id": "sacre-trauma-le-podcast",
+        "icon": "🎙️",
+        "title": "Sacré Trauma ! Le podcast",
+        "desc": "Un podcast qui aborde le trauma avec un ton décomplexé et accessible. Permet de mieux comprendre les mécanismes traumatiques et leurs impacts au quotidien, loin des clichés.",
+        "type": "Podcast",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/sacr%C3%A9-trauma-le-podcast/id1678211723?l=fr&uo=4"
+      },
+      {
+        "id": "complex-trauma-recovery",
+        "icon": "🎙️",
+        "title": "Complex Trauma Recovery",
+        "desc": "Podcast dédié au rétablissement après un trauma complexe, abordant les stratégies de guérison et le parcours de reconstruction. Ressource spécialisée pour comprendre et accompagner la récupération après des traumatismes répétés ou prolongés.",
+        "type": "Podcast",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/complex-trauma-recovery/id1540714935?l=fr&uo=4"
+      },
+      {
+        "id": "tout-savoir-sur-la-sante-mentale-un-podcast-pour-apprendre-e",
+        "icon": "🎙️",
+        "title": "Tout savoir sur la santé mentale - Un podcast pour apprendre et en parler",
+        "desc": "Un podcast éducatif qui démystifie la santé mentale avec un ton bienveillant. Conçu pour informer et encourager les conversations autour du bien-être psychique, accessible à toutes et tous.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/tout-savoir-sur-la-sant%C3%A9-mentale-un-podcast-pour/id1729726709?l=fr&uo=4"
+      },
+      {
+        "id": "c-est-dans-la-tete-une-histoire-de-sante-mentale",
+        "icon": "🎙️",
+        "title": "C'est dans la tête : Une histoire de santé mentale",
+        "desc": "Podcast qui explore la santé mentale à travers des témoignages et histoires personnelles. Aborde différents troubles et expériences vécues de manière accessible.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/cest-dans-la-t%C3%AAte-une-histoire-de-sant%C3%A9-mentale/id1555453042?l=fr&uo=4"
+      },
+      {
+        "id": "le-podcast-de-la-psy-en-ligne-psychologie-et-charge-mentale",
+        "icon": "🎙️",
+        "title": "Le Podcast de la Psy en ligne- Psychologie et charge mentale",
+        "desc": "Un podcast qui explore les liens entre psychologie et charge mentale, offrant des clés pour mieux comprendre et gérer ces enjeux du quotidien. Particulièrement utile pour décrypter les mécanismes psychologiques derrière la surcharge mentale.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/le-podcast-de-la-psy-en-ligne-psychologie-et-charge-mentale/id1681336058?l=fr&uo=4"
+      },
+      {
+        "id": "trauma-rewired",
+        "icon": "🎙️",
+        "title": "Trauma Rewired",
+        "desc": "Podcast dédié à la compréhension et au rétablissement après un traumatisme. Explore les mécanismes du trauma et les approches de guérison avec un regard moderne sur la neuroplasticité.",
+        "type": "Podcast",
+        "troubles": [
+          "TSPT / PTSD"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/trauma-rewired/id1537602643?l=fr&uo=4"
+      },
+      {
+        "id": "ergotherapeute-presse-e",
+        "icon": "🎙️",
+        "title": "Ergothérapeute pressé·e",
+        "desc": "Podcast d'ergothérapeute partageant conseils pratiques et astuces du quotidien. Apporte un éclairage professionnel accessible sur l'autonomie et l'adaptation dans la vie de tous les jours.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte",
+          "TSA / autisme",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/ergoth%C3%A9rapeute-press%C3%A9-e/id1773394980?l=fr&uo=4"
+      },
+      {
+        "id": "plein-espoir-vivre-bien-avec-un-trouble-psy-sante-mentale-fr",
+        "icon": "🎙️",
+        "title": "Plein Espoir - Vivre bien avec un trouble psy - Santé mentale France",
+        "desc": "Un podcast de Santé mentale France qui donne la parole aux personnes concernées par des troubles psychiques. Des témoignages authentiques et des conseils pratiques pour mieux vivre au quotidien avec un trouble psy.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/plein-espoir-vivre-bien-avec-un-trouble-psy-sant%C3%A9/id1782946262?l=fr&uo=4"
+      },
+      {
+        "id": "intensement-podcast-l-univers-des-hpi-neuroatypiques-co",
+        "icon": "🎙️",
+        "title": "Intensément podcast - L'univers des HPI, Neuroatypiques & Co",
+        "desc": "Podcast dédié à l'univers des personnes à haut potentiel intellectuel (HPI) et neuroatypiques. Explore les spécificités, défis et ressources de ces profils cognitifs particuliers à travers témoignages et conseils pratiques.",
+        "type": "Podcast",
+        "troubles": [
+          "TDAH adulte",
+          "TSA / autisme",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/intens%C3%A9ment-podcast-lunivers-des-hpi-neuroatypiques-co/id1567784512?l=fr&uo=4"
+      },
+      {
+        "id": "65-sante-mentale",
+        "icon": "🎙️",
+        "title": "65+ & santé mentale",
+        "desc": "Podcast dédié à la santé mentale des personnes de 65 ans et plus. Aborde les enjeux spécifiques du vieillissement et du bien-être psychologique à travers des témoignages et conseils adaptés à cette tranche d'âge souvent oubliée.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Deuil et perte",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/65-sant%C3%A9-mentale/id1572475984?l=fr&uo=4"
+      },
+      {
+        "id": "la-sante-mentale-grande-cause-nationale-2025",
+        "icon": "🎙️",
+        "title": "La santé mentale : Grande cause nationale 2025",
+        "desc": "Un podcast dédié à la santé mentale dans le cadre de la Grande cause nationale 2025. Semble aborder les enjeux de santé mentale de façon générale, potentiellement avec des témoignages et des éclairages sur cette thématique devenue prioritaire.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/la-sant%C3%A9-mentale-grande-cause-nationale-2025/id1801583595?l=fr&uo=4"
+      },
+      {
+        "id": "ludipsy-la-sante-mentale-ludique",
+        "icon": "🎙️",
+        "title": "LudiPsy- La santé mentale ludique",
+        "desc": "Un podcast qui aborde la santé mentale de façon ludique et accessible. Une approche originale pour démystifier les troubles psychiques et parler bien-être mental sans tabou.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/ludipsy-la-sant%C3%A9-mentale-ludique/id1510529421?l=fr&uo=4"
+      },
+      {
+        "id": "s-o-s-sommeil-s-o-s-dodo-s-o-s-insomnie-institut-somna",
+        "icon": "🎙️",
+        "title": "S.O.S. Sommeil💤| S.O.S Dodo | S.O.S. Insomnie (Institut SOMNA)",
+        "desc": "Podcast spécialisé sur les troubles du sommeil et l'insomnie, proposé par l'Institut SOMNA. Aborde les problématiques de sommeil avec une approche professionnelle accessible.",
+        "type": "Podcast",
+        "troubles": [
+          "Troubles du sommeil"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/s-o-s-sommeil-s-o-s-dodo-s-o-s-insomnie-institut-somna/id1447885854?l=fr&uo=4"
+      },
+      {
+        "id": "raconte-moi-ta-depression",
+        "icon": "🎙️",
+        "title": "Raconte-moi ta dépression",
+        "desc": "Un podcast où des personnes racontent leur vécu de la dépression avec leurs propres mots. Des témoignages authentiques qui aident à briser l'isolement et à mieux comprendre cette maladie à travers des expériences concrètes.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/raconte-moi-ta-d%C3%A9pression/id1508490070?l=fr&uo=4"
+      },
+      {
+        "id": "le-role-de-ma-vie-parentification-sante-mentale",
+        "icon": "🎙️",
+        "title": "Le rôle de ma vie - Parentification & Santé mentale.",
+        "desc": "Un podcast qui explore la parentification, ce processus où un enfant se retrouve à endosser des responsabilités d'adulte. Utile pour comprendre ce mécanisme et ses impacts sur la santé mentale à l'âge adulte.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Proches aidants",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/le-r%C3%B4le-de-ma-vie-parentification-sant%C3%A9-mentale/id1808728467?l=fr&uo=4"
+      },
+      {
+        "id": "une-personne-sur-cinq-parlons-sante-mentale-avec-florence-k-",
+        "icon": "🎙️",
+        "title": "Une personne sur cinq : parlons santé mentale avec Florence K - Gouvernement du Québec",
+        "desc": "Podcast gouvernemental québécois animé par Florence K qui aborde la santé mentale de façon accessible. Chaque épisode explore différents aspects du bien-être psychologique avec des témoignages et des expert·es, dans un format déculpabilisant.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/une-personne-sur-cinq-parlons-sant%C3%A9-mentale-avec-florence/id1801518167?l=fr&uo=4"
+      },
+      {
+        "id": "212-echoes-by-chai-le-podcast-qui-revolutionne-la-sante-ment",
+        "icon": "🎙️",
+        "title": "212 Echoes by Chaï : Le Podcast qui Révolutionne la Santé Mentale au Maroc",
+        "desc": "Un podcast qui aborde la santé mentale dans le contexte marocain, brisant les tabous culturels autour du bien-être psychologique. Une approche locale qui peut résonner avec les expériences des personnes issues de cultures similaires.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/212-echoes-by-cha%C3%AF-le-podcast-qui-r%C3%A9volutionne-la-sant%C3%A9/id1778328155?l=fr&uo=4"
+      },
+      {
+        "id": "la-sante-mentale-c-est-pas-que-dans-la-tete",
+        "icon": "🎙️",
+        "title": "La santé mentale ... C'est pas que dans la tête!",
+        "desc": "Un podcast québécois qui aborde la santé mentale sans tabou, avec des témoignages authentiques et des conseils pratiques. Permet de mieux comprendre les enjeux psychologiques à travers des discussions accessibles et bienveillantes.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/la-sant%C3%A9-mentale-cest-pas-que-dans-la-t%C3%AAte/id1525715944?l=fr&uo=4"
+      },
+      {
+        "id": "sous-le-tapis-100-sante-mentale-zero-tabou",
+        "icon": "🎙️",
+        "title": "Sous le tapis - 100% santé mentale, zéro tabou",
+        "desc": "Un podcast français qui aborde la santé mentale sans détours ni tabous. Chaque épisode explore différents troubles et expériences vécues, avec un ton direct et bienveillant pour briser les silences.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/sous-le-tapis-100-sant%C3%A9-mentale-z%C3%A9ro-tabou/id1772093125?l=fr&uo=4"
+      },
+      {
+        "id": "associations-libres-balado-sur-la-sante-mentale",
+        "icon": "🎙️",
+        "title": "Associations libres – balado sur la santé mentale",
+        "desc": "Un podcast qui explore différents aspects de la santé mentale à travers des discussions ouvertes et accessibles. Une approche bienveillante pour mieux comprendre les enjeux psychologiques du quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/associations-libres-balado-sur-la-sant%C3%A9-mentale/id1569616876?l=fr&uo=4"
+      },
+      {
+        "id": "safe-club-ta-sante-mentale-au-service-de-ta-vie",
+        "icon": "🎙️",
+        "title": "SAFE CLUB : ta santé mentale au service de ta vie !",
+        "desc": "Un podcast qui aborde la santé mentale de manière positive et accessible, en mettant l'accent sur comment prendre soin de soi au quotidien. Propose des épisodes variés pour mieux comprendre et gérer sa santé mentale.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/safe-club-ta-sant%C3%A9-mentale-au-service-de-ta-vie/id1732684228?l=fr&uo=4"
+      },
+      {
+        "id": "parlons-sante-mentale",
+        "icon": "🎙️",
+        "title": "Parlons santé mentale",
+        "desc": "Podcast dédié aux discussions autour de la santé mentale, abordant différents troubles et expériences vécues. Format audio accessible pour comprendre les enjeux de santé psychique.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/parlons-sant%C3%A9-mentale/id1769201689?l=fr&uo=4"
+      },
+      {
+        "id": "psykhe-le-podcast-suisse-sur-la-sante-mentale",
+        "icon": "🎙️",
+        "title": "Psykhé, le podcast suisse sur la santé mentale",
+        "desc": "Un podcast suisse qui aborde la santé mentale avec une approche locale et accessible. Propose des épisodes variés pour mieux comprendre les enjeux psychiques dans le contexte helvétique.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/psykh%C3%A9-le-podcast-suisse-sur-la-sant%C3%A9-mentale/id1807241916?l=fr&uo=4"
+      },
+      {
+        "id": "sortir-de-l-addiction",
+        "icon": "🎙️",
+        "title": "Sortir de l'addiction",
+        "desc": "Un podcast dédié au parcours de sortie des addictions, proposant témoignages et conseils pratiques pour accompagner le rétablissement. Aborde les différentes étapes du sevrage et de la reconstruction avec un angle humain et bienveillant.",
+        "type": "Podcast",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/sortir-de-laddiction/id1686374967?l=fr&uo=4"
+      },
+      {
+        "id": "ovni-parlons-de-sante-mentale",
+        "icon": "🎙️",
+        "title": "OVNI : Parlons de santé mentale",
+        "desc": "Podcast dédié à la santé mentale qui aborde différents troubles et expériences avec un ton accessible. Une ressource pour mieux comprendre et démystifier les enjeux de santé mentale au quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/ovni-parlons-de-sant%C3%A9-mentale/id1774457260?l=fr&uo=4"
+      },
+      {
+        "id": "mission-anxiete-zero-le-podcast",
+        "icon": "🎙️",
+        "title": "Mission Anxiété Zéro - le Podcast",
+        "desc": "Un podcast dédié à comprendre et apprivoiser l'anxiété au quotidien. Propose des stratégies concrètes et des témoignages pour mieux vivre avec ses angoisses et retrouver de la sérénité.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/mission-anxi%C3%A9t%C3%A9-z%C3%A9ro-le-podcast/id1761344989?l=fr&uo=4"
+      },
+      {
+        "id": "ciao-anxiete",
+        "icon": "🎙️",
+        "title": "Ciao Anxiété",
+        "desc": "Podcast dédié à l'anxiété avec des épisodes qui explorent les différentes facettes de ce trouble et proposent des pistes pour mieux vivre avec. Format audio pratique pour accompagner le quotidien.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/ciao-anxi%C3%A9t%C3%A9/id1705541133?l=fr&uo=4"
+      },
+      {
+        "id": "capital-humain-rh-management-et-sante-mentale-au-travail",
+        "icon": "🎙️",
+        "title": "Capital Humain – RH, Management et Santé Mentale au Travail",
+        "desc": "Un podcast dédié aux enjeux de santé mentale en entreprise, abordant RH, management et bien-être au travail. Utile pour comprendre les défis professionnels liés à la santé mentale et découvrir des pistes d'amélioration.",
+        "type": "Podcast",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://podcasts.apple.com/us/podcast/capital-humain-rh-management-et-sant%C3%A9-mentale-au-travail/id1534074080?l=fr&uo=4"
+      },
+      {
+        "id": "depression-tentative-de-su-cide-et-sejours-en-hopital-psychi",
+        "icon": "🎬",
+        "title": "Dépression, tentative de su*cide et séjours en hôpital psychiatrique, il nous raconte — Byron",
+        "desc": "Témoignage personnel de Byron qui raconte son parcours avec la dépression, ses hospitalisations psychiatriques et sa tentative de suicide. Un partage authentique qui peut aider à briser les tabous autour de ces expériences difficiles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=Pe0JwuWeeq0"
+      },
+      {
+        "id": "un-psychiatre-revele-3-secrets-pour-ameliorer-votre-sante-me",
+        "icon": "🎬",
+        "title": "Un psychiatre révèle 3 secrets pour améliorer votre santé mentale [Pr Lejoyeux]",
+        "desc": "Le Pr Lejoyeux, psychiatre reconnu, partage 3 conseils pratiques pour améliorer son bien-être mental au quotidien. Une approche accessible qui démystifie la santé mentale avec des pistes concrètes à appliquer.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=FpM3aJ0oAYQ"
+      },
+      {
+        "id": "sante-mentale-et-developpement-territorial-de-la-psychiatrie",
+        "icon": "🎬",
+        "title": "SANTE MENTALE ET DÉVELOPPEMENT TERRITORIAL - \"De la psychiatrie à la santé mentale\" Dr JL ROELANDT",
+        "desc": "Conférence du Dr Roelandt, psychiatre et directeur du Centre Collaborateur OMS, qui explore l'évolution de la psychiatrie vers une approche plus globale de santé mentale. Une perspective institutionnelle sur les enjeux de territoire et de promotion de la santé mentale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=YSZkEgXwBiQ"
+      },
+      {
+        "id": "les-secrets-d-un-cerveau-en-bonne-sante-avec-le-psychiatre-m",
+        "icon": "🎬",
+        "title": "Les secrets d'un cerveau en bonne santé, avec le psychiatre Michel Lejoyeux",
+        "desc": "Interview du psychiatre Michel Lejoyeux sur les habitudes qui préservent la santé mentale au quotidien. Des conseils pratiques et accessibles pour prendre soin de son cerveau, basés sur l'expertise d'un professionnel reconnu.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=OXgxb0BtZeg"
+      },
+      {
+        "id": "la-psychiatrie-en-prison-temoignage-de-christiane-de-beaurep",
+        "icon": "🎬",
+        "title": "La psychiatrie en prison. Témoignage de Christiane de Beaurepaire",
+        "desc": "Témoignage d'une psychiatre ayant exercé 15 ans en prison, offrant un regard professionnel sur la santé mentale en milieu carcéral. Une perspective éclairante sur les enjeux psychiatriques spécifiques à l'enfermement.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=Aa5oIOkIRco"
+      },
+      {
+        "id": "sante-mentale-comment-le-running-reorganise-notre-cerveau-av",
+        "icon": "🎬",
+        "title": "Santé mentale : comment le running réorganise notre cerveau ? (avec Marine Lorphelin) - DLTDC",
+        "desc": "Une vidéo qui explore les bienfaits du running sur la santé mentale avec Marine Lorphelin. Elle explique comment la course à pied peut aider à réduire le stress et l'anxiété, en décryptant les mécanismes cérébraux en jeu.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=sDzm7RpScbw"
+      },
+      {
+        "id": "10-astuces-pour-prendre-soin-de-sa-sante-mentale-hors-therap",
+        "icon": "🎬",
+        "title": "10 astuces pour prendre soin de sa santé mentale (hors thérapie)",
+        "desc": "Une psychologue partage 10 conseils pratiques pour améliorer son bien-être mental au quotidien, sans forcément passer par la thérapie. Des astuces concrètes et accessibles pour prendre soin de soi.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=gyp1lp3HSyE"
+      },
+      {
+        "id": "normaliser-la-sante-mentale-deculpabilisez-vous-podcast-mon-",
+        "icon": "🎬",
+        "title": "NORMALISER LA SANTÉ MENTALE : DÉCULPABILISEZ-VOUS | Podcast \"Mon psy part en live\"",
+        "desc": "Un psychologue démystifie la santé mentale et aide à lever la culpabilité autour des difficultés psychologiques. Une approche bienveillante pour normaliser le fait de ne pas aller bien et encourager à demander de l'aide.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=oCov5UqxWcc"
+      },
+      {
+        "id": "le-retablissement-en-sante-mentale",
+        "icon": "🎬",
+        "title": "Le rétablissement en santé mentale",
+        "desc": "Conférence du psychiatre Nicolas Franck sur le concept de rétablissement en santé mentale. Présente une approche centrée sur l'espoir et les capacités de la personne plutôt que sur les symptômes, dans le cadre de la formation aux premiers secours en santé mentale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=_PmHc-dhwPI"
+      },
+      {
+        "id": "temoignage-depression-le-parcours-de-retablissement-de-marie",
+        "icon": "🎬",
+        "title": "Témoignage \" Dépression : le parcours de rétablissement de Marie Laure \"",
+        "desc": "Marie Laure, 68 ans, partage avec authenticité son vécu de la dépression et les étapes qui l'ont menée vers un mieux-être. Un témoignage touchant qui peut inspirer et donner de l'espoir aux personnes traversant des moments difficiles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=FtJUiedqdLE"
+      },
+      {
+        "id": "bien-alimenter-son-cerveau-sante-mentale-documentaire-2020-a",
+        "icon": "🎬",
+        "title": "Bien alimenter son cerveau | Santé mentale | Documentaire 2020 ARTE",
+        "desc": "Documentaire ARTE explorant les liens entre alimentation et santé mentale. Une approche scientifique accessible pour comprendre comment nos choix alimentaires influencent notre bien-être psychologique et nos émotions.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=A-cOUVHdlgI"
+      },
+      {
+        "id": "podcast-psychedeliques-et-sante-mentale",
+        "icon": "🎙️",
+        "title": "[PODCAST] Psychédéliques et santé mentale",
+        "desc": "Une exploration scientifique des substances psychédéliques et de leur potentiel thérapeutique en santé mentale. Le podcast aborde les recherches actuelles sur la psilocybine, LSD, kétamine et mescaline dans un contexte médical rigoureux.",
+        "type": "Podcast",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "TSPT / PTSD",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=rmCWCloq19U"
+      },
+      {
+        "id": "pourquoi-la-sante-mentale-explose-aujourd-hui",
+        "icon": "🎬",
+        "title": "Pourquoi la santé mentale explose aujourd’hui ?",
+        "desc": "Documentaire France Culture qui explore les causes de la crise actuelle en santé mentale, particulièrement chez les jeunes. Analyse les défaillances du système de soins et les enjeux sociétaux qui contribuent à cette explosion des troubles psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=-fdbfWWnLMw"
+      },
+      {
+        "id": "alimentation-microbiote-et-sante-mentale-dialogue-avec-dr-gu",
+        "icon": "🎬",
+        "title": "Alimentation, microbiote et santé mentale - Dialogue avec Dr Guillaume Fond",
+        "desc": "Un dialogue avec le Dr Guillaume Fond, expert en psychonutrition, qui explore les liens concrets entre alimentation, microbiote intestinal et santé mentale. Une approche scientifique accessible pour comprendre comment nos choix alimentaires influencent notre bien-être psychologique.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=rHXLf_Y-QGE"
+      },
+      {
+        "id": "sante-mentale-et-culture-briser-le-tabou",
+        "icon": "🎬",
+        "title": "Santé mentale et culture : briser le tabou !",
+        "desc": "Une vidéo récente qui aborde les difficultés à parler de santé mentale dans différents contextes culturels. Explore comment briser le silence et les tabous autour de ces questions sensibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=fZR_PhKlYu4"
+      },
+      {
+        "id": "la-sante-mentale-passe-par-le-corps-avec-la-journaliste-step",
+        "icon": "🎬",
+        "title": "La santé mentale passe par le corps avec la journaliste Stéphanie Brillant #572",
+        "desc": "Une journaliste explore les liens entre notre rapport au corps et la santé mentale, notamment l'impact des écrans sur notre connexion aux sensations physiques. Une approche intéressante pour comprendre comment prendre soin de soi de manière globale.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=oCSPs3nu3gQ"
+      },
+      {
+        "id": "hors-serie-ramadan-sante-mentale",
+        "icon": "🎬",
+        "title": "Hors série - Ramadan & Santé mentale",
+        "desc": "Une psychologue explore les liens entre pratique religieuse du Ramadan et bien-être psychologique. Aborde les défis spécifiques que peuvent rencontrer les personnes avec des troubles de santé mentale pendant cette période, avec un regard bienveillant sur la conciliation entre spiritualité et soin de soi.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=cgNvebYXC9Q"
+      },
+      {
+        "id": "big-bang-sante-sante-mentale-la-fin-d-un-tabou",
+        "icon": "🎬",
+        "title": "Big Bang Santé : Santé mentale, la fin d'un tabou ?",
+        "desc": "Une matinée de débat du Figaro sur les enjeux de santé mentale, avec interviews et reportages. Format long qui peut donner des clés de compréhension générales, même si l'approche reste assez traditionnelle.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=n3QHieyqlWA"
+      },
+      {
+        "id": "guerir-de-la-schizophrenie-c-est-possible-sous-certaines-con",
+        "icon": "🎬",
+        "title": "Guérir de la schizophrénie, c'est possible sous certaines conditions...",
+        "desc": "Un témoignage personnel et sincère sur le rétablissement en schizophrénie, qui s'adresse aux personnes concernées et à leurs proches. Une perspective d'espoir partagée avec authenticité par quelqu'un qui a vécu cette expérience.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Schizophrénie"
+        ],
+        "link": "https://youtube.com/watch?v=fwPl4S3otYo"
+      },
+      {
+        "id": "jmtb-2022-le-retablissement-temoignages-patients-et-proches",
+        "icon": "🎬",
+        "title": "JMTB 2022 LE RETABLISSEMENT TEMOIGNAGES PATIENTS ET PROCHES",
+        "desc": "Témoignages authentiques de personnes vivant avec des troubles bipolaires et de leurs proches sur le rétablissement. Une approche centrée sur l'espoir et le vécu concret, partagée lors des Journées Mondiales des Troubles Bipolaires 2022.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Bipolarité"
+        ],
+        "link": "https://youtube.com/watch?v=0zNB1xtUqCo"
+      },
+      {
+        "id": "luc-vignault-rehab-2014-le-retablissement-en-psychiatrie",
+        "icon": "🎬",
+        "title": "Luc Vignault  (Rehab 2014) le rétablissement en psychiatrie",
+        "desc": "Témoignage inspirant de Luc Vignault sur son parcours de rétablissement en santé mentale. Une approche humaine et optimiste qui montre qu'il est possible de se reconstruire après des difficultés psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=ytvmzy801kU"
+      },
+      {
+        "id": "les-complexites-de-l-esprit-revelees-par-une-psychologue-vic",
+        "icon": "🎬",
+        "title": "Les complexités de l'esprit révélées par une psychologue - Victoria Guernon",
+        "desc": "Échange avec une psychologue clinicienne qui explore les mécanismes de l'esprit et de la santé mentale. Une approche accessible pour mieux comprendre le fonctionnement psychologique et démystifier certains aspects de la psychologie.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=hbeu3qCn5QY"
+      },
+      {
+        "id": "perspective-du-retablissement-et-troubles-de-la-personnalite",
+        "icon": "🎬",
+        "title": "Perspective du Rétablissement et Troubles de la Personnalité",
+        "desc": "Une psychiatre spécialisée présente l'approche du rétablissement appliquée aux troubles de la personnalité. Éclairage professionnel sur une perspective centrée sur l'espoir et les capacités plutôt que sur les symptômes.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Borderline / TPL",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=QglxYWEoaVY"
+      }
+    ]
+  },
+  {
+    "id": "societe",
+    "label": "🤝 Maladie psy et société",
+    "items": [
+      {
+        "id": "franchir-le-pas-de-la-honte-par-le-dr-david-masson",
+        "icon": "🎙️",
+        "title": "Franchir le pas de la honte par le Dr David Masson",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [],
+        "link": "https://placedessciences.fr/nos-podcasts/les-maux-bleus/s01e17/?fbclid=IwAR29VY6ARMxlkTxTsx3DQpoAi7_DTS1SlZ_4ptvn4b7_MSK6ZgFLpBXFtk8"
+      },
+      {
+        "id": "la-foret-de-mon-pere-de-vero-cratzborn-2020",
+        "icon": "🎬",
+        "title": "“La Forêt de mon père” de Vero Cratzborn / 2020",
+        "desc": "Gina, 15 ans, grandit dans une famille aimante en lisière de forêt. Elle admire son père Jimmy, imprévisible et fantasque, dont elle est prête à pardonner tous les excès. Jusqu’au jour où la situation devient intenable : Jimmy bascule et le fragile équilibre familial est rompu. Dans l’incompréhension et la révolte, Gina s’allie avec un adolescent de son quartier pour sauver son père.",
+        "type": "Vidéo / Film",
+        "troubles": [],
+        "link": "https://www.youtube.com/watch?v=MKHbcJo-7Uc&ab_channel=PrestigeTrailers"
+      },
+      {
+        "id": "normalisons-le-regard-sur-les-personnes-handicapee",
+        "icon": "📲",
+        "title": "Normalisons le regard sur les personnes handicapées",
+        "desc": "",
+        "type": "Réseaux sociaux",
+        "troubles": [],
+        "link": "https://fb.watch/9RHTDAswHd/"
+      },
+      {
+        "id": "un-guide-de-bonnes-pratiques-pour-les-premiers-ges",
+        "icon": "📖",
+        "title": "Un guide de bonnes pratiques pour les premiers gestes",
+        "desc": "Information sur le PSSM : Premiers Secours en Santé Mentale",
+        "type": "Article / Livre",
+        "troubles": [],
+        "link": "https://www.liberation.fr/societe/sante/sante-mentale-un-guide-de-bonnes-pratiques-pour-les-premiers-gestes-20220125_O4DCB6AP7ZFXHI6UH7LNWEZGWY/?fbclid=IwAR11HfPJSeLZXhcNjjjPphDqlAtncuo7Ii5_wsv2pu4pLjIz_8QdG7Na8AE"
+      },
+      {
+        "id": "les-troubles-psychiques-des-cles-pour-mieux-compre",
+        "icon": "🌐",
+        "title": "Les troubles psychiques : des clés pour mieux comprendre",
+        "desc": "Module de e-learning proposé par l’UNAFAM",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Bipolarité",
+          "Schizophrénie"
+        ],
+        "link": "https://www.unafam.org/actualites/un-nouveau-module-de-formation-en-ligne-sur-les-troubles-psychiques"
+      },
+      {
+        "id": "la-web-serie-qui-deconstruit-les-idees-recues-sur-",
+        "icon": "🎬",
+        "title": "La web série qui déconstruit les idées reçues sur les troubles de la santé mentale",
+        "desc": "Témoignages forts de jeunes adultes sur les troubles de santé mentale",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles",
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://www.rtbf.be/article/normal-la-web-serie-qui-deconstruit-les-idees-recues-sur-les-troubles-de-la-sante-mentale-marion-jaumotte-10882075?fbclid=IwAR1eT95TjZlI0zhQs8Kd_bfLDivqvFfU7usN8R3ZdBn_9kwCFUPHaLqDrLM&id=10882075"
+      },
+      {
+        "id": "la-sante-mentale-en-france",
+        "icon": "📊",
+        "title": "La santé mentale en France",
+        "desc": "Le%20WikiPerch%C3%A9%20de%20La%20Maison%20Perch%C3%A9e/IMG-20211229-WA0000%201.jpg",
+        "type": "Infographie",
+        "troubles": []
+      },
+      {
+        "id": "je-veux-en-parler",
+        "icon": "🌐",
+        "title": "Je veux en parler",
+        "desc": "Un site spécialement dédié pour les jeunes qui ne savent pas comment mettre des mots sur leur souffrance psychique",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.jepeuxenparler.fr/"
+      },
+      {
+        "id": "handicap-invisible-en-entreprise-en-parler-c-est-a",
+        "icon": "🌐",
+        "title": "Handicap invisible en entreprise : en parler, c'est avancer",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.caf.fr/allocataires/vies-de-famille/vivre-avec-un-handicap/emploi-et-handicap/handicap-invisible-en-entreprise-en-parler-c-est-avancer"
+      },
+      {
+        "id": "par-peur-des-discriminations-60-des-personnes-hand",
+        "icon": "🎙️",
+        "title": "Par peur des discriminations, 60% des personnes handicapées ne le précisent pas sur leur CV",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [],
+        "link": "https://www.europe1.fr/economie/par-peur-des-discriminations-60-des-personnes-handicapees-ne-le-precisent-pas-sur-leur-cv-4077042?fbclid=IwAR1i6gUuPiAVh5Q9X38Kj9sm9F2Kr-9yf-oWdk3rupZl96ax8Z_2kP6mcFQ"
+      },
+      {
+        "id": "la-contention-une-realite-dans-le-soin-vecus-racon",
+        "icon": "🎙️",
+        "title": "La contention : une réalité dans le soin / vécus racontés par les soignés et les soignants",
+        "desc": "",
+        "type": "Podcast",
+        "troubles": [],
+        "link": "https://chaire-philo.fr/la-contention-une-realite-dans-le-soin-vecus-soignes-et-soignants/"
+      },
+      {
+        "id": "10-idees-recues-sur-la-depression-par-le-pr-lejoye",
+        "icon": "🎬",
+        "title": "10 idées reçues sur la dépression par le Pr Lejoyeux",
+        "desc": "",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://www.youtube.com/watch?v=c5pdfoTTF3M"
+      },
+      {
+        "id": "3114-ligne-d-ecoute-de-prevention-du-suicide-desti",
+        "icon": "🌐",
+        "title": "3114 : ligne d’écoute de prévention du suicide, destinée à la fois aux personnes concernées mais aussi aux proches",
+        "desc": "Numéro A CONNAITRE ABSOLUMENT ET A DIFFUSER",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://3114.fr/"
+      },
+      {
+        "id": "avocats-droits-et-psychiatrie",
+        "icon": "🌐",
+        "title": "Avocats, droits et psychiatrie",
+        "desc": "Association d’avocats. Soutien et informations sur les droits des patients (hospitalisation sous contrainte, isolement …)",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.avocatsdroitspsychiatrie.fr/"
+      },
+      {
+        "id": "4-idees-fausses-qui-banalisent-les-troubles-psychi",
+        "icon": "🌐",
+        "title": "4 idées fausses qui banalisent les troubles psychiques: que dire si vous les entendez ?",
+        "desc": "",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://loptimisme.com/idees-fausses-banalisation/"
+      },
+      {
+        "id": "sur-tiktok-l-auto-diagnostic-des-ados-inquiete-les",
+        "icon": "📖",
+        "title": "Sur TikTok, l’auto-diagnostic des ados inquiète les psys",
+        "desc": "Comment la déferlante d’autodiagnostic peu sérieux sur la santé mentale des jeunes complique sérieusement le travail des thérapeutes professionnels",
+        "type": "",
+        "troubles": [],
+        "link": "https://www.madmoizelle.com/sur-tiktok-lauto-diagnostic-des-ados-inquiete-les-psys-1226808"
+      },
+      {
+        "id": "psychiatrie-il-faut-la-faire-changer-par-le-dr-nic",
+        "icon": "📖",
+        "title": "Psychiatrie : il faut la faire changer ! par le Dr Nicolas Rainteau",
+        "desc": "Pour une vision ambitieuse de la psychiatrie avec pour centre le patient et pas seulement sa maladie",
+        "type": "",
+        "troubles": [],
+        "link": "https://www.youtube.com/watch?v=4rxeK9v7vn4"
+      },
+      {
+        "id": "troubles-mentaux-quand-la-stigmatisation-d-aujourd",
+        "icon": "📖",
+        "title": "Troubles mentaux : quand la stigmatisation d’aujourd’hui reflète les conceptions d’hier",
+        "desc": "Article retraçant l’histoire de la psychiatrie et son impact sur les représentations dans la société",
+        "type": "Article / Livre",
+        "troubles": [],
+        "link": "https://theconversation.com/troubles-mentaux-quand-la-stigmatisation-daujourdhui-reflete-les-conceptions-dhier-192540"
+      },
+      {
+        "id": "addictions-et-sante-mentale-avec-le-dr-jean-victor",
+        "icon": "🎙️",
+        "title": "Addictions et santé mentale avec le Dr Jean-Victor Blanc",
+        "desc": "Comment agissent les addictions ? Quels sont les liens entre la pop culture et les addictions ? Un entretien pour déconstruire les mythes sur les addictions",
+        "type": "Podcast",
+        "troubles": [
+          "Addictions"
+        ],
+        "link": "https://musae-tomorrow.com/podcast/"
+      },
+      {
+        "id": "en-finir-avec-les-idees-fausses-sur-la-psychiatrie",
+        "icon": "📖",
+        "title": "En finir avec les idées fausses sur la psychiatrie et la santé mentale par le Dr Astrid Chevance",
+        "desc": "Un excellent ouvrage accessible à tous pour déconstruire les clichés sur la psychiatrie, les maladies psychiatriques et les malades. A partager et à offrir sans modération",
+        "type": "Article / Livre",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "Bipolarité",
+          "Borderline / TPL",
+          "Dépression",
+          "Schizophrénie"
+        ],
+        "link": "https://editionsatelier.com/boutique/accueil/333-en-finir-avec-les-idees-fausses-sur-la-psychiatrie-et-la-sante-mentale--9782708245709.html"
+      },
+      {
+        "id": "samu-social-de-paris",
+        "icon": "🌐",
+        "title": "Samu social de Paris",
+        "desc": "Le Samu social propose un hébergement d'urgence et un accompagnement global, y compris en santé mentale, pour les personnes en situation de précarité. Ligne d'appel 115.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Santé mentale & précarité"
+        ],
+        "link": "https://www.samusocial.paris"
+      },
+      {
+        "id": "un-chez-soi-d-abord",
+        "icon": "🌐",
+        "title": "Un Chez Soi d'Abord",
+        "desc": "Programme national qui donne directement un logement aux personnes sans-abri vivant avec des troubles psychiques. L'idée : d'abord un toit, ensuite un accompagnement. Les résultats montrent que ça marche.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Santé mentale & précarité"
+        ],
+        "link": "https://abej-solidarite.fr/structure/un-chez-soi-dabord/"
+      },
+      {
+        "id": "orspere-samdarra-sante-mentale-precarite",
+        "icon": "🌐",
+        "title": "Orspere-Samdarra — Santé mentale, précarité et migration",
+        "desc": "L'Orspere-Samdarra (rattaché au CH Le Vinatier) travaille sur le croisement santé mentale, précarité et migration. Publications, formations et ressources pour mieux comprendre les enjeux de santé mentale quand on est en situation de vulnérabilité.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Santé mentale & précarité"
+        ],
+        "link": "https://orspere-samdarra.com"
+      },
+      {
+        "id": "unafam-proches-aidants",
+        "icon": "🌐",
+        "title": "UNAFAM — Union Nationale des Familles et Amis",
+        "desc": "L'association de référence pour les proches de personnes vivant avec un trouble psychique. Groupes de parole, formation « Profamille », ligne d'écoute (01 42 63 03 03) et délégations dans toute la France.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://www.unafam.org"
+      },
+      {
+        "id": "profamille-programme-proches",
+        "icon": "🌐",
+        "title": "Programme Profamille",
+        "desc": "Programme psychoéducatif gratuit de 14 séances pour les proches de personnes vivant avec un trouble schizophrénique. Apprendre à mieux comprendre la maladie, gérer le stress et communiquer.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Proches aidants",
+          "Schizophrénie"
+        ],
+        "link": "https://www.profamille.org"
+      },
+      {
+        "id": "argos-2001-bipolaires-et-proches",
+        "icon": "🌐",
+        "title": "ARGOS 2001 — Personnes bipolaires et proches",
+        "desc": "Association de personnes bipolaires et de leurs proches. Groupes de parole mixtes (concernés + proches), documentation et agenda des événements. Un lieu où les proches trouvent leur place à côté des personnes concernées.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Proches aidants",
+          "Bipolarité"
+        ],
+        "link": "https://argos2001.fr"
+      },
+      {
+        "id": "podcast-aidants-parlons-en",
+        "icon": "🎙️",
+        "title": "Podcast \"Aidants, parlons-en\"",
+        "desc": "Podcast dédié aux proches aidants en santé mentale. Des témoignages et des conseils pratiques pour celles et ceux qui accompagnent un proche au quotidien, sans s'oublier soi-même.",
+        "type": "Podcast",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://podcast.ausha.co/aidants-parlons-en"
+      },
+      {
+        "id": "mon-proche-est-malade-psychique-livre",
+        "icon": "📖",
+        "title": "\"Mon proche est malade psychique\" — Éditions Odile Jacob",
+        "desc": "Guide pratique et bienveillant qui s'adresse directement aux proches. Comment réagir lors d'une crise ? Comment prendre soin de soi ? Comment communiquer sans s'épuiser ? Des réponses concrètes.",
+        "type": "Article / Livre",
+        "troubles": [
+          "Proches aidants"
+        ]
+      },
+      {
+        "id": "interview-du-dr-christophe-faure-le-deuil-apres-suicide-empr",
+        "icon": "🎬",
+        "title": "Interview du Dr Christophe Fauré - Le Deuil après suicide - Empreintes",
+        "desc": "Interview d'un psychiatre spécialisé qui aborde les particularités du deuil après suicide, un type de deuil souvent plus complexe et tabou. Apporte un éclairage professionnel accessible sur ce que vivent les proches endeuillés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=EjijsdBzGWg"
+      },
+      {
+        "id": "les-endeuilles-par-suicide-un-deuil-pas-comme-les-autres",
+        "icon": "🎬",
+        "title": "Les endeuillés par suicide, un deuil pas comme les autres",
+        "desc": "Intervention du Dr Jean-Jacques Chavagnat sur les spécificités du deuil après suicide. Aborde les mécanismes particuliers de ce type de deuil et les accompagnements possibles pour les proches endeuillés.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Deuil et perte"
+        ],
+        "link": "https://youtube.com/watch?v=XgokjJvlQJI"
+      },
+      {
+        "id": "anorexie-et-envie-de-mourir-temoignage-bouleversant-d-une-je",
+        "icon": "🎬",
+        "title": "ANOREXIE ET ENVIE DE MOURIR : Témoignage bouleversant d’une jeune fille",
+        "desc": "Témoignage authentique d'une jeune femme de 22 ans sur son parcours avec l'anorexie et les pensées suicidaires. Un récit personnel qui peut aider à se sentir moins seul·e dans cette épreuve.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "TCA"
+        ],
+        "link": "https://youtube.com/watch?v=i5zaVG4QB-M"
+      },
+      {
+        "id": "peut-on-faire-devier-les-trajectoires-suicidaires-monique-se",
+        "icon": "🎬",
+        "title": "Peut-on faire dévier les trajectoires suicidaires? Monique Seguin at TEDxGatineau",
+        "desc": "Une psychologue experte du suicide explique dans ce TEDx comment identifier les signaux d'alarme et les facteurs de protection. Une approche accessible pour comprendre la prévention du suicide et l'importance du soutien social.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=HFHLs37E4-4"
+      },
+      {
+        "id": "depression-chronique-cinquante-nuances-de-gris-temoignage",
+        "icon": "🎬",
+        "title": "Dépression chronique : Cinquante nuances de gris (témoignage)",
+        "desc": "Témoignage authentique sur la dépression chronique qui explore les nuances du vécu dépressif au-delà des clichés. Une approche sensible qui peut aider à mieux comprendre cette réalité complexe.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression"
+        ],
+        "link": "https://youtube.com/watch?v=zJ13Dzxb-cM"
+      },
+      {
+        "id": "suicide-des-ados-comment-eviter-l-irreparable-ca-commence-au",
+        "icon": "🎬",
+        "title": "Suicide des ados : comment éviter l'irréparable ? - Ça commence aujourd'hui",
+        "desc": "Émission de France 2 qui aborde la prévention du suicide chez les adolescents avec témoignages et conseils d'experts. Un contenu accessible qui peut aider les parents et proches à mieux comprendre les signaux d'alarme et les ressources disponibles.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=ku9mmj1L8G8"
+      },
+      {
+        "id": "suicide-jessy-avait-tout-planifie-depuis-1-mois-ca-commence-",
+        "icon": "🎬",
+        "title": "Suicide : Jessy avait tout planifié depuis 1 mois - Ça commence aujourd'hui",
+        "desc": "Témoignage de Jessy dans l'émission \"Ça commence aujourd'hui\" sur France 2, qui partage son expérience autour des pensées suicidaires et de la planification d'un passage à l'acte. Un témoignage authentique qui peut aider à comprendre ce processus et montrer qu'il est possible de s'en sortir.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Dépression",
+          "Anxiété/Angoisse"
+        ],
+        "link": "https://youtube.com/watch?v=VN6UZZAojIc"
+      },
+      {
+        "id": "pourquoi-la-sante-mentale-des-jeunes-se-degrade",
+        "icon": "🎬",
+        "title": "Pourquoi LA SANTÉ MENTALE DES JEUNES se dégrade",
+        "desc": "Documentaire de France Culture qui explore les causes de la dégradation de la santé mentale chez les jeunes. Aborde des sujets sensibles comme les pensées suicidaires précoces et l'anxiété généralisée avec le sérieux journalistique de France Culture.",
+        "type": "Vidéo / Film",
+        "troubles": [
+          "Anxiété/Angoisse",
+          "TCA",
+          "Dépression",
+          "Autres troubles"
+        ],
+        "link": "https://youtube.com/watch?v=wODFDvMX9Cs"
+      }
+    ]
+  }
+];
