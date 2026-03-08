@@ -2504,29 +2504,7 @@ const data = [
         "troubles": [
           "TCA"
         ],
-        "link": "https://podcast.ausha.co/derrierenosSourires"
-      },
-      {
-        "id": "podcast-tdah-au-quotidien",
-        "icon": "🎙️",
-        "title": "Podcast \"TDAH au quotidien\"",
-        "desc": "Un podcast francophone par et pour les personnes TDAH. Des épisodes courts et pratiques avec des astuces d'organisation, de gestion des émotions et des témoignages de parcours.",
-        "type": "Podcast",
-        "troubles": [
-          "TDAH adulte"
-        ],
-        "link": "https://podcast.ausha.co/tdah-au-quotidien"
-      },
-      {
-        "id": "podcast-les-mots-du-trauma",
-        "icon": "🎙️",
-        "title": "Podcast \"Les mots du trauma\"",
-        "desc": "Témoignages de personnes ayant vécu un trauma et engagées dans un processus de rétablissement. Un espace de parole où l'on se sent compris(e) et moins isolé(e).",
-        "type": "Podcast",
-        "troubles": [
-          "TSPT / PTSD"
-        ],
-        "link": "https://podcast.ausha.co/les-mots-du-trauma"
+        "link": "https://open.spotify.com/show/4iESXB6Mra1ngZHhKnUUti"
       },
       {
         "id": "podcast-dans-le-spectre-autisme",
@@ -2537,7 +2515,7 @@ const data = [
         "troubles": [
           "TSA / autisme"
         ],
-        "link": "https://podcast.ausha.co/dans-le-spectre"
+        "link": "https://open.spotify.com/show/4f3lI7gs0QofIfw2E0hY3c"
       },
       {
         "id": "petit-bambou-programme-sommeil",
@@ -2563,19 +2541,6 @@ const data = [
           "Dépression"
         ],
         "link": "https://lamaisonperchee.org/temoignages/"
-      },
-      {
-        "id": "podcast-un-ete-particulier-clubhouse",
-        "icon": "🎙️",
-        "title": "Podcast \"Un Été Particulier\" — Clubhouse France",
-        "desc": "Récits de personnes qui fréquentent les Clubhouses (lieux d'entraide en santé mentale). Des parcours de vie, des moments de bascule et des chemins de rétablissement racontés à la première personne.",
-        "type": "Podcast",
-        "troubles": [
-          "Bipolarité",
-          "Schizophrénie",
-          "Dépression"
-        ],
-        "link": "https://podcast.ausha.co/un-ete-particulier"
       },
       {
         "id": "mes-etoiles-noires-videos-retablissement",
@@ -8486,17 +8451,6 @@ const data = [
           "Bipolarité"
         ],
         "link": "https://argos2001.fr"
-      },
-      {
-        "id": "podcast-aidants-parlons-en",
-        "icon": "🎙️",
-        "title": "Podcast \"Aidants, parlons-en\"",
-        "desc": "Podcast dédié aux proches aidants en santé mentale. Des témoignages et des conseils pratiques pour celles et ceux qui accompagnent un proche au quotidien, sans s'oublier soi-même.",
-        "type": "Podcast",
-        "troubles": [
-          "Proches aidants"
-        ],
-        "link": "https://podcast.ausha.co/aidants-parlons-en"
       },
       {
         "id": "mon-proche-est-malade-psychique-livre",
