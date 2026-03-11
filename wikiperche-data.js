@@ -8217,6 +8217,366 @@ const data = [
           "Autres troubles"
         ],
         "link": "https://youtube.com/watch?v=QglxYWEoaVY"
+      },
+      {
+        "id": "psycare-les-fonctions-cognitives",
+        "icon": "🎬",
+        "title": "Psycare — Les fonctions cognitives",
+        "desc": "Vidéo de l'Institut de Psychiatrie expliquant les différentes fonctions cognitives : attention, mémoire, fonctions exécutives, et leur rôle au quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://youtu.be/HubLSUYcf2k?si=ndaC3ff__vrl435J"
+      },
+      {
+        "id": "psycare-les-strategies-cognitives",
+        "icon": "🎬",
+        "title": "Psycare — Les stratégies cognitives",
+        "desc": "Vidéo présentant des stratégies pour compenser ou améliorer les difficultés cognitives liées aux troubles psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.youtube.com/watch?v=ctbtQhuK_Rc"
+      },
+      {
+        "id": "raptor-neuropsy-troubles-de-l-attention",
+        "icon": "🎬",
+        "title": "Raptor Neuropsy — Les troubles de l'attention",
+        "desc": "Vidéo pédagogique sur les troubles de l'attention : mécanismes, manifestations et impact sur le quotidien.",
+        "type": "Vidéo / Film",
+        "troubles": ["TDAH adulte", "Fonctions cognitives"],
+        "link": "https://www.youtube.com/watch?v=MYuXR2a7joY"
+      },
+      {
+        "id": "raptor-neuropsy-fonctions-executives",
+        "icon": "📖",
+        "title": "Raptor Neuropsy — Les fonctions exécutives (PDF)",
+        "desc": "Fiche pratique sur les fonctions exécutives : planification, flexibilité mentale, inhibition et leur rôle dans la vie quotidienne.",
+        "type": "Infographie",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.raptorneuropsy.com/_files/ugd/ace62b_9cb7d41356da4dada38c17ffbc54d4bc.pdf"
+      },
+      {
+        "id": "raptor-neuropsy-la-memoire",
+        "icon": "📖",
+        "title": "Raptor Neuropsy — La Mémoire (PDF)",
+        "desc": "Fiche explicative sur les différents types de mémoire et les stratégies pour pallier les difficultés mnésiques.",
+        "type": "Infographie",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.raptorneuropsy.com/_files/ugd/ace62b_c528666c1b1b4133bdec745fe850ac05.pdf"
+      },
+      {
+        "id": "raptor-neuropsy-planification-organisation",
+        "icon": "📖",
+        "title": "Raptor Neuropsy — Planification et organisation (PDF)",
+        "desc": "Fiche pratique avec des outils et stratégies pour mieux planifier et s'organiser au quotidien.",
+        "type": "Infographie",
+        "troubles": ["TDAH adulte", "Fonctions cognitives"],
+        "link": "https://www.raptorneuropsy.com/_files/ugd/ace62b_322593ff2b3640cf9a6e12a32c277c22.pdf"
+      },
+      {
+        "id": "raptor-neuropsy-attention",
+        "icon": "📖",
+        "title": "Raptor Neuropsy — Attention (PDF)",
+        "desc": "Fiche sur les mécanismes de l'attention et les moyens de mieux la mobiliser.",
+        "type": "Infographie",
+        "troubles": ["TDAH adulte", "Fonctions cognitives"],
+        "link": "https://www.raptorneuropsy.com/_files/ugd/ace62b_69e1552adc6843b8af6ccc299792e739.pdf"
+      },
+      {
+        "id": "raptor-neuropsy-capacites-attentionnelles",
+        "icon": "📖",
+        "title": "Raptor Neuropsy — Capacités attentionnelles (PDF)",
+        "desc": "Fiche complémentaire sur les capacités attentionnelles : évaluation et pistes d'amélioration.",
+        "type": "Infographie",
+        "troubles": ["TDAH adulte", "Fonctions cognitives"],
+        "link": "https://www.raptorneuropsy.com/_files/ugd/ace62b_05ef1b1ea17a48618d92d98aa803f10d.pdf"
+      },
+      {
+        "id": "centre-ressource-rehabilitation-troubles-cognitifs",
+        "icon": "🎬",
+        "title": "Centre Ressource Réhabilitation — Troubles cognitifs",
+        "desc": "Vidéo du Centre Ressource de Réhabilitation psychosociale sur les troubles cognitifs dans les troubles psychiques.",
+        "type": "Vidéo / Film",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://youtu.be/6xaRScH75nU?si=AAkcKTzGaTqGr1J1"
+      },
+      {
+        "id": "brochure-neuropsychologie-maison-perchee",
+        "icon": "📖",
+        "title": "Brochure Neuropsychologie — Maison Perchée",
+        "desc": "Brochure de la Maison Perchée présentant la neuropsychologie et son intérêt pour les personnes vivant avec des troubles psychiques.",
+        "type": "Infographie",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://mpnext.cdn.prismic.io/mpnext/097e060f-10fe-4d13-9a76-35be341dc13e_Neuropsychologie.pdf"
+      },
+      {
+        "id": "brochure-fonctions-cognitives-maison-perchee",
+        "icon": "📖",
+        "title": "Brochure Fonctions cognitives — Maison Perchée",
+        "desc": "Brochure de la Maison Perchée sur les fonctions cognitives : comprendre, identifier et compenser les difficultés cognitives.",
+        "type": "Infographie",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://mpnext.cdn.prismic.io/mpnext/Zw5vOYF3NbkBXdxJ_Fonctions_Cognitives.pdf"
+      },
+      {
+        "id": "aqnp-les-fonctions-cognitives",
+        "icon": "🌐",
+        "title": "La neuropsychologie — Les fonctions cognitives (AQNP)",
+        "desc": "Page de l'Association Québécoise des Neuropsychologues détaillant chaque fonction cognitive : attention, mémoire, langage, fonctions exécutives, etc.",
+        "type": "Site internet / Blog",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://aqnp.ca/la-neuropsychologie/les-fonctions-cognitives/"
+      },
+      {
+        "id": "le-cerveau-a-tous-les-niveaux",
+        "icon": "🌐",
+        "title": "Le cerveau à tous les niveaux",
+        "desc": "Site éducatif de l'Université McGill explorant le cerveau à différents niveaux d'explication, du moléculaire au social.",
+        "type": "Site internet / Blog",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://lecerveau.mcgill.ca/"
+      },
+      {
+        "id": "neurosciences-tout-savoir-sur-notre-cerveau",
+        "icon": "🌐",
+        "title": "Neurosciences : tout savoir sur notre cerveau",
+        "desc": "Dossier de Blog Hop'Toys synthétisant les bases des neurosciences de manière accessible et illustrée.",
+        "type": "Site internet / Blog",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.bloghoptoys.fr/neurosciences-tout-savoir-sur-notre-cerveau"
+      },
+      {
+        "id": "positive-minders-troubles-psys-et-cognitifs",
+        "icon": "🎬",
+        "title": "Positive Minders — Vivre avec des troubles psys et des troubles cognitifs",
+        "desc": "Vidéo témoignage et pédagogique sur le vécu des troubles cognitifs associés aux troubles psychiatriques.",
+        "type": "Vidéo / Film",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.youtube.com/watch?v=N4g3ZR6mvTg"
+      },
+      {
+        "id": "positive-minders-remediation-cognitive",
+        "icon": "🎬",
+        "title": "Positive Minders — Webinaire : la remédiation cognitive dans les troubles psy",
+        "desc": "Webinaire complet sur la remédiation cognitive : principes, techniques et bénéfices pour les personnes vivant avec des troubles psychiques.",
+        "type": "Conférence",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.youtube.com/live/JBq-pcK_tvk?si=bH6VsQUo_qcC2-Ck"
+      },
+      {
+        "id": "fiche-cerveau-fonctionnement-cognitif",
+        "icon": "📖",
+        "title": "Fiche CERVEAU — Le fonctionnement cognitif et le cerveau",
+        "desc": "Affiche scientifique de l'Université Laval résumant visuellement le fonctionnement cognitif et les régions du cerveau impliquées.",
+        "type": "Infographie",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.fss.ulaval.ca/sites/fss.ulaval.ca/files/fss/psychologie/professeurs/CERVEAU-afficheSCIENTIFIQUE(36x24pouces).pdf"
+      },
+      {
+        "id": "bingo-du-tdah",
+        "icon": "📖",
+        "title": "Bingo du TDAH",
+        "desc": "Infographie ludique sous forme de bingo pour identifier les manifestations courantes du TDAH au quotidien.",
+        "type": "Infographie",
+        "troubles": ["TDAH adulte"],
+        "link": "https://drive.google.com/file/d/1hueHN27z6xhXPVynhGFfMNGJ4rf8w6PM/view"
+      },
+      {
+        "id": "tdah-metaphore-de-l-iceberg",
+        "icon": "📖",
+        "title": "TDAH — Métaphore de l'iceberg",
+        "desc": "Infographie montrant que le TDAH ne se limite pas aux symptômes visibles : sous la surface, dysrégulation émotionnelle, fatigue, estime de soi…",
+        "type": "Infographie",
+        "troubles": ["TDAH adulte"],
+        "link": "https://drive.google.com/file/d/1Zbk9BLX1BL5yibj9ZtYbrZKrOfV8D4au/view"
+      },
+      {
+        "id": "psycom-sante-mentale-et-tdah",
+        "icon": "🌐",
+        "title": "Psycom — Santé mentale et TDAH",
+        "desc": "Page du Psycom dédiée à la santé mentale avec un TDAH : comprendre le trouble, ses impacts et les ressources disponibles.",
+        "type": "Site internet / Blog",
+        "troubles": ["TDAH adulte"],
+        "link": "https://www.psycom.org/sinformer/la-sante-mentale/avec-un-trouble-du-neurodeveloppement/la-sante-mentale-avec-un-tdah/"
+      },
+      {
+        "id": "tdah-bonnes-pratiques-rh",
+        "icon": "📖",
+        "title": "Accompagner les collaborateurs atteints de TDAH — 7 bonnes pratiques RH",
+        "desc": "Article Les Échos Solutions sur les bonnes pratiques en entreprise pour accompagner les salariés avec un TDAH.",
+        "type": "Article / Livre",
+        "troubles": ["TDAH adulte"],
+        "link": "https://solutions.lesechos.fr/equipe-management/c/accompagner-les-collaborateurs-atteints-de-tdah-7-bonnes-pratiques-pour-les-ressources-humaines-40256/"
+      },
+      {
+        "id": "sommeil-et-tdah-article-scientifique",
+        "icon": "📖",
+        "title": "Penser à explorer le sommeil dans le TDAH",
+        "desc": "Article scientifique sur les liens entre troubles du sommeil et TDAH, et l'importance d'évaluer le sommeil dans le diagnostic.",
+        "type": "Article / Livre",
+        "troubles": ["TDAH adulte", "Troubles du sommeil"],
+        "link": "https://www.univadis.fr/viewarticle/congr%C3%A8s-du-sommeil-2023-penser-%C3%A0-explorer-sommeil-2023a1000ve2"
+      },
+      {
+        "id": "les-fidgets-des-jouets-qui-n-en-sont-pas",
+        "icon": "🌐",
+        "title": "Les fidgets, des jouets qui n'en sont pas",
+        "desc": "Article Hop'Toys expliquant l'utilité des fidgets pour la concentration et la régulation sensorielle, notamment pour les personnes TDAH ou neuroatypiques.",
+        "type": "Site internet / Blog",
+        "troubles": ["TDAH adulte"],
+        "link": "https://www.bloghoptoys.fr/les-fidgets-ces-jouets-qui-nen-sont-pas"
+      },
+      {
+        "id": "gere-tes-batteries-pour-ton-bien-etre",
+        "icon": "📖",
+        "title": "Gère tes batteries pour ton bien-être",
+        "desc": "Infographie Hop'Toys sur la gestion de l'énergie émotionnelle au quotidien : identifier ce qui recharge et ce qui épuise.",
+        "type": "Infographie",
+        "troubles": [],
+        "link": "https://www.bloghoptoys.fr/infographie-geres-ta-batterie-emotionnelle-pour-ton-bien-etre"
+      },
+      {
+        "id": "stop-au-masking-neurodiversite",
+        "icon": "🌐",
+        "title": "Stop au masking pour mieux vivre sa neurodiversité",
+        "desc": "Article Hop'Toys sur le masking (camouflage social) chez les personnes neurodivergentes : comprendre, identifier et s'en libérer.",
+        "type": "Site internet / Blog",
+        "troubles": ["TDAH adulte", "TSA / autisme"],
+        "link": "https://www.bloghoptoys.fr/stop-au-masking-pour-mieux-vivre-sa-neurodiversite"
+      },
+      {
+        "id": "methode-pomodoro-planifier-tache",
+        "icon": "🌐",
+        "title": "La méthode Pomodoro pour planifier et avancer une tâche",
+        "desc": "Présentation de la technique Pomodoro : travailler en blocs de 25 minutes avec pauses pour améliorer la concentration et la productivité.",
+        "type": "Site internet / Blog",
+        "troubles": ["TDAH adulte"],
+        "link": "https://www.bloghoptoys.fr/connaissez-vous-la-methode-pomodoro"
+      },
+      {
+        "id": "application-mon-jardin-mental",
+        "icon": "📱",
+        "title": "Application Mon Jardin Mental",
+        "desc": "Application de bien-être mental permettant de suivre son humeur et cultiver de bonnes habitudes, de manière ludique et bienveillante. Disponible sur Android et iOS.",
+        "type": "Applis",
+        "troubles": [],
+        "link": "https://play.google.com/store/apps/details?id=com.monsuivipsy&hl=fr"
+      },
+      {
+        "id": "application-forest-mesurer-le-temps",
+        "icon": "📱",
+        "title": "Application Forest — Mesurer le temps et se motiver",
+        "desc": "Application de productivité qui fait pousser un arbre virtuel pendant que vous restez concentré. Idéale pour les personnes avec des difficultés d'attention.",
+        "type": "Applis",
+        "troubles": ["TDAH adulte"],
+        "link": "https://www.forestapp.cc/"
+      },
+      {
+        "id": "application-focusmate-coworking-visio",
+        "icon": "📱",
+        "title": "Application Focusmate — Coworking en visio (en anglais)",
+        "desc": "Plateforme de coworking virtuel : travailler en binôme en visio pour se motiver mutuellement et rester concentré sur ses tâches.",
+        "type": "Applis",
+        "troubles": ["TDAH adulte"],
+        "link": "https://www.focusmate.com/"
+      },
+      {
+        "id": "application-prezens",
+        "icon": "📱",
+        "title": "Application Prezens",
+        "desc": "Application de bien-être et de pleine conscience pour prendre soin de sa santé mentale au quotidien.",
+        "type": "Applis",
+        "troubles": [],
+        "link": "https://prezens.app/"
+      },
+      {
+        "id": "podcast-plasticite-cerebrale-france-culture",
+        "icon": "🎙️",
+        "title": "Podcast — Plasticité cérébrale : le cerveau, c'est fantastique",
+        "desc": "Émission La Méthode scientifique (France Culture) sur la plasticité cérébrale : qu'est-ce que c'est, en quoi consiste-t-elle, et quels impacts en médecine ?",
+        "type": "Podcast",
+        "troubles": ["Fonctions cognitives"],
+        "link": "https://www.radiofrance.fr/franceculture/podcasts/la-methode-scientifique/plasticite-cerebrale-le-cerveau-c-est-fantastique-6577579"
+      },
+      {
+        "id": "science-cerveau-comprendre-la-neurodiversite",
+        "icon": "📖",
+        "title": "Science & Cerveau — Hors-série : Comprendre la Neurodiversité",
+        "desc": "Numéro spécial du magazine Science & Cerveau dédié à la compréhension de la neurodiversité : TDAH, autisme, dys, et au-delà des clichés.",
+        "type": "Article / Livre",
+        "troubles": ["TDAH adulte", "TSA / autisme", "Fonctions cognitives"],
+        "link": "https://fr.divertistore.com/science-cerveau-hors-serie-special-n-2-comprendre-la-neurodiversite.html"
+      },
+      {
+        "id": "infirmiere-en-folie-types-de-repos",
+        "icon": "📱",
+        "title": "Infirmière en folie — Les différents types de repos",
+        "desc": "Post Instagram illustrant les 7 types de repos nécessaires au bien-être : physique, mental, émotionnel, social, sensoriel, créatif et spirituel.",
+        "type": "Réseaux sociaux",
+        "troubles": [],
+        "link": "https://www.instagram.com/p/DRZYv-3jWyx/"
+      },
+      {
+        "id": "infirmiere-en-folie-syndrome-desorganisation",
+        "icon": "📱",
+        "title": "Infirmière en folie — Syndrome de désorganisation",
+        "desc": "Post Instagram pédagogique sur le syndrome de désorganisation : comprendre ce symptôme et ses manifestations.",
+        "type": "Réseaux sociaux",
+        "troubles": ["Schizophrénie"],
+        "link": "https://www.instagram.com/infirmiereenfolie/p/CtWFlL8Ivw8/"
+      },
+      {
+        "id": "podcast-folie-douce-claire-touzard",
+        "icon": "🎙️",
+        "title": "Podcast Folie Douce — Claire Touzard : transformer le diagnostic en résistance",
+        "desc": "Épisode du podcast de Lauren Bastide avec Claire Touzard, sur comment transformer un diagnostic psychiatrique en force et en engagement.",
+        "type": "Podcast",
+        "troubles": [],
+        "link": "https://laurenbastide.substack.com/p/transformer-le-diagnostic-en-resistance"
+      },
+      {
+        "id": "outil-mon-bocal-a-victoires",
+        "icon": "📖",
+        "title": "Outil — Mon bocal à victoires",
+        "desc": "Fiche pratique à imprimer pour noter ses petites et grandes victoires quotidiennes et renforcer l'estime de soi.",
+        "type": "Infographie",
+        "troubles": [],
+        "link": "https://mes1001ressources.fr/wp-content/uploads/2025/12/bocal-des-victoires.pdf"
+      },
+      {
+        "id": "outil-mes-forces-personnelles",
+        "icon": "📖",
+        "title": "Outil — Mes forces personnelles",
+        "desc": "Fiche jeunesse de la Fondation Jeunes en Tête pour identifier et valoriser ses forces personnelles.",
+        "type": "Infographie",
+        "troubles": [],
+        "link": "https://fondationjeunesentete.tor1.digitaloceanspaces.com/2023/11/FICHE-JEUNESSE_MesForcesPersonlles_FR.pdf"
+      },
+      {
+        "id": "pratiquer-auto-compassion",
+        "icon": "🌐",
+        "title": "Pratiquer l'auto-compassion (en anglais)",
+        "desc": "Article de Therapist Aid sur les principes et exercices concrets pour développer l'auto-compassion au quotidien.",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.therapistaid.com/therapy-article/how-to-practice-self-compassion"
+      },
+      {
+        "id": "journal-estime-de-soi",
+        "icon": "📖",
+        "title": "Outil — Journal de l'estime de soi (en anglais)",
+        "desc": "Fiche d'exercice de Therapist Aid : un journal structuré pour travailler l'estime de soi au quotidien.",
+        "type": "Infographie",
+        "troubles": [],
+        "link": "https://www.therapistaid.com/worksheets/self-esteem-journal"
+      },
+      {
+        "id": "nightline-journal-de-la-gratitude",
+        "icon": "🌐",
+        "title": "Nightline — Journal de la gratitude",
+        "desc": "Outil du Kit de vie Nightline pour pratiquer la gratitude et ses bienfaits sur le bien-être mental.",
+        "type": "Site internet / Blog",
+        "troubles": [],
+        "link": "https://www.nightline.fr/kit-de-vie/journal-de-la-gratitude"
       }
     ]
   },
@@ -8608,6 +8968,24 @@ const data = [
           "Autres troubles"
         ],
         "link": "https://youtube.com/watch?v=wODFDvMX9Cs"
+      },
+      {
+        "id": "early-adopters-ia-neurodivergents",
+        "icon": "📖",
+        "title": "OPINION — Les early adopters IA ne sont pas des geeks… Ils sont neurodivergents",
+        "desc": "Tribune dans La Tribune sur le lien entre neurodivergence et adoption précoce des outils d'intelligence artificielle.",
+        "type": "Article / Livre",
+        "troubles": ["TDAH adulte", "TSA / autisme"],
+        "link": "https://www.latribune.fr/article/idees/10950689384818/opinion-les-early-adopters-ia-ne-sont-pas-des-geeks-ils-sont-neurodivergents"
+      },
+      {
+        "id": "autypik-recrutement-neuroatypique",
+        "icon": "🌐",
+        "title": "Autypik — Recruter autrement, ça commence ici",
+        "desc": "Plateforme qui connecte les entreprises à des talents neuroatypiques et les accompagne dans le recrutement et l'intégration de profils neurodivergents.",
+        "type": "Site internet / Blog",
+        "troubles": ["TDAH adulte", "TSA / autisme"],
+        "link": "https://www.autypik.com/"
       }
     ]
   }

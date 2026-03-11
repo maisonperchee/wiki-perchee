@@ -17,7 +17,7 @@ const TROUBLES_NEURODIV = [
   "TCA", "TDAH adulte", "TSPT / PTSD", "TSA / autisme"
 ];
 const THEMATIQUES_TRANSVERSALES = [
-  "Deuil et perte", "Troubles du sommeil", "Santé mentale & précarité"
+  "Deuil et perte", "Troubles du sommeil", "Santé mentale & précarité", "Fonctions cognitives"
 ];
 const ETRE_ACCOMPAGNE = [
   "Proches aidants"
