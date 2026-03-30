@@ -13,22 +13,70 @@ Aucun build nécessaire — ouvrir `index.html` dans un navigateur.
 python3 -m http.server 8000
 ```
 
+## Notion (source de données)
+
+Les ressources sont gérées dans une base Notion. Deux scripts permettent de synchroniser les données.
+
+Copier `.env.example` en `.env` et renseigner les variables :
+
+```bash
+NOTION_TOKEN=ntn_xxx...
+NOTION_DB_ID=
+```
+
+### Synchronisation Notion → JSON (usage courant)
+
+```bash
+node scripts/sync-from-notion.js
+```
+
+Récupère toutes les pages avec "Publié" coché, regroupe par section (`vivre` / `retablissement` / `societe`) et écrase `wikiperche-data.json`.
+
+### Migration JSON → Notion (one-shot)
+
+```bash
+node scripts/migrate-to-notion.js
+```
+
+Import initial de `wikiperche-data.json` vers la base Notion. À n'utiliser qu'une seule fois lors de la mise en place.
+
+## Build & validation
+
+```bash
+npm install
+
+# Valider les données uniquement (utile avant un commit)
+npm run validate
+
+# Valider + minifier CSS/JS → dist/
+npm run build
+```
+
+`npm run validate` vérifie `wikiperche-data.json` contre `schema.json` et sort en erreur si le format est invalide — pratique pour détecter une faute de frappe dans un nom de champ avant la mise en production.
+
+`npm run build` produit un dossier `dist/` prêt à déployer (CSS −26 %, JS −34 %).
+
 ## Structure du projet
 
-```
-index.html              # Structure HTML (header, filtres, grille, footer)
-style.css               # Styles (layout, cartes, dark mode, responsive, accessibilité)
-app.js                  # Logique applicative (filtres, rendu, favoris, crise)
-wikiperche-data.js      # Base de données des ressources (845 ressources)
+```text
+index.html                        # Structure HTML (header, filtres, grille, footer)
+style.css                         # Styles (layout, cartes, dark mode, responsive, accessibilité)
+app.js                            # Logique applicative (filtres, rendu, favoris, crise)
+wikiperche-data.json              # Base de données des ressources (845 ressources)
+wikiperche-data.js                # Thin loader — charge le JSON via XHR (compatibilité file://)
+schema.json                       # JSON Schema pour la validation des données
+scripts/build.js                  # Validation JSON + minification CSS/JS → dist/
+scripts/sync-from-notion.js       # Synchronise Notion → wikiperche-data.json
+scripts/migrate-to-notion.js      # Migration one-shot JSON → Notion (initialisation)
 ```
 
 ### Sections
 
-| Section | Description |
-|---------|-------------|
-| 🌱 Vivre avec | Ressources pour le quotidien, proches aidants (119 ressources) |
-| 🌿 Vers le rétablissement | Comprendre et traiter les troubles (686 ressources) |
-| 🤝 Maladie psy et société | Regard sociétal, stigmatisation, témoignages (40 ressources) |
+| Section                    | Description                                                     |
+| -------------------------- | --------------------------------------------------------------- |
+| 🌱 Vivre avec              | Ressources pour le quotidien, proches aidants (119 ressources)  |
+| 🌿 Vers le rétablissement  | Comprendre et traiter les troubles (686 ressources)             |
+| 🤝 Maladie psy et société  | Regard sociétal, stigmatisation, témoignages (40 ressources)    |
 
 ### Filtres
 
@@ -68,9 +116,9 @@ wikiperche-data.js      # Base de données des ressources (845 ressources)
 
 ## Données
 
-Chaque ressource suit ce format dans `wikiperche-data.js` :
+Chaque ressource suit ce format dans `wikiperche-data.json` :
 
-```js
+```json
 {
   "id": "slug-du-titre",
   "icon": "🎬",
@@ -82,4 +130,4 @@ Chaque ressource suit ce format dans `wikiperche-data.js` :
 }
 ```
 
-Pour modifier les données, éditer `wikiperche-data.js` directement ou utiliser le script d'import. Les filtres se mettent à jour dynamiquement — seuls `ORDRE_TYPES` et `ORDRE_TROUBLES` dans `app.js` contrôlent l'ordre d'affichage des chips.
+Pour modifier les données, éditer directement dans Notion puis lancer `node scripts/sync-from-notion.js`. Les filtres se mettent à jour dynamiquement — seuls `ORDRE_TYPES` et `ORDRE_TROUBLES` dans `app.js` contrôlent l'ordre d'affichage des chips.
