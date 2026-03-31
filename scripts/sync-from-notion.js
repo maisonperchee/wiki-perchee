@@ -13,11 +13,22 @@ const fs    = require("fs");
 const path  = require("path");
 const https = require("https");
 
-const TOKEN = process.env.NOTION_TOKEN;
-const DB_ID = process.env.NOTION_DB_ID;
+// Charge .env si présent
+const envPath = path.join(__dirname, "../.env");
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, "utf8").split("\n").forEach(line => {
+    const m = line.match(/^([^#=\s][^=]*)=(.*)$/);
+    if (m) process.env[m[1].trim()] = m[2].trim();
+  });
+}
 
-if (!TOKEN || !DB_ID) {
-  console.error("Usage : NOTION_TOKEN=... NOTION_DB_ID=... node scripts/sync-from-notion.js");
+
+const TOKEN = process.env.NOTION_TOKEN;
+let DB_ID = process.env.NOTION_DB_ID;
+const PARENT_PAGE_ID = process.env.NOTION_PARENT_PAGE_ID || "333e3901e14880be8193f344a8963078";
+
+if (!TOKEN) {
+  console.error("Usage : NOTION_TOKEN=... node scripts/sync-from-notion.js");
   process.exit(1);
 }
 
@@ -56,6 +67,19 @@ function notionRequest(method, endpoint, body) {
   });
 }
 
+async function trouverDatabase() {
+  const res = await notionRequest("POST", "search", {
+    filter: { value: "database", property: "object" },
+    query: "WikiPerché",
+  });
+  const db = res.results.find(r =>
+    r.parent?.page_id?.replace(/-/g, "") === PARENT_PAGE_ID.replace(/-/g, "")
+  );
+  if (!db) throw new Error("Base de données introuvable sous la page parente. Lance d'abord npm run sync:up.");
+  console.log(`  Base trouvée : ${db.id}`);
+  return db.id;
+}
+
 function getText(prop) {
   return prop?.rich_text?.map(r => r.plain_text).join("") ?? "";
 }
@@ -92,6 +116,11 @@ async function fetchAllPages() {
 }
 
 async function sync() {
+  if (!DB_ID) {
+    console.log("NOTION_DB_ID absent, recherche de la base…");
+    DB_ID = await trouverDatabase();
+  }
+
   console.log("Récupération des ressources depuis Notion…");
   const pages = await fetchAllPages();
   console.log(`  ${pages.length} ressources publiées trouvées`);

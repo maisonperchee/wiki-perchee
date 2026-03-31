@@ -2251,6 +2251,17 @@
           "Schizophrénie"
         ],
         "link": "https://www.franceculture.fr/emissions/le-magazine-de-la-redaction/schizophrenie-vivre-avec-0"
+      },
+      {
+        "id": "la-sentinelle-des-aidants",
+        "icon": "🌐",
+        "title": "La Sentinelle des Aidants",
+        "desc": "Association de soutien par les pairs pour les proches de personnes vivant avec un trouble psychique (schizophrénie, bipolarité, trouble de la personnalité…). Groupes de parole en ligne, webinaires avec des professionnels de santé mentale, articles pratiques et une « Psychothèque » de ressources sélectionnées.",
+        "type": "Site internet / Blog",
+        "troubles": [
+          "Proches aidants"
+        ],
+        "link": "https://sentinelledesaidants.fr/"
       }
     ]
   },

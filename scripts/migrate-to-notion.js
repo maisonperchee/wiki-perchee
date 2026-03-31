@@ -8,11 +8,21 @@ const fs   = require("fs");
 const path = require("path");
 const https = require("https");
 
-const TOKEN = process.env.NOTION_TOKEN;
-const DB_ID = process.env.NOTION_DB_ID;
+// Charge .env si présent
+const envPath = path.join(__dirname, "../.env");
+if (fs.existsSync(envPath)) {
+  fs.readFileSync(envPath, "utf8").split("\n").forEach(line => {
+    const m = line.match(/^([^#=\s][^=]*)=(.*)$/);
+    if (m) process.env[m[1].trim()] = m[2].trim();
+  });
+}
 
-if (!TOKEN || !DB_ID) {
-  console.error("Usage : NOTION_TOKEN=... NOTION_DB_ID=... node scripts/migrate-to-notion.js");
+const TOKEN = process.env.NOTION_TOKEN;
+let DB_ID = process.env.NOTION_DB_ID;
+const PARENT_PAGE_ID = process.env.NOTION_PARENT_PAGE_ID || "333e3901e14880be8193f344a8963078";
+
+if (!TOKEN) {
+  console.error("Usage : NOTION_TOKEN=... node scripts/migrate-to-notion.js");
   process.exit(1);
 }
 
@@ -50,12 +60,38 @@ function notionRequest(method, endpoint, body) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+async function creerDatabase() {
+  console.log("Création de la base de données Notion…");
+  const db = await notionRequest("POST", "databases", {
+    parent: { type: "page_id", page_id: PARENT_PAGE_ID },
+    title: [{ type: "text", text: { content: "WikiPerché — Ressources" } }],
+    properties: {
+      "Titre":       { title: {} },
+      "Section":     { select: {} },
+      "Icône":       { rich_text: {} },
+      "ID":          { rich_text: {} },
+      "Publié":      { checkbox: {} },
+      "Description": { rich_text: {} },
+      "Type":        { select: {} },
+      "Troubles":    { multi_select: {} },
+      "Lien":        { url: {} },
+    },
+  });
+  console.log(`✅ Base créée : ${db.id}`);
+  console.log(`   → Ajoute NOTION_DB_ID=${db.id} dans ton .env pour les prochains syncs\n`);
+  return db.id;
+}
+
 function truncate(str, max) {
   if (!str) return "";
   return str.length > max ? str.slice(0, max - 1) + "…" : str;
 }
 
 async function migrate() {
+  if (!DB_ID) {
+    DB_ID = await creerDatabase();
+  }
+
   const items = data.flatMap(section =>
     section.items.map(item => ({ ...item, section: section.id }))
   );
