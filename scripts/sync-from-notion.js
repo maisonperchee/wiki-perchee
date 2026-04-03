@@ -125,28 +125,59 @@ async function sync() {
   const pages = await fetchAllPages();
   console.log(`  ${pages.length} ressources publiées trouvées`);
 
-  // Grouper par section
-  const bySection = {};
-  for (const page of pages) {
-    const section = page.properties["Section"]?.select?.name ?? "vivre";
-    if (!bySection[section]) bySection[section] = [];
-    bySection[section].push(pageToItem(page));
+  // Charger les données existantes
+  const outPath = path.join(__dirname, "../wikiperche-data.json");
+  let existing = [];
+  if (fs.existsSync(outPath)) {
+    try {
+      existing = JSON.parse(fs.readFileSync(outPath, "utf8"));
+    } catch (e) {
+      console.warn("  Impossible de lire wikiperche-data.json, on repart de zéro.");
+    }
   }
 
-  // Construire le tableau final dans l'ordre des sections
-  const result = SECTION_ORDER
-    .filter(id => bySection[id]?.length > 0)
-    .map(id => ({
+  // Construire un Set des IDs déjà présents
+  const existingIds = new Set(
+    existing.flatMap(section => section.items.map(item => item.id))
+  );
+
+  // Grouper les nouvelles pages par section (uniquement celles absentes)
+  const bySection = {};
+  let skipped = 0;
+  for (const page of pages) {
+    const item = pageToItem(page);
+    if (existingIds.has(item.id)) {
+      skipped++;
+      continue;
+    }
+    const section = page.properties["Section"]?.select?.name ?? "vivre";
+    if (!bySection[section]) bySection[section] = [];
+    bySection[section].push(item);
+  }
+  console.log(`  ${skipped} doublons ignorés, ${pages.length - skipped} nouvelles ressources`);
+
+  if (pages.length - skipped === 0) {
+    console.log("✅ Aucune nouvelle ressource — wikiperche-data.json inchangé");
+    return;
+  }
+
+  // Merger : partir de l'existant et ajouter les nouveaux items dans chaque section
+  const merged = SECTION_ORDER.map(id => {
+    const existingSection = existing.find(s => s.id === id);
+    const existingItems = existingSection?.items ?? [];
+    const newItems = bySection[id] ?? [];
+    if (existingItems.length === 0 && newItems.length === 0) return null;
+    return {
       id,
       label: SECTION_LABELS[id],
-      items: bySection[id],
-    }));
+      items: [...existingItems, ...newItems],
+    };
+  }).filter(Boolean);
 
-  const total = result.reduce((n, s) => n + s.items.length, 0);
-  const outPath = path.join(__dirname, "../wikiperche-data.json");
-  fs.writeFileSync(outPath, JSON.stringify(result, null, 2), "utf8");
+  const total = merged.reduce((n, s) => n + s.items.length, 0);
+  fs.writeFileSync(outPath, JSON.stringify(merged, null, 2), "utf8");
 
-  console.log(`✅ wikiperche-data.json mis à jour — ${result.length} sections, ${total} ressources`);
+  console.log(`✅ wikiperche-data.json mis à jour — ${merged.length} sections, ${total} ressources (${pages.length - skipped} ajoutées)`);
 }
 
 sync().catch(err => { console.error("Erreur :", err.message); process.exit(1); });

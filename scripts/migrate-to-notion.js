@@ -60,6 +60,28 @@ function notionRequest(method, endpoint, body) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
+function getText(prop) {
+  return prop?.rich_text?.map(r => r.plain_text).join("") ?? "";
+}
+
+async function fetchExistingIds() {
+  const ids = new Set();
+  let cursor = undefined;
+  do {
+    const body = {
+      page_size: 100,
+      ...(cursor ? { start_cursor: cursor } : {}),
+    };
+    const res = await notionRequest("POST", `databases/${DB_ID}/query`, body);
+    for (const page of res.results) {
+      const id = getText(page.properties["ID"]);
+      if (id) ids.add(id);
+    }
+    cursor = res.has_more ? res.next_cursor : undefined;
+  } while (cursor);
+  return ids;
+}
+
 async function creerDatabase() {
   console.log("Création de la base de données Notion…");
   const db = await notionRequest("POST", "databases", {
@@ -96,11 +118,23 @@ async function migrate() {
     section.items.map(item => ({ ...item, section: section.id }))
   );
 
-  console.log(`Migration de ${items.length} ressources vers Notion…\n`);
+  console.log("Récupération des IDs déjà présents dans Notion…");
+  const existingIds = await fetchExistingIds();
+  console.log(`  ${existingIds.size} ressources déjà présentes`);
+
+  const toCreate = items.filter(item => !existingIds.has(item.id));
+  console.log(`  ${items.length - toCreate.length} doublons ignorés, ${toCreate.length} à créer\n`);
+
+  if (toCreate.length === 0) {
+    console.log("✅ Aucune nouvelle ressource à migrer.");
+    return;
+  }
+
+  console.log(`Migration de ${toCreate.length} ressources vers Notion…\n`);
   let ok = 0, errors = 0;
 
-  for (let i = 0; i < items.length; i++) {
-    const item = items[i];
+  for (let i = 0; i < toCreate.length; i++) {
+    const item = toCreate[i];
 
     const properties = {
       "Titre": {
@@ -144,7 +178,7 @@ async function migrate() {
         properties,
       });
       ok++;
-      if (ok % 50 === 0) console.log(`  ${ok}/${items.length}…`);
+      if (ok % 50 === 0) console.log(`  ${ok}/${toCreate.length}…`);
     } catch (err) {
       errors++;
       console.error(`  ✗ [${item.id}] ${err.message}`);
